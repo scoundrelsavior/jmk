@@ -1,0 +1,99 @@
+.gridContainer.clearfix #header div {
+	padding: 20px 0px 20px 0px;
+}
+	
+#jmk {
+	float: left;
+	margin-top: 0px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	border-radius: 25px;
+}
+#forum {
+	border-radius: 25px;
+}
+#whoisjmkarticle {
+	float: left;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-top: 17px;
+}
+#jmkbrookecourt {
+	float: left;
+	padding-left: 0px;
+	padding-bottom: 10px;
+	padding-top: 0px;
+	border-radius: 24px;
+	padding-right: 10px;
+}
+#jmksonomalawyers {
+	float: right;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	border-radius: 24px;
+}
+#georgiamoses {
+	float: left;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	border-radius: 25px;
+	padding-right: 10px;
+}
+#article {
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 25px;
+	padding-right: 17px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 17px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+}
+#jonbenet1 {
+	float: right;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	border-radius: 25px;
+}
+#alexis2009 {
+	padding-top: 0px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	border-radius: 25px;
+	float: right;
+}
+#donaldsmith {
+	float: right;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+#law {
+	float: right;
+	padding-bottom: 10px;
+	border-radius: 25px;
+	padding-left: 10px;
+}
+#cherish {
+	border-radius: 25px;
+	float: left;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+#plainview {
+	border-radius: 25px;
+	font-style: italic;
+	padding-bottom: 10px;
+	text-align: center;
+}
+.returntop {
+	text-align: center;
+	color: #FFFFFF;
+	font-weight: bold;
+}
