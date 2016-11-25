@@ -63,26 +63,10 @@ body {
 <![endif]-->
 <script src="respond.min.js"></script>
 <script type="text/javascript" src="speakker/jquery.min.js"></script>
-
-<!-- INCLUDE SPEAKKER -->
-<link rel="stylesheet" href="speakker/css/speakker.css" type="text/css" media="screen">
-<link rel="stylesheet" href="speakker/css/mspeakker.css" type="text/css" media="screen">
-<script type="text/javascript" src="speakker/projekktor.min.js"></script> 
-<script type="text/javascript" src="speakker/speakker.min.js"></script> 
-<!-- That´s it -->
-<script type="text/javascript">
-$(document).ready(function() {	
-	$('.speakkerSmall').speakker({
-		file: 'http://url/toyour/music.mp3',
-		title: 'one single MP3',
-		theme: 'light',
-		poster: 'cover.jpg'
-	});
-</script>
 <script>
 function setHalfVolume() {
     var myAudio = document.getElementById("audio1");  
-    myAudio.volume = 0.1; //Changed this to 0.5 or 50% or .01 for lowest volume since the function is called Set Half Volume ;)
+    myAudio.volume = 0.4; //Changed this to 0.5 or 50% or .01 for lowest volume since the function is called Set Half Volume ;)
 }
 </script>
 </head>
