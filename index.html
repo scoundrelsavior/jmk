@@ -8,6 +8,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- VideoJS -->
+ <link href="http://vjs.zencdn.net/5.8.8/video-js.css" rel="stylesheet">
+  <!-- If you'd like to support IE8 -->
+  <script src="http://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
 <!--Site Facebook Preview-->
 <meta property="og:title" content="John Mark Karr Official Website" />
 <meta property="og:type" content="website" />
@@ -19,7 +23,7 @@
 <!--Inline CSS-->
 <style type="text/css">
 body {
-	background-image: url(images/cobblestonesmall.jpg);
+	background-image: url(images/painting.jpg);
 	background-color: #333;
 	background-attachment: fixed;
 	background-size:cover;
@@ -28,7 +32,14 @@ body {
 	background-position: top;
 }
 #header {
+	padding-top: 20px;
+	padding-bottom: 12px;
 }
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
 </style>
 
 <!--SLIDER-->
@@ -51,65 +62,55 @@ body {
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 <script src="respond.min.js"></script>
+<script type="text/javascript" src="speakker/jquery.min.js"></script>
+
+<!-- INCLUDE SPEAKKER -->
+<link rel="stylesheet" href="speakker/css/speakker.css" type="text/css" media="screen">
+<link rel="stylesheet" href="speakker/css/mspeakker.css" type="text/css" media="screen">
+<script type="text/javascript" src="speakker/projekktor.min.js"></script> 
+<script type="text/javascript" src="speakker/speakker.min.js"></script> 
+<!-- That´s it -->
+<script type="text/javascript">
+$(document).ready(function() {	
+	$('.speakkerSmall').speakker({
+		file: 'http://url/toyour/music.mp3',
+		title: 'one single MP3',
+		theme: 'light',
+		poster: 'cover.jpg'
+	});
+</script>
+<script>
+function setHalfVolume() {
+    var myAudio = document.getElementById("audio1");  
+    myAudio.volume = 0.1; //Changed this to 0.5 or 50% or .01 for lowest volume since the function is called Set Half Volume ;)
+}
+</script>
 </head>
 <body>
+<div id="header"><img src="images/salvame1.jpg" alt="JMK Today"/></div>
+<audio autoplay controls class="center audiomargin speakkerSmall" id= "audio1" onloadeddata="setHalfVolume()">
+    <source src="images\Libera - Lacrymosa.mp3"  type="audio/mp3">
+</audio>
 <div class="gridContainer clearfix">
-<div id="header"><img src="images/header4.png" alt="JMK Today"/></div>
-  </div>
- <div id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:852px;margin:0px auto 0px;">
-        <div id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
-            <ul class="amazingslider-slides" style="display:none;">
-                <li><img src="images/scoundrelsavior.jpg" alt="" />
-                </li>
-                <li><a href="#whoisjmk"><img src="images/WhoisJMK.jpg" alt="" /></a>
-                </li>
-                <li><img src="images/jonbenetxmas.jpg" alt="" />
-                </li>
-                <li><img src="images/ramseycasescrutiny.jpg" alt="" />
-<video preload="none" src="https://www.dropbox.com/s/mv7f4n7jmtohrq8/ramseycasescrutiny.webm?dl=0" ></video>
-                </li>
-                <li><img src="images/mooneysolution.jpg" alt="" />
-                <video preload="none" src="https://www.dropbox.com/s/156dnc8eua52dj2/mooneysolution.mp4?dl=1" ></video>
-                </li>
-                <li><img src="images/revelation.png" alt="" />
-                </li>
-                <li><img src="images/nada.jpg" alt="" />
-                <video preload="none" src="https://www.dropbox.com/s/xkcl0u9zckdtmjw/nada.mp4?dl=1" ></video>
-                </li>
-                <li><a href="#cherish"><img src="images/cherish2.png" alt="" /></a>
-                </li>
-                <li><a href="#cherish"><img src="images/cherish1.png" alt="" /></a>
-                </li>              
-		<li><img src="images/ssfilm.jpg" alt="" />
-                <video preload="none" src="https://www.dropbox.com/s/rct6m9a2dltpbly/scoundrelsavior.mp4?dl=1" ></video>
-                </li>
-                <li><img src="images/pedofday.png" alt="" />
-                </li>
-                <li><img src="images/bundy.png" alt="" />
-                </li>
-		<li><a href="http://leisussurra.cf" target="_blank"><img src="images/leisussurra.jpg" alt="" /></a>
-                </li>
-            </ul>
-        </div>
-    </div>
-<p>&nbsp;</p>
-<div class="gridContainer clearfix">
- <div id="aboutlaw"><div align="justify">
-      <p><img src="images/JMK.jpg" alt="" id="jmk"></p>
-      <p align="center">Statement from John Mark Karr <br> September 16th 2016</p>
-      <p>The American public deserves to know that I gave six hours of quality interview time to Discovery in Bangkok on JonBenet's birthday. I revealed new information about JonBenet's death. You will never hear that. I dismantled the DNA. You will never hear that. I talked about how my DNA was taken in 2006 which was a total joke. You will never hear that. I responded to the ridiculous way Mary Lacy mishandled my arrest in 2006. My right to defend myself and tell my side of the story was dumped. Most importantly, I talked about a law that would save children's lives. This was also axed.</p> 
-<p>I feel the American people have the right to know that they were robbed of all this and more by Discovery's decision to merely roll old 2006 footage and call me a lunatic liar. Six hours were reduced to a few sentences spread across three nights. Investigation Discovery used my image and name to promote their show for three nights making promises that, on the third night, there would be an exclusive interview with me. That never happened. Instead, Americans got the dog and pony show. I am receiving hundreds of visits from Americans looking for an answer. You didn't get those answers in the ID exploitation and public humiliation of John Mark Karr.</p>
-<div><img src="images/Twitter Pineapple.png" alt="" class="twitter"></div>
-<p>
-<p align="center">Mandatory Castration Law<br> for Convicted Pedophiles </p><p>I'm John Mark Karr and I propose a law that would make mandatory castration, plus 5 years confinement without the possibility of parole, a law applicable to all males convicted of sex crimes against children. </p>
+ <div class="statement center">Statement from John Mark Karr September 16th 2016:  The American public deserves to know that I gave six hours of quality interview time to Discovery in Bangkok on JonBenet's birthday. I revealed new information about JonBenet's death. You will never hear that. I dismantled the DNA. You will never hear that. I talked about how my DNA was taken in 2006 which was a total joke. You will never hear that. I responded to the ridiculous way Mary Lacy mishandled my arrest in 2006. My right to defend myself and tell my side of the story was dumped. Most importantly, I talked about a law that would save children's lives. This was also axed. I feel the American people have the right to know that they were robbed of all this and more by Discovery's decision to merely roll old 2006 footage and call me a lunatic liar. Six hours were reduced to a few sentences spread across three nights. Investigation Discovery used my image and name to promote their show for three nights making promises that, on the third night, there would be an exclusive interview with me. That never happened. Instead, Americans got the dog and pony show. I am receiving hundreds of visits from Americans looking for an answer. You didn't get those answers in the ID exploitation and public humiliation of John Mark Karr.</div>
+<div id="aboutlaw"><div align="justify">
+<h3 align="center">Mandatory Castration Law for Convicted Child Rapists </h3>
+<p>I'm John Mark Karr and I propose a law that would make mandatory castration, plus 5 years confinement without the possibility of parole, a law applicable to all males convicted of sex crimes against children. The law in action is as follows: </p>
+      <img src="images/law.jpg" alt="" id="law"/>
+      <p>1. Those convicted of sex crimes against children would be subject to mandatory castration that would be carried out in optimal clinical settings followed by quality post op care. </p>
+      <p>2. The convicted would remain incarcerated for a period no less than five years without the possibility of parole. This would allow all post chemical and psychological effects of the hormone testosterone to leave the body. The five years without the possibility of parole would run concurrent with the existing sentence received and would never be considered a replacement for any existing sentence imposed as the result of a child rape conviction. It would ensure that no person could walk earlier than five years as some sentences currently do allow.</p>
+      <p>3. After release, the convicted would be subject to frequent testing for testosterone in the system to detect any possible intake of synthetic testosterone. The testing would remain in place for life.</p>
       <p>Castration has an intense outcome as it eliminates high levels of testosterone that certain individuals react to negatively resulting in an uncontrollable sex drive. An overwhelming sex drive leads to deviant sex fantasies that, when uncontrolled, leads to deviant sex acts. </p>
       <p>Sex crimes are committed by sex driven individuals. The core of the problem can be eliminated with castration and a time span afterward that allows the psychological to catch up with the intense physical transformation as the result of the elimination of testosterone. </p>
       <p>I have personally experienced a life change that has made me feel the nagging necessity to share for the sake of all the children who will certainly fall victim to rape and murder. After years of grappling with this demon, I have concluded that the whole answer does not lie in the psychological. Instead, the largest portion lies in the physical. The mind is controlled by what the body produces and in this case, it's testosterone. It is a vicious cycle that can never be controlled unless there is physical intervention. </p>
       <p>In 2006, I had this operation. Over the years, it has changed my life. Quite simply, my sex drive no longer exists; therefore, sex thoughts and fantasies don't exist which are the driving forces behind an eventual sex act in real life. Behaviors can be modified as the result of physiological factors that can be altered to control outward manifestations that might save the lives of countless children from being molested and murdered. This world dilemma doesn’t need a diagnosis. It needs a working and practical solution.</p>
       <p>So much is in place to punish convicted pedophiles but what successful preventative measures have been taken? Let's face it. Prison sentences for these offenders are too short. Longer sentence won't cure their perversion anyway. Everyone feels so wonderful when a convicted child molester &quot;gets his&quot; but how does punishment change this man? Is he afraid to commit the crime again just because he's been placed on a list? Statistics say that the most repeatable offense is child molestation. This proves there has to be more than punishment. Punishment focuses on the pedophile. Prevention focuses on the child. Prevention must prevail if children are to be saved.</p>
-      <p>Even therapist say therapy can't help child molesters. That's because therapy can't take away a child molester's sex drive. It is their sex drive that is the ingredient in the mix that makes it boil and causes these people to go off the deep end with a child.</p>
-      <video preload="none" controls poster="images/mooneysolution.jpg" id="mooneysolution"><source src="https://www.dropbox.com/s/156dnc8eua52dj2/mooneysolution.mp4?dl=1" type="video/mp4"> Your browser does not support the video tag.</source></video>
+   <p>Even therapist say therapy can't help child molesters. That's because therapy can't take away a child molester's sex drive. It is their sex drive that is the ingredient in the mix that makes it boil and causes these people to go off the deep end with a child.</p>
       <p>Then there's the good ole fashioned pedo hating talk I've heard all my life. &quot;Let's just take them out and kill them,&quot; they say. OK. Let's kill them. After all, that would be a permanent solution. Sounds good but it's never going to take place. The fact is, it is rare that child molesters have been killed. That means they're still out there molesting children while you're sitting there shouting, &quot;Let's kill pedos!&quot; &quot;They need to be put away in prison for life,&quot; others say. Never in my lifetime do I think child molesters are going to get life in prison for their crime. You can talk that talk all you want but the reality of it is that somewhere in the world, a child molester is getting out of prison after a few short years as you are reading this. Talk is cheap. Our children are worth more than a bunch of ridiculous rants that do nothing to stop kids from being raped and killed.</p>
+      <video class="fluid video-js vjs-fluid vjs-big-play-centered video vjs-16-9 videomargin" controls preload="none" poster="images/mooneysolution.jpg" width= "auto" height="auto" data-setup="{}">
+		<source src="https://www.dropbox.com/s/156dnc8eua52dj2/mooneysolution.mp4?dl=1" type="video/mp4">
+		Your browser does not support the video tag.
+		</source></video><br>
       <p>But you might say, we have a comprehensive sex offender registry that takes care of those child rapists. The sex offender registry reminds me of that Santa song, &quot;He's making a list and checking it twice. He's gonna find out who's naughty or nice.&quot; Do you actually think a highly sex driven child molester with a drive so powerful would let something like a name on a sex offender list stop him from feeding his insatiable sexual desire to rape a child? Desperate actions belong to desperate people and desperate people don't give a damn about a list with their name on it. Most of these people have been in an out of some of the toughest prisons in the country. They're mean and bitter but mostly, they're driven by their desire to do a sex act with a kid. These are not people easily scared by someone maintaining their name and information on a list. At this time, the only safeguard against newly released convicted pedophiles is the national sex offender registry. With that said, God help the children.</p>
       <p>The list has some advantages. The public has a current photo of the offender; knows where they live; the year and make of their vehicle and its license plate number; and the age and gender of their victim - that is, if you look up their entry. Offenders on the registry won't be allowed to work with children as the result of a background check that reveals their name on the list, but do all or most molestations happen at school? Of course not. I can't recall a single child murder that has occurred in an elementary school. That leaves the rest of your child's life outside school at risk. In other words, your kid is safe at school but not in every other place, and that's a lot of other places.</p>
       <p>Fliers are sent out that a sex offender lives in your community or, in my case, fliers go out even if you're not on the registry and it gets even more press. So now neighbors are armed with the information they need and information is power - or is it? You might be able to do such things as drive by that guy's house a couple of times a week. Maybe you can see him in the grocery store and pull your kid close, but how many kids get molested in the grocery store? The public doesn't know what the offender will do in the dead of night. The public knows where they live and what they drive but can't watch them every minute.</p>
@@ -118,29 +119,35 @@ body {
       <p>Smith the charmer wasted no time getting close to his next victim. He struck up a conversation with Cherish's mom and suggested eventually that he would like to buy her little girl some new clothes at Wal-Mart. The appreciative mom commenced her shopping spree for her daughter's clothes. She was carried away with the kind hearted man who was extending his generosity to her little girl. If she could afford to purchase all these new clothes for her daughter herself, she wouldn't have dreamed of allowing a stranger she'd just met to buy clothes for her little girl. This gesture of generosity from this kind stranger was just too tempting for this financially poor mom to pass up.</p>
       <p>Smith went a step further and offered to buy lunch at a fast food restaurant in the front of the Wal-Mart store. He told the mom to keep on shopping - that he and Cherish could order the food and wait for her there in a few minutes. Cherish's mom watched the two walk away. "See you in a few minutes mom!" Cherish was so happy and excited about the clothes and the delicious lunch that awaited. Cherish's mom would never see her daughter alive again. Instead of taking Cherish for food, Smith took her to his van, drove her to a church parking lot, and killed her.</p>
       <img src="images/donaldsmith.jpg" alt="" id="donaldsmith"/><p>Some might say that there is no way to know for certain that his actions had anything to do with his sex drive. I contend that Smith's fantasies of murder and cannibalism of little girls were indeed driven by sex. In adults, it is accepted that sado-masochistic acts are definitely connected to and driven by sex. I know that if Donald Smith had been subjected to mandatory castration and his raging sex drive had been taken completely away as a result, he wouldn't have had the drive to seek out a little girl and do God knows what to her in a van and then kill her. If he had undergone orchiectomy surgery and was detained for five years afterward without the possibility of parole, then it could be said that ALL was done to prevent this child from being taken from her mother forever. But all was not done and eight year old Cherish Perrywinkle suffered an awful and agonizing death as the result of a broken system. Smith is living proof that a desperate predator pedophile could care less if he's on a sex offender registry. No entry on a sex offender list can stop a man like Smith when he makes up his mind he will have a little girl.</p>
-      <p>It's not just pedophiles who are driven to crimes because of their out of control sex drives. Ted Bundy tried to leave a piece of information behind that explained why he raped and killed his many victims. He said pornography made him do it. He was partially right but he did not understand that it was his sex drive out of control that made him consume the pornography in the first place. Even serial killers like Jeffrey Dahmer spoke of his insatiable sex drive during his interviews.</p>
+      <img src="images/bundy.png" alt="" />
       <p>Psychologists have said that pedophiles can never change - that no amount of therapy will help them. They're right about that. But pedophiles can change after orchiectomy surgery. After a period of time, the twisted sex fantasies will subside until they are completely gone. More importantly, that which drove them to destroy children will be gone. Their motives and the tangled plans they plotted in their sexually euphoric state of madness will be vanquished. And then and only then might therapy help these people.</p>
+      <video class="fluid video-js vjs-fluid vjs-big-play-centered video vjs-16-9 videomargin" controls preload="none" poster="images/nada.jpg" width= "auto" height="auto" data-setup="{}">
+		<source src="https://www.dropbox.com/s/xkcl0u9zckdtmjw/nada.mp4?dl=1" type="video/mp4">
+		Your browser does not support the video tag.
+		</source></video>
       <p>Still think testosterone is just a joke and can't have any effect on the psychological? Consider the power of this hormone as it takes effect during puberty in boys. It is a chemical so strong, it changes bone shape in the face and body; causes hair to grow on the face and body; changes the pitch of the voice; causes male sex organs to grow larger; promotes muscle mass; and causes a grown man to lose the hair on top of his head. If cocaine did any one of those things, it would scare the hell out of using it ever again. No drug or substance can cause such metabolic changes as does testosterone. And in the midst of all those changes during puberty, what kind of sexual thoughts and fantasies are some boys having as the result of the ever underestimated testosterone?</p>
       <p>So why aren't all males who have testosterone in their system not out raping children? Everyone is effected differently by every stimulus or chemical. Some people can hold their liquor while others are driven to crimes under the influence. Some women commit crimes during their monthly menses while others never would. It's no different from how the effects of testosterone cause some to molest children and does not cause this in others. We all react differently to hormones and other chemicals.</p>
+      <img src="images/pedofday.png" alt="" />
       <p>Why five years without parole after castration for convicted pedophiles? Quite simply, hormones are slow moving in their effects on the mind and body. No person goes through puberty over night. It takes a few years for someone to completely go through puberty. Nor does anyone lose all the hair on their head as the result of dihydrotestosterone, overnight. The effects of testosterone takes several years to zap most of the hair on top of a man's head. The same goes for reversing the effects of testosterone, especially on the psychological. Attraction to little girls becomes ingrained in a person over a period of many years. You can't expect a way of life to just vanish overnight after castration. It takes several years for the psychological to catch up with the physical effects of testosterone. Hormones are not overnight in any situation. It is an evolving process. But after several years, a boy becomes a man as the results of testosterone. And after several years, a man becomes bald as the result of dihydrotestosterone in the system. Just the same, after several years, are the psychological changes as a result of the lack of presence of testosterone that was in a man's system for a lifetime. Now the cause has been removed. The body and mind has no choice but to follow. Sex drive and its byproducts have lost their fuel. Sex fantasies and the acting out of sex fantasies have nothing to work with anymore.</p>
-      <p align="center">The Law in Action </p>
-      <img src="images/law.jpg" alt="" id="law"/>
-      <p>1. Those convicted of sex crimes against children would be subject to mandatory castration that would be carried out in optimal clinical settings followed by quality post op care. </p>
-      <p>2. The convicted would remain incarcerated for a period no less than five years without the possibility of parole. This would allow all post chemical and psychological effects of the hormone testosterone to leave the body. The five years without the possibility of parole would run concurrent with the existing sentence received and would never be considered a replacement for any existing sentence imposed as the result of a child rape conviction. It would ensure that no person could walk earlier than five years as some sentences currently do allow.</p>
-      <p>3. After release, the convicted would be subject to frequent testing for testosterone in the system to detect any possible intake of synthetic testosterone. The testing would remain in place for life.</p>
       <p>I have a priority - an agenda that is stronger than any self-serving plan. I’m not trying to get the world to see me as a good and wonderful person. That wouldn’t be possible for me – a person despised and hated for being thought to be one and the same as the ones I’m trying to combat. If I’m thought still to be the predator, think of the information I have that could save the prey.</p>
-      <p>Pedophilia can be killed; therefore, child rape can be eradicated. In the case of dangerous child molesters, sex kills and will continue to kill until the catalyst, testosterone, is removed from their physical equation.</p></div>
-  </div>
-<p>&nbsp;</p>
-<div id="whoisjmk"><img src="images/WhoisJMKarticle.jpg" alt="" id="whoisjmkarticle"/>
-  <p align="center">Who the Hell is John Mark Karr? </p>
+      <video class="fluid video-js vjs-fluid vjs-big-play-centered video vjs-16-9 videomargin" controls preload="none" poster="images/ssfilm.jpg" width= "auto" height="auto" data-setup="{}">
+		<source src="https://www.dropbox.com/s/rct6m9a2dltpbly/scoundrelsavior.mp4?dl=1" type="video/mp4">
+		Your browser does not support the video tag.
+		</source></video>
+      <p>Pedophilia can be killed; therefore, child rape can be eradicated. In the case of dangerous child molesters, sex kills and will continue to kill until the catalyst, testosterone, is removed from their physical equation.</p>
+<p>
+<img src="images/WhoisJMK.jpg" alt="" class="center"/>
   <p>Since nobody gives a damn about anything in my life but my criminal record, I'll focus solely on that here for all intents and purposes. It's a pity because I've certainly had many years of life experiences aside from that.</p>
   <p>In 2006, I was arrested for the murder, kidnapping, and sex assault of six year old JonBenet Ramsey and extradited from Bangkok to Boulder Colorado. My arrest was based on my account of the night of her death that corroborated with physical evidence withheld from the public by the coroner and law enforcement from 1996 to 2006.</p>
   <p>I was ultimately discounted as a lying, lunatic, attention seeking whore. How could a person who had been in hiding for five years and using a pseudonym with his informants manage to cash in on this fame? After all, I did not turn myself in. I didn’t phone CNN. I didn’t turn myself in when I was last in Boulder in 2000. I didn’t cash in on all that supposed fame for ten damned years but I was an attention seeking whore? If I became notorious, it was thrust upon me against my will by the media who showed up like a pack of hungry wolves. So I am to blame for something I didn’t do? Wouldn’t be the first time. </p>
   <p>The prosecution finally said she didn’t bring me back on charges at all though strangely, I attended an extradition hearing in a packed, media covered Los Angeles California courtroom where a judge read off all five of the charges in Colorado and asked if I wanted to waive to extradition on those five charges. He read the charges individually. They included such terms as murder in the first degree, kidnapping, and sex assault. I assure you, Ms. Lacy, the charges were real.</p>
-    <img src="images/jonbenetxmassmall.jpg" alt="" id="jonbenet1"/>
+    <img src="images/jonbenetxmas.jpg" alt="" class="center"/>
   <p>I was last questioned by private detectives regarding the Ramsey case in 2009 with light contact from private detectives in 2014 but with no questions about the Ramsey case. As far as I’m concerned, the case is closed.</p>
   <p>After my release from the Ramsey case charges in 2006, I was extradited from Colorado to California on 2001 charges of alleged possession of child pornography.</p>
+  <video class="fluid video-js vjs-fluid vjs-big-play-centered video vjs-16-9 videomargin" controls preload="none" poster="images/ramseycasescrutiny.jpg" width= "auto" height="auto" data-setup="{}">
+		<source src="https://www.dropbox.com/s/t9qw61vfnw1bjys/ramseycasescrutiny.mp4?dl=1" type="video/mp4">
+		Your browser does not support the video tag.
+		</source></video>
     <p>Rewind to the year 2001. I had just moved with my wife and three sons to California one year prior. I had worked in a prestigious school for girls in San Francisco and ultimately was working on my Masters of Elementary of Education degree, doing a teaching internship at a school in beautiful Napa Valley California. Every morning, I drove my classic Jaguar through famous vineyards to get to my little elementary school in paradise. One day, in the middle of a lesson with my fourth grade classroom, the principal came for me. Waiting in the office of the school were two Napa Valley detectives. My life would never be the same again. I would lose my wife and kids, my career, and my country in a matter of six months.</p> 
     <img src="images/georgiamoses.jpg" alt="" id="georgiamoses"/>
     <p>In Sonoma County, I was investigated for the murder of a twelve year old Santa Rosa girl named Georgia Moses. She was said to have had an intense sense of humor much like another twelve year old girl in the area, Polly Klaas. She was from Georgia. Oddly enough, as a young man working for my father, I rented an apartment in Atlanta to a large African American family by the last name Moses. </p>
@@ -172,60 +179,15 @@ body {
     <p>I was accused by my enemies of changing my sex to get a better chance of getting closer to little girls. What a load of shit that was. For years, I had worked with thousands of little girls as John Mark Karr the man. How many transgender elementary school teachers work at your children's school? How many transgender nannies are there in England? Such a transition would have buried all chances of me getting a job working with little girls. I was merely trying to survive. My enemies made certain my hell would be perpetual.</p>
     <p>I did not come out to the world as a transgender. I was instead and once again tossed to the media wolves to be devoured. There was no front cover of Vanity Fair. There was no media talking about how beautiful I was. There was no public outpouring of understanding and desire to learn more about crossing over to another gender for me. The American media was vicious. I was mocked. I was ridiculed.&nbsp;I was publicly crucified.</p>
     <p>In the same 2010 year, I was investigated by the San Francisco Police Department and other branches of law enforcement for the alleged organization and leadership of a murderous cult alleged to abduct little girls for sex. I was accused of threatening the life of a nineteen year old Samantha Spiegel for her exposure of the activities of the alleged sex cult. Spiegel claimed to be one of my past students though she was in a totally different grade from the one I worked with in San Francisco. She told one lie after another about me from saying that I led a cult of JonBenet Ramsey look alike little girls to saying that I asked her to walk the streets of San Francisco at night seeking little girls to abduct for my sexual pleasure. The media gave her center stage to dismantle me as a human being. Read more  in Lei Sussurra's article, <a href="http://leisussurra.cf/#spiegelcollection" target="_blank">Samantha Spiegel's Macabre Collection of Killers</a>.</p>
+    <a href="http://leisussurra.cf" target="_blank"><img src="images/leisussurra.jpg" alt="" class="center"/></a>
     <p>Fox News reported that there was a criminal warrant out for my arrest. Believing this ‘news’, I flew from Paris to America to face up to these charges. There never was a warrant. The DA's office in San Francisco made an official statement that they never had plans to issue a warrant out for my arrest. Instead, I was served with a restraining order. I returned to Paris in a week’s time of arriving back in America. My regrets for returning to America at all are numerous. I took risks and I suffered for the week and a half I was there. Thank God, I'm not there now.</p>
     <p>Most of the events of 2010 revolved around the actions of a vigilante hate group that attempted to derail my life based on their lowly opinion of me and not on any evidence that I was a monster let loose on the world's children. They bought and set up websites using the names John Mark Karr and Alexis Valoran Reich that distributed Karr hate propaganda designed to trace and track me - to rank high in the Google searches for both names to tip off anyone that I was a monster who should be turned over to authorities. These crusaders to protect children from horrible monster John Mark Karr were based in America and consisted of friends, past girlfriends, and even family members. Read more in Circle of Fire's article, <a href="http://leisussurra.cf/#antikarrgroup" target="_blank">Anti-Karr Group</a>.</p>
     <p>The events of 2010 made me homeless for over two straight years. I lived a very uncomfortable and dangerous existence. </p>
     <p>Oh, by the way, I have never been convicted of a crime. I have never been a registered sex offender. </p>
-    <p>Needless to say, I have lived outside North America since 2008. My life continues to be plagued by the threat of homelessness and outright danger. I am still sometimes recognized, no matter how remote my location, by 'angry admirers' who mostly shout at me. </p>
-    <p>I would have written all this in a book that might have given me a few meals to eat and a place to live for a few nights but I've been banned by the publishing world from ever having anything published as many believe I must be silenced or, moreover, that I should not exist at all. As long as I have this dot com, I will say plenty.</p>
-<div id="plainview"><img src="images/plainview1.jpg" alt="">
+    <img src="images/plainview1.jpg" alt="" class="center" id="plainview"><p>Needless to say, I have lived outside North America since 2008. My life continues to be plagued by the threat of homelessness and outright danger. I am still sometimes recognized, no matter how remote my location, by 'angry admirers' who mostly shout at me. I would have written all this in a book that might have given me a few meals to eat and a place to live for a few nights but I've been banned by the publishing world from ever having anything published as many believe I must be silenced or, moreover, that I should not exist at all. As long as I have this dot com, I will say plenty.</p>
+<img src="images/scoundrelsavior.jpg" alt="" class="scoundrel" />
  <div class="returntop"><a href="#header" title="Return to Top" class="returntop">Return to Top</a>
-    </div>
-</div>
-</div></div>
-<div class="fb-like" data-share="true" data-width="450" data-show-faces="false">
-</div>
-<script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '1096140700409714',
-      xfbml      : true,
-      version    : 'v2.5'
-    });
-  };
-
-  (function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement(s); js.id = id;
-     js.src = "//connect.facebook.net/en_US/sdk.js";
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));
-</script>
-<!-- Start of StatCounter Code for Default Guide -->
-<script type="text/javascript">
-var sc_project=9872937; 
-var sc_invisible=1; 
-var sc_security="bf4aa5b7"; 
-var scJsHost = (("https:" == document.location.protocol) ?
-"https://secure." : "http://www.");
-document.write("<sc"+"ript type='text/javascript' src='" +
-scJsHost+
-"statcounter.com/counter/counter.js'></"+"script>");
-</script>
-<noscript><div class="statcounter"><a title="web stats"
-href="http://statcounter.com/" target="_blank"><img
-class="statcounter"
-src="http://c.statcounter.com/9872937/0/bf4aa5b7/1/"
-alt="web stats"></a></div></noscript>
-<!-- End of StatCounter Code for Default Guide -->
-<!-- Histats.com  START (hidden counter)-->
-<script type="text/javascript">document.write(unescape("%3Cscript src=%27http://s10.histats.com/js15.js%27 type=%27text/javascript%27%3E%3C/script%3E"));</script>
-<a href="http://www.histats.com" target="_blank" title="free stats" ><script  type="text/javascript" >
-try {Histats.start(1,3278890,4,0,0,0,"");
-Histats.track_hits();} catch(err){};
-</script></a>
-<noscript><a href="http://www.histats.com" target="_blank"><img  src="http://sstatic1.histats.com/0.gif?3278890&101" alt="free stats" border="0"></a></noscript>
-<!-- Histats.com  END  -->
+   </div></div>
+<script src="http://vjs.zencdn.net/5.8.8/video.js"></script>
 </body>
 </html>

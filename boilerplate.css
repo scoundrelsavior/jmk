@@ -2,7 +2,9 @@
 
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
 audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
-audio:not([controls]) { display: none; }
+audio:not([controls]) {
+	display: none;
+}
 [hidden] { display: none; }
 
 html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
@@ -13,7 +15,10 @@ body {
 	line-height: 1.231;
 }
 
-body, button, input, select, textarea { font-family: sans-serif; color: #222; }
+body, button, input, select, textarea {
+	font-family: sans-serif;
+	color: #222;
+}
 
 a {
 	color: #9696FB;
@@ -220,6 +225,7 @@ td { vertical-align: top; }
 	font-size: 14pt;
 	font-weight: normal;
 	color: #FFFFFF;
+	clear: both;
 }
 
 
