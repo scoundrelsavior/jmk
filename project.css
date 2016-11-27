@@ -92,6 +92,7 @@
     margin: auto;
 	}
 .video {
+	clear: both;
 
 
 
@@ -123,4 +124,15 @@
 }
 .audiomargin {
 	margin-bottom: 12px;
+}
+.home {
+	clear: both;
+	background-color: rgba(0,0,0,0.65);
+	max-width: 50%;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	border-radius: 25px;
+	text-align: center;
+	font-size: x-large;
 }
