@@ -54,7 +54,7 @@ img, object, embed, video {
 	padding-bottom: 12px;
 }
 #videos {
-	clear: none;
+	clear: both;
 	float: none;
 	margin-left: auto;
 	display: block;
@@ -63,9 +63,8 @@ img, object, embed, video {
 	font-size: 12pt;
 	padding-top: 1px;
 	padding-bottom: 1px;
-	margin-bottom: 40px;
 	margin-right: auto;
-	margin-top: 12px;
+	margin-top: 76px;
 }
 
 #aboutlaw {
@@ -141,16 +140,15 @@ display: none;
 	padding-bottom: 12px;
 }
 #videos {
-	clear: none;
+	clear: both;
 	float: none;
 	margin-left: auto;
 	display: block;
 	color: #FFFFFF;
 	font-weight: normal;
 	font-size: 13pt;
-	margin-bottom: 40px;
 	margin-right: auto;
-	margin-top: 20px;
+	margin-top: 76px;
 }
 
 #aboutlaw {
@@ -233,7 +231,7 @@ margin-left: 0;
 	padding-bottom: 12px;
 }
 #videos {
-	clear: none;
+	clear: both;
 	float: none;
 	display: block;
 	color: #FFFFFF;
@@ -241,12 +239,11 @@ margin-left: 0;
 	font-size: 13pt;
 	padding-top: 1px;
 	padding-bottom: 1px;
-	margin-bottom: 40px;
 	max-width: 900px;
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 1px;
-	margin-top: 20px;
+	margin-top: 76px;
 }
 
 #aboutlaw {
