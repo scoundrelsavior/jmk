@@ -89,7 +89,9 @@
 }.center {
 	clear: both;
 	display: block;
-    margin: auto;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: auto;
 	}
 .video {
 	clear: both;
@@ -126,13 +128,15 @@
 	margin-bottom: 12px;
 }
 .home {
-	clear: both;
-	background-color: rgba(0,0,0,0.65);
-	max-width: 50%;
+	max-width: 60px;
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-bottom: 10px;
-	border-radius: 25px;
 	text-align: center;
 	font-size: x-large;
+	clear: both;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 30px;
+	color: rgba(255,255,255,1.00);
 }
