@@ -39,7 +39,10 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 }
-
+/* Don't hide the poster after the video ended playing */
+.video-js.vjs-ended .vjs-poster {
+display: block;
+}
 </style>
 
 <!--SLIDER-->
@@ -75,7 +78,7 @@ body {
     <img src="images/jonbenetxmas.jpg" alt="" class="center"/>
   <p>I was last questioned by private detectives regarding the Ramsey case in 2009 with light contact from private detectives in 2014 but with no questions about the Ramsey case. As far as I’m concerned, the case is closed.</p>
   <p>After my release from the Ramsey case charges in 2006, I was extradited from Colorado to California on 2001 charges of alleged possession of child pornography.</p>
-  <video class="fluid video-js vjs-fluid vjs-big-play-centered video vjs-16-9 videomargin" controls preload="none" poster="images/ramseycasescrutiny.jpg" width= "auto" height="auto" data-setup="{}">
+  <video class="fluid video-js vjs-fluid vjs-big-play-centered video vjs-16-9 vjs-ended videomargin" controls preload="none" poster="images/ramseycasescrutiny.jpg" width= "auto" height="auto" data-setup="{}">
 		<source src="https://www.dropbox.com/s/t9qw61vfnw1bjys/ramseycasescrutiny.mp4?dl=1" type="video/mp4">
 		Your browser does not support the video tag.
 		</source></video>
