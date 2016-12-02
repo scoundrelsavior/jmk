@@ -39,10 +39,20 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 }
-/* Don't hide the poster after the video ended playing */
+/* VideoJS - show poster, show play button, hide bottom controls */
+
 .video-js.vjs-ended .vjs-poster {
 display: block;
 }
+.video-js.vjs-ended .vjs-control-bar {
+  display: none;
+}
+.video-js.vjs-ended .vjs-big-play-button {
+  display: block;
+}
+
+/* VideoJS - END */
+
 </style>
 
 <!--SLIDER-->
