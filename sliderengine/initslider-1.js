@@ -388,7 +388,7 @@ jQuery(document).ready(function(){
 
         fade: {
 
-            duration:2000,
+            duration:1000,
 
             easing:"easeOutCubic",
 
