@@ -63,10 +63,9 @@ display: block;
 
 
 <!--SLIDER-->
-<!--SLIDER-->
-<script src="sss/jquery-2.2.0.js"></script><script src="sss/sss.min.js"></script>
-<link rel="stylesheet" href="sss/sss.css" type="text/css" media="all">
-<script>jQuery(function($) {$('.slider').sss();});</script>
+<script src="jquery-2.2.0.js"></script>
+<script src="sliderengine/amazingslider.js"></script>
+<script src="sliderengine/initslider-1.js"></script>
 
 
 <!--CSS Referrals-->
@@ -87,11 +86,16 @@ display: block;
 </head>
 <body>
 <a name="top"></a>
-<div class="slider">
-<img src="images/salvame1site.jpg" />
-<img src="images/Salvame2.jpg" />
-<img src="images/bellum1.jpg" />
-</div>
+    <div id="amazingslider-wrapper-1" style="display: block; position: relative; max-width: 850px; margin: 0 auto; padding-top: 20px; padding-bottom: 20px;">
+        <div id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
+            <ul class="amazingslider-slides" style="display:none;">
+                <li><img src="images/salvame1site.jpg" />
+                </li>
+                <li><img src="images/Salvame2.jpg" />
+                </li>
+            </ul>
+        </div>
+    </div>
 <audio autoplay controls class="center audiomargin" id= "audio1" onloadeddata="setHalfVolume()">
     <source src="images\Libera - Lacrymosa.mp3"  type="audio/mp3">
     <source src="images\Libera - Lacrymosa.ogg"  type="audio/ogg">
