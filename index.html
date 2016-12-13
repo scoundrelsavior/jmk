@@ -13,21 +13,9 @@ body {background-image: url(images/painting.jpg); background-color: #333; backgr
 <link href="boilerplate.css" rel="stylesheet" type="text/css">
 <title>John Mark Karr Official Website</title>
 <!--SLIDER-->
-<script src="jquery-1.7.2.min.js"></script>
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 <style>
-#slideshow {
-  position: relative;
-}
-#slideshow div {
-    max-width: 850px;
-	position: absolute;
-	margin-left: auto;
-	margin-right: auto;
-	left: 0;
-	right: 0;
-	text-align:center;
-	clear:both;
-}
+.mySlides {display: none; margin-top: 20px; margin-bottom: 20px;}
 </style>
 <script>
 function setHalfVolume() {
@@ -56,38 +44,26 @@ function setHalfVolume() {
 </head>
 <body>
 <a name="top"></a>
-<div id="slideshow">
-<div class=""><img src="images/salvame1site.jpg" width="100%" style="max-width:765px;" alt=""/></div>
-<div class=""><img src="images/salvame2.jpg" width="100%" alt=""/></div>
-<div class=""><img src="images/bellum1.jpg" width="100%" alt=""/></div>
+<div class="center w3-content w3-section" style="max-width:850px">
+     <img class="mySlides center" src="images/salvame1site.jpg" style="width:765px"/>
+     <img class="mySlides" src="images/bellum1.jpg" style="max-width:100%" />
+     <img class="mySlides" src="images/salvame2.jpg" style="width:100%" />
 </div>
 <script>
-$(document).ready(function() {
+var myIndex = 0;
+carousel();
 
-  var timer;
-
-  $("#slideshow > div:gt(0)").hide();
-
-  $("#slideshow")
-    .mouseenter(function() {
-      if (timer) {
-        clearInterval(timer)
-      }
-    })
-    .mouseleave(function() {
-      timer = setInterval(function() {
-        $("#slideshow > div:first")
-          .fadeOut(1000)
-          .next()
-          .fadeIn(1000)
-          .end()
-          .appendTo("#slideshow");
-      }, 4000);
-    })
-    .mouseleave();
-
-
-});
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 5000); // Change image every 2 seconds
+}
 </script>
 <audio autoplay controls class="center audiomargin" id= "audio1" onloadeddata="setHalfVolume()">
     <source src="images\Libera - Lacrymosa.mp3"  type="audio/mp3">
