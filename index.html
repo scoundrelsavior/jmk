@@ -3,6 +3,31 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--Inline CSS-->
+<style type="text/css">
+body {background-image: url(images/painting.jpg); background-color: #333; background-attachment: fixed; background-size:cover; background-repeat: no-repeat; background-position: center; background-position: top;}
+</style>
+<!--CSS Referrals-->
+<link href="project.css" rel="stylesheet" type="text/css">
+<link href="layout.css" rel="stylesheet" type="text/css">
+<link href="boilerplate.css" rel="stylesheet" type="text/css">
+<title>John Mark Karr Official Website</title>
+<!--SLIDER-->
+<script src="jquery-1.7.2.min.js"></script>
+<style>
+#slideshow {
+  position: relative;
+}
+#slideshow div {
+    max-width: 850px;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	text-align:center;
+}
+</style>
 <script>
 function setHalfVolume() {
     var myAudio = document.getElementById("audio1");  
@@ -21,52 +46,47 @@ function setHalfVolume() {
 <meta property="og:image" content="http://johnmarkkarr.com/images/FBpreviewSalvame1b.png" />
 <meta property="fb:admins" content="100007312367731" />
 <meta property="fb:app_id" content="1096140700409714" />
-<!--Inline CSS-->
-<style type="text/css">
-body {background-image: url(images/painting.jpg); background-color: #333; background-attachment: fixed; background-size:cover; background-repeat: no-repeat; background-position: center; background-position: top;}
-</style>
-<!--SLIDER-->
-<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-<style>
-.mySlides {display: none; margin-top: 20px; margin-bottom: 20px;}
-</style>
-<!--CSS Referrals-->
-<link href="project.css" rel="stylesheet" type="text/css">
-<link href="layout.css" rel="stylesheet" type="text/css">
-<link href="boilerplate.css" rel="stylesheet" type="text/css">
-<title>John Mark Karr Official Website</title>
 <meta name="google-site-verification" content="cWTYtpty2wSycDv9S3Ofkvpzzn8xuYWBJwm5fSklCXo" />
 <meta name="Author" content="John Mark Karr">
 <meta name="Keywords" content="John Mark Karr,John Mark Karr 2015,John Mark Karr 2016,JonBenet Ramsey,official website,law,convicted,pedophile,child molester,orchiectomy,child rapist,prison sentence,testosterone,rape,murder,orchiectomy for pedophiles,orchiectomy law">
 <meta name="Description" content="While children cry Salvame! - convicted child rapists are given short sentences and placed on a list. Nisi una solutio! There is only one solution - mandatory orchiectomy for convicted child rapists.">
 <link rel="shortcut icon" href="favicon.ico">
-<!--[if lt IE 9]>
-<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
 <script src="respond.min.js"></script>
 </head>
 <body>
 <a name="top"></a>
-<div class="center w3-content w3-section" style="max-width:850px">
-     <img class="mySlides center" src="images/salvame1site.jpg" style="width:765px"/>
-     <img class="mySlides" src="images/bellum1.jpg" style="max-width:100%" />
-     <img class="mySlides" src="images/salvame2.jpg" style="width:100%" />
+<div id="slideshow">
+<div class=""><img src="images/salvame1site.jpg" width="100%" style="max-width:765px;" alt=""/></div>
+<div class=""><img src="images/salvame2.jpg" width="100%" alt=""/></div>
+<div class=""><img src="images/bellum1.jpg" width="100%" alt=""/></div>
 </div>
 <script>
-var myIndex = 0;
-carousel();
+$(document).ready(function() {
 
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
-    }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
-    x[myIndex-1].style.display = "block";  
-    setTimeout(carousel, 5000); // Change image every 2 seconds
-}
+  var timer;
+
+  $("#slideshow > div:gt(0)").hide();
+
+  $("#slideshow")
+    .mouseenter(function() {
+      if (timer) {
+        clearInterval(timer)
+      }
+    })
+    .mouseleave(function() {
+      timer = setInterval(function() {
+        $("#slideshow > div:first")
+          .fadeOut(1000)
+          .next()
+          .fadeIn(1000)
+          .end()
+          .appendTo("#slideshow");
+      }, 4000);
+    })
+    .mouseleave();
+
+
+});
 </script>
 <audio autoplay controls class="center audiomargin" id= "audio1" onloadeddata="setHalfVolume()">
     <source src="images\Libera - Lacrymosa.mp3"  type="audio/mp3">
