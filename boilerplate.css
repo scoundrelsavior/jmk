@@ -20,10 +20,37 @@ body, button, input, select, textarea {
 	color: #222;
 }
 
-a { color: #00e; }
-a:visited { color: #551a8b; }
-a:hover { color: #06e; }
-a:focus { outline: thin dotted; }
+a {
+	color: #3333ff;
+	text-align: center;
+	text-decoration: none;
+	font-size: medium;
+	font-weight: bolder;
+}
+a:visited {
+	color: rgba(255,255,255,1.00);
+	font-size: medium;
+	font-weight: bolder;
+}
+a:hover {
+	color: #999;
+	font-size: medium;
+	font-weight: bolder;
+}
+a:focus {
+	outline: thin dotted;
+	color: rgba(255,255,255,1.00);
+	font-size: medium;
+	font-weight: bolder;
+}
+
+a:hover, a:active {
+	outline: 0;
+	text-align: center;
+	color: rgba(255,255,255,1.00);
+	font-size: medium;
+	font-weight: bold;
+}
 
 
 /* =============================================================================
