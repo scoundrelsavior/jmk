@@ -1,4 +1,4 @@
-﻿@charset "utf-8";
+@charset "utf-8";
 
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
 audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
@@ -20,20 +20,10 @@ body, button, input, select, textarea {
 	color: #222;
 }
 
-a {
-	color: #9696FB;
-	text-align: center;
-	text-decoration: none;
-}
+a { color: #00e; }
 a:visited { color: #551a8b; }
-a:hover { color: #999; }
+a:hover { color: #06e; }
 a:focus { outline: thin dotted; }
-
-a:hover, a:active {
-	outline: 0;
-	text-align: center;
-}
-
 
 
 /* =============================================================================
