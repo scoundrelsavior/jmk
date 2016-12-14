@@ -43,7 +43,11 @@ img, object, embed, video {
 	clear: none;
 	float: none;
 }
-
+h3 {
+	color: #FFFFFF;
+	font-weight: normal;
+	font-size: 12pt;
+}
 #header {
 	clear: both;
 	float: left;
