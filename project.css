@@ -86,6 +86,7 @@
 	color: #FFFFFF;
 	font-weight: bold;
 	text-decoration: none;
+	padding-top: 20px;
 }.center {
 	clear: both;
 	display: block;
@@ -125,7 +126,7 @@
 	margin-bottom: 22px;
 }
 .audiomargin {
-	margin-bottom: 12px;
+
 }
 .home {
 	max-width: 60px;
@@ -140,9 +141,7 @@
 	padding-top: 30px;
 	color: rgba(255,255,255,1.00);
 }
-#header {
-	padding-top: 20px;
-	padding-bottom: 20px;
+
 }
 .center {
 	margin-left: auto;
@@ -161,7 +160,6 @@ display: block;
 }
 
 /* VideoJS - END */
-
-.maxwidth {
-	max-width: 765px
+.bold {
+	font-weight: bolder;
 }

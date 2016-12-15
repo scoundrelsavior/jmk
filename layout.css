@@ -46,7 +46,6 @@ img, object, embed, video {
 
 #header {
 	clear: both;
-	margin-left: 0;
 	width: 100%;
 	display: block;
 	padding-top: 20px;
@@ -141,7 +140,7 @@ display: none;
 	display: block;
 	text-align: center;
 	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-bottom: 12px;
 }
 #videos {
 	clear: both;
@@ -238,15 +237,11 @@ margin-left: 0;
 #header {
 	padding-top: 20px;
 	clear: both;
-	padding-bottom: 20px;
+	padding-bottom: 12px;
 	display: block;
 	text-align: center;
-	margin-right: auto;
-	margin-left: auto;
 	padding-left: auto;
 	padding-right: auto;
-	left: 0px;
-	right: 0px;
 }
 #videos {
 	clear: both;
