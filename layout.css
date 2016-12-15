@@ -331,5 +331,12 @@ display: none;
 	padding-left: 0px;
 	padding-bottom: 10px;
 }
+#linkwhoisjmk {
+	max-width: 462px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 20px;
+}
+
 
 }
