@@ -40,7 +40,7 @@ img, object, embed, video {
 	width: 87.36%;
 	padding-left: 1.82%;
 	padding-right: 1.82%;
-	clear: none;
+	clear: both;
 	float: none;
 }
 
@@ -68,8 +68,7 @@ img, object, embed, video {
 }
 
 #aboutlaw {
-	clear: none;
-	float: none;
+	clear: both;
 	margin-left: auto;
 	display: block;
 	color: #FFFFFF;
@@ -78,8 +77,8 @@ img, object, embed, video {
 	background-color: rgba(0,0,0,0.65);
 	padding-top: 1px;
 	padding-bottom: 1px;
-	padding-right: 10px;
-	padding-left: 10px;
+	padding-right: 17px;
+	padding-left: 17px;
 	border-radius: 25px;
 	margin-bottom: 40px;
 	margin-right: auto;
@@ -91,8 +90,8 @@ img, object, embed, video {
 	margin-right: 10px;
 	margin-bottom: 10px;
 	margin-left: 0px;
-	border-radius: 25px;
 	margin-top: 1px;
+	max-width: 150px;
 }
 
 #whoisjmk {
@@ -122,6 +121,12 @@ margin-left: 0;
 
 .hide_mobile {
 display: none;
+}
+#jmkwhois {
+	padding-top: 17px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
 }
 
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
@@ -162,8 +167,8 @@ display: none;
 	background-color: rgba(0,0,0,0.65);
 	padding-top: 1px;
 	padding-bottom: 1px;
-	padding-right: 10px;
-	padding-left: 10px;
+	padding-right: 17px;
+	padding-left: 17px;
 	border-radius: 25px;
 	margin-bottom: 40px;
 	margin-right: auto;
@@ -173,10 +178,10 @@ display: none;
 #jmk {
 	float: left;
 	margin-right: 10px;
-	margin-bottom: 10px;
 	margin-left: 0px;
-	border-radius: 25px;
 	margin-top: 0px;
+	max-width: 250px;
+	margin-bottom: 0px;
 }
 
 #whoisjmk {
@@ -207,8 +212,15 @@ display: none;
 .zeroMargin_tablet {
 margin-left: 0;
 }
+#jmkwhois {
+	padding-right: 10px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-bottom: 10px;
+	float: left;
+	max-width: 394px;
 }
-
+}
 /* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
 
 @media only screen and (min-width: 769px) {
@@ -221,6 +233,7 @@ margin-left: 0;
 	margin-right: auto;
 	margin-left: auto;
 	margin-bottom: auto;
+	clear:both;
 }
 
 #header {
@@ -247,8 +260,7 @@ margin-left: 0;
 }
 
 #aboutlaw {
-	clear: none;
-	float: none;
+	clear: both;
 	display: block;
 	color: #FFFFFF;
 	font-weight: normal;
@@ -256,8 +268,8 @@ margin-left: 0;
 	background-color: rgba(0,0,0,0.65);
 	padding-top: 1px;
 	padding-bottom: 1px;
-	padding-right: 10px;
-	padding-left: 10px;
+	padding-right: 17px;
+	padding-left: 17px;
 	border-radius: 25px;
 	margin-bottom: 40px;
 	max-width: 900px;
@@ -269,10 +281,10 @@ margin-left: 0;
 #jmk {
 	float: left;
 	margin-right: 10px;
-	margin-bottom: 10px;
+	margin-bottom: 0px;
 	margin-left: 0px;
-	border-radius: 25px;
 	margin-top: 0px;
+	max-width: 250px;
 }
 
 
@@ -311,4 +323,13 @@ display: none;
 	border-radius: 24px;
 	min-width: 230px;
 }
+#jmkwhois {
+	max-width: 600px;
+	float: left;
+	padding-right: 10px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-bottom: 10px;
+}
+
 }
