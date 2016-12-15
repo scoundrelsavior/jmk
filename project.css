@@ -86,7 +86,6 @@
 	color: #FFFFFF;
 	font-weight: bold;
 	text-decoration: none;
-	padding-top: 20px;
 }.center {
 	clear: both;
 	display: block;
@@ -126,6 +125,7 @@
 	margin-bottom: 22px;
 }
 .audiomargin {
+	margin-bottom: 12px;
 
 }
 .home {
