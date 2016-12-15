@@ -13,7 +13,8 @@ body {background-image: url(images/painting.jpg); background-color: #333; backgr
 <link href="layout.css" rel="stylesheet" type="text/css">
 <link href="boilerplate.css" rel="stylesheet" type="text/css">
 <!--SLIDER-->
-<style>.mySlides {display: none; margin-top: 20px; margin-bottom: 20px;}</style>
+
+<style>.mySlides {display:none;margin-top:20px;margin-bottom:20px;}</style>
 <script>
 function setHalfVolume() {
     var myAudio = document.getElementById("audio1");  
@@ -43,10 +44,8 @@ function setHalfVolume() {
 <a name="top"></a>
 <div class="center" style="max-width:850px">
      <img class="mySlides center" src="images/salvame1site.jpg" style="width:765px"/>
-     <img class="mySlides" src="images/bellum1.jpg" style="width:100%" />
-     <img class="mySlides" src="images/salvame2.jpg" style="width:100%" />
-     <img class="mySlides" src="images/bellum2.jpg" style="width:100%" />
-     <img class="mySlides" src="images/salvame3.jpg" style="width:100%" />
+     <img class="mySlides center" src="images/bellum1.jpg" style="width:100%" />
+     <img class="mySlides center" src="images/salvame2.jpg" style="width:100%" />
 </div>
 <script>
 var myIndex = 0;
@@ -56,22 +55,24 @@ function carousel() {
     var i;
     var x = document.getElementsByClassName("mySlides");
     for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
+       x[i].style.display = "none"; 
     }
     myIndex++;
     if (myIndex > x.length) {myIndex = 1}    
     x[myIndex-1].style.display = "block";  
     setTimeout(carousel, 5000); // Change image every 2 seconds
 }
+
 </script>
-<audio autoplay controls class="center audiomargin" id= "audio1" onloadeddata="setHalfVolume()">
-    <source src="images\Libera - Lacrymosa.mp3"  type="audio/mp3">
-    <source src="images\Libera - Lacrymosa.ogg"  type="audio/ogg">
-</audio>
 <div class="gridContainer clearfix">
-<div id="aboutlaw"><div align="justify">
-<img src="images/jmk.jpg" alt="" id="jmk"/><p align="center"><p align="center"><b>Statement from John Mark Karr September 16th 2016</b></p>
-  <p>The American public deserves to know that I gave six hours of quality interview time to Discovery in Bangkok on JonBenet's birthday. I revealed new information about JonBenet's death. You will never hear that. I dismantled the DNA. You will never hear that. I talked about how my DNA was taken in 2006 which was a total joke. You will never hear that. I responded to the ridiculous way Mary Lacy mishandled my arrest in 2006. My right to defend myself and tell my side of the story was dumped. Most importantly, I talked about a law that would save children's lives. This was also axed. I feel the American people have the right to know that they were robbed of all this and more by Discovery's decision to merely roll old 2006 footage and call me a lunatic liar. Six hours were reduced to a few sentences spread across three nights. Investigation Discovery used my image and name to promote their show for three nights making promises that, on the third night, there would be an exclusive interview with me. That never happened. Instead, Americans got the dog and pony show. I am receiving hundreds of visits from Americans looking for an answer. You didn't get those answers in the ID exploitation and public humiliation of John Mark Karr. <a href="http://johnmarkkarr.com/whoisjmk.html" target="_blank">Click for more info.</a></p>
+<div id="aboutlaw" ><div align="justify">
+<img src="images/jmk.jpg" alt="" id="jmk"/><p align="center"><b>Statement Concerning the Latest DNA Probe</b></p>
+<p>Boulder Police is asking the state to conduct a new round of DNA testing. It's pretty obvious why they should make such a request now. Last month, DNA experts uncovered that the DNA that let me walk in 2006 was a composite of several DNA samples in one. It was also uncovered that Lacy was fully aware that the tiny sample was a composite before she used it to "exonerate" the Ramsey's. The "little DNA that could" is slowly capitulating. A call to the state for a nice replacement has become a necessity for those who insist that this is a DNA case while experts for years have said it is not.
+</p>
+<p>Lacy publicly humiliated me in front of the whole world with her accusation that I was a delusional liar because my DNA didn't match that random, drive-by DNA that established nothing and could never be used to pinpoint any one person, much less a killer. I must admit, I'm sad to see that little DNA sample go. It's been good to me over the years. </p>
+<p>I've been asked if I'm worried about this latest DNA development. Of course, I've always had great concerns that my DNA was left behind; however, with the small time local authorities who are in charge of this case along with the corruption that has been proven over the years, I'm not as worried as I would be if it were a valid agency with proper resources, not influenced by wealth or fame or political gain. The day this case falls into the hands of the FBI will be the day I'll have something to worry about. December 15th 2016</p>
+<p align="center"><b>Statement Concerning the Discovery ID Ramsey Television Special</b></p>
+<p>The American public deserves to know that I gave six hours of quality interview time to Discovery in Bangkok on JonBenet's birthday. I revealed new information about JonBenet's death. You will never hear that. I dismantled the DNA. You will never hear that. I talked about how my DNA was taken in 2006 which was a total joke. You will never hear that. I responded to the ridiculous way Mary Lacy mishandled my arrest in 2006. My right to defend myself and tell my side of the story was dumped. Most importantly, I talked about a law that would save children's lives. This was also axed. I feel the American people have the right to know that they were robbed of all this and more by Discovery's decision to merely roll old 2006 footage and call me a lunatic liar. Six hours were reduced to a few sentences spread across three nights. Investigation Discovery used my image and name to promote their show for three nights making promises that, on the third night, there would be an exclusive interview with me. That never happened. Instead, Americans got the dog and pony show. I am receiving hundreds of visits from Americans looking for an answer. You didn't get those answers in the ID exploitation and public humiliation of John Mark Karr. September 16th 2016</p>
 	<p align="center"><b>Mandatory Orchiectomy Law for Convicted Child Rapists</b></p>
 <p>While children cry out Salvame! - convicted rapists are given short sentences and placed on a list. Nisi una solutio! There is only one solution - mandatory orchiectomy for convicted child rapists. I'm <a href="http://johnmarkkarr.com/whoisjmk.html">John Mark Karr</a> and I propose a law that would make mandatory orchiectomy (castration) plus 5 years confinement without the possibility of parole, a law applicable to all males convicted of sex crimes against children. The law in action is as follows: </p>
       <img src="images/law.jpg" alt="" id="law"/>
