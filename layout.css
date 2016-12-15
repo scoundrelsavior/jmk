@@ -37,11 +37,13 @@ img, object, embed, video {
 .gridContainer {
 	margin-left: auto;
 	margin-right: auto;
-	width: 87.36%;
-	padding-left: 1.82%;
-	padding-right: 1.82%;
+	width: 95%;
+	padding-left: 0%;
+	padding-right: 0%;
 	clear: both;
 	float: none;
+	padding-top: 0px;
+	margin-top: -12px;
 }
 
 #header {
@@ -49,7 +51,7 @@ img, object, embed, video {
 	width: 100%;
 	display: block;
 	padding-top: 20px;
-	padding-bottom: 12px;
+	padding-bottom: 0px;
 }
 #videos {
 	clear: both;
@@ -67,7 +69,6 @@ img, object, embed, video {
 
 #aboutlaw {
 	clear: both;
-	margin-left: auto;
 	display: block;
 	color: #FFFFFF;
 	font-weight: normal;
@@ -75,12 +76,13 @@ img, object, embed, video {
 	background-color: rgba(0,0,0,0.65);
 	padding-top: 1px;
 	padding-bottom: 1px;
-	padding-right: 17px;
-	padding-left: 17px;
-	border-radius: 25px;
-	margin-bottom: 40px;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-bottom: 11px;
 	margin-right: auto;
 	margin-top: 12px;
+	margin-left: auto;
+	border-radius: 12px;
 }
 
 #jmk {
@@ -104,6 +106,7 @@ img, object, embed, video {
 	font-weight: normal;
 	font-size: 14pt;
 	margin-bottom: 10px;
+	padding-left: 0px;
 }
 
 #mooneysolution {
@@ -276,7 +279,7 @@ margin-left: 0;
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 1px;
-	margin-top: 20px;
+	margin-top: 12px;
 }
 #jmk {
 	float: left;
