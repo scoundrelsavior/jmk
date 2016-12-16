@@ -115,6 +115,13 @@ img, object, embed, video {
 	padding-bottom: 10px;
 	width: 100%;
 }
+#cho {
+	float: left;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	border-radius: 24px;
+	min-width: 230px;
+}
 
 .zeroMargin_mobile {
 margin-left: 0;
@@ -205,6 +212,13 @@ display: none;
 	padding-bottom: 10px;
 	width: 100%;
 }
+#cho {
+	float: left;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	border-radius: 24px;
+	min-width: 230px;
+}
 
 .hide_tablet {
 display: none;
@@ -265,15 +279,10 @@ margin-left: 0;
 #aboutlaw {
 	clear: both;
 	display: block;
-	color: #FFFFFF;
-	font-weight: normal;
-	font-size: 13pt;
-	background-color: rgba(0,0,0,0.65);
 	padding-top: 1px;
 	padding-bottom: 1px;
 	padding-right: 17px;
 	padding-left: 17px;
-	border-radius: 25px;
 	margin-bottom: 14px;
 	max-width: 900px;
 	margin-left: auto;
@@ -346,4 +355,12 @@ display: none;
 	margin-left: auto;
 	padding-top: 17px;
 }
+.dnaprobe {
+	margin-top: 30px;
+	background-color: rgba(0,0,0,1.00);
+
+
+
+}
+
 }
