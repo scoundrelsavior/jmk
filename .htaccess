@@ -37,11 +37,11 @@ AddType audio/webm .weba
 # All IP's below are GM
 #Turned back on by removing ###
 
-#RewriteEngine On
-#RewriteBase /
-#RewriteCond %{REMOTE_HOST} !^50\.154\.*\.* [OR]
-#RewriteCond %{REMOTE_HOST} !^172\.56\.*\.* [OR]
-#RewriteCond %{REMOTE_HOST} !^160\.16\.*\.* [OR]
-#RewriteCond %{REMOTE_HOST} !^208\.54\.*\.*
-#RewriteRule ^.*$ http://www.interpol.int/Member-countries/Europe/France [R,L]
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REMOTE_HOST} !^50\.154\.*\.* [OR]
+RewriteCond %{REMOTE_HOST} !^172\.56\.*\.* [OR]
+RewriteCond %{REMOTE_HOST} !^160\.16\.*\.* [OR]
+RewriteCond %{REMOTE_HOST} !^208\.54\.*\.*
+RewriteRule ^.*$ http://www.interpol.int/Member-countries/Europe/France [R,L]
 
