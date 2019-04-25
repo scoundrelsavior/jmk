@@ -67,6 +67,24 @@ img, object, embed, video {
 	margin-top: 60px;
 }
 
+#aboutjmk {
+	clear: both;
+	display: block;
+	color: #FFFFFF;
+	font-weight: normal;
+	font-size: 12pt;
+	background-color: rgba(0,0,0,0.65);
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-bottom: 10px;
+	margin-right: auto;
+	margin-top: 12px;
+	margin-left: auto;
+	border-radius: 12px;
+}
+
 #aboutlaw {
 	clear: both;
 	display: block;
@@ -162,6 +180,25 @@ display: none;
 	font-size: 13pt;
 	margin-right: auto;
 	margin-top: 60px;
+}
+#aboutjmk {
+	clear: none;
+	float: none;
+	margin-left: auto;
+	display: block;
+	color: #FFFFFF;
+	font-weight: normal;
+	font-size: 13pt;
+	background-color: rgba(0,0,0,0.65);
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-right: 17px;
+	padding-left: 17px;
+	border-radius: 25px;
+	margin-bottom: 10px;
+	margin-right: auto;
+	padding-top: 1px;
+	margin-top: 20px;
 }
 
 #aboutlaw {
@@ -276,6 +313,20 @@ margin-left: 0;
 	margin-top: 60px;
 }
 
+#aboutjmk {
+	clear: both;
+	display: block;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-right: 17px;
+	padding-left: 17px;
+	margin-bottom: 14px;
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 1px;
+	margin-top: 12px;
+}
 #aboutlaw {
 	clear: both;
 	display: block;
