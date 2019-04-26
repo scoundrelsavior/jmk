@@ -154,6 +154,13 @@ img, object, embed, video {
   border-radius: 25px;
 }
 
+#cherish {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+}
+
 .zeroMargin_mobile {
 margin-left: 0;
 }
@@ -284,6 +291,13 @@ display: none;
 	padding-bottom: 10px;
 	border-radius: 25px;
 	float: right;
+}
+	
+#cherish {
+	border-radius: 25px;
+	float: left;
+	padding-right: 10px;
+	padding-bottom: 10px;
 }
 
 .hide_tablet {
@@ -429,6 +443,14 @@ display: none;
 	border-radius: 25px;
 	float: right;
 }
+
+	#cherish {
+	border-radius: 25px;
+	float: left;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
 #jmkwhois {
 	max-width: 600px;
 	float: left;
