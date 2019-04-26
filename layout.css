@@ -133,6 +133,14 @@ img, object, embed, video {
 	padding-bottom: 10px;
 	width: 100%;
 }
+
+#georgiamoses {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+}
+
 #cho {
   display: block;
   margin-left: auto;
@@ -254,6 +262,14 @@ display: none;
 	padding-left: 10px;
 	padding-bottom: 10px;
 	width: 100%;
+}
+	
+#georgiamoses {
+	float: left;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	border-radius: 25px;
+	padding-right: 10px;
 }
 #cho {
 	float: left;
@@ -391,6 +407,13 @@ margin-left: 0;
 
 .hide_desktop {
 display: none;
+}
+	#georgiamoses {
+	float: left;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	border-radius: 25px;
+	padding-right: 10px;
 }
 #cho {
 	float: left;
