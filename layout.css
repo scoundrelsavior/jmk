@@ -332,13 +332,16 @@ margin-left: 0;
 }
 
 #header {
-	padding-top: 20px;
+	padding-top: 0px;
 	clear: both;
 	padding-bottom: 12px;
 	display: block;
 	text-align: center;
 	padding-left: auto;
 	padding-right: auto;
+}
+.maxwidth {
+	max-width: 80%;
 }
 #videos {
 	clear: both;
