@@ -3,7 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="video-js.css" rel="stylesheet">
+<title>Ramsey Case Distortion</title>
+ 
 <meta property="og:title" content="Ramsey Case Distortion"/>
 <meta property="og:type" content="website"/>
 <meta property="og:url" content="http://johnmarkkarr.com/heisenberg.html"/>
@@ -11,29 +12,50 @@
 <meta property="og:image" content="http://johnmarkkarr.com/images/ramseycasescrutinyFB.jpg"/>
 <meta property="fb:admins" content="100007312367731"/>
 <meta property="fb:app_id" content="1096140700409714"/>
- <style>
-body {background-image: url(images/spiderweb.jpg); background-color: #333; background-attachment: fixed; background-size:cover; background-repeat: no-repeat; background-position: center; background-position: top;}
-</style> 
+
 <link href="project.css" rel="stylesheet" type="text/css">
 <link href="layout.css" rel="stylesheet" type="text/css">
 <link href="boilerplate.css" rel="stylesheet" type="text/css">
-<title>Ramsey Case Distortion</title>
+<link rel="shortcut icon" href="favicon.ico">
+ 
 <meta name="google-site-verification" content="cWTYtpty2wSycDv9S3Ofkvpzzn8xuYWBJwm5fSklCXo"/>
 <meta name="Author" content="John Mark Karr">
 <meta name="Keywords" content="John Mark Karr,John Mark Karr 2015,John Mark Karr 2016,JonBenet Ramsey,official website,law,convicted,pedophile,child molester,orchiectomy,child rapist,prison sentence,testosterone,rape,murder,castration for pedophiles,castration law">
 <meta name="Description" content="Arrested for the murder of JonBenet Ramsey in 2006, John Mark Karr returns for some tough talk about his 2006 arrest, his proposal for a castration law for convicted pedophiles, and more.">
-<link rel="shortcut icon" href="favicon.ico">
+
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <script src="respond.min.js"></script>
+ 
+ <!--max-width under body, html is for the image. Display, margin-left and margin-right centers the image-->
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  max-width: 852px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:rgba(0,0,0,1.00)
+  
+}
+ 
+</style>
+ 
 </head>
 <body>
-<div id="videos">
-  <video class="fluid video-js vjs-fluid vjs-big-play-centered video vjs-16-9 vjs-ended videomargin" controls preload="none" poster="images/ramseycasescrutiny.jpg" width="auto" height="auto" data-setup="{}">
+
+  <video width="100%" height="100%" poster="images/ramseycasescrutiny.jpg" controls>
     <source src="https://www.dropbox.com/s/t9qw61vfnw1bjys/ramseycasescrutiny.mp4?dl=1" type="video/mp4"></source>
     Your browser does not support the video tag. </video>
-</div>
-<div class="center home"><a href="http://johnmarkkarr.com"><img src="images/home.png" alt="HOME"/></a></div>
-<script src="video.js"></script>
+
+ <!--Makes video return to poster after video plays-->
+<script>
+var video = document.querySelector('video');       
+video.addEventListener('ended', function() {
+  video.load();     
+});
+</script>
+
 <!-- Start of StatCounter Code for Default Guide -->
 <script type="text/javascript">
 var sc_project=11175930; 
