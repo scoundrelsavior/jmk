@@ -34,31 +34,21 @@
 
 <script src="respond.min.js"></script>
 
-<!--max-width under body, html is for the image. Display, margin-left and margin-right centers the image-->
+<!--Centers img in this case. The leading "video" in the CSS applies to any element with that name.-->
+<!--No need for max-widths or widths period. Everything is displayed in original size.-->
 <style>
-body, html {
-  height: 100%;
-  margin: 0;
-  max-width: 1200px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  background-color:rgba(0,0,0,1.00)
-  
+
+img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto; 
 }
 
-.bg {
-  /* The image used */
-  background-image: url(images/salvame4fb.jpg);
-
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-
+body {
+	background-color:#000000
 }
 
 </style>
@@ -66,7 +56,10 @@ body, html {
 </head>
 
 <body>
-<div class="bg"></div>
+
+<a href="https://www.johnmarkkarr.com/">
+<img src="images/salvame4fb.jpg" alt=""/>
+</a>
 
 <!-- Default Statcounter code for johnmarkkarr.com
 https://johnmarkkarr.com/ -->
