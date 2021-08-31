@@ -4,6 +4,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Bellum!</title>
+<!doctype html>
+<html class="">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bellum!</title>
 
 <!--Site Facebook Preview-->
 <!--If your title is too long, the description won't show up on phones-->
@@ -47,15 +53,50 @@ body {
 	background-color:#000000
 }
 
+    .fullscreen:-webkit-full-screen {
+    width: auto !important;
+    height: auto !important;
+    margin:auto !important;
+}
+   .fullscreen:-moz-full-screen {
+    width: auto !important;
+    height: auto !important;
+    margin:auto !important;
+}
+    .fullscreen:-ms-fullscreen {
+    width: auto !important;
+    height: auto !important;
+    margin:auto !important;
+}     
 </style>
 
 </head>
 
 <body>
 
-<a href="https://www.johnmarkkarr.com/">
-<img src="images/bellum3fb.jpg" alt=""/>
-</a>
+<img id="theImage" class="fullscreen" src="images/bellum3fb.jpg" alt="" onClick="makeFullScreen()"/>
+
+<script>
+     function makeFullScreen() {
+     var divObj = document.getElementById("theImage");
+      //Use the specification method before using prefixed versions
+      if (divObj.requestFullscreen) {
+        divObj.requestFullscreen();
+      }
+      else if (divObj.msRequestFullscreen) {
+        divObj.msRequestFullscreen();               
+      }
+      else if (divObj.mozRequestFullScreen) {
+        divObj.mozRequestFullScreen();      
+      }
+      else if (divObj.webkitRequestFullscreen) {
+        divObj.webkitRequestFullscreen();       
+      } else {
+        console.log("Fullscreen API is not supported");
+      } 
+
+    }
+</script>
 
 <!-- Default Statcounter code for johnmarkkarr.com
 https://johnmarkkarr.com/ -->
