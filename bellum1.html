@@ -69,7 +69,8 @@ body {
 
 <body>
 
-<img id="theImage" class="fullscreen" src="images/bellum1fb.jpg" alt="" onClick="makeFullScreen()"/>
+<img id="theImage" class="fullscreen" src="images/bellum1fb.jpg" alt="" onClick="makeFullScreen(); exitFullscreen()"/>
+</div>
 
 <script>
      function makeFullScreen() {
@@ -89,8 +90,15 @@ body {
       } else {
         console.log("Fullscreen API is not supported");
       } 
-
-    }
+}
+      document.getElementById('toggle-fullscreen').addEventListener('click', (event) => {
+      if (document.fullscreenElement) {
+      // exitFullscreen is only available on the Document object.
+      document.exitFullscreen();
+      } else {
+      document.getElementById('fullscreen-div').requestFullscreen();
+      }
+});
 </script>
 	
 <!-- Default Statcounter code for johnmarkkarr.com
