@@ -177,7 +177,10 @@ display: none;
 .mobile_message {
 	width: 100%;
 	position: absolute;
+	left: 0;
+	right: 0;
 	bottom: 0;
+	margin: auto;
 	text-align: center;
 	color: #FFFFFF;
 }
@@ -326,7 +329,10 @@ margin-left: 0;
 .mobile_message {
 	width: 100%;
 	position: absolute;
+	left: 0;
+	right: 0;
 	bottom: 0;
+	margin: auto;
 	text-align: center;
 	color: #FFFFFF;
 }
@@ -495,10 +501,6 @@ display: none;
 	background-color: rgba(0,0,0,1.00);
 }	
 .mobile_message {
-	width: 100%;
-	position: absolute;
-	bottom: 0;
-	text-align: center;
 	display: none;
 }
 }
