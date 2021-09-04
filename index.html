@@ -85,8 +85,6 @@ function setHalfVolume() {
 <script src="respond.min.js"></script>
 </head>
 <body>
-<div class="gridContainer clearfix">
-<a name="top"></a>
 <div id="theImage" style="display:flex;align-items:center;justify-content:center;">
      <img class="fullscreen mySlides" src="images/salvame6.jpg" onClick="makeFullScreen(); exitFullscreen()"/>
      <img class="fullscreen mySlides" src="images/bellum5.jpg" onClick="makeFullScreen(); exitFullscreen()"/>
@@ -104,7 +102,9 @@ function setHalfVolume() {
 <script> 
 function carousel(){var a,b=document.getElementsByClassName("mySlides");for(a=0;a<b.length;a++)b[a].style.display="none";myIndex++,myIndex>b.length&&(myIndex=1),b[myIndex-1].style.display="block",setTimeout(carousel,5e3)}var myIndex=0;carousel(); 
 </script>
-<p style="text-align:center;margin:0;color:rgba(255,255,255,1.00)">tap slider for fullscreen</p>
+<p style="text-align:center;margin:0;color:rgba(255,255,255,1.00)">TAP SLIDER AND ROTATE FOR FULLSCREEN</p>
+<div class="gridContainer clearfix">
+<a name="top"></a>
 <img class="center maxwidth fullscreen" src="images/JonBenet Ramsey.png" alt="JonBenet Ramsey"/>
 <div id="aboutjmk" ><div align="justify">
 <img class="center" id="header" src="images/johnmarkkarr.jpg" alt="JMK"/>
