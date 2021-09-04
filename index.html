@@ -12,19 +12,17 @@ body {background-image: url(images/concrete.jpg); background-color: #333; backgr
 <link href="project.css" rel="stylesheet" type="text/css">
 <link href="layout.css" rel="stylesheet" type="text/css">
 <link href="boilerplate.css" rel="stylesheet" type="text/css">
-<!--SLIDER-->
+
+<!--SLIDER CSS-->
 <style>
 .mySlides {
-	display: none;
-	margin-top: 0px;
-	margin-bottom: 20px;
-	width: 100% !important;
-    height: 100% !important;
-	max-width: 1200px !important;
-    margin:auto !important;
-
+    
+    margin: auto; 
+    max-width: 100%;
+    max-height: 100%;
 }
 </style>
+
 <!--AUDIO-->	
 <script>
 function setHalfVolume() {
@@ -32,6 +30,68 @@ function setHalfVolume() {
     myAudio.volume = 0.3; //Changed this to 0.5 or 50% or .01 for lowest volume since the function is called Set Half Volume ;)
 }
 </script>
+<!--Fullscreen Toggle Jquery-->
+<script>
+     function makeFullScreen() {
+     var divObj = document.getElementById("theImage");
+      //Use the specification method before using prefixed versions
+      if (divObj.requestFullscreen) {
+        divObj.requestFullscreen();
+      }
+      else if (divObj.msRequestFullscreen) {
+        divObj.msRequestFullscreen();               
+      }
+      else if (divObj.mozRequestFullScreen) {
+        divObj.mozRequestFullScreen();      
+      }
+      else if (divObj.webkitRequestFullscreen) {
+        divObj.webkitRequestFullscreen();       
+      } else {
+        console.log("Fullscreen API is not supported");
+      } 
+}
+      document.getElementById('toggle-fullscreen').addEventListener('click', (event) => {
+      if (document.fullscreenElement) {
+      // exitFullscreen is only available on the Document object.
+      document.exitFullscreen();
+      } else {
+      document.getElementById('fullscreen-div').requestFullscreen();
+      }
+});
+</script>
+<!--Fullscreen Toggle CSS-->
+<script>
+    .fullscreen:-webkit-full-screen {
+    width: auto !important;
+    height: auto !important;
+    margin:auto !important;
+    top: 0; !important;
+    right: 0; !important;
+    bottom: 0; !important;
+    left: 0; !important;
+
+}
+   .fullscreen:-moz-full-screen {
+    width: auto !important;
+    height: auto !important;
+    margin:auto !important;
+    top: 0; !important;
+    right: 0; !important;
+    bottom: 0; !important;
+    left: 0; !important;
+}
+    .fullscreen:-ms-full-screen {
+    width: auto !important;
+    height: auto !important;
+    margin:auto !important;
+    top: 0; !important;
+    right: 0; !important;
+    bottom: 0; !important;
+    left: 0; !important;
+
+} 
+</script>
+
 <!-- VideoJS -->
  <link href="video-js.css" rel="stylesheet">
 <!--Twitter Preview-->
@@ -57,13 +117,30 @@ function setHalfVolume() {
 <script src="respond.min.js"></script>
 </head>
 <body>
-
+<img class="center maxwidth" src="images/JonBenet Ramsey.png" alt="JonBenet Ramsey"/>
+<br>
+<div id="theImage" style="align-content:center">
+     <img class="fullscreen mySlides theImage" src="images/salvame6.jpg" onClick="makeFullScreen(); exitFullscreen()"/>
+     <img class="fullscreen mySlides" src="images/bellum5.jpg" onClick="makeFullScreen(); exitFullscreen()"/>
+     <img class="fullscreen mySlides" src="images/salvame5.jpg" onClick="makeFullScreen(); exitFullscreen()"/>
+     <img class="fullscreen mySlides" src="images/bellum4.jpg" onClick="makeFullScreen(); exitFullscreen()"/>
+     <img class="fullscreen mySlides" src="images/salvame4.jpg" onClick="makeFullScreen(); exitFullscreen()"/>
+     <img class="fullscreen mySlides" src="images/bellum3.jpg" onClick="makeFullScreen(); exitFullscreen()"/>
+     <img class="fullscreen mySlides" src="images/salvame3.jpg" onClick="makeFullScreen(); exitFullscreen()"/>
+     <img class="fullscreen mySlides" src="images/bellum2.jpg" onClick="makeFullScreen(); exitFullscreen()"/>
+     <img class="fullscreen mySlides" src="images/salvame2.jpg" onClick="makeFullScreen(); exitFullscreen()"/>
+     <img class="fullscreen mySlides" src="images/bellum1.jpg" onClick="makeFullScreen(); exitFullscreen()"/>
+     <img class="fullscreen mySlides" src="images/salvame1.jpg" onClick="makeFullScreen(); exitFullscreen()"/>
+</div>
+<!--SLIDER JQuery-->
+<script> 
+function carousel(){var a,b=document.getElementsByClassName("mySlides");for(a=0;a<b.length;a++)b[a].style.display="none";myIndex++,myIndex>b.length&&(myIndex=1),b[myIndex-1].style.display="block",setTimeout(carousel,5e3)}var myIndex=0;carousel(); 
+</script>
+<p style="text-align:center;margin:0;color:rgba(255,255,255,1.00)">tap slider for fullscreen</p>
 <div class="gridContainer clearfix">
 <a name="top"></a>
-<img class="center maxwidth" src="images/JonBenet Ramsey.png" alt="JonBenet Ramsey"/>
 <div id="aboutjmk" ><div align="justify">
 <img class="center" id="header" src="images/johnmarkkarr.jpg" alt="JMK"/>
-
 <p align="center"><b>Statement Concerning My Exit From America in 2020</b></p>
 <p>In early summer 2020, I sold my house in America and left the United States. It was never any secret that my house was on the market for sale last year. At one point, it was listed on the MLS. I owned the house for only two years and ten months. In 2017, after living for only weeks in the house, I was exposed to the media by people I had allowed in my home as guests. I was portrayed by the media and treated by the public as a dangerous threat to society though I had never been convicted of a crime. After the 2017 media exposure, some asked me why I returned to America in the first place. I returned to the US in 2017 because I had every right to do so. I returned to the US in 2017 and bought a house there because I had every right to live in my own home, in my own country, as a citizen of the United States with full blown constitutional rights that is afforded to every natural born citizen who has never been convicted of a crime. I had those rights but, while there, that did not prevent some Americans from violating them wholesale - walking by my house shouting "Murderer!", "Killer!", "Serial Killer" and "Child Rapist" mostly occurring in broad daylight as I worked to restore my historical home which remains an asset to the community long after I am gone. I also had the right to sell my house and leave the United States in peace and in privacy without the media exploiting the event and without the accusation that I was running from something. I guarded the sale of my home when it occurred last year not because I was sneaking around like some lowly criminal but because of my concerns that the media would exploit the sale of the house as they had exploited the purchase of it which would have compromised not only my privacy but the privacy of the new owner of the home. After discovering recently that certain persons planned on profiting from and exploiting the release of this information, I reluctantly decided to post this statement on my website almost seven months after the fact. I was never then nor am I now in any way obligated to inform you: my haters, my enemies, and to whom it may concern - but here it is nonetheless. January 13th 2021</p>
 <p align="center"><b>Statement Concerning Kamala Harris 2020</b></p>
@@ -128,23 +205,6 @@ function setHalfVolume() {
     <p>Oh, by the way, I have never been convicted of a crime. I have never been a registered sex offender. </p>
   <p>Needless to say, I have lived outside North America since 2008. My life continues to be plagued by the threat of homelessness and outright danger. I am still sometimes recognized, no matter how remote my location, by 'angry admirers' who mostly shout at me. I would have written all this in a book that might have given me a few meals to eat and a place to live for a few nights but I've been banned by the publishing world from ever having anything published as many believe I must be silenced or, moreover, that I should not exist at all. As long as I have this dot com, I will say plenty.</p>
 
-    <div class="center">
-     <img class="mySlides" src="images/salvame6.jpg" style="width:100%"/>
-     <img class="mySlides" src="images/bellum5.jpg" style="width:100%" />
-     <img class="mySlides" src="images/salvame5.jpg" style="width:100%"/>
-     <img class="mySlides" src="images/bellum4.jpg" style="width:100%" />
-     <img class="mySlides" src="images/salvame4.jpg" style="width:100%" />
-     <img class="mySlides" src="images/bellum3.jpg" style="width:100%" />
-     <img class="mySlides" src="images/salvame3.jpg" style="width:100%" />
-     <img class="mySlides" src="images/bellum2.jpg" style="width:100%" />
-     <img class="mySlides" src="images/salvame2.jpg" style="width:100%" />
-     <img class="mySlides" src="images/bellum1.jpg" style="width:100%" />
-     <img class="mySlides" src="images/salvame1.jpg" style="width:100%" />
-</div>
-<script> 
-function carousel(){var a,b=document.getElementsByClassName("mySlides");for(a=0;a<b.length;a++)b[a].style.display="none";myIndex++,myIndex>b.length&&(myIndex=1),b[myIndex-1].style.display="block",setTimeout(carousel,5e3)}var myIndex=0;carousel(); 
-</script>
-
 <p align="center"><b>Mandatory Orchiectomy Law for Convicted Child Rapists</b></p>
 <p>While children cry out Salvame! - convicted rapists are given short sentences and placed on a list. Nisi una solutio! There is only one solution - mandatory orchiectomy for convicted child rapists. I'm <a href="http://johnmarkkarr.com/whoisjmk.html">John Mark Karr</a> and I propose a law that would make mandatory orchiectomy (castration) plus 5 years confinement without the possibility of parole, a law applicable to all males convicted of sex crimes against children. The law in action is as follows: </p>
     <img id="law" src="images/law.jpg" alt=""/>
@@ -196,7 +256,10 @@ function carousel(){var a,b=document.getElementsByClassName("mySlides");for(a=0;
 	<p align="center">Copyright 2016 All rights reserved</p>
     </div>
 <script src="video.js"></script>
+
+
 	</div>
+    </div>
 <!-- Default Statcounter code for johnmarkkarr.com
 https://johnmarkkarr.com/ -->
 <script type="text/javascript">
