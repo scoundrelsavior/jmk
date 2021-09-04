@@ -15,11 +15,9 @@ body {background-image: url(images/concrete.jpg); background-color: #333; backgr
 
 <!--SLIDER CSS-->
 <style>
+
 .mySlides {
     
-    margin: auto; 
-    max-width: 100%;
-    max-height: 100%;
 }
 </style>
 
@@ -59,27 +57,7 @@ function setHalfVolume() {
       }
 });
 </script>
-<!--Fullscreen Toggle CSS-->
-<script>
-    .fullscreen:-webkit-full-screen {
-    width: auto !important;
-    height: auto !important;
-    margin:auto !important;
 
-}
-   .fullscreen:-moz-full-screen {
-    width: auto !important;
-    height: auto !important;
-    margin:auto !important;
-	   
-}
-    .fullscreen:-ms-full-screen {
-    width: auto !important;
-    height: auto !important;
-    margin:auto !important;
-
-} 
-</script>
 
 <!-- VideoJS -->
  <link href="video-js.css" rel="stylesheet">
@@ -106,9 +84,7 @@ function setHalfVolume() {
 <script src="respond.min.js"></script>
 </head>
 <body>
-<img class="center maxwidth" src="images/JonBenet Ramsey.png" alt="JonBenet Ramsey"/>
-<br>
-<div id="theImage" style="align-content:center">
+<div id="theImage" style="display:flex;align-items:center;justify-content:center;height:100%;">
      <img class="fullscreen mySlides" src="images/salvame6.jpg" onClick="makeFullScreen(); exitFullscreen()"/>
      <img class="fullscreen mySlides" src="images/bellum5.jpg" onClick="makeFullScreen(); exitFullscreen()"/>
      <img class="fullscreen mySlides" src="images/salvame5.jpg" onClick="makeFullScreen(); exitFullscreen()"/>
@@ -125,9 +101,10 @@ function setHalfVolume() {
 <script> 
 function carousel(){var a,b=document.getElementsByClassName("mySlides");for(a=0;a<b.length;a++)b[a].style.display="none";myIndex++,myIndex>b.length&&(myIndex=1),b[myIndex-1].style.display="block",setTimeout(carousel,5e3)}var myIndex=0;carousel(); 
 </script>
-<p style="text-align:center;margin:0;color:rgba(255,255,255,1.00)">tap slider and rotate for fullscreen</p>
+<p style="text-align:center;margin:0;color:rgba(255,255,255,1.00)">tap slider for fullscreen</p>
 <div class="gridContainer clearfix">
 <a name="top"></a>
+<img class="center maxwidth fullscreen" src="images/JonBenet Ramsey.png" alt="JonBenet Ramsey"/>
 <div id="aboutjmk" ><div align="justify">
 <img class="center" id="header" src="images/johnmarkkarr.jpg" alt="JMK"/>
 <p align="center"><b>Statement Concerning My Exit From America in 2020</b></p>
