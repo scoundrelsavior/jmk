@@ -177,13 +177,20 @@ display: none;
 .mobile_message {
 	width: 100%;
 	position: absolute;
-	left: 0;
-	right: 0;
 	bottom: 0;
-	margin: auto;
 	text-align: center;
 	color: #FFFFFF;
 }
+.sliderfullscreen {
+	font-weight: bold;
+	font-size: 10pt;
+	margin:auto;
+	text-align: center;
+	color: rgba(255,255,255,1.00);
+
+}
+
+
 
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
 
@@ -228,7 +235,6 @@ display: none;
 	border-radius: 25px;
 	margin-bottom: 10px;
 	margin-right: auto;
-	padding-top: 1px;
 	margin-top: 20px;
 }
 
@@ -248,7 +254,6 @@ display: none;
 	border-radius: 25px;
 	margin-bottom: 10px;
 	margin-right: auto;
-	padding-top: 1px;
 	margin-top: 20px;
 }
 #jmk {
@@ -326,22 +331,28 @@ margin-left: 0;
 	float: left;
 	max-width: 394px;
 }
+
 .mobile_message {
 	width: 100%;
 	position: absolute;
-	left: 0;
-	right: 0;
 	bottom: 0;
-	margin: auto;
 	text-align: center;
 	color: #FFFFFF;
+}
+.sliderfullscreen {
+	font-weight: bold;
+	font-size: 11pt;
+    margin:auto;
+	text-align: center;
+	color: rgba(255,255,255,1.00);
+
 }
 }
 /* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
 
 @media only screen and (min-width: 769px) {
 .gridContainer {
-	width: 88.2%;
+	width: 100%;
 	padding-left: 0.9%;
 	padding-right: 0.9%;
 	margin-top: auto;
@@ -363,6 +374,8 @@ margin-left: 0;
 }
 .maxwidth {
 	max-width: 69%;
+	padding-top: 27px;
+	padding-bottom: 5px;
 }
 #videos {
 	clear: both;
@@ -376,7 +389,6 @@ margin-left: 0;
 	max-width: 900px;
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 1px;
 	margin-top: 60px;
 }
 
@@ -391,7 +403,6 @@ margin-left: 0;
 	max-width: 900px;
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 1px;
 	margin-top: 12px;
 }
 #aboutlaw {
@@ -402,10 +413,9 @@ margin-left: 0;
 	padding-right: 17px;
 	padding-left: 17px;
 	margin-bottom: 14px;
-	max-width: 900px;
+	max-width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 1px;
 	margin-top: 12px;
 }
 #jmk {
@@ -498,8 +508,22 @@ display: none;
 .dnaprobe {
 	margin-top: 30px;
 	background-color: rgba(0,0,0,1.00);
-}	
+
+}
 .mobile_message {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
 	display: none;
 }
+.sliderfullscreen {
+	font-weight: bold;
+	font-size: 12pt;
+    margin:auto;
+	text-align: center;
+	color: rgba(255,255,255,1.00);
+
+}
+
 }
