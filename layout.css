@@ -85,6 +85,14 @@ img, object, embed, video {
 	border-radius: 12px;
 }
 
+#jmkbrookecourt {
+    display:block;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:24px;
+
+}
+
 #law {
 	border-radius: 25px;
 	margin-left: auto;
@@ -115,29 +123,6 @@ img, object, embed, video {
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
-}
-#jmk {
-	float: left;
-	margin-right: 10px;
-	margin-bottom: 10px;
-	margin-left: 0px;
-	margin-top: 1px;
-	max-width: 150px;
-}
-
-#whoisjmk {
-	background-color: rgba(0,0,0,0.65);
-	text-align: justify;
-	padding-right: 20px;
-	padding-left: 20px;
-	padding-bottom: 1px;
-	padding-top: 1px;
-	border-radius: 25px;
-	color: #FFFFFF;
-	font-weight: normal;
-	font-size: 14pt;
-	margin-bottom: 10px;
-	padding-left: 0px;
 }
 
 #mooneysolution {
@@ -187,12 +172,6 @@ margin-left: 0;
 .hide_mobile {
 display: none;
 }
-#jmkwhois {
-	padding-top: 17px;
-	padding-bottom: 0px;
-	padding-right: 0px;
-	padding-left: 0px;
-}
 .mobile_message {
 	width: 100%;
 	position: absolute;
@@ -218,12 +197,17 @@ display: none;
 }
 
 .jonbenetschoolpic {
+	padding-top: 10px;
 	margin-right: auto;
 	display: block;
 	margin-left: auto;
 }
-
-
+.scoundrel {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 20px;
+}
 
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
 
@@ -271,6 +255,16 @@ display: none;
 	margin-top: 20px;
 }
 
+#jmkbrookecourt {
+	float: left;
+	padding-left: 0px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-top: 0px;
+	border-radius: 24px;
+
+}
+
 #law {
 	float: right;
 	padding-bottom: 10px;
@@ -305,30 +299,6 @@ display: none;
 	padding-left: 10px;
 	border-radius: 24px;
 
-}
-
-#jmk {
-	float: left;
-	margin-right: 10px;
-	margin-left: 0px;
-	margin-top: 0px;
-	max-width: 250px;
-	margin-bottom: 0px;
-	max-width: 150px;
-}
-
-#whoisjmk {
-	background-color: rgba(0,0,0,0.5);
-	text-align: justify;
-	padding-right: 20px;
-	padding-left: 20px;
-	padding-bottom: 1px;
-	padding-top: 1px;
-	border-radius: 25px;
-	color: #FFFFFF;
-	font-weight: normal;
-	font-size: 14pt;
-	margin-bottom: 10px;
 }
 
 #mooneysolution {
@@ -373,13 +343,6 @@ display: none;
 	padding-bottom: 10px;
 }
 
-.hide_tablet {
-display: none;
-}
-
-.zeroMargin_tablet {
-margin-left: 0;
-}
 #jmkwhois {
 	padding-right: 10px;
 	padding-top: 0px;
@@ -418,7 +381,19 @@ margin-left: 0;
 	display: block;
 	margin-left: auto;
 }
+.scoundrel {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
 }
+.hide_tablet {
+display: none;
+}
+
+.zeroMargin_tablet {
+margin-left: 0;
+}
+
 /* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
 
 @media only screen and (min-width: 769px) {
@@ -473,6 +448,15 @@ margin-left: 0;
 	margin-top: 12px;
 }
 
+#jmkbrookecourt {
+	float: left;
+	padding-left: 0px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-top: 0px;
+	border-radius: 24px;
+}
+
 #law {
 	float: right;
 	padding-bottom: 10px;
@@ -504,30 +488,6 @@ margin-left: 0;
 
 }
 
-#jmk {
-	float: left;
-	margin-right: 10px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	margin-top: 0px;
-	max-width: 250px;
-}
-
-
-#whoisjmk {
-	background-color: rgba(0,0,0,0.5);
-	text-align: justify;
-	padding-right: 17px;
-	padding-left: 17px;
-	padding-bottom: 1px;
-	padding-top: 1px;
-	border-radius: 25px;
-	color: #FFFFFF;
-	font-weight: normal;
-	font-size: 14pt;
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	margin-bottom: 10px;
-}
 #mooneysolution {
 	float: right;
 	padding-left: 10px;
@@ -632,6 +592,12 @@ display: none;
 	margin-right: auto;
 	display: block;
 	margin-left: auto;
+}
+.scoundrel {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 20px;
 }
 
 
