@@ -18,14 +18,6 @@
 	border-radius: 24px;
 	padding-right: 10px;
 }
-#jmksonomalawyers {
-	float: right;
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 10px;
-	padding-left: 10px;
-	border-radius: 24px;
-}
 
 #article {
 	background-color: rgba(0,0,0,0.5);
@@ -45,23 +37,6 @@
 	border-radius: 25px;
 }
 
-#donaldsmith {
-	float: right;
-	padding-left: 10px;
-	padding-bottom: 10px;
-}
-#law {
-	float: right;
-	padding-bottom: 10px;
-	border-radius: 25px;
-	padding-left: 10px;
-}
-#cherish {
-	border-radius: 25px;
-	float: left;
-	padding-right: 10px;
-	padding-bottom: 10px;
-}
 #plainview {
 	border-radius: 25px;
 	font-style: italic;
