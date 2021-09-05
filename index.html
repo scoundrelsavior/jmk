@@ -1,6 +1,5 @@
 <!doctype html>
-<html class="">
-<head>
+<html class=""><head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>John Mark Karr Official Website</title>	
@@ -16,14 +15,23 @@
 
 
 <style>
-body {  background-image: url(images/concrete.jpg);
-	background-color: #333;
-	background-attachment: fixed;
-	background-size:cover;
-	background-position: center;
-	background-position: top;
-	}
-	
+.image-hero-area {
+position: fixed;
+right: 0;
+bottom: 0;
+min-width: 100%;
+min-height: 100%;
+width: auto;
+height: auto;
+z-index: -100;
+margin: 0;
+background: url(images/concrete.jpg) center center no-repeat;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
 .mySlides {
      max-width:100%;
      max-height:100%
@@ -88,6 +96,8 @@ function setHalfVolume() {
 <meta name="Description" content="While children cry Salvame! - convicted child rapists are given short sentences and placed on a list. Nisi una solutio! There is only one solution - mandatory orchiectomy for convicted child rapists.">
 <script src="respond.min.js"></script>
 </head>
+<div class="image-hero-area">
+</div>
 <body>
 <a name="top"></a>
 <br>
