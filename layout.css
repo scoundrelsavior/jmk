@@ -208,6 +208,15 @@ display: none;
 	color: rgba(255,255,255,1.00);
 
 }
+.slidercomputer {
+	font-weight: bold;
+	font-size: 12pt;
+    margin:auto;
+	text-align: center;
+	color: rgba(255,255,255,1.00);
+	display: none;
+}
+
 .jonbenetschoolpic {
 	padding-top: 10px;
 	margin-right: auto;
@@ -396,6 +405,15 @@ margin-left: 0;
 	color: rgba(255,255,255,1.00);
 
 }
+.slidercomputer {
+	font-weight: bold;
+	font-size: 12pt;
+    margin:auto;
+	text-align: center;
+	color: rgba(255,255,255,1.00);
+	display: none;
+}
+
 .jonbenetschoolpic {
 	padding-top: 20px;
 	margin-right: auto;
@@ -599,8 +617,19 @@ display: none;
     margin:auto;
 	text-align: center;
 	color: rgba(255,255,255,1.00);
+	display:none;
 
 }
+
+.slidercomputer {
+	font-weight: bold;
+	font-size: 12pt;
+    margin:auto;
+	text-align: center;
+	color: rgba(255,255,255,1.00);
+	display:block;
+	}
+
 .jonbenetschoolpic {
 	padding-top: 20px;
 	margin-right: auto;
