@@ -3,19 +3,22 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>John Mark Karr Official Website</title>
-<!--Inline CSS-->
-<style>
-body {background-image: url(images/concrete.jpg); background-color: #333; background-attachment: fixed; background-size:cover; background-repeat: no-repeat; background-position: center; background-position: top;}
-</style>	
+<title>John Mark Karr Official Website</title>	
+
 <!--CSS Referrals-->
 <link href="project.css" rel="stylesheet" type="text/css">
 <link href="layout.css" rel="stylesheet" type="text/css">
 <link href="boilerplate.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="favicon.ico">
+
+<!--This Breaks the media queries bar at the top-->
+<link href="video-js.css" rel="stylesheet" type="text/css">
+
+
+<style>
+body {background-image: url(images/concrete.jpg); background-color: #333; background-attachment: fixed; background-size:cover; background-repeat: no-repeat; background-position: center; background-position: top;}
 
 <!--SLIDER CSS-->
-<style>
-
 .mySlides {
      max-width:100%;
      max-height:100%
@@ -59,9 +62,6 @@ function setHalfVolume() {
 });
 </script>
 
-
-<!-- VideoJS -->
- <link href="video-js.css" rel="stylesheet">
 <!--Twitter Preview-->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@johnmarkkarr.com">
@@ -81,10 +81,10 @@ function setHalfVolume() {
 <meta name="Author" content="John Mark Karr">
 <meta name="Keywords" content="John Mark Karr,John Mark Karr 2015,John Mark Karr 2016,JonBenet Ramsey,official website,law,convicted,pedophile,child molester,orchiectomy,child rapist,prison sentence,testosterone,rape,murder,orchiectomy for pedophiles,orchiectomy law">
 <meta name="Description" content="While children cry Salvame! - convicted child rapists are given short sentences and placed on a list. Nisi una solutio! There is only one solution - mandatory orchiectomy for convicted child rapists.">
-<link rel="shortcut icon" href="favicon.ico">
 <script src="respond.min.js"></script>
 </head>
 <body>
+<br>
 <div id="theImage" style="display:flex;align-items:center;justify-content:center;">
      <img class="fullscreen mySlides" src="images/salvame6.jpg" onClick="makeFullScreen(); exitFullscreen()"/>
      <img class="fullscreen mySlides" src="images/bellum5.jpg" onClick="makeFullScreen(); exitFullscreen()"/>
@@ -102,11 +102,11 @@ function setHalfVolume() {
 <script> 
 function carousel(){var a,b=document.getElementsByClassName("mySlides");for(a=0;a<b.length;a++)b[a].style.display="none";myIndex++,myIndex>b.length&&(myIndex=1),b[myIndex-1].style.display="block",setTimeout(carousel,5e3)}var myIndex=0;carousel(); 
 </script>
-<p style="text-align:center;margin:0;color:rgba(255,255,255,1.00)">TAP SLIDER AND ROTATE FOR FULLSCREEN</p>
-<div class="gridContainer clearfix">
+<p class="sliderfullscreen">TAP SLIDESHOW AND ROTATE FOR FULLSCREEN</p>
+<br>
 <a name="top"></a>
-<img class="center maxwidth fullscreen" src="images/JonBenet Ramsey.png" alt="JonBenet Ramsey"/>
 <div id="aboutjmk" ><div align="justify">
+<img class="center maxwidth" src="images/JonBenet Ramsey.png" alt="JonBenet Ramsey"/>
 <img class="center" id="header" src="images/johnmarkkarr.jpg" alt="JMK"/>
 <p align="center"><b>Statement Concerning My Exit From America in 2020</b></p>
 <p>In early summer 2020, I sold my house in America and left the United States. It was never any secret that my house was on the market for sale last year. At one point, it was listed on the MLS. I owned the house for only two years and ten months. In 2017, after living for only weeks in the house, I was exposed to the media by people I had allowed in my home as guests. I was portrayed by the media and treated by the public as a dangerous threat to society though I had never been convicted of a crime. After the 2017 media exposure, some asked me why I returned to America in the first place. I returned to the US in 2017 because I had every right to do so. I returned to the US in 2017 and bought a house there because I had every right to live in my own home, in my own country, as a citizen of the United States with full blown constitutional rights that is afforded to every natural born citizen who has never been convicted of a crime. I had those rights but, while there, that did not prevent some Americans from violating them wholesale - walking by my house shouting "Murderer!", "Killer!", "Serial Killer" and "Child Rapist" mostly occurring in broad daylight as I worked to restore my historical home which remains an asset to the community long after I am gone. I also had the right to sell my house and leave the United States in peace and in privacy without the media exploiting the event and without the accusation that I was running from something. I guarded the sale of my home when it occurred last year not because I was sneaking around like some lowly criminal but because of my concerns that the media would exploit the sale of the house as they had exploited the purchase of it which would have compromised not only my privacy but the privacy of the new owner of the home. After discovering recently that certain persons planned on profiting from and exploiting the release of this information, I reluctantly decided to post this statement on my website almost seven months after the fact. I was never then nor am I now in any way obligated to inform you: my haters, my enemies, and to whom it may concern - but here it is nonetheless. January 13th 2021</p>
@@ -218,12 +218,11 @@ function carousel(){var a,b=document.getElementsByClassName("mySlides");for(a=0;
 		</source></video>
       <p>Pedophilia can be killed; therefore, child rape can be eradicated. In the case of dangerous child molesters, sex kills and will continue to kill until the catalyst, testosterone, is removed from their physical equation.</p>
 <img src="images/scoundrelsavior.jpg" alt="" class="scoundrel center" />
- 
+ <link href="video-js.css" rel="stylesheet" type="text/css">
   <div class="returntop"><a href="#top" title="Return to Top" class="returntop">Return to Top</a></div>
 	<p align="center">Copyright 2021 All rights reserved</p>
     </div>
-<script src="video.js"></script>
-	</div>
+</div>
     </div>
 <!-- Default Statcounter code for johnmarkkarr.com
 https://johnmarkkarr.com/ -->
