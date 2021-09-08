@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html class="">
 <head>
 <meta charset="utf-8">
@@ -33,20 +33,19 @@
 <!--No need for max-widths or widths period. Everything is displayed in original size.-->
 <style>
 
-img {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto; 
-    max-width: 100%;
-    max-height: 100%;
+.mySlides {
+	
+     max-width:100%;
+     max-height:100%;
 }
 
-body {
-	background-color:#000000
-}
+body {  background-image: url(images/concrete.jpg);
+	background-color: #333;
+	background-attachment: fixed;
+	background-size:cover;
+	background-position: center;
+	background-position: top;
+	}
 
     .fullscreen:-webkit-full-screen {
     width: auto !important;
@@ -68,13 +67,20 @@ body {
 </head>
 
 <body>
-
-<div>
-<p class="mobile_message">Tap Pic for Fullscreen</p>
+<div class="content1">
+<div id="theImage" style="display:flex;align-items:center;justify-content:center;">
+<img class="fullscreen mySlides" src="images/weaverstaff.jpg" alt="" onClick="makeFullScreen(); exitFullscreen()"/>
 </div>
 
-<div>
-<img id="theImage" class="fullscreen" src="images/weaverstaff.jpg" alt="" onClick="makeFullScreen(); exitFullscreen()"/>
+<p class="slidercomputer">CLICK PIC FOR FULLSCREEN</p>
+<p class="sliderfullscreen">TAP PIC AND ROTATE FOR FULLSCREEN</p>
+</div>
+
+<div class="content">
+<div align="justify">
+<p align="center"><b>Weaver Hardware 1973</b></p>
+<p>This was the staff of Weaver Hardware in 1973. The hardware store was founded by Clarence Weaver. It was located in Hamilton, Alabama on Military Street across the street from the city courthouse. Not pictured was Tom their wonderful greeter. He was one of Clarence's sons along with his daughter, Jane. The tall man in the back right is Clarence's brother-in-law James Carter who was married to his sister Lena Mae. Bill Weaver is in the front row in the black coat. He would later own the store and likely was already the owner at the time of this photo in 1973. Also photographed is Clarence Weaver. I am still uncertain of the identity of the fourth person and would appreciate your help in identifying him. Weaver Hardware was joined by two other hardware stores in town with Mixon's Hardware being just next door to their store. Cantrell's Hardware was just a hop and a skip away. I remember these faces fondly from my childhood. This photo takes me back as I hope it does for you too.</p>
+</div>
 </div>
 
 <script>
@@ -105,21 +111,6 @@ body {
       }
 });
 </script>
-<!-- Default Statcounter code for johnmarkkarr.com
-https://johnmarkkarr.com/ -->
-<script type="text/javascript">
-var sc_project=9872937; 
-var sc_invisible=1; 
-var sc_security="bf4aa5b7"; 
-</script>
-<script type="text/javascript"
-src="https://www.statcounter.com/counter/counter.js"
-async></script>
-<noscript><div class="statcounter"><a title="web stats"
-href="https://statcounter.com/" target="_blank"><img
-class="statcounter"
-src="https://c.statcounter.com/9872937/0/bf4aa5b7/1/"
-alt="web stats"></a></div></noscript>
-<!-- End of Statcounter Code -->
+
 </body>
 </html>
