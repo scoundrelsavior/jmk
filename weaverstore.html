@@ -1,0 +1,110 @@
+﻿<!doctype html>
+<html class="">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Weaver Hardware</title>
+
+<!--Site Facebook Preview-->
+<!--If your title is too long, the description won't show up on phones-->
+<meta property="og:title" content="Weaver Hardware 1973" />
+<meta property="og:description" content="Founded by Clarence Weaver" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://johnmarkkarr.com/weaverstore.html" />
+<meta property="og:image" content="https://johnmarkkarr.com/images/weaverstorefb.jpg" />
+<meta property="fb:admins" content="100007312367731" />
+<meta property="fb:app_id" content="1096140700409714" />
+
+<meta name="twitter:card" content="">
+<meta name="twitter:site" content="">
+<meta name="twitter:creator" content="">
+<meta name="twitter:title" content="">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="http://johnmarkkarr.com/images/weaverstorefb.jpg">
+
+<link href="project.css" rel="stylesheet" type="text/css">
+<link href="layout.css" rel="stylesheet" type="text/css">
+<link href="boilerplate.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="favicon.ico">
+
+<script src="respond.min.js"></script>
+
+<!--Centers img in this case. The leading "img" in the CSS applies to any element with that name.-->
+<!--No need for max-widths or widths period. Everything is displayed in original size.-->
+<style>
+
+img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto; 
+    max-width: 100%;
+    max-height: 100%;
+}
+
+body {
+	background-color:#000000
+}
+
+    .fullscreen:-webkit-full-screen {
+    width: auto !important;
+    height: auto !important;
+    margin:auto !important;
+}
+   .fullscreen:-moz-full-screen {
+    width: auto !important;
+    height: auto !important;
+    margin:auto !important;
+}
+    .fullscreen:-ms-full-screen {
+    width: auto !important;
+    height: auto !important;
+    margin:auto !important;
+}     
+</style>
+
+</head>
+
+<body>
+
+<div>
+<p class="mobile_message">Tap Pic & Rotate for Fullscreen</p>
+</div>
+
+<div>
+<img id="theImage" class="fullscreen" src="images/weaverstorefb.jpg" alt="" onClick="makeFullScreen(); exitFullscreen()"/>
+</div>
+
+<script>
+     function makeFullScreen() {
+     var divObj = document.getElementById("theImage");
+      //Use the specification method before using prefixed versions
+      if (divObj.requestFullscreen) {
+        divObj.requestFullscreen();
+      }
+      else if (divObj.msRequestFullscreen) {
+        divObj.msRequestFullscreen();               
+      }
+      else if (divObj.mozRequestFullScreen) {
+        divObj.mozRequestFullScreen();      
+      }
+      else if (divObj.webkitRequestFullscreen) {
+        divObj.webkitRequestFullscreen();       
+      } else {
+        console.log("Fullscreen API is not supported");
+      } 
+}
+      document.getElementById('toggle-fullscreen').addEventListener('click', (event) => {
+      if (document.fullscreenElement) {
+      // exitFullscreen is only available on the Document object.
+      document.exitFullscreen();
+      } else {
+      document.getElementById('fullscreen-div').requestFullscreen();
+      }
+});
+</script>
+
+</body>
+</html>
