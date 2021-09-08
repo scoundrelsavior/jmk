@@ -67,7 +67,7 @@ img, object, embed, video {
 	margin-top: 60px;
 }
 
-#aboutjmk {
+.content {
 	clear: both;
 	display: block;
 	color: #FFFFFF;
@@ -240,7 +240,7 @@ display: none;
 	margin-right: auto;
 	margin-top: 60px;
 }
-#aboutjmk {
+.content {
 	clear: none;
 	float: none;
 	margin-left: auto;
@@ -444,7 +444,7 @@ margin-left: 0;
 	margin-top: 60px;
 }
 
-#aboutjmk {
+.content {
 	clear: both;
 	display: block;
 	padding-top: 1px;
