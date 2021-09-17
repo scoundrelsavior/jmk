@@ -195,12 +195,19 @@ display: none;
 	text-align: center;
 	color: #FFFFFF;
 }
-.sliderfullscreen {
+.slidermobile {
 	font-weight: bold;
 	font-size: 9pt;
-	margin:auto;
+	margin: auto;
 	text-align: center;
 	color: rgba(255,255,255,1.00);
+	position: absolute;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	font-style: italic;
+	padding-bottom: 6px;
+	padding-top: 6px;
 
 }
 .slidercomputer {
@@ -210,6 +217,11 @@ display: none;
 	text-align: center;
 	color: rgba(255,255,255,1.00);
 	display: none;
+	position: absolute; 
+	right: 0; 
+	bottom: 0; 
+	left: 0; 
+	font-style: italic;
 }
 
 .jonbenetschoolpic {
@@ -396,12 +408,18 @@ display: none;
 	text-align: center;
 	color: #FFFFFF;
 }
-.sliderfullscreen {
+.slidermobile {
 	font-weight: bold;
 	font-size: 9pt;
-    margin:auto;
+	margin: auto;
 	text-align: center;
 	color: rgba(255,255,255,1.00);
+	position: absolute;
+	right: 0;
+	left: 0;
+	font-style: italic;
+	padding-top: 6px;
+	padding-bottom: 6px;
 
 }
 .slidercomputer {
@@ -411,6 +429,12 @@ display: none;
 	text-align: center;
 	color: rgba(255,255,255,1.00);
 	display: none;
+	position: absolute; 
+	right: 0; 
+	bottom: 0; 
+	left: 0; 
+	font-style: italic;
+	
 }
 
 .jonbenetschoolpic {
@@ -625,23 +649,35 @@ display: none;
 	text-align: center;
 	display: none;
 }
-.sliderfullscreen {
+.slidermobile {
 	font-weight: bold;
 	font-size: 10pt;
     margin:auto;
 	text-align: center;
 	color: rgba(255,255,255,1.00);
 	display:none;
+	position: absolute; 
+	right: 0; 
+	bottom: 0; 
+	left: 0; 
+	font-style: italic;
 
 }
 
 .slidercomputer {
 	font-weight: bold;
 	font-size: 10pt;
-    margin:auto;
+	margin: auto;
 	text-align: center;
 	color: rgba(255,255,255,1.00);
-	display:block;
+	display: block;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	font-style: italic;
+	padding-top: 6px;
+	padding-bottom: 6px;
 	}
 
 .jonbenetschoolpic {
