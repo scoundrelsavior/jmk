@@ -210,6 +210,17 @@ display: none;
 	padding-top: 6px;
 
 }
+.slidermobilepage {
+	font-weight: bold;
+	font-size: 9pt;
+	margin: auto;
+	text-align: center;
+	color: rgba(255,255,255,1.00);
+	font-style: italic;
+	padding-bottom: 6px;
+	padding-top: 6px;
+
+}
 .slidercomputer {
 	font-weight: bold;
 	font-size: 10pt;
@@ -222,6 +233,18 @@ display: none;
 	bottom: 0; 
 	left: 0; 
 	font-style: italic;
+}
+
+.slidercomputerpage {
+	font-weight: bold;
+	font-size: 10pt;
+	margin: auto;
+	text-align: center;
+	color: rgba(255,255,255,1.00);
+	display: none;
+	font-style: italic;
+	padding-top: 6px;
+	padding-bottom: 6px;
 }
 
 .jonbenetschoolpic {
@@ -422,6 +445,17 @@ display: none;
 	padding-bottom: 6px;
 
 }
+.slidermobilepage {
+	font-weight: bold;
+	font-size: 9pt;
+	margin: auto;
+	text-align: center;
+	color: rgba(255,255,255,1.00);
+	font-style: italic;
+	padding-bottom: 6px;
+	padding-top: 6px;
+}
+
 .slidercomputer {
 	font-weight: bold;
 	font-size: 10pt;
@@ -435,6 +469,17 @@ display: none;
 	left: 0; 
 	font-style: italic;
 	
+}
+.slidercomputerpage {
+	font-weight: bold;
+	font-size: 10pt;
+	margin: auto;
+	text-align: center;
+	color: rgba(255,255,255,1.00);
+	display: none;
+	font-style: italic;
+	padding-top: 6px;
+	padding-bottom: 6px;
 }
 
 .jonbenetschoolpic {
@@ -664,6 +709,18 @@ display: none;
 
 }
 
+.slidermobilepage {
+	font-weight: bold;
+	font-size: 10pt;
+	margin: auto;
+	text-align: center;
+	color: rgba(255,255,255,1.00);
+	display:none;
+	font-style: italic;
+	padding-bottom: 6px;
+	padding-top: 6px;
+}
+
 .slidercomputer {
 	font-weight: bold;
 	font-size: 10pt;
@@ -675,6 +732,17 @@ display: none;
 	right: 0;
 	bottom: 0;
 	left: 0;
+	font-style: italic;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	}
+.slidercomputerpage {
+	font-weight: bold;
+	font-size: 10pt;
+	margin: auto;
+	text-align: center;
+	color: rgba(255,255,255,1.00);
+	display: block;
 	font-style: italic;
 	padding-top: 6px;
 	padding-bottom: 6px;
