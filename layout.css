@@ -154,6 +154,13 @@ img, object, embed, video {
   margin-right: auto;
   border-radius: 25px;
 }
+#pollyklaas {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+}
 
 #cho {
   display: block;
@@ -262,7 +269,6 @@ display: none;
 .facebook {
 	border-radius: 10px;
 }
-
 
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
 
@@ -386,6 +392,14 @@ display: none;
 	padding-left: 0px;
 	border-radius: 25px;
 	padding-right: 10px;
+}
+#pollyklaas {
+	float: left;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	border-radius: 25px;
+	padding-right: 10px;
+	max-width: 400px;
 }
 #cho {
 	float: left;
@@ -762,5 +776,10 @@ display: none;
 .facebook {
 	border-radius: 20px;
 }
-
+#pollyklaas {
+	float: left;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	max-width: 560px;
+}
 }
