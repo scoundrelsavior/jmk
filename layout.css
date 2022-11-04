@@ -270,6 +270,7 @@ display: none;
 	border-radius: 10px;
 }
 
+
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
 
 @media only screen and (min-width: 481px) {
@@ -297,6 +298,7 @@ display: none;
 	margin-right: auto;
 	margin-top: 60px;
 }
+
 .content {
 	clear: none;
 	float: none;
@@ -313,7 +315,7 @@ display: none;
 	border-radius: 25px;
 	margin-bottom: 10px;
 	margin-right: auto;
-	margin-top: 20px;
+	margin-top: 12px;
 }
 
 .content1 {
@@ -330,7 +332,7 @@ display: none;
 	margin-bottom: 10px;
 	margin-right: auto;
 	margin-left: auto;
-	margin-top: 20px;
+	margin-top: 12px;
 }
 
 #jmkbrookecourt {
@@ -518,6 +520,7 @@ display: none;
 .zeroMargin_tablet {
 margin-left: 0;
 }
+
 }
 
 /* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
@@ -531,7 +534,6 @@ margin-left: 0;
 	margin-right: auto;
 	margin-left: auto;
 	margin-bottom: auto;
-	clear: both;
 	padding-top: 5px;
 }
 
@@ -782,4 +784,5 @@ display: none;
 	padding-right: 10px;
 	border-radius: 24px;
 }
+
 }
