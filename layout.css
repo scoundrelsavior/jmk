@@ -498,11 +498,6 @@ display: none;
 	padding-bottom: 6px;
 }
 
-.jonbenetschoolpic {
-	margin-right: auto;
-	display: block;
-	margin-left: auto;
-}
 .scoundrel {
 	display: block;
 	margin-right: auto;
@@ -519,6 +514,9 @@ display: none;
 
 .zeroMargin_tablet {
 margin-left: 0;
+}
+.tweetwidth {
+	max-width: 65%;
 }
 
 }
@@ -763,11 +761,6 @@ display: none;
 	padding-bottom: 6px;
 	}
 
-.jonbenetschoolpic {
-	margin-right: auto;
-	display: block;
-	margin-left: auto;
-}
 .scoundrel {
 	display: block;
 	margin-right: auto;
@@ -784,5 +777,9 @@ display: none;
 	padding-right: 10px;
 	border-radius: 24px;
 }
+.tweetwidth {
+	max-width: 55%;
+}
+
 
 }
