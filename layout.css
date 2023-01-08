@@ -157,6 +157,7 @@ img, object, embed, video {
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 24px;
+	display: block;
 }
 
 #cho {
@@ -395,14 +396,12 @@ display: none;
 	display: block;
 }
 #pollyklaas {
-	padding-bottom: 10px;
-	padding-left: 0px;
 	border-radius: 24px;
-	padding-right: 10px;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
 	max-width: 615px;
+	width: 100%;
 }
 #cho {
 	float: left;
@@ -733,7 +732,7 @@ display: none;
 	margin: auto;
 	text-align: center;
 	color: rgba(255,255,255,1.00);
-	display:none;
+	display: none;
 	font-style: italic;
 	padding-bottom: 6px;
 	padding-top: 6px;
@@ -1308,8 +1307,9 @@ display: none;
 }
 
 .slideshowfixedheight {
-	height:100%;
-	
+
+  width: 100%;
+
 }
 
 }
