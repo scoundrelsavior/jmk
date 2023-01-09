@@ -789,7 +789,7 @@ display: none;
 	height:90vh;
 	
 }
-
+}
 
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
 
@@ -1308,7 +1308,7 @@ display: none;
 
 .slideshowfixedheight {
 
-  width: 100%;
+  height: 100vh;
 
 }
 
