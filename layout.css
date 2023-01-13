@@ -50,7 +50,7 @@ img, object, embed, video {
 	clear: both;
 	width: 100%;
 	display: block;
-	padding-top: 14px;
+	padding-top: 20px;
 	padding-bottom: 0px;
 }
 #videos {
@@ -148,14 +148,12 @@ img, object, embed, video {
 }
 
 #georgiamoses {
-	border-radius: 24px;
 	margin-left: auto;
 	margin-right: auto;
 }
 #pollyklaas {
 	margin-left: auto;
 	margin-right: auto;
-	border-radius: 24px;
 	display: block;
 }
 
@@ -389,13 +387,11 @@ display: none;
 }
 	
 #georgiamoses {
-	border-radius: 24px;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
 }
 #pollyklaas {
-	border-radius: 24px;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
@@ -781,7 +777,6 @@ display: none;
 	border-radius: 20px;
 }
 #pollyklaas {
-	border-radius: 24px;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
