@@ -154,7 +154,6 @@ img, object, embed, video {
 #pollyklaas {
 	margin-left: auto;
 	margin-right: auto;
-	display: block;
 }
 
 #cho {
@@ -395,8 +394,7 @@ display: none;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
-	max-width: 615px;
-	width: 100%;
+	max-width: 86%;
 }
 #cho {
 	float: left;
@@ -573,7 +571,7 @@ margin-left: 0;
 	padding-right: 17px;
 	padding-left: 17px;
 	margin-bottom: 14px;
-	max-width: 900px;
+	max-width: 615px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 12px;
@@ -780,7 +778,7 @@ display: none;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
-	max-width: 68%;
+	max-width: 615px;
 }
 .tweetwidth {
 	max-width: 55%;
@@ -799,273 +797,4 @@ display: none;
 .contact-left {
 	flex: 1;
 }
-
-}
-
-/* Desktop Layout: 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
-
-@media only screen and (min-width: 1232px) {
-.gridContainer {
-	width: 100%;
-	padding-left: 0.9%;
-	padding-right: 0.9%;
-	margin-top: auto;
-	margin-right: auto;
-	margin-left: auto;
-	margin-bottom: auto;
-	padding-top: 5px;
-}
-
-#header {
-	padding-top: 20px;
-	clear: both;
-	padding-bottom: 12px;
-	display: block;
-	text-align: center;
-	padding-left: auto;
-	padding-right: auto;
-}
-
-#videos {
-	clear: both;
-	float: none;
-	display: block;
-	color: #FFFFFF;
-	font-weight: normal;
-	font-size: 13pt;
-	padding-top: 1px;
-	padding-bottom: 1px;
-	max-width: 900px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 60px;
-}
-
-.content {
-	clear: both;
-	display: block;
-	padding-top: 1px;
-	padding-bottom: 1px;
-	padding-right: 17px;
-	padding-left: 17px;
-	margin-bottom: 14px;
-	max-width: 900px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 12px;
-}
-.content1 {
-	clear: both;
-	display: block;
-	padding-top: 1px;
-	padding-bottom: 1px;
-	padding-right: 17px;
-	padding-left: 17px;
-	margin-bottom: 14px;
-	max-width: 900px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 12px;
-}
-
-#jmkbrookecourt {
-	float: left;
-	padding-left: 0px;
-	padding-right: 10px;
-	padding-bottom: 10px;
-	padding-top: 0px;
-	border-radius: 24px;
-}
-
-#law {
-	float: right;
-	padding-bottom: 10px;
-	border-radius: 25px;
-	padding-left: 10px;
-}
-
-#aboutlaw {
-	clear: both;
-	display: block;
-	padding-top: 1px;
-	padding-bottom: 1px;
-	padding-right: 17px;
-	padding-left: 17px;
-	margin-bottom: 14px;
-	max-width: 1200px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 12px;
-}
-
-#jmksonomalawyers {
-	float: right;
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 10px;
-	padding-left: 10px;
-	border-radius: 24px;
-
-}
-
-#mooneysolution {
-	float: right;
-	padding-left: 10px;
-	padding-bottom: 10px;
-	width: 68.6%;
-}
-
-.zeroMargin_desktop {
-margin-left: 0;
-}
-
-.hide_desktop {
-display: none;
-}
-	#georgiamoses {
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-
-}
-#cho {
-	float: left;
-	padding-right: 10px;
-	padding-bottom: 10px;
-	border-radius: 24px;
-	min-width: 230px;
-}
-#alexis2009 {
-	padding-top: 0px;
-	padding-left: 10px;
-	padding-bottom: 10px;
-	border-radius: 25px;
-	float: right;
-}
-
-#cherish {
-	border-radius: 25px;
-	float: left;
-	padding-right: 10px;
-	padding-bottom: 10px;
-}
-
-#donaldsmith {
-	float: right;
-	padding-left: 10px;
-	padding-bottom: 10px;
-}
-
-#jmkwhois {
-	max-width: 600px;
-	float: left;
-	padding-right: 10px;
-	padding-top: 0px;
-	padding-left: 0px;
-	padding-bottom: 10px;
-}
-#linkwhoisjmk {
-	max-width: 462px;
-	margin-right: auto;
-	margin-left: auto;
-	margin-bottom: 20px;
-}
-
-#whothehell {
-	margin-right: auto;
-	margin-left: auto;
-	padding-top: 17px;
-}
-.dnaprobe {
-	margin-top: 30px;
-	background-color: rgba(0,0,0,1.00);
-
-}
-.mobile_message {
-	width: 100%;
-	position: absolute;
-	bottom: 0;
-	text-align: center;
-	display: none;
-}
-.slidermobile {
-	font-weight: bold;
-	font-size: 10pt;
-    margin:auto;
-	text-align: center;
-	color: rgba(255,255,255,1.00);
-	display:none;
-	position: absolute; 
-	right: 0; 
-	bottom: 0; 
-	left: 0; 
-	font-style: italic;
-
-}
-
-.slidermobilepage {
-	font-weight: bold;
-	font-size: 10pt;
-	margin: auto;
-	text-align: center;
-	color: rgba(255,255,255,1.00);
-	display:none;
-	font-style: italic;
-	padding-bottom: 6px;
-	padding-top: 6px;
-}
-
-.slidercomputer {
-	font-weight: bold;
-	font-size: 10pt;
-	margin: auto;
-	text-align: center;
-	color: rgba(255,255,255,1.00);
-	display: block;
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	font-style: italic;
-	padding-top: 6px;
-	padding-bottom: 6px;
-	}
-.slidercomputerpage {
-	font-weight: bold;
-	font-size: 10pt;
-	margin: auto;
-	text-align: center;
-	color: rgba(255,255,255,1.00);
-	display: block;
-	font-style: italic;
-	padding-top: 6px;
-	padding-bottom: 6px;
-	}
-
-.scoundrel {
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
-	margin-bottom: 20px;
-}
-.facebook {
-	border-radius: 20px;
-}
-#pollyklaas {
-	border-radius: 24px;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-	max-width: 615px;
-}
-.tweetwidth {
-	max-width: 55%;
-}
-
-.slideshowfixedheight {
-
-  height: 100vh;
-
-}
-
 }
