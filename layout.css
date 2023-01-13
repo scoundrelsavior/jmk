@@ -78,7 +78,7 @@ img, object, embed, video {
 	padding-bottom: 1px;
 	padding-right: 10px;
 	padding-left: 10px;
-	margin-bottom: 10px;
+	margin-bottom: 1px;
 	margin-right: auto;
 	margin-top: 0px;
 	margin-left: auto;
@@ -802,6 +802,10 @@ display: none;
 	padding-right: 10px;
 	float: left;
 }
+.contact-left {
+	flex: 1;
+}
+
 }
 
 /* Desktop Layout: 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
