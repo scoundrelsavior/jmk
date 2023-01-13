@@ -84,22 +84,6 @@ img, object, embed, video {
 	margin-left: auto;
 }
 
-.content1 {
-	clear: both;
-	display: block;
-	color: #FFFFFF;
-	font-weight: normal;
-	font-size: 12pt;
-	padding-top: 1px;
-	padding-bottom: 1px;
-	padding-right: 10px;
-	padding-left: 10px;
-	margin-bottom: 10px;
-	margin-right: auto;
-	margin-top: 12px;
-	margin-left: auto;
-}
-
 #jmkbrookecourt {
     display:block;
 	margin-left:auto;
@@ -312,23 +296,6 @@ display: none;
 	border-radius: 25px;
 	margin-bottom: 10px;
 	margin-right: auto;
-	margin-top: 12px;
-}
-
-.content1 {
-	clear: none;
-	float: none;
-	display: block;
-	color: #FFFFFF;
-	font-weight: normal;
-	font-size: 13pt;
-	padding-top: 1px;
-	padding-bottom: 1px;
-	padding-right: 17px;
-	padding-left: 17px;
-	margin-bottom: 10px;
-	margin-right: auto;
-	margin-left: auto;
 	margin-top: 12px;
 }
 
@@ -572,19 +539,6 @@ margin-left: 0;
 	padding-left: 17px;
 	margin-bottom: 14px;
 	max-width: 950px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 12px;
-}
-.content1 {
-	clear: both;
-	display: block;
-	padding-top: 1px;
-	padding-bottom: 1px;
-	padding-right: 17px;
-	padding-left: 17px;
-	margin-bottom: 14px;
-	max-width: 900px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 12px;
