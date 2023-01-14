@@ -303,7 +303,6 @@ display: none;
 	float: left;
 	padding-left: 0px;
 	padding-right: 10px;
-	padding-bottom: 10px;
 	padding-top: 0px;
 	border-radius: 24px;
 
@@ -311,7 +310,6 @@ display: none;
 
 #law {
 	float: right;
-	padding-bottom: 10px;
 	border-radius: 25px;
 	padding-left: 10px;
 }
@@ -339,7 +337,6 @@ display: none;
 	float: right;
 	padding-top: 0px;
 	padding-right: 0px;
-	padding-bottom: 10px;
 	padding-left: 10px;
 	border-radius: 24px;
 
@@ -366,14 +363,12 @@ display: none;
 #cho {
 	float: left;
 	padding-right: 10px;
-	padding-bottom: 10px;
 	border-radius: 24px;
 	min-width: 230px;
 }
 #alexis2009 {
 	padding-top: 0px;
 	padding-left: 10px;
-	padding-bottom: 10px;
 	border-radius: 25px;
 	float: right;
 }
@@ -382,14 +377,12 @@ display: none;
 	border-radius: 25px;
 	float: left;
 	padding-right: 10px;
-	padding-bottom: 10px;
 	max-width: 60%;
 }
 
 #donaldsmith {
 	float: right;
 	padding-left: 10px;
-	padding-bottom: 10px;
 }
 
 #jmkwhois {
@@ -485,7 +478,6 @@ margin-left: 0;
 }
 .jonbenetportrait {
 	max-width: 60%;
-	padding-top: 10px;
 	padding-right: 10px;
 	float: left;
 }
@@ -553,14 +545,12 @@ margin-left: 0;
 	float: left;
 	padding-left: 0px;
 	padding-right: 10px;
-	padding-bottom: 10px;
 	padding-top: 0px;
 	border-radius: 24px;
 }
 
 #law {
 	float: right;
-	padding-bottom: 10px;
 	border-radius: 25px;
 	padding-left: 10px;
 }
@@ -583,7 +573,6 @@ margin-left: 0;
 	float: right;
 	padding-top: 0px;
 	padding-right: 0px;
-	padding-bottom: 10px;
 	padding-left: 10px;
 	border-radius: 24px;
 
@@ -612,14 +601,12 @@ display: none;
 #cho {
 	float: left;
 	padding-right: 10px;
-	padding-bottom: 10px;
 	border-radius: 24px;
 	min-width: 230px;
 }
 #alexis2009 {
 	padding-top: 0px;
 	padding-left: 10px;
-	padding-bottom: 10px;
 	border-radius: 25px;
 	float: right;
 }
@@ -628,14 +615,12 @@ display: none;
 	border-radius: 25px;
 	float: left;
 	padding-right: 10px;
-	padding-bottom: 10px;
 	max-width: 57%;
 }
 
 #donaldsmith {
 	float: right;
 	padding-left: 10px;
-	padding-bottom: 10px;
 }
 
 #jmkwhois {
@@ -728,7 +713,6 @@ display: none;
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
-	margin-bottom: 20px;
 }
 .facebook {
 	border-radius: 20px;
@@ -749,7 +733,6 @@ display: none;
 }
 .jonbenetportrait {
 	max-width: 60%;
-	padding-top: 10px;
 	padding-right: 10px;
 	float: left;
 }
