@@ -30,18 +30,18 @@ a {
 a:visited {
 	color: rgba(255,255,255,1.00);
 	font-size: medium;
-	font-weight: bolder;
+	font-weight: normal;
 }
 a:hover {
 	color: #999;
 	font-size: medium;
-	font-weight: bolder;
+	font-weight: bold;
 }
 a:focus {
 	outline: thin dotted;
 	color: rgba(255,255,255,1.00);
 	font-size: medium;
-	font-weight: bolder;
+	font-weight: normal;
 }
 
 a:hover, a:active {
@@ -49,7 +49,7 @@ a:hover, a:active {
 	text-align: center;
 	color: rgba(255,255,255,1.00);
 	font-size: medium;
-	font-weight: bold;
+	font-weight: normal;
 }
 
 
