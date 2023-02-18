@@ -180,21 +180,7 @@ display: none;
 	text-align: center;
 	color: #FFFFFF;
 }
-.slidermobile {
-	font-weight: bold;
-	font-size: 9pt;
-	margin: auto;
-	text-align: center;
-	color: rgba(255,255,255,1.00);
-	position: absolute;
-	right: 0;
-	left: 0;
-	bottom: 0;
-	font-style: italic;
-	padding-bottom: 6px;
-	padding-top: 6px;
 
-}
 .slidermobilepage {
 	font-weight: bold;
 	font-size: 9pt;
@@ -204,20 +190,8 @@ display: none;
 	font-style: italic;
 	padding-bottom: 6px;
 	padding-top: 6px;
+	text-shadow: 1px 1px 2px #000000;
 
-}
-.slidercomputer {
-	font-weight: bold;
-	font-size: 10pt;
-    margin:auto;
-	text-align: center;
-	color: rgba(255,255,255,1.00);
-	display: none;
-	position: absolute; 
-	right: 0; 
-	bottom: 0; 
-	left: 0; 
-	font-style: italic;
 }
 
 .slidercomputerpage {
@@ -230,6 +204,7 @@ display: none;
 	font-style: italic;
 	padding-top: 6px;
 	padding-bottom: 6px;
+	text-shadow: 1px 1px 2px #000000;
 }
 
 .jonbenetschoolpic {
@@ -250,7 +225,11 @@ display: none;
 .slideshowfixedheight {
 	height: 35vh;
 }
-
+.mySlides {
+	max-width:100%;
+	max-height:100%;
+	padding-top:0px;
+}
 
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
 
@@ -401,20 +380,7 @@ display: none;
 	text-align: center;
 	color: #FFFFFF;
 }
-.slidermobile {
-	font-weight: bold;
-	font-size: 9pt;
-	margin: auto;
-	text-align: center;
-	color: rgba(255,255,255,1.00);
-	position: absolute;
-	right: 0;
-	left: 0;
-	font-style: italic;
-	padding-top: 6px;
-	padding-bottom: 6px;
 
-}
 .slidermobilepage {
 	font-weight: bold;
 	font-size: 9pt;
@@ -424,22 +390,9 @@ display: none;
 	font-style: italic;
 	padding-bottom: 6px;
 	padding-top: 6px;
+	text-shadow: 1px 1px 2px #000000;
 }
 
-.slidercomputer {
-	font-weight: bold;
-	font-size: 10pt;
-    margin:auto;
-	text-align: center;
-	color: rgba(255,255,255,1.00);
-	display: none;
-	position: absolute; 
-	right: 0; 
-	bottom: 0; 
-	left: 0; 
-	font-style: italic;
-	
-}
 .slidercomputerpage {
 	font-weight: bold;
 	font-size: 10pt;
@@ -450,6 +403,7 @@ display: none;
 	font-style: italic;
 	padding-top: 6px;
 	padding-bottom: 6px;
+	text-shadow: 1px 1px 2px #000000;
 }
 
 .scoundrel {
@@ -485,6 +439,11 @@ margin-left: 0;
 	float: left;
 	padding-right: 10px;
 
+}
+.mySlides {
+	max-width:100%;
+	max-height:100%;
+	padding-top:0px;
 }
 }
 
@@ -655,20 +614,6 @@ display: none;
 	text-align: center;
 	display: none;
 }
-.slidermobile {
-	font-weight: bold;
-	font-size: 10pt;
-    margin:auto;
-	text-align: center;
-	color: rgba(255,255,255,1.00);
-	display:none;
-	position: absolute; 
-	right: 0; 
-	bottom: 0; 
-	left: 0; 
-	font-style: italic;
-
-}
 
 .slidermobilepage {
 	font-weight: bold;
@@ -680,34 +625,22 @@ display: none;
 	font-style: italic;
 	padding-bottom: 6px;
 	padding-top: 6px;
+	text-shadow: 1px 1px 2px #000000;
+	
 }
 
-.slidercomputer {
-	font-weight: bold;
-	font-size: 10pt;
-	margin: auto;
-	text-align: center;
-	color: rgba(255,255,255,1.00);
-	display: block;
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	font-style: italic;
-	padding-top: 6px;
-	padding-bottom: 6px;
-	}
 .slidercomputerpage {
+	display: block;
+	align-items: center;
 	font-weight: bold;
 	font-size: 10pt;
-	margin: auto;
 	text-align: center;
 	color: rgba(255,255,255,1.00);
-	display: block;
 	font-style: italic;
 	padding-top: 6px;
 	padding-bottom: 6px;
-	}
+	text-shadow: 1px 1px 2px #000000;
+}
 
 .scoundrel {
 	display: block;
@@ -728,7 +661,7 @@ display: none;
 }
 
 .slideshowfixedheight {
-	height:90vh;
+	height: 90vh;
 	
 }
 .jonbenetportrait {
@@ -742,7 +675,11 @@ display: none;
 .leisussurra {
 	float: left;
 	padding-right: 10px;
-
 }
-
+	
+.mySlides {
+	max-width:100%;
+	max-height:100%;
+	padding-top:20px;
+}
 }
