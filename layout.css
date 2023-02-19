@@ -59,6 +59,7 @@ img, object, embed, video {
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-bottom: 20px;
+	padding-top: 10px;
 }
 
 #header {
@@ -253,6 +254,7 @@ display: none;
 	padding-left: 17px;
 	padding-right: 17px;
 	padding-bottom: 20px;
+	padding-top: 15px;
 }
 	
 #header {
@@ -458,13 +460,14 @@ margin-left: 0;
 .content {
 	clear: both;
 	display: block;
-	max-width: 950px;
+	max-width: 850px;
 	border-radius: 0px;
 	margin-left: auto;
 	margin-right: auto;
 	padding-left: 17px;
 	padding-right: 17px;
 	padding-bottom: 20px;
+	padding-top: 15px;
 }
 	
 #header {
@@ -669,8 +672,7 @@ display: none;
 }
 	
 .mySlides {
-	max-width:100%;
-	max-height:100%;
-	padding-top:20px;
+	max-width: 100%;
+	max-height: 100%;
 }
 }
