@@ -245,8 +245,7 @@ display: none;
 #header {
 	display: block;
 	text-align: center;
-	padding-top: 20px;
-	padding-bottom: 12px;
+	padding-top: 0px;
 }
 #videos {
 	clear: both;
@@ -463,9 +462,8 @@ margin-left: 0;
 }
 
 #header {
-	padding-top: 20px;
+	padding-top: 15px;
 	clear: both;
-	padding-bottom: 12px;
 	display: block;
 	text-align: center;
 	padding-left: auto;
