@@ -34,7 +34,7 @@ img, object, embed, video {
 
 /* Mobile Layout: 480px and below. */
 
-.gridContainer {
+/*.gridContainer {
 	margin-left: auto;
 	margin-right: auto;
 	width: 95%;
@@ -44,6 +44,21 @@ img, object, embed, video {
 	float: none;
 	padding-top: 20px;
 	margin-top: -12px;
+}
+*/
+.content {
+	clear: both;
+	display: block;
+	color: #FFFFFF;
+	font-weight: normal;
+	font-size: 12pt;
+	background-color: rgba(0,0,0,0.65);
+	border-radius: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 20px;
 }
 
 #header {
@@ -65,20 +80,6 @@ img, object, embed, video {
 	padding-bottom: 1px;
 	margin-right: auto;
 	margin-top: 60px;
-}
-
-.content {
-	clear: both;
-	display: block;
-	color: #FFFFFF;
-	font-weight: normal;
-	font-size: 12pt;
-	background-color: rgba(0,0,0,0.65);
-	border-radius: 0px;
-	margin-left: auto;
-	margin-right: auto;
-	padding-left: 10px;
-	padding-right: 10px;
 }
 
 #jmkbrookecourt {
@@ -188,7 +189,6 @@ display: none;
 	padding-bottom: 6px;
 	padding-top: 6px;
 	text-shadow: 1px 1px 2px #000000;
-
 }
 
 .slidercomputerpage {
@@ -231,13 +231,30 @@ display: none;
 /* Tablet Layout: 481px to 811px. Inherits styles from: Mobile Layout. */
 
 @media only screen and (min-width: 481px) {
-.gridContainer {
+/*.gridContainer {
 	width: 90.675%;
 	padding-left: 1.1625%;
 	padding-right: 1.1625%;
 	padding-top: 20px;
 }
+*/
 
+.content {
+	clear: none;
+	float: none;
+	display: block;
+	color: #FFFFFF;
+	font-weight: normal;
+	font-size: 13pt;
+	background-color: rgba(0,0,0,0.65);
+	border-radius: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 17px;
+	padding-right: 17px;
+	padding-bottom: 20px;
+}
+	
 #header {
 	display: block;
 	text-align: center;
@@ -253,21 +270,6 @@ display: none;
 	font-size: 13pt;
 	margin-right: auto;
 	margin-top: 60px;
-}
-
-.content {
-	clear: none;
-	float: none;
-	display: block;
-	color: #FFFFFF;
-	font-weight: normal;
-	font-size: 13pt;
-	background-color: rgba(0,0,0,0.65);
-	border-radius: 0px;
-	margin-left: auto;
-	margin-right: auto;
-	padding-left: 17px;
-	padding-right: 17px;
 }
 
 #jmkbrookecourt {
@@ -310,7 +312,6 @@ display: none;
 	padding-right: 0px;
 	padding-left: 10px;
 	border-radius: 24px;
-
 }
 
 #mooneysolution {
@@ -442,7 +443,7 @@ margin-left: 0;
 /* Desktop Layout: 811px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
 
 @media only screen and (min-width: 811px) {
-.gridContainer {
+/*.gridContainer {
 	width: 100%;
 	padding-left: 0.9%;
 	padding-right: 0.9%;
@@ -452,7 +453,20 @@ margin-left: 0;
 	margin-bottom: auto;
 	padding-top: 5px;
 }
+*/
 
+.content {
+	clear: both;
+	display: block;
+	max-width: 950px;
+	border-radius: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 17px;
+	padding-right: 17px;
+	padding-bottom: 20px;
+}
+	
 #header {
 	padding-top: 15px;
 	clear: both;
@@ -475,17 +489,6 @@ margin-left: 0;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 60px;
-}
-
-.content {
-	clear: both;
-	display: block;
-	max-width: 950px;
-	border-radius: 0px;
-	margin-left: auto;
-	margin-right: auto;
-	padding-left: 17px;
-	padding-right: 17px;
 }
 
 #jmkbrookecourt {
