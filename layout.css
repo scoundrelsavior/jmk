@@ -234,6 +234,9 @@ display: none;
         margin-left:auto;
         margin-right:auto;
 }
+#juliawendelmadeleine {
+	padding-top: 10px;
+}
 
 /* Tablet Layout: 481px to 811px. Inherits styles from: Mobile Layout. */
 
@@ -456,6 +459,11 @@ margin-left: 0;
         margin-left:auto;
         margin-right:auto;
 }
+
+#juliawendelmadeleine {
+	padding-top: 10px;
+}
+
 }
 
 /* Desktop Layout: 811px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
@@ -696,10 +704,14 @@ display: none;
  	width:100%;
  	max-width:414px;
    	float:left;
-        padding-right:10px;
-        padding-bottom:10px;
-        margin-left:auto;
-        margin-right:auto;
+    padding-right:10px;
+    padding-bottom:10px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#juliawendelmadeleine {
+	padding-top: 10px;
 }
 
 }
