@@ -1,15 +1,6 @@
 .gridContainer.clearfix #header div {
 	padding: 20px 0px 20px 0px;
 }
-#whoisjmkarticle {
-	float: left;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-top: 0px;
-	padding-right: 10px;
-	padding-bottom: 10px;
-	padding-top: 17px;
-}
 
 #article {
 	background-color: rgba(0,0,0,0.5);
@@ -53,24 +44,6 @@
 	clear: both;
 }
 
-.statement {
-	font-style: italic;
-	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
-	color: #FFFFFF;
-	font-weight: lighter;
-	text-shadow: 0px 0px;
-	padding-top: 5px;
-	padding-left: 17px;
-	padding-right: 17px;
-	padding-bottom: 5px;
-	clear: both;
-	max-width: 900px;
-	margin-bottom: 23px;
-	text-align: justify;
-	background-color: rgba(0,0,0,0.65);
-	border-radius: 20px;
-	font-size: medium;
-}
 .videomargin {
 	margin-bottom: 22px;
 }
@@ -110,4 +83,9 @@ display: block;
 }
 .headliner {
 	padding-top: 20px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
 }
