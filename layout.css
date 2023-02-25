@@ -60,6 +60,7 @@ img, object, embed, video {
 	padding-right: 10px;
 	padding-bottom: 20px;
 	padding-top: 10px;
+	margin-top: 0px;
 }
 
 #header {
@@ -230,12 +231,13 @@ display: none;
 }
 
 .juliawendel {
- 	width:100%;
-        margin-left:auto;
-        margin-right:auto;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
 }
 #juliawendelmadeleine {
 	padding-top: 10px;
+	margin-top: -10px;
 }
 
 /* Tablet Layout: 481px to 811px. Inherits styles from: Mobile Layout. */
@@ -462,6 +464,7 @@ margin-left: 0;
 
 #juliawendelmadeleine {
 	padding-top: 10px;
+	margin-top: -10px;
 }
 
 }
@@ -671,7 +674,6 @@ display: none;
 #pollyklaas {
 	margin-left: auto;
 	margin-right: auto;
-	display: block;
 	max-width: 615px;
 }
 .tweetwidth {
@@ -712,6 +714,7 @@ display: none;
 
 #juliawendelmadeleine {
 	padding-top: 10px;
+	margin-top: -10px;
 }
 
 }
