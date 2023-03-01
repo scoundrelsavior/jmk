@@ -49,13 +49,13 @@ img, object, embed, video {
 /* VideoJS - show poster, show play button, hide bottom controls */
 
 .video-js.vjs-ended .vjs-poster {
-display: block;
+	display: block;
 }
 .video-js.vjs-ended .vjs-control-bar {
   display: none;
 }
 .video-js.vjs-ended .vjs-big-play-button {
-  display: block;
+  	display: block;
 }
 
 /* VideoJS - END */
@@ -104,22 +104,9 @@ display: block;
 	padding-bottom: 0px;
 	padding-top: 10px;
 }
-#videos {
-	clear: both;
-	float: none;
-	margin-left: auto;
-	display: block;
-	color: #FFFFFF;
-	font-weight: normal;
-	font-size: 12pt;
-	padding-top: 1px;
-	padding-bottom: 1px;
-	margin-right: auto;
-	margin-top: 60px;
-}
 
 #jmkbrookecourt {
-    display:block;
+    	display:block;
 	margin-left:auto;
 	margin-right:auto;
 	border-radius:24px;
@@ -131,24 +118,6 @@ display: block;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
-}
-
-#aboutlaw {
-	clear: both;
-	display: block;
-	color: #FFFFFF;
-	font-weight: normal;
-	font-size: 12pt;
-	background-color: rgba(0,0,0,0.65);
-	padding-top: 1px;
-	padding-bottom: 1px;
-	padding-right: 10px;
-	padding-left: 10px;
-	margin-bottom: 10px;
-	margin-right: auto;
-	margin-top: 12px;
-	margin-left: auto;
-	border-radius: 12px;
 }
 
 #jmksonomalawyers {
@@ -175,44 +144,30 @@ display: block;
 }
 
 #cho {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 24px;
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	border-radius: 24px;
 }
+
 #alexis2009 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 25px;
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	border-radius: 25px;
 }
 
 #cherish {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 25px;
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	border-radius: 25px;
 }
 
 #donaldsmith {
 	margin-right: auto;
 	margin-left: auto;
 	display: block;
-}
-
-.zeroMargin_mobile {
-margin-left: 0;
-}
-
-.hide_mobile {
-display: none;
-}
-.mobile_message {
-	width: 100%;
-	position: absolute;
-	bottom: 0;
-	text-align: center;
-	color: #FFFFFF;
 }
 
 .slidermobilepage {
@@ -252,12 +207,7 @@ display: none;
 	margin-left: auto;
 	margin-bottom: 20px;
 }
-.facebook {
-	border-radius: 10px;
-}
-.slideshowfixedheight {
-	height: 35vh;
-}
+
 .mySlides {
 	max-width:100%;
 	max-height:100%;
@@ -268,6 +218,13 @@ display: none;
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
+}
+.zeroMargin_mobile {
+	margin-left: 0;
+}
+
+.hide_mobile {
+	display: none;
 }
 
 /* Tablet Layout: 481px to 811px. Inherits styles from: Mobile Layout. */
@@ -296,17 +253,6 @@ display: none;
 	text-align: center;
 	padding-top: 15px;
 }
-#videos {
-	clear: both;
-	float: none;
-	margin-left: auto;
-	display: block;
-	color: #FFFFFF;
-	font-weight: normal;
-	font-size: 13pt;
-	margin-right: auto;
-	margin-top: 60px;
-}
 
 #jmkbrookecourt {
 	float: left;
@@ -314,32 +260,12 @@ display: none;
 	padding-right: 10px;
 	padding-top: 0px;
 	border-radius: 24px;
-
 }
 
 #law {
 	float: right;
 	border-radius: 25px;
 	padding-left: 10px;
-}
-
-#aboutlaw {
-	clear: none;
-	float: none;
-	margin-left: auto;
-	display: block;
-	color: #FFFFFF;
-	font-weight: normal;
-	font-size: 13pt;
-	background-color: rgba(0,0,0,0.65);
-	padding-top: 1px;
-	padding-bottom: 1px;
-	padding-right: 17px;
-	padding-left: 17px;
-	border-radius: 25px;
-	margin-bottom: 10px;
-	margin-right: auto;
-	margin-top: 20px;
 }
 
 #jmksonomalawyers {
@@ -393,23 +319,6 @@ display: none;
 	padding-left: 10px;
 }
 
-#jmkwhois {
-	padding-right: 10px;
-	padding-top: 0px;
-	padding-left: 0px;
-	padding-bottom: 10px;
-	float: left;
-	max-width: 394px;
-}
-
-.mobile_message {
-	width: 100%;
-	position: absolute;
-	bottom: 0;
-	text-align: center;
-	color: #FFFFFF;
-}
-
 .slidermobilepage {
 	font-weight: bold;
 	font-size: 9pt;
@@ -441,24 +350,6 @@ display: none;
 	margin-left: auto;
 }
 
-.facebook {
-	border-radius: 12px;
-}
-
-.hide_tablet {
-display: none;
-}
-
-.zeroMargin_tablet {
-margin-left: 0;
-}
-.tweetwidth {
-	max-width: 65%;
-}
-
-.slideshowfixedheight {
-	height: 50vh;
-}
 .jonbenetportrait {
 	max-width: 60%;
 	padding-right: 10px;
@@ -479,17 +370,19 @@ margin-left: 0;
  	width:100%;
  	max-width:414px;
    	float:left;
-        padding-right:10px;
-        padding-bottom:10px;
-        margin-left:auto;
-        margin-right:auto;
+    	padding-right:10px;
+    	padding-bottom:10px;
+   	margin-left:auto;
+    	margin-right:auto;
 }
 
-#juliawendelmadeleine {
-	padding-top: 10px;
-	margin-top: -10px;
+.hide_tablet {
+	display: none;
 }
 
+.zeroMargin_tablet {
+	margin-left: 0;
+}
 }
 
 /* Desktop Layout: 811px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
@@ -518,21 +411,6 @@ margin-left: 0;
 	padding-right: auto;
 }
 
-#videos {
-	clear: both;
-	float: none;
-	display: block;
-	color: #FFFFFF;
-	font-weight: normal;
-	font-size: 13pt;
-	padding-top: 1px;
-	padding-bottom: 1px;
-	max-width: 900px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 60px;
-}
-
 #jmkbrookecourt {
 	float: left;
 	padding-left: 0px;
@@ -547,27 +425,12 @@ margin-left: 0;
 	padding-left: 10px;
 }
 
-#aboutlaw {
-	clear: both;
-	display: block;
-	padding-top: 1px;
-	padding-bottom: 1px;
-	padding-right: 17px;
-	padding-left: 17px;
-	margin-bottom: 14px;
-	max-width: 1200px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 12px;
-}
-
 #jmksonomalawyers {
 	float: right;
 	padding-top: 0px;
 	padding-right: 0px;
 	padding-left: 10px;
 	border-radius: 24px;
-
 }
 
 #mooneysolution {
@@ -576,15 +439,8 @@ margin-left: 0;
 	padding-bottom: 10px;
 	width: 68.6%;
 }
-
-.zeroMargin_desktop {
-margin-left: 0;
-}
-
-.hide_desktop {
-display: none;
-}
-	.georgiamoses {
+	
+.georgiamoses {
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
@@ -615,37 +471,11 @@ display: none;
 	padding-left: 10px;
 }
 
-#jmkwhois {
-	max-width: 600px;
-	float: left;
-	padding-right: 10px;
-	padding-top: 0px;
-	padding-left: 0px;
-	padding-bottom: 10px;
-}
 #linkwhoisjmk {
 	max-width: 462px;
 	margin-right: auto;
 	margin-left: auto;
 	margin-bottom: 20px;
-}
-
-#whothehell {
-	margin-right: auto;
-	margin-left: auto;
-	padding-top: 17px;
-}
-.dnaprobe {
-	margin-top: 30px;
-	background-color: rgba(0,0,0,1.00);
-
-}
-.mobile_message {
-	width: 100%;
-	position: absolute;
-	bottom: 0;
-	text-align: center;
-	display: none;
 }
 
 .slidermobilepage {
@@ -658,8 +488,7 @@ display: none;
 	font-style: italic;
 	padding-bottom: 6px;
 	padding-top: 6px;
-	text-shadow: 1px 1px 2px #000000;
-	
+	text-shadow: 1px 1px 2px #000000;	
 }
 
 .slidercomputerpage {
@@ -680,30 +509,19 @@ display: none;
 	margin-right: auto;
 	margin-left: auto;
 }
-.facebook {
-	border-radius: 20px;
-}
+
 .pollyklaas {
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 615px;
 }
-.tweetwidth {
-	max-width: 55%;
-}
 
-.slideshowfixedheight {
-	height: 90vh;
-	
-}
 .jonbenetportrait {
 	max-width: 60%;
 	padding-right: 10px;
 	float: left;
 }
-.contact-left {
-	flex: 1;
-}
+
 .leisussurra {
 	float: left;
 	padding-right: 10px;
@@ -718,14 +536,17 @@ display: none;
  	width:100%;
  	max-width:414px;
    	float:left;
-    padding-right:10px;
-    padding-bottom:10px;
-    margin-left:auto;
-    margin-right:auto;
+    	padding-right:10px;
+    	padding-bottom:10px;
+    	margin-left:auto;
+    	margin-right:auto;
 }
 
-#juliawendelmadeleine {
-	padding-top: 10px;
-	margin-top: -10px;
+.zeroMargin_desktop {
+	margin-left: 0;
 }
+
+.hide_desktop {
+	display: none;
+}	
 }
