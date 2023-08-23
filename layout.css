@@ -19,7 +19,6 @@ img, object, embed, video {
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
-	margin-bottom: auto;
 	}
 .video {
 	clear: both;
@@ -81,19 +80,19 @@ img, object, embed, video {
 /* Mobile Layout: 480px and below. */
 
 .content {
-	clear: both;
-	display: block;
-	color: #FFFFFF;
-	font-weight: normal;
-	font-size: 12pt;
-	background-color: rgba(0,0,0,0.65);
-	border-radius: 0px;
-	margin-left: auto;
-	margin-right: auto;
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-bottom: 10px;
-	padding-top: 10px;
+    clear: both;
+    display: block;
+    color: #FFFFFF;
+    font-weight: normal;
+    font-size: 12pt;
+    background-color: rgba(0,0,0,0.65);
+    border-radius: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    padding-top: 8px;
 }
 
 #header {
@@ -389,16 +388,16 @@ img, object, embed, video {
 @media only screen and (min-width: 811px) {
 
 .content {
-	clear: both;
-	display: block;
-	max-width: 850px;
-	border-radius: 0px;
-	margin-left: auto;
-	margin-right: auto;
-	padding-left: 17px;
-	padding-right: 17px;
-	padding-bottom: 10px;
-	padding-top: 15px;
+    clear: both;
+    display: block;
+    max-width: 850px;
+    border-radius: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-top: 15px;
 }
 	
 #header {
