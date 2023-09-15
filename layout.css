@@ -442,6 +442,8 @@ img, object, embed, video {
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
+	max-width: 515px;
+	
 
 }
 #cho {
