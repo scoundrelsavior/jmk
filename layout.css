@@ -74,10 +74,13 @@ img, object, embed, video {
 
 #pollyklaas {
 	padding-top: 10px;
-	margin-top: -10px;
 }
 
 /* Mobile Layout: 480px and below. */
+
+.toptitle {
+   font-size: 1.3em;
+}
 
 .content {
     clear: both;
@@ -93,14 +96,6 @@ img, object, embed, video {
     padding-right: 8px;
     padding-bottom: 8px;
     padding-top: 8px;
-}
-
-#header {
-	clear: both;
-	width: 100%;
-	display: block;
-	padding-bottom: 0px;
-	padding-top: 10px;
 }
 
 #jmkbrookecourt {
@@ -140,7 +135,6 @@ img, object, embed, video {
 .pollyklaas {
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 10px;
 }
 
 #cho {
@@ -231,6 +225,10 @@ img, object, embed, video {
 
 @media only screen and (min-width: 481px) {
 
+.toptitle {
+   font-size: 1.4em;
+}
+
 .content {
 	clear: none;
 	float: none;
@@ -246,12 +244,6 @@ img, object, embed, video {
 	padding-right: 10px;
 	padding-bottom: 10px;
 	padding-top:10px;
-}
-	
-#header {
-	display: block;
-	text-align: center;
-	padding-top: 15px;
 }
 
 #jmkbrookecourt {
@@ -294,7 +286,6 @@ img, object, embed, video {
     margin-right: auto;
     display: block;
     max-width: 86%;
-    padding-bottom: 10px;
 }
 #cho {
 	float: left;
@@ -371,11 +362,11 @@ img, object, embed, video {
 .juliawendel {
  	width:100%;
  	max-width:414px;
-   	float:left;
-    	padding-right:10px;
-    	padding-bottom:10px;
-   	margin-left:auto;
-    	margin-right:auto;
+  float:left;
+  padding-right:10px;
+  padding-bottom:10px;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .hide_tablet {
@@ -391,6 +382,10 @@ img, object, embed, video {
 
 @media only screen and (min-width: 768px) {
 
+.toptitle {
+   font-size: 1.8em;
+}
+
 .content {
     clear: both;
     display: block;
@@ -402,15 +397,6 @@ img, object, embed, video {
     padding-right: 15px;
     padding-bottom: 10px;
     padding-top: 15px;
-}
-	
-#header {
-	padding-top: 15px;
-	clear: both;
-	display: block;
-	text-align: center;
-	padding-left: auto;
-	padding-right: auto;
 }
 
 #jmkbrookecourt {
@@ -516,10 +502,10 @@ img, object, embed, video {
 }
 
 .pollyklaas {
-    max-width: 510px;
+    max-width: 525px;
     float: left;
     padding-right: 10px;
-    padding-bottom: 10px;
+    /*! padding-bottom: 10px; */
 }
 
 .jonbenetportrait {
