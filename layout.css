@@ -72,11 +72,6 @@ img, object, embed, video {
 	margin-top: -10px;
 }
 
-#pollyklaas {
-	padding-top: 10px;
-	margin-top: -5px;
-}
-
 #blankspace {
 	padding-bottom: 10px;
 }
@@ -141,6 +136,11 @@ img, object, embed, video {
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 10px;
+}
+
+#pollyklaas {
+	padding-top: 10px;
+	margin-top: -10px;
 }
 
 #cho {
@@ -292,7 +292,13 @@ img, object, embed, video {
     margin-right: auto;
 	  padding-bottom: 10px;
     display: block;
-    max-width: 86%;
+    max-width: 100%;
+	
+#pollyklaas {
+	padding-top: 10px;
+	margin-top: -5px;
+}
+	
 }
 #cho {
 	float: left;
@@ -403,7 +409,7 @@ img, object, embed, video {
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 10px;
-    padding-top: 15px;
+    padding-top: 10px;
 }
 
 #jmkbrookecourt {
@@ -515,6 +521,11 @@ img, object, embed, video {
     padding-bottom: 10px;
 }
 
+#pollyklaas {
+	padding-top: 10px;
+	margin-top: -3px;
+}
+	
 .jonbenetportrait {
 	max-width: 60%;
 	padding-right: 10px;
