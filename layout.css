@@ -77,6 +77,10 @@ img, object, embed, video {
 	margin-top: -5px;
 }
 
+#blankspace {
+	padding-bottom: 10px;
+}
+
 /* Mobile Layout: 480px and below. */
 
 .toptitle {
@@ -136,6 +140,7 @@ img, object, embed, video {
 .pollyklaas {
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 10px;
 }
 
 #cho {
@@ -285,6 +290,7 @@ img, object, embed, video {
 .pollyklaas {
     margin-left: auto;
     margin-right: auto;
+	  padding-bottom: 10px;
     display: block;
     max-width: 86%;
 }
@@ -506,7 +512,7 @@ img, object, embed, video {
     max-width: 525px;
     float: left;
     padding-right: 10px;
-    /*! padding-bottom: 10px; */
+    padding-bottom: 10px;
 }
 
 .jonbenetportrait {
