@@ -79,7 +79,9 @@ img, object, embed, video {
 /* Mobile Layout: 480px and below. */
 
 .toptitle {
-   font-size: 1.3em;
+   font-size: 1.2em;
+   line-height: 0;
+
 }
 
 .content {
@@ -232,7 +234,8 @@ img, object, embed, video {
 @media only screen and (min-width: 481px) {
 
 .toptitle {
-   font-size: 1.4em;
+   font-size: 1.6em;
+   font-weight: normal;
 }
 
 .content {
@@ -396,7 +399,8 @@ img, object, embed, video {
 @media only screen and (min-width: 768px) {
 
 .toptitle {
-   font-size: 1.8em;
+   font-size: 1.7em;
+   font-weight: normal;
 }
 
 .content {
