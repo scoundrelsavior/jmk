@@ -61,25 +61,36 @@
      padding-top: 10px;
      margin-top: -10px;
 }
- #blankspace {
-     padding-bottom: 10px;
-}
+
 /* Mobile Layout: 480px and below. */
+
+ .pollyklaas {
+     margin-left: auto;
+     margin-right: auto;
+     padding-bottom: 20px;
+}
+ #pollyklaas {
+     padding-top: 10px;
+     margin-top: -10px;
+}
+ .richardallendavis {
+     margin-left: auto;
+     margin-right: auto;
+}
  .toptitle {
      font-size: 1.2em;
      line-height: 0;
 }
  .content {
+     background-color: rgba(0,0,0,1.00);
      color: #FFFFFF;
-     font-weight: normal;
-     font-size: 12pt;
-     background-color: rgba(0,0,0,0.65);
+     font-size:13pt;
      margin-left: auto;
      margin-right: auto;
-     padding-left: 8px;
-     padding-right: 8px;
-     padding-bottom: 8px;
-     padding-top: 8px;
+     padding-left: 10px;
+     padding-right: 10px;
+     padding-bottom: 10px;
+     padding-top: 10px;
 }
  #jmkbrookecourt {
      display:block;
@@ -109,19 +120,6 @@
      margin-left: auto;
      margin-right: auto;
      padding-bottom: 10px;
-}
- .pollyklaas {
-     margin-left: auto;
-     margin-right: auto;
-     padding-bottom: 10px;
-}
- #pollyklaas {
-     padding-top: 10px;
-     margin-top: -10px;
-}
- .richardallendavis {
-     margin-left: auto;
-     margin-right: auto;
 }
  #cho {
      display: block;
@@ -169,11 +167,12 @@
      padding-bottom: 6px;
      text-shadow: 1px 1px 2px #000000;
 }
- .jonbenetschoolpic {
-     padding-top: 10px;
+ .jonbenetportrait {
      margin-right: auto;
-     display: block;
      margin-left: auto;
+     display: block;
+	padding-left:0px;
+padding-right:0px;
 }
  .scoundrel {
      display: block;
@@ -197,23 +196,40 @@
  .hide_mobile {
      display: none;
 }
+
 /* Tablet Layout: 481px to 769px. Inherits styles from: Mobile Layout. */
  @media only screen and (min-width: 481px) {
-     .toptitle {
-         font-size: 1.6em;
-         font-weight: normal;
+
+          .pollyklaas {
+         float:left;
+         padding-right: 15px;
+	 padding-bottom: 10px;
+         display: block;
+         max-width: 500px;
+    }
+     #pollyklaas {
+         padding-top: 10px;
+         margin-top: -5px;
+    }
+     .richardallendavis {
+         max-width: 450px;
+         float: right;
+         padding-left: 15px;
+	 padding-bottom: 10px;
+    }
+	.toptitle {
+         font-size: 1.4em;
     }
      .content {
          color: #FFFFFF;
-         font-weight: normal;
-         font-size: 13pt;
-         background-color: rgba(0,0,0,0.65);
+	 font-size:14pt;
+         background-color: rgba(0,0,0,1.00);
          margin-left: auto;
          margin-right: auto;
-         padding-left: 10px;
-         padding-right: 10px;
-         padding-bottom: 10px;
-         padding-top: 10px;
+         padding-left: 15px;
+         padding-right: 15px;
+         padding-bottom: 15px;
+         padding-top: 15px;
     }
      #jmkbrookecourt {
          float: left;
@@ -244,23 +260,6 @@
          margin-left: auto;
          margin-right: auto;
          display: block;
-         padding-bottom: 10px;
-    }
-     .pollyklaas {
-         float:left;
-         padding-right: 10px;
-         padding-bottom: 10px;
-         display: block;
-         max-width: 500px;
-    }
-     #pollyklaas {
-         padding-top: 10px;
-         margin-top: -5px;
-    }
-     .richardallendavis {
-         max-width: 425px;
-         float: right;
-         padding-left: 10px;
          padding-bottom: 10px;
     }
      #cho {
@@ -314,7 +313,7 @@
          margin-left: auto;
     }
      .jonbenetportrait {
-         max-width: 60%;
+         max-width: 55%;
          padding-right: 10px;
          float: left;
     }
@@ -343,20 +342,40 @@
          margin-left: 0;
     }
 }
+
 /* Desktop Layout: 769px to a max of 1232px. Inherits styles from: Mobile Layout and Tablet Layout. */
  @media only screen and (min-width: 769px) {
+
+     .pollyklaas {
+         max-width: 550px;
+         float: left;
+         padding-right: 15px;
+         padding-bottom: 10px;
+    }
+     #pollyklaas {
+         padding-top: 10px;
+         margin-top: -5px;
+    }
+     .richardallendavis {
+         max-width: 500px;
+         float: right;
+         padding-left: 15px;
+         padding-bottom: 10px;
+    }
      .toptitle {
-         font-size: 1.7em;
-         line-height: 0;
+	font-size: 1.7em;
     }
      .content {
-         max-width: 850px;
+         max-width: 1000px;
          margin-left: auto;
          margin-right: auto;
-         padding-left: 10px;
-         padding-right: 10px;
-         padding-bottom: 10px;
-         padding-top: 10px;
+         color: #FFFFFF;
+	 font-size:14pt;
+	 background-color: rgba(0,0,0,1.00);
+         padding-left: 15px;
+         padding-right: 15px;
+         padding-bottom: 15px;
+         padding-top: 15px;
     }
      #jmkbrookecourt {
          float: left;
@@ -384,11 +403,10 @@
          width: 68.6%;
     }
      .georgiamoses {
-         margin-left: auto;
-         margin-right: auto;
          display: block;
-         max-width: 515px;
+         max-width: 500px;
          padding-bottom: 10px;
+         padding-left:10px;
     }
      #cho {
          float: left;
@@ -447,23 +465,8 @@
          margin-right: auto;
          margin-left: auto;
     }
-     .pollyklaas {
-         max-width: 525px;
-         float: left;
-         padding-right: 10px;
-         padding-bottom: 10px;
-    }
-     #pollyklaas {
-         padding-top: 10px;
-         margin-top: -5px;
-    }
-     .richardallendavis {
-         max-width: 450px;
-         float: right;
-         padding-left: 10px;
-    }
      .jonbenetportrait {
-         max-width: 60%;
+         max-width: 55%;
          padding-right: 10px;
          float: left;
     }
