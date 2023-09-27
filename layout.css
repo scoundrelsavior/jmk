@@ -77,6 +77,10 @@
      margin-left: auto;
      margin-right: auto;
 }
+ .reducedjmkheader {
+     margin-left: auto;
+     margin-right: auto;
+}
  .toptitle {
      font-size: 1.2em;
      line-height: 0;
@@ -84,7 +88,7 @@
  .content {
      background-color: rgba(0,0,0,1.00);
      color: #FFFFFF;
-     font-size:13pt;
+     font-size:14pt;
      margin-left: auto;
      margin-right: auto;
      padding-left: 10px;
@@ -197,26 +201,31 @@ padding-right:0px;
      display: none;
 }
 
-/* Tablet Layout: 481px to 769px. Inherits styles from: Mobile Layout. */
+/* Tablet Layout: 481px to 810px. Inherits styles from: Mobile Layout. */
  @media only screen and (min-width: 481px) {
 
-          .pollyklaas {
+      .pollyklaas {
          float:left;
          padding-right: 15px;
 	 padding-bottom: 10px;
          display: block;
-         max-width: 500px;
+         max-width: 450px;
     }
      #pollyklaas {
          padding-top: 10px;
          margin-top: -5px;
     }
      .richardallendavis {
-         max-width: 450px;
+         max-width: 400px;
          float: right;
          padding-left: 15px;
 	 padding-bottom: 10px;
     }
+     .reducedjmkheader {
+	padding-left: 10px;
+	float:right;
+	max-width:380px;
+}
 	.toptitle {
          font-size: 1.4em;
     }
@@ -343,8 +352,8 @@ padding-right:0px;
     }
 }
 
-/* Desktop Layout: 769px to a max of 1232px. Inherits styles from: Mobile Layout and Tablet Layout. */
- @media only screen and (min-width: 769px) {
+/* Desktop Layout: 811px to a max of 1232px. Inherits styles from: Mobile Layout and Tablet Layout. */
+ @media only screen and (min-width: 811px) {
 
      .pollyklaas {
          max-width: 550px;
@@ -362,6 +371,11 @@ padding-right:0px;
          padding-left: 15px;
          padding-bottom: 10px;
     }
+ .reducedjmkheader {
+     padding-left: 10px;
+     float:right;
+     max-width:400px;
+}
      .toptitle {
 	font-size: 1.7em;
     }
