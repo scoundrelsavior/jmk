@@ -64,6 +64,14 @@ margin-top: -10px;
 
 /* Mobile Layout: 480px and below. */
 
+/* Responsive flex one column-layout instead of two-column layout */
+.flex-container {
+flex-direction: column;
+}
+.flex-item-left {
+padding-right:0px;
+flex: 50%;
+}
 .toptitle {
 font-size: 1.3em;
 } 
@@ -93,15 +101,6 @@ padding-left: 10px;
 padding-right: 10px;
 padding-bottom: 10px;
 padding-top: 10px;
-}
-/* Responsive flex one column-layout instead of two-column layout */
-.flex-container {
-flex-direction: column;
-}
-
-.flex-item-left {
-padding-right:0px;
-flex: 50%;
 }
 #jmkbrookecourt {
 display:block;
@@ -208,6 +207,20 @@ display: none;
 /* Tablet Layout: 481px to 810px. Inherits styles from: Mobile Layout. */
 @media only screen and (min-width: 481px) {
 
+/* Responsive flex two-column layout over 481px */
+.flex-container {
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+.flex-item-left {
+padding-right:15px;
+flex: 50%;
+}
+.flex-item-right {
+flex: 50%;
+text-align: justify;
+}
 .toptitle {
 font-size: 1.4em;
 }
@@ -238,23 +251,6 @@ padding-left: 15px;
 padding-right: 15px;
 padding-bottom: 15px;
 padding-top: 15px;
-}
-
-/* Responsive flex two-column layout over 481px */
-
-.flex-container {
-display: flex;
-flex-direction: row;
-align-items: center;
-}
-.flex-item-left {
-padding-right:15px;
-flex: 50%;
-}
-.flex-item-right {
-flex: 50%;
-text-align: justify;
-
 }
 #jmkbrookecourt {
 float: left;
@@ -368,6 +364,20 @@ margin-left: 0;
 /* Desktop Layout: 811px to a max of 1232px. Inherits styles from: Mobile Layout and Tablet Layout. */
 @media only screen and (min-width: 811px) {
 
+/* Responsive flex two-column layout over 811px */
+.flex-container {
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+.flex-item-left {
+padding-right:15px;
+flex: 50%;
+}
+.flex-item-right {
+flex: 50%;
+text-align: justify;
+}
 .toptitle {
 font-size: 2.0em;
 font-family:'Montserrat', sans-serif;
@@ -400,23 +410,6 @@ padding-left: 15px;
 padding-right: 15px;
 padding-bottom: 15px;
 padding-top: 15px;
-}
-
-/* Responsive flex two-column layout over 481px */
-
-.flex-container {
-display: flex;
-flex-direction: row;
-align-items: center;
-}
-.flex-item-left {
-padding-right:15px;
-flex: 50%;
-}
-.flex-item-right {
-flex: 50%;
-text-align: justify;
-
 }
 #jmkbrookecourt {
 float: left;
