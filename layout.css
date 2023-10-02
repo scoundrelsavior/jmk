@@ -300,8 +300,8 @@ width: 100%;
 }
 .georgiamoses {
 max-width: 450px;
-float:left;
-padding-right:15px;
+float:right;
+padding-left:15px;
 padding-bottom:15px;
 }
 #cho {
@@ -464,8 +464,8 @@ width: 68.6%;
 }
 .georgiamoses {
 max-width: 535px;
-float:left;
-padding-right:15px;
+float:right;
+padding-left:15px;
 }
 #cho {
 float: left;
