@@ -144,6 +144,8 @@ padding-bottom: 10px;
 width: 100%;
 }
 .georgiamoses {
+margin-left: auto;
+margin-right: auto;
 }
 #cho {
 display: block;
@@ -243,6 +245,8 @@ font-size: 1.4em;
 }
 .pollyklaas {
 max-width: 450px;
+float:left;
+padding-right:15px;
 }
 #pollyklaas {
 padding-top: 10px;
@@ -295,7 +299,10 @@ padding-bottom: 10px;
 width: 100%;
 }
 .georgiamoses {
-
+max-width: 450px;
+float:left;
+padding-right:15px;
+padding-bottom:15px;
 }
 #cho {
 float: left;
@@ -401,6 +408,8 @@ font-family:'Montserrat', sans-serif;
 } 
 .pollyklaas {
 max-width: 535px;
+float:left;
+padding-right:15px;
 }
 #pollyklaas {
 padding-top: 10px;
@@ -454,6 +463,9 @@ padding-bottom: 10px;
 width: 68.6%;
 }
 .georgiamoses {
+max-width: 535px;
+float:left;
+padding-right:15px;
 }
 #cho {
 float: left;
