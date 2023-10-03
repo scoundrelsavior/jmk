@@ -196,9 +196,6 @@ text-shadow: 1px 1px 2px #000000;
 .jonbenetportrait {
 margin-right: auto;
 margin-left: auto;
-display: block;
-padding-left:0px;
-padding-right:0px;
 }
 .scoundrel {
 display: block;
@@ -355,7 +352,7 @@ margin-left: auto;
 }
 .jonbenetportrait {
 max-width: 55%;
-padding-right: 10px;
+padding-right: 15px;
 float: left;
 }
 .leisussurra {
@@ -525,7 +522,7 @@ margin-left: auto;
 }
 .jonbenetportrait {
 max-width: 55%;
-padding-right: 10px;
+padding-right: 15px;
 float: left;
 }
 .leisussurra {
