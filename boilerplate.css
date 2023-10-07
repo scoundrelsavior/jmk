@@ -23,34 +23,22 @@ body, button, input, select, textarea {
 
 a {
 	color: #88f;
-	text-align: center;
 	text-decoration: none;
-	font-size: 14pt;
-	font-weight: normal;
 }
 a:visited {
 	color: rgba(255,255,255,1.00);
-	font-size: 14pt;
-	font-weight: normal;
 }
 a:hover {
 	color: #88f;
-	font-size: 14pt;
-	font-weight: bold;
+
 }
 a:focus {
-	outline: thin dotted;
 	color: rgba(255,255,255,1.00);
-	font-size: 14pt;
-	font-weight: normal;
 }
 
 a:hover, a:active {
 	outline: 0;
-	text-align: center;
-	color: rgba(255,255,255,1.00);
-	font-size: 14pt;
-	font-weight: normal;
+	color: #88f;
 }
 
 
