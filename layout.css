@@ -90,7 +90,7 @@ padding-right:0px;
 flex: 50%;
 }
 .toptitle {
-font-size: 1.3em;
+font-size: 16pt;
 } 
 figcaption {
 font-family: 'Montserrat', sans-serif;
@@ -244,7 +244,7 @@ flex: 50%;
 text-align: justify;
 }
 .toptitle {
-font-size: 1.4em;
+font-size: 18pt;
 }
 figcaption {
 font-family: 'Montserrat', sans-serif;
@@ -412,8 +412,7 @@ flex: 50%;
 text-align: justify;
 }
 .toptitle {
-font-size: 2.0em;
-font-family:'Montserrat', sans-serif;
+font-size: 18pt;
 } 
 figcaption {
 font-family: 'Montserrat', sans-serif;
@@ -425,7 +424,6 @@ padding-top:10px;
 max-width: 535px;
 float:left;
 padding-right:15px;
-padding-bottom:5px;
 }
 #pollyklaas {
 padding-top: 10px;
