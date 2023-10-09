@@ -246,6 +246,7 @@ text-align: justify;
 .toptitle {
 font-size: 18pt;
 line-height:1.2;
+margin-top:0;
 }
 figcaption {
 font-family: 'Montserrat', sans-serif;
@@ -415,6 +416,7 @@ text-align: justify;
 .toptitle {
 font-size: 18pt;
 line-height:1;
+margin-top:0;
 } 
 figcaption {
 font-family: 'Montserrat', sans-serif;
