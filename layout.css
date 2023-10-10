@@ -88,6 +88,10 @@ flex-direction: column;
 .flex-item-left {
 padding-right:0px;
 flex: 50%;
+width:100%;
+}
+.flex-item-right {
+text-align:justify;
 }
 .toptitle {
 font-size: 25px;
@@ -237,11 +241,12 @@ align-items: center;
 }
 .flex-item-left {
 padding-right:15px;
-flex: 50%;
+flex: 60%;
 }
 .flex-item-right {
-flex: 50%;
+flex: 40%;
 text-align: justify;
+font-size:1em;
 }
 .toptitle {
 font-size: 28px;
@@ -407,11 +412,13 @@ align-items: center;
 }
 .flex-item-left {
 padding-right:15px;
-flex: 50%;
+flex: 40%;
 }
 .flex-item-right {
-flex: 50%;
+flex: 60%;
 text-align: justify;
+max-height:280px;
+font-size:18px;
 }
 .toptitle {
 font-size: 28px;
