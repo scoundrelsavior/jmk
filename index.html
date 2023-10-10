@@ -13,7 +13,6 @@
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 
 <!--CSS Referrals-->
-<link href="project.css" rel="stylesheet" type="text/css">
 <link href="layout.css" rel="stylesheet" type="text/css">
 <link href="boilerplate.css" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" href="favicon.ico">
@@ -51,29 +50,61 @@ body {
 p {
 	font-family: 'Open Sans', sans-serif;
 }
+blockquote {
+   color: white;
+   font-family: 'Montserrat', sans-serif;
+   font-style: italic;
+   font-size: 18px;
+   width:90%;
+   margin: 0 auto;
+   padding-bottom:10px;
+}
+
+blockquote p::before {
+   content: "“";
+   font-family: Georgia;
+   font-size: 5rem;
+   color: green;
+   margin: -2rem 0 0 -2.5rem;
+   position: absolute;
+   opacity: 1;
+
+}
+
+blockquote p::after {
+   content: "”";
+   margin: -0.5rem 0 0 0;   
+   font-family: Georgia;
+   font-size: 5rem;
+   color: green;
+   position: absolute;
+   opacity: 1;
+
+}
+
 .second {
-	quotes: "“" "”";
+	
 	position: relative;
 	padding-left: 35px;
 	padding-right: 35px;
 	font-family: 'Montserrat', sans-serif;
 	font-style: italic;
 	&::before {
-		content: open-quote;
+		content: "“";
 		font-size: 4em;
 		color: green;
 		position: absolute;
 		top: -30px;
 		left: 0;
-		font-family: 'Georgia', sans-serif;
+		font-family: Georgia;
 	}
 	&::after {
-		content: close-quote;
+		content: "”";
 		font-size: 4em;
 		bottom: -66px;
 		position: absolute;
 		color: green;
-		font-family: 'Georgia', sans-serif;
+		font-family: Georgia;
 	}
 }
 </style>
@@ -139,21 +170,24 @@ function setHalfVolume() {
 
 <p>In 2006, I took full responsibility for the death of JonBenet Ramsey. In an intense phone call with a professor in Boulder Colorado, I described how I killed JonBenet Ramsey, by my own hand. These descriptions corroborated with physical evidence that was withheld from the public by the coroner and law enforcement for ten years. According to the authorities who arrested me, as well as the FBI - it was information only the killer would know. This is why I, and no one else, was arrested for the murder, kidnapping, and sex assault of JonBenet Ramsey. October 05, 2023</p>
 
-<br>
-
-<div class="container" style="font-size:18px">
-
-<hr style="padding-top:15px">
-
-<div class="second">If the FBI arrests me for the conspiracy to abduct Polly Klaas that resulted in her death, which would equate to the charges of first degree kidnapping and first degree murder, I will fight them legally with all that is in me. As for any cooperation with their investigation, if arrested and charged by their agency, I will invoke my fifth amendment right to remain silent and immediately request the presence of an attorney. I know the FBI has an almost ninety-five percent conviction rate and only a small percentage of all those who are charged by the FBI, take their case to trial; however, I will go to trial with them and I will plead not guilty, accompanied by the best legal team I can secure.</div>
-<br>
-<p align="center" style="padding-left:35px;padding-right:35px"><i>Read full article: </i><a href="/pollyklaas" target="_blank"><i>https://johnmarkkarr.com/pollyklaas</i></a></p>
-	
 <hr>
 
+<div class="flex-container">
+
+<div class="flex-item-left">
+<picture>
+    <source media="(min-width: 812px)" srcset="images/pollyklaascircle.png" alt="JMK">
+    <source media="(min-width: 481px)" srcset="images/pollyklaas.jpg" alt="JMK">
+    <img class="center" src="images/pollyklaascircle.png" alt="JMK">
+</picture>
 </div>
 
-<br>
+<div class="flex-item-right"><p style="font-family:'Montserrat', sans-serif;">"If the FBI arrests me for the conspiracy to abduct Polly Klaas that resulted in her death, which would equate to the charges of first degree kidnapping and first degree murder, I will fight them legally with all that is in me. As for any cooperation with their investigation, if arrested and charged by their agency, I will invoke my fifth amendment right to remain silent and immediately request the presence of an attorney. I know the FBI has an almost ninety-five percent conviction rate and only a small percentage of all those who are charged by the FBI, take their case to trial; however, I will go to trial with them and I will plead not guilty, accompanied by the best legal team I can secure."</p>
+<p align="center">Read full article at <a href="/pollyklaas" target="_blank"><i>https://johnmarkkarr.com/pollyklaas</i></a></p>
+</div>
+</div>
+
+<hr>
 
 <p align="center"><b>LEGAL SUMMARY OF JOHN MARK KARR</b></p>
 	
