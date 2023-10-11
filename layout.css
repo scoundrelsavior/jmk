@@ -241,10 +241,10 @@ align-items: center;
 }
 .flex-item-left {
 padding-right:15px;
-flex: 60%;
+flex: 50%;
 }
 .flex-item-right {
-flex: 40%;
+flex: 50%;
 text-align: justify;
 font-size:1em;
 }
@@ -419,6 +419,7 @@ flex: 60%;
 text-align: justify;
 max-height:280px;
 font-size:18px;
+}
 }
 .toptitle {
 font-size: 28px;
