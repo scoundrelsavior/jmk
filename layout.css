@@ -408,7 +408,7 @@ margin-left: 0;
 .flex-container {
 display: flex;
 flex-direction: row;
-align-items: start;
+align-items: center;
 }
 .flex-item-left {
 padding-right:15px;
@@ -417,7 +417,6 @@ flex: 40%;
 .flex-item-right {
 flex: 60%;
 text-align: justify;
-max-height:280px;
 font-size:18px;
 }
 .toptitle {
