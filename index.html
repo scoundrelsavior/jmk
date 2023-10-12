@@ -50,45 +50,7 @@ body {
 p {
 	font-family: 'Open Sans', sans-serif;
 }
-
 </style>
-	
-<!--AUDIO--> 
-<script>
-function setHalfVolume() {
- var myAudio = document.getElementById("audio1"); 
- myAudio.volume = 0.3; //Changed this to 0.5 or 50% or .01 for lowest volume since the function is called Set Half Volume ;)
-}
-</script>
-<!--Fullscreen Toggle Jquery-->
-<script>
- function makeFullScreen() {
- var divObj = document.getElementById("theImage");
- //Use the specification method before using prefixed versions
- if (divObj.requestFullscreen) {
- divObj.requestFullscreen();
- }
- else if (divObj.msRequestFullscreen) {
- divObj.msRequestFullscreen(); 
- }
- else if (divObj.mozRequestFullScreen) {
- divObj.mozRequestFullScreen(); 
- }
- else if (divObj.webkitRequestFullscreen) {
- divObj.webkitRequestFullscreen(); 
- } else {
- console.log("Fullscreen API is not supported");
- } 
-}
- document.getElementById('toggle-fullscreen').addEventListener('click', (event) => {
- if (document.fullscreenElement) {
- // exitFullscreen is only available on the Document object.
- document.exitFullscreen();
- } else {
- document.getElementById('fullscreen-div').requestFullscreen();
- }
-});
-</script>
 
 <script src="respond.min.js"></script>
 
@@ -107,7 +69,7 @@ function setHalfVolume() {
 <p><i>"You may charge me with murder or want of sense; we are all of us weak at times. But the slightest approach to a false pretence was never among my crimes!" Lewis Carroll, "The Hunting of the Snark"</i></p>
 
 <hr>
-	
+
 <p align="center"><strong>Statement Concerning the "News" That I Know Who JonBenet Ramsey's Killer Was and I'm Protecting Them 2023</strong></p>
 
 <p>It has come to my attention that there was a supposed interview with me and News Nation. This is a complete lie. I have never done an interview with News Nation in my life. Furthermore, I have never said that another person killed JonBenet Ramsey and I know who that person is. We live in the age of AI and other technological sabotage that many of us are subjected to beyound our control. If you see me on camera, live, making a complete statement, that's not a soundbite, or taken out of context - you can take that seriously. Otherwise, always doubt anything you read or see about me. It is the media's backstabbing technique reserved especially for me as a pure act of sabotage. Do you want truth or some news media hyped concoction?</p>
