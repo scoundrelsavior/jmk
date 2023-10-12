@@ -12,8 +12,7 @@ html {overflow-y: scroll; -webkit-text-size-adjust: 100%; }
 
 body {
 	margin: 0;
-	font-size: 14pt;
-	line-height: 1.231;
+	font-size: 13pt;
 }
 
 body, button, input, select, textarea {
