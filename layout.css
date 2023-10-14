@@ -88,7 +88,6 @@ flex-direction: column;
 .flex-item-left {
 padding-right:0px;
 flex: 50%;
-width:100%;
 }
 .flex-item-right {
 text-align:justify;
@@ -241,12 +240,11 @@ align-items: center;
 }
 .flex-item-left {
 padding-right:15px;
-flex: 50%;
+flex: 40%;
 }
 .flex-item-right {
-flex: 50%;
+flex: 60%;
 text-align: justify;
-font-size:1rem;
 }
 .toptitle {
 font-size: 28px;
