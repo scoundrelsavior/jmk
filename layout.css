@@ -156,7 +156,7 @@ width: 100%;
 margin-left: auto;
 margin-right: auto;
 }
-#cho {
+.cho {
 display: block;
 margin-left: auto;
 margin-right: auto;
@@ -318,11 +318,10 @@ max-width: 450px;
 float:right;
 padding-left:15px;
 }
-#cho {
-float: left;
-padding-right: 10px;
+.cho {
+float: right;
+padding-left: 10px;
 border-radius: 24px;
-min-width: 230px;
 }
 #alexis2009 {
 padding-top: 0px;
@@ -488,11 +487,10 @@ max-width: 535px;
 float:right;
 padding-left:15px;
 }
-#cho {
-float: left;
-padding-right: 10px;
+.cho {
+float: right;
+padding-left: 10px;
 border-radius: 24px;
-min-width: 230px;
 }
 #alexis2009 {
 padding-top: 0px;
