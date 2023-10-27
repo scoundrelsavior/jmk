@@ -92,6 +92,9 @@ flex: 50%;
 .flex-item-right {
 text-align:justify;
 }
+.heading {
+font-size:26px;
+}
 .toptitle {
 font-size: 25px;
 } 
@@ -245,6 +248,9 @@ flex: 40%;
 .flex-item-right {
 flex: 60%;
 text-align: justify;
+}
+.heading {
+font-size:28px;
 }
 .toptitle {
 font-size: 28px;
@@ -414,6 +420,9 @@ flex: 40%;
 .flex-item-right {
 flex: 60%;
 text-align: justify;
+}
+.heading {
+font-size:30px;
 }
 .toptitle {
 font-size: 28px;
