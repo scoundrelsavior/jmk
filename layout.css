@@ -232,7 +232,7 @@ margin-left: 0;
 display: none;
 }
 
-/* Tablet Layout: 481px to 810px. Inherits styles from: Mobile Layout. */
+/* Tablet Layout: 481px to 835px. Inherits styles from: Mobile Layout. */
 @media only screen and (min-width: 481px) {
 
 /* Responsive flex two-column layout over 481px */
@@ -265,7 +265,7 @@ padding-top:10px;
 padding-bottom:5px;	
 }
 .pollyklaas {
-max-width: 450px;
+max-width: 460px;
 float:left;
 padding-right:15px;
 }
@@ -274,7 +274,7 @@ padding-top: 10px;
 margin-top: -5px;
 }
 .richardallendavis {
-max-width: 400px;
+max-width: 460px;
 float: right;
 padding-left: 15px;
 }
@@ -404,10 +404,10 @@ margin-left: 0;
 }
 }
 
-/* Desktop Layout: 811px to a max of 1232px. Inherits styles from: Mobile Layout and Tablet Layout. */
-@media only screen and (min-width: 811px) {
+/* Desktop Layout: 835px to a max of 1232px. Inherits styles from: Mobile Layout and Tablet Layout. */
+@media only screen and (min-width: 835px) {
 
-/* Responsive flex two-column layout over 811px */
+/* Responsive flex two-column layout over 835px */
 .flex-container {
 display: flex;
 flex-direction: row;
@@ -445,7 +445,7 @@ padding-top: 10px;
 margin-top: -5px;
 }
 .richardallendavis {
-max-width: 525px;
+max-width: 535px;
 float: right;
 padding-left: 15px;
 }
