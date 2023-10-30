@@ -92,6 +92,15 @@ flex: 50%;
 .flex-item-right {
 text-align:justify;
 }
+.laptopvisible {
+display:none;
+}
+.tabletvisible {
+display:none;
+}
+.phonevisible {
+display:block;
+}
 .heading {
 font-size:25px;
 }
@@ -237,6 +246,15 @@ flex: 40%;
 .flex-item-right {
 flex: 60%;
 text-align: justify;
+}
+.laptopvisible {
+display:none;
+}
+.tabletvisible {
+display:block;
+}
+.phonevisible {
+display:none;
 }
 .heading {
 font-size:28px;
@@ -394,6 +412,15 @@ flex: 40%;
 .flex-item-right {
 flex: 60%;
 text-align: justify;
+}
+.laptopvisible {
+display:block;
+}
+.tabletvisible {
+display:none;
+}
+.phonevisible {
+display:none;
 }
 .heading {
 font-size:30px;
