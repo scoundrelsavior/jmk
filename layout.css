@@ -153,7 +153,6 @@ padding-top: 10px;
 display:block;
 margin-left:auto;
 margin-right:auto;
-border-radius:24px;
 }
 #law {
 border-radius: 25px;
@@ -162,7 +161,6 @@ margin-right: auto;
 display: block;
 }
 #jmksonomalawyers {
-border-radius: 24px;
 margin-left: auto;
 margin-right: auto;
 display: block;
@@ -181,7 +179,6 @@ margin-right: auto;
 display: block;
 margin-left: auto;
 margin-right: auto;
-border-radius: 24px;
 }
 #cherish {
 display: block;
@@ -315,7 +312,6 @@ float: left;
 padding-left: 0px;
 padding-right: 10px;
 padding-top: 0px;
-border-radius: 24px;
 }
 #law {
 float: right;
@@ -327,7 +323,6 @@ float: right;
 padding-top: 0px;
 padding-right: 0px;
 padding-left: 10px;
-border-radius: 24px;
 }
 #mooneysolution {
 float: right;
@@ -343,7 +338,6 @@ padding-left:15px;
 .cho {
 float: right;
 padding-left: 10px;
-border-radius: 24px;
 }
 #cherish {
 border-radius: 25px;
@@ -481,7 +475,6 @@ float: left;
 padding-left: 0px;
 padding-right: 10px;
 padding-top: 0px;
-border-radius: 24px;
 }
 #law {
 float: right;
@@ -493,7 +486,6 @@ float: right;
 padding-top: 0px;
 padding-right: 0px;
 padding-left: 10px;
-border-radius: 24px;
 }
 #mooneysolution {
 float: right;
@@ -509,7 +501,6 @@ padding-left:15px;
 .cho {
 float: right;
 padding-left: 10px;
-border-radius: 24px;
 }
 #cherish {
 border-radius: 25px;
