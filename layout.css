@@ -146,7 +146,7 @@ margin-right: auto;
 .content {
 background-color: rgba(0,0,0,1.00);
 color: #FFFFFF;
-font-size:1.09em;
+font-size:1.09rem;
 margin-left: auto;
 margin-right: auto;
 padding-left: 10px;
@@ -308,7 +308,7 @@ max-width:300px;
 .content {
 color: #FFFFFF;
 background-color: rgba(0,0,0,1.00);
-font-size:1.1em;
+font-size:1.09rem;
 margin-left: auto;
 margin-right: auto;
 padding-left: 15px;
@@ -476,7 +476,7 @@ max-width: 1000px;
 margin-left: auto;
 margin-right: auto;
 color: #FFFFFF;
-font-size:1.1em;
+font-size:1.1rem;
 background-color: rgba(0,0,0,1.00);
 padding-left: 15px;
 padding-right: 15px;
