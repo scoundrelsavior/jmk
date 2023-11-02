@@ -113,7 +113,11 @@ display:none;
 .phonevisible {
 display:block;
 }
-.floatright {
+.jonbenetportrait {
+margin-right: auto;
+margin-left: auto;
+}
+.jonbenetxmas {
 display:block;
 margin-left: auto;
 margin-right: auto;
@@ -222,10 +226,6 @@ padding-top: 6px;
 padding-bottom: 6px;
 text-shadow: 1px 1px 2px #000000;
 }
-.jonbenetportrait {
-margin-right: auto;
-margin-left: auto;
-}
 .scoundrel {
 display: block;
 margin-right: auto;
@@ -270,8 +270,14 @@ display:block;
 .phonevisible {
 display:none;
 }
-.floatright {
+.jonbenetportrait {
+max-width: 460px;
+padding-right: 15px;
+float: left;
+}
+.jonbenetxmas {
 float:right;
+max-width: 460px;
 padding-left:15px;
 }
 .heading {
@@ -389,11 +395,6 @@ display: block;
 margin-right: auto;
 margin-left: auto;
 }
-.jonbenetportrait {
-max-width: 460px;
-padding-right: 15px;
-float: left;
-}
 .leisussurra {
 float: left;
 padding-right: 10px;
@@ -437,7 +438,13 @@ display:none;
 .phonevisible {
 display:none;
 }
-.floatright {
+.jonbenetportrait {
+max-width: 535px;
+padding-right: 15px;
+float: left;
+}
+.jonbenetxmas {
+max-width: 563px;
 float:right;
 padding-left:15px;
 }
@@ -556,11 +563,6 @@ text-shadow: 1px 1px 2px #000000;
 display: block;
 margin-right: auto;
 margin-left: auto;
-}
-.jonbenetportrait {
-max-width: 535px;
-padding-right: 15px;
-float: left;
 }
 .leisussurra {
 float: left;
