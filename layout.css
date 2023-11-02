@@ -110,6 +110,11 @@ display:none;
 .phonevisible {
 display:block;
 }
+.floatright {
+display:block;
+margin-left: auto;
+margin-right: auto;
+}
 .heading {
 font-size:25px;
 }
@@ -120,7 +125,7 @@ figcaption {
 font-family: 'Montserrat', sans-serif;
 font-size: 11.5pt;
 font-style:italic;
-padding-top:10px;	
+padding-top:10px;
 }
 .pollyklaas {
 margin-left: auto;
@@ -141,7 +146,7 @@ margin-right: auto;
 .content {
 background-color: rgba(0,0,0,1.00);
 color: #FFFFFF;
-font-size:13pt;
+font-size:1.09em;
 margin-left: auto;
 margin-right: auto;
 padding-left: 10px;
@@ -262,6 +267,10 @@ display:block;
 .phonevisible {
 display:none;
 }
+.floatright {
+float:right;
+padding-left:15px;
+}
 .heading {
 font-size:28px;
 }
@@ -298,8 +307,8 @@ max-width:300px;
 }
 .content {
 color: #FFFFFF;
-font-size:13pt;
 background-color: rgba(0,0,0,1.00);
+font-size:1.1em;
 margin-left: auto;
 margin-right: auto;
 padding-left: 15px;
@@ -425,6 +434,10 @@ display:none;
 .phonevisible {
 display:none;
 }
+.floatright {
+float:right;
+padding-left:15px;
+}
 .heading {
 font-size:30px;
 }
@@ -463,7 +476,7 @@ max-width: 1000px;
 margin-left: auto;
 margin-right: auto;
 color: #FFFFFF;
-font-size:13pt;
+font-size:1.1em;
 background-color: rgba(0,0,0,1.00);
 padding-left: 15px;
 padding-right: 15px;
