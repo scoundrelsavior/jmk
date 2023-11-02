@@ -126,7 +126,7 @@ font-size: 1.5rem;
 } 
 figcaption {
 font-family: 'Montserrat', sans-serif;
-font-size: 11.5pt;
+font-size:0.95rem;
 font-style:italic;
 padding-top:10px;
 }
@@ -284,7 +284,7 @@ margin-bottom:0;
 } 
 figcaption {
 font-family: 'Montserrat', sans-serif;
-font-size: 11.5pt;
+font-size: 0.95rem;
 font-style:italic;
 padding-top:10px;	
 padding-bottom:5px;	
@@ -451,7 +451,7 @@ margin-bottom:0;
 } 
 figcaption {
 font-family: 'Montserrat', sans-serif;
-font-size: 11.5pt;
+font-size: 0.95rem;
 font-style:italic;
 padding-top:10px;	
 }
