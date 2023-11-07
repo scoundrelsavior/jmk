@@ -252,14 +252,14 @@ display: none;
 display: flex;
 flex-direction: row;
 align-items: center;
+justify-content: center;
+gap:15px;
 }
 .flex-item-left {
-padding-right:15px;
-flex: 40%;
+flex: 50%;
 }
 .flex-item-right {
-flex: 60%;
-text-align: justify;
+flex: 50%;
 }
 .laptopvisible {
 display:none;
@@ -420,14 +420,14 @@ margin-left: 0;
 display: flex;
 flex-direction: row;
 align-items: center;
+justify-content: center;
+gap:15px;
 }
 .flex-item-left {
-padding-right:15px;
-flex: 40%;
+flex: 50%;
 }
 .flex-item-right {
-flex: 60%;
-text-align: justify;
+flex: 50%;
 }
 .laptopvisible {
 display:block;
