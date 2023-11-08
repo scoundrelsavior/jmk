@@ -96,6 +96,8 @@ margin-top: -10px;
 /* Responsive flex one column-layout instead of two-column layout */
 .flex-container {
 flex-direction: column;
+display: flex;
+gap: 15px;
 }
 .flex-item-left {
 padding-right:0px;
@@ -103,6 +105,7 @@ flex: 50%;
 }
 .flex-item-right {
 text-align:justify;
+justify-content: space-around;
 }
 .laptopvisible {
 display:none;
@@ -250,10 +253,10 @@ display: none;
 /* Responsive flex two-column layout over 481px */
 .flex-container {
 display: flex;
+gap:15px;
 flex-direction: row;
 align-items: center;
 justify-content: center;
-gap:15px;
 }
 .flex-item-left {
 flex: 50%;
@@ -418,10 +421,10 @@ margin-left: 0;
 /* Responsive flex two-column layout over 835px */
 .flex-container {
 display: flex;
+gap:15px;
 flex-direction: row;
 align-items: center;
 justify-content: center;
-gap:15px;
 }
 .flex-item-left {
 flex: 50%;
