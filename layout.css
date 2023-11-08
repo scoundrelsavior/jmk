@@ -109,10 +109,9 @@ flex: 50%;
 }
 .flex-item-right {
 text-align:justify;
-border:1px solid #333;
 border-radius:20px;
 padding:5px 5px 5px;
-background:rgba(0,0,0,1.00);
+background:rgba(0,0,0,0.60);
 }
 blockquote {
 position: relative;
@@ -298,10 +297,9 @@ flex: 50%;
 }
 .flex-item-right {
 flex: 50%;
-border:1px solid #333;
 border-radius:20px;
 padding:5px 5px 5px;
-background:rgba(0,0,0,1.00);
+background:rgba(0,0,0,0.60);
 }
 blockquote {
 position: relative;
@@ -498,10 +496,9 @@ flex: 50%;
 }
 .flex-item-right {
 flex: 50%;
-border:1px solid #333;
 border-radius:20px;
 padding:5px 5px 5px;
-background:rgba(0,0,0,1.00);
+background:rgba(0,0,0,0.60);
 }
 blockquote {
 position: relative;
