@@ -97,7 +97,12 @@ margin-top: -10px;
 .flex-container {
 flex-direction: column;
 display: flex;
-gap: 15px;
+gap: 10px;
+background-image: url(images/darkocean.jpg);
+background-position:center;
+background-size:cover;
+padding:10px;
+border-radius:20px;
 }
 .flex-item-left {
 flex: 50%;
@@ -277,10 +282,15 @@ display: none;
 /* Responsive flex two-column layout over 481px */
 .flex-container {
 display: flex;
-gap:15px;
+gap:10px;
 flex-direction: row;
 align-items: center;
 justify-content: center;
+background-image: url(images/darkocean.jpg);
+background-position:center;
+background-size:cover;
+padding:10px;
+border-radius:20px;
 }
 .flex-item-left {
 flex: 50%;
@@ -471,10 +481,15 @@ margin-left: 0;
 /* Responsive flex two-column layout over 835px */
 .flex-container {
 display: flex;
-gap:15px;
+gap:10px;
 flex-direction: row;
 align-items: center;
 justify-content: center;
+background-image: url(images/darkocean.jpg);
+background-position:center;
+background-size:cover;
+padding:10px;
+border-radius:20px;
 }
 .flex-item-left {
 flex: 50%;
