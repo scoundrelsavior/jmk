@@ -108,10 +108,13 @@ border-radius:20px;
 flex: 50%;
 }
 .flex-item-right {
-text-align:justify;
+font-size:1.15rem;
+font-family:'Open Sans',sans-serif;
+flex: 50%;
 border-radius:20px;
-padding:5px 5px 5px;
+padding:5px 5px 0px;
 background:rgba(0,0,0,0.60);
+line-height:1.4;
 }
 blockquote {
 position: relative;
@@ -120,18 +123,20 @@ position: relative;
 blockquote:before {
 position: absolute;
 content: open-quote; 
-font-size: 3em;
+font-size: 3.25em;
 margin-left: -0.6em;
 margin-top: -0.4em;
+font-family: Georgia, Times, "Times New Roman", serif;
 }
 blockquote:after {
 position: absolute;
 content: close-quote;
-font-size: 3em;
+font-size: 3.25em;
 bottom: 0;
 right: 0;
 margin-right: -0.6em;
 margin-bottom: -0.8em;
+font-family: Georgia, Times, "Times New Roman", serif;
 }
 blockquote p {
 display: inline;
@@ -296,10 +301,13 @@ border-radius:20px;
 flex: 50%;
 }
 .flex-item-right {
+font-size:1.15rem;
+font-family:'Open Sans',sans-serif;
 flex: 50%;
 border-radius:20px;
-padding:5px 5px 5px;
+padding:5px 5px 0px;
 background:rgba(0,0,0,0.60);
+line-height:1.4;
 }
 blockquote {
 position: relative;
@@ -308,18 +316,20 @@ position: relative;
 blockquote:before {
 position: absolute;
 content: open-quote; 
-font-size: 3em;
+font-size: 3.25em;
 margin-left: -0.6em;
 margin-top: -0.4em;
+font-family: Georgia, Times, "Times New Roman", serif;
 }
 blockquote:after {
 position: absolute;
 content: close-quote;
-font-size: 3em;
+font-size: 3.25em;
 bottom: 0;
 right: 0;
 margin-right: -0.6em;
 margin-bottom: -0.8em;
+font-family: Georgia, Times, "Times New Roman", serif;
 }
 blockquote p {
 display: inline;
@@ -495,10 +505,13 @@ border-radius:20px;
 flex: 50%;
 }
 .flex-item-right {
+font-size:1.2rem;
+font-family:'Open Sans',sans-serif;
 flex: 50%;
 border-radius:20px;
-padding:5px 5px 5px;
+padding:5px 5px 0px;
 background:rgba(0,0,0,0.60);
+line-height:1.5;
 }
 blockquote {
 position: relative;
@@ -510,6 +523,7 @@ content: open-quote;
 font-size: 3.25em;
 margin-left: -0.6em;
 margin-top: -0.4em;
+font-family: Georgia, Times, "Times New Roman", serif;
 }
 blockquote:after {
 position: absolute;
@@ -519,6 +533,7 @@ bottom: 0;
 right: 0;
 margin-right: -0.6em;
 margin-bottom: -0.8em;
+font-family: Georgia, Times, "Times New Roman", serif;
 }
 blockquote p {
 display: inline;
