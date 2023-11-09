@@ -102,7 +102,6 @@ background-image: url(images/darkocean.jpg);
 background-position:center;
 background-size:cover;
 padding:10px;
-border-radius:20px;
 }
 .flex-item-left {
 flex: 50%;
@@ -295,7 +294,6 @@ background-image: url(images/darkocean.jpg);
 background-position:center;
 background-size:cover;
 padding:10px;
-border-radius:20px;
 }
 .flex-item-left {
 flex: 50%;
@@ -499,7 +497,6 @@ background-image: url(images/darkocean.jpg);
 background-position:center;
 background-size:cover;
 padding:10px;
-border-radius:20px;
 }
 .flex-item-left {
 flex: 50%;
