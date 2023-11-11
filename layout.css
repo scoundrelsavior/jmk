@@ -339,7 +339,7 @@ float: left;
 .jonbenetxmas {
 float:right;
 max-width: 460px;
-padding-left:15px;
+margin-left:15px;
 }
 .heading {
 font-size:28px;
@@ -413,7 +413,7 @@ width: 100%;
 .georgiamoses {
 max-width: 430px;
 float:right;
-padding-left:15px;
+margin-left:15px;
 }
 .cho {
 float: right;
@@ -538,7 +538,7 @@ float: left;
 .jonbenetxmas {
 max-width: 563px;
 float:right;
-padding-left:15px;
+margin-left:15px;
 }
 .heading {
 font-size:30px;
@@ -612,7 +612,7 @@ width: 68.6%;
 .georgiamoses {
 max-width: 500px;
 float:right;
-padding-left:15px;
+margin-left:15px;
 }
 .cho {
 float: right;
