@@ -210,8 +210,8 @@ display: block;
 }
 #mooneysolution {
 float: right;
-padding-left: 10px;
-padding-bottom: 10px;
+margin-left: 10px;
+margin-bottom: 10px;
 width: 100%;
 }
 .georgiamoses {
@@ -333,7 +333,7 @@ display:none;
 }
 .jonbenetportrait {
 max-width: 460px;
-padding-right: 15px;
+margin-right: 15px;
 float: left;
 }
 .jonbenetxmas {
@@ -359,7 +359,7 @@ padding-bottom:5px;
 .pollyklaas {
 max-width: 460px;
 float:left;
-padding-right:15px;
+margin-right:15px;
 }
 #pollyklaas {
 padding-top: 10px;
@@ -368,10 +368,10 @@ margin-top: -5px;
 .richardallendavis {
 max-width: 460px;
 float: right;
-padding-left: 15px;
+margin-left: 15px;
 }
 .reducedjmkheader {
-padding-left: 10px;
+margin-left: 15px;
 float:right;
 max-width:300px;
 }
@@ -389,25 +389,20 @@ box-shadow: rgba(255, 255, 255, 0.56) 0px 0px 70px 4px;
 }
 #jmkbrookecourt {
 float: left;
-padding-left: 0px;
-padding-right: 10px;
-padding-top: 0px;
+margin-right: 15px;
 }
 #law {
 float: right;
 border-radius: 25px;
-padding-left: 10px;
+margin-left: 15px;
 }
 #jmksonomalawyers {
 float: right;
-padding-top: 0px;
-padding-right: 0px;
-padding-left: 10px;
+margin-left: 15px;
 }
 #mooneysolution {
 float: right;
-padding-left: 10px;
-padding-bottom: 10px;
+margin-left: 15px;
 width: 100%;
 }
 .georgiamoses {
@@ -417,17 +412,17 @@ margin-left:15px;
 }
 .cho {
 float: right;
-padding-left: 10px;
+margin-left: 15px;
 }
 #cherish {
-border-radius: 25px;
+border-radius: 14px;
 float: left;
-padding-right: 10px;
+margin-right: 15px;
 max-width: 60%;
 }
 #donaldsmith {
 float: right;
-padding-left: 10px;
+margin-left: 15px;
 }
 .slidermobilepage {
 font-weight: bold;
@@ -459,7 +454,7 @@ margin-left: auto;
 }
 .leisussurra {
 float: left;
-padding-right: 10px;
+margin-right: 10px;
 }
 .mySlides {
 max-width:100%;
@@ -484,7 +479,7 @@ gap:10px;
 flex-direction: row;
 align-items: center;
 justify-content: center;
-padding:10px;
+margin:10px;
 }
 .flex-item-left {
 flex: 50%;
@@ -532,7 +527,7 @@ display:none;
 }
 .jonbenetportrait {
 max-width: 535px;
-padding-right: 15px;
+margin-right: 15px;
 float: left;
 }
 .jonbenetxmas {
@@ -557,7 +552,7 @@ padding-top:10px;
 .pollyklaas {
 max-width: 535px;
 float:left;
-padding-right:15px;
+margin-right:15px;
 }
 #pollyklaas {
 padding-top: 10px;
@@ -566,10 +561,10 @@ margin-top: -5px;
 .richardallendavis {
 max-width: 535px;
 float: right;
-padding-left: 15px;
+margin-left: 15px;
 }
 .reducedjmkheader {
-padding-left: 10px;
+margin-left: 15px;
 float:right;
 max-width:350px;
 }
@@ -588,25 +583,20 @@ box-shadow: rgba(255, 255, 255, 0.56) 0px 0px 70px 4px;
 }
 #jmkbrookecourt {
 float: left;
-padding-left: 0px;
-padding-right: 10px;
-padding-top: 0px;
+margin-right: 15px;
 }
 #law {
 float: right;
-border-radius: 25px;
-padding-left: 10px;
+border-radius: 14px;
+margin-left: 15px;
 }
 #jmksonomalawyers {
 float: right;
-padding-top: 0px;
-padding-right: 0px;
-padding-left: 10px;
+margin-left: 15px;
 }
 #mooneysolution {
 float: right;
-padding-left: 10px;
-padding-bottom: 10px;
+margin-left: 15px;
 width: 68.6%;
 }
 .georgiamoses {
@@ -616,17 +606,17 @@ margin-left:15px;
 }
 .cho {
 float: right;
-padding-left: 10px;
+margin-left: 15px;
 }
 #cherish {
-border-radius: 25px;
+border-radius: 14px;
 float: left;
-padding-right: 10px;
+margin-right: 15px;
 max-width: 57%;
 }
 #donaldsmith {
 float: right;
-padding-left: 10px;
+margin-left: 15px;
 }
 .slidermobilepage {
 font-weight: bold;
@@ -659,8 +649,7 @@ margin-left: auto;
 }
 .leisussurra {
 float: left;
-padding-right: 15px;
-padding-bottom: 10px;
+margin-right: 15px;
 }
 .mySlides {
 max-width: 100%;
