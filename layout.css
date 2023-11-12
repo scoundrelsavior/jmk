@@ -111,9 +111,9 @@ margin-top: -10px;
 .flex-container {
 flex-direction: column;
 display: flex;
-gap: 10px;
+gap: 8px;
 /*Don't change padding below to margin*/
-padding:10px;
+padding:8px;
 }
 .flex-item-left {
 flex: 50%;
@@ -296,12 +296,12 @@ display: none;
 /* Responsive flex two-column layout over 481px */
 .flex-container {
 display: flex;
-gap:10px;
+gap:8px;
 flex-direction: row;
 align-items: center;
 justify-content: center;
 /*Don't change padding below to margin*/
-padding:10px;
+padding:8px;
 }
 .flex-item-left {
 flex: 50%;
@@ -491,12 +491,12 @@ margin-left: 0;
 /* Responsive flex two-column layout over 835px */
 .flex-container {
 display: flex;
-gap:10px;
+gap:8px;
 flex-direction: row;
 align-items: center;
 justify-content: center;
 /*Don't change padding below to margin*/
-padding-left:10px;
+padding:8px;
 }
 .flex-item-left {
 flex: 50%;
