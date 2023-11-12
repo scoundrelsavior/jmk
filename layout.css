@@ -1,12 +1,22 @@
 @charset "utf-8";
 html {
 font-size:100%;
+scrollbar-width: none;
 }
 img, object, embed, video {
 max-width: 100%;
 }
 .ie6 img {
 width:100%;
+}
+body {/* hide scrollbar but allow scrolling */
+-ms-overflow-style: none; /* for Internet Explorer, Edge */
+scrollbar-width: none; /* for Firefox */
+overflow-y: scroll; 
+}
+body::-webkit-scrollbar {
+width: 0px;
+background: transparent; /* Disable scrollbar Chrome/Safari/Webkit */
 }
 hr {
 border:none;
