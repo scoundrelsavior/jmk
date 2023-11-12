@@ -496,7 +496,7 @@ flex-direction: row;
 align-items: center;
 justify-content: center;
 /*Don't change padding below to margin*/
-padding:10px;
+padding-left:10px;
 }
 .flex-item-left {
 flex: 50%;
