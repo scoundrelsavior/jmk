@@ -112,6 +112,7 @@ margin-top: -10px;
 flex-direction: column;
 display: flex;
 gap: 10px;
+/*Don't change padding below to margin*/
 padding:10px;
 }
 .flex-item-left {
@@ -299,6 +300,7 @@ gap:10px;
 flex-direction: row;
 align-items: center;
 justify-content: center;
+/*Don't change padding below to margin*/
 padding:10px;
 }
 .flex-item-left {
@@ -493,7 +495,8 @@ gap:10px;
 flex-direction: row;
 align-items: center;
 justify-content: center;
-margin:10px;
+/*Don't change padding below to margin*/
+padding:10px;
 }
 .flex-item-left {
 flex: 50%;
