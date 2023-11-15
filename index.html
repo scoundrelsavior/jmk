@@ -42,13 +42,28 @@
 <style>
 
 body {
-	background-color: #000;
+	background-color: rgba(0,0,0,1.0);
 	<!--background-image: url(images/marble.jpg);
 	background-attachment: fixed;
 	background-repeat:repeat;-->
 }
 p {
 	font-family: 'Open Sans', sans-serif;
+}
+
+.shadowed {
+    -webkit-filter: drop-shadow(0px 0px 0px 0px rgba(255,255,255,0.5));
+    filter: url(#drop-shadow);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=0, OffY=0, Color='#FFFFFF')";
+    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=0, OffY=0, Color='#FFFFFF')";
+}
+
+blockquote.removequote:after {
+    content: "";
+}
+
+blockquote.removequote:before {
+    content: "";
 }
 
 </style>
@@ -62,15 +77,12 @@ p {
 <div class="content" style="text-align:justify">
 
 <div class="flex-container" style="background-image: url(images/darkocean.jpg);background-position:center;background-size:cover;">
-
 <div class="flex-item-left">
 <img class="center" style="border-radius: 14px" src="images/johnmarkkarr2023quote.jpg" alt="JMK">
 </div>
-
 <div class="flex-item-right" style="border-radius: 14px">
 <blockquote>In 2019, a contact informed me that they were interviewed by the FBI for seven hours in 2006. They stated the interview was as much about Polly Klaas as JonBenet Ramsey. The FBI played numerous recorded calls from 2001 wherein I discussed Klaas in depth with an informant. The FBI stated that I had discussed details of Klaas with her killer in multiple conversations. I have a message for the FBI and Polly Klaas's killer <a href="/pollyklaas" target="_blank">in this article.</a></blockquote>
 </div>
-
 </div>
 
 <p style="text-align:center"><b>I Know Who JonBenet Ramsey's Killer Was and I'm Protecting Them? Think Again!</b></p>
@@ -180,13 +192,15 @@ p {
 
 <p>The American public deserves to know that I gave six hours of quality interview time to Discovery in Bangkok on JonBenet's birthday. I revealed new information about JonBenet's death. You will never hear that. I dismantled the DNA. You will never hear that. I talked about how my DNA was taken in 2006 which was a total joke. You will never hear that. I responded to the ridiculous way Mary Lacy mishandled my arrest in 2006. My right to defend myself and tell my side of the story was dumped. Most importantly, I talked about a law that would save children's lives. This was also axed. I feel the American people have the right to know that they were robbed of all this and more by Discovery's decision to merely roll old 2006 footage and call me a lunatic liar. Six hours were reduced to a few sentences spread across three nights. Investigation Discovery used my image and name to promote their show for three nights making promises that, on the third night, there would be an exclusive interview with me. That never happened. Instead, Americans got the dog and pony show. I am receiving hundreds of visits from Americans looking for an answer. You didn't get those answers in the ID exploitation and public humiliation of John Mark Karr. (September 16th 2016)</p> 
 
-<a href="/pollyklaas" target="_blank">
-<picture>
-    <source media="(min-width: 835px)" srcset="images/pollyklaaslaptoplead.png">
-    <source media="(min-width: 481px)" srcset="images/pollyklaaslaptoplead.png">
-    <img class="center" src="images/pollyklaasmobilelead.png" alt="Klaas">
-</picture>
-</a>
+<div class="flex-container" style="background-image: url(images/lushforest.jpg);background-position:center;background-size:cover;">
+<div class="flex-item-left">
+<img class="center" style="" src="images/pollyklaascircle.png" alt="JMK">
+</div>
+<div class="flex-item-right" style="border-radius: 14px;">
+<blockquote class="removequote" style="text-align:center;font-weight:bold">THE DISASTROUS ABDUCTION OF POLLY KLAAS</blockquote>
+<blockquote class="removequote" style="padding-bottom:8px">In this 2023 article, I take a closer look at her killer's possible alternative motive and address a decades long FBI investigation that has made every effort to link me to the abduction that led to her death. <a href="/pollyklaas" target="_blank">Tap for full article.</a></blockquote>
+</div>
+</div>
 
 <p style="text-align:center"><b>There Was More Than My Arrest for the Murder of JonBenet Ramsey</b></p>
 
@@ -279,9 +293,25 @@ p {
 <p style="text-align:center">Copyright 2023 All Rights Reserved</p>
 
 </div>
+
+<!--Shadows and Glows Around PNGs. Apply Class="shadowed" to desired elements. Adjustments are made below.-->
+<div style="height:0">
+<svg height="0" xmlns="http://www.w3.org/2000/svg">
+    <filter id="drop-shadow">
+        <feGaussianBlur in="SourceAlpha" /*Adjust Entire Width of Shadow or Glow*/ stdDeviation="16"/>
+        <feOffset dx="0" dy="0" result="offsetblur"/>
+        <feFlood flood-color="rgba(255,255,255,0.5)"/>
+        <feComposite in2="offsetblur" operator="in"/>
+        <feMerge>
+            <feMergeNode/>
+            <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+    </filter>
+</svg>
+</div>
 	
 <script src="https://vjs.zencdn.net/7.20.3/video.min.js"></script>
-
+	
 <!-- Default Statcounter code for johnmarkkarr.com
 https://johnmarkkarr.com/ -->
 <script type="text/javascript">
