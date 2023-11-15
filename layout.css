@@ -122,8 +122,8 @@ flex: 50%;
 font-size:1.1rem;
 font-family:'Open Sans',sans-serif;
 flex: 50%;
-padding:5px 5px 0px;
-background:rgba(0,0,0,0.60);
+padding:10px 8px 0px;
+background:rgba(0,0,0,0.70);
 }
 blockquote {
 position: relative;
@@ -310,8 +310,8 @@ flex: 50%;
 font-size:1.075rem;
 font-family:'Open Sans',sans-serif;
 flex: 50%;
-padding:5px 5px 0px;
-background:rgba(0,0,0,0.60);
+padding:8px 8px 0px;
+background:rgba(0,0,0,0.70);
 }
 blockquote {
 position: relative;
@@ -502,11 +502,10 @@ padding:8px;
 flex: 50%;
 }
 .flex-item-right {
-font-size:1.1rem;
 font-family:'Open Sans',sans-serif;
 flex: 50%;
-padding:5px 5px 0px;
-background:rgba(0,0,0,0.60);
+padding:8px 8px 0px;
+background:rgba(0,0,0,0.70);
 }
 blockquote {
 position: relative;
