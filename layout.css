@@ -284,6 +284,14 @@ margin-left: 0;
 .hide_mobile {
 display: none;
 }
+.right {
+margin-left:auto;
+margin-right:auto;
+}
+.left {
+margin-left:auto;
+margin-right:auto;
+}
 
 /* Tablet Layout: 481px to 835px - Ipad Pro 11-inch and below. Inherits styles from: Mobile Layout. */
 @media only screen and (min-width: 481px) {
@@ -478,6 +486,16 @@ display: none;
 .zeroMargin_tablet {
 margin-left: 0;
 }
+.right {
+float: right;
+margin-left: 15px;
+max-width:60%;
+}
+.left {
+float: left;
+margin-right: 15px;
+max-width:60%;
+}
 }
 
 /* Desktop Layout: 835px to a max of 1232px - Everything above Ipad Pro 11-inch. Inherits styles from: Mobile Layout and Tablet Layout. */
@@ -671,5 +689,15 @@ margin-left: 0;
 }
 .hide_desktop {
 display: none;
+}
+.right {
+float: right;
+margin-left: 15px;
+max-width:50%;
+}
+.left {
+float: left;
+margin-right: 15px;
+max-width:50%;
 }
 }
