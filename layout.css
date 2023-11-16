@@ -17,6 +17,12 @@ body::-webkit-scrollbar {
 width: 0px;
 background: transparent; /* Disable scrollbar Chrome/Safari/Webkit */
 }
+/*Stop floating images larger than their matching paragraphs from causing floats to overlap div just below them. */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 hr {
 border:none;
 width: 100%;
