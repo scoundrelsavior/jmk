@@ -17,11 +17,17 @@ body::-webkit-scrollbar {
 width: 0px;
 background: transparent; /* Disable scrollbar Chrome/Safari/Webkit */
 }
-/*Stop floating images larger than their matching paragraphs from causing floats to overlap div just below them. */
-.clearfix::after {
+/*Stop floating images larger than their matching paragraphs
+from causing floats to overlap div just below them. Do not
+use anything containing the "table" element which causes an
+uneditable bottom margin at smaller screen sizes */
+.clearfix:after {
+  visibility: hidden;
+  display: block;
   content: "";
   clear: both;
-  display: table;
+  height: 0;
+  margin-bottom:25px; /*table element doesn't allow adjusting margin*/
 }
 hr {
 border:none;
