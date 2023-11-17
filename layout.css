@@ -209,10 +209,7 @@ color: #FFFFFF;
 font-size:1.09rem;
 margin-left: auto;
 margin-right: auto;
-padding-left: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-top: 10px;
+padding: 10px;
 }
 #jmkbrookecourt {
 display:block;
@@ -412,7 +409,7 @@ background-color: rgba(0,0,0,1.00);
 font-size:1.09rem;
 margin-left: auto;
 margin-right: auto;
-padding: 15px;
+padding:15px;
 }
 #jmkbrookecourt {
 float: left;
@@ -612,10 +609,7 @@ margin-right: auto;
 color: #FFFFFF;
 font-size:1.09rem;
 background-color: rgba(0,0,0,1.00);
-padding-left: 15px;
-padding-right: 15px;
-padding-bottom: 15px;
-padding-top: 15px;
+padding: 15px;
 box-shadow: rgba(255, 255, 255, 0.56) 0px 0px 70px 4px;
 }
 #jmkbrookecourt {
