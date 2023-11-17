@@ -495,12 +495,12 @@ margin-left: 0;
 .right {
 float: right;
 margin-left: 15px;
-max-width:55%;
+max-width:50%;
 }
 .left {
 float: left;
 margin-right: 15px;
-max-width:55%;
+max-width:50%;
 }
 }
 
