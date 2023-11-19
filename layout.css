@@ -20,14 +20,16 @@ background: transparent; /* Disable scrollbar Chrome/Safari/Webkit */
 .box {
   display: flow-root;
 }
-/*requires empty div under floating overflowing div:
-<div class="clearfix" style="margin-bottom: 25px"></div>*/
+/*Remove <p></p> or you will have a mysterious top margin.
+Just let the text be inside the div. Also, photo might
+require margin-bottom:25px at mobile screen*/
 .clearfix:after {
     visibility: hidden;
     display: block;
     content: "";
     clear: both;
     height: 0;
+    margin-bottom: 20px;
 }
 hr {
 border:none;
@@ -282,6 +284,12 @@ margin-right: auto;
 margin-left: auto;
 margin-bottom: 20px;
 }
+.madeleinemccann {
+margin-left:auto;
+margin-right:auto;
+margin-bottom:25px;
+border-radius:14px;
+}
 .spiegelcollection {
 margin-left:auto;
 margin-right:auto;
@@ -472,6 +480,13 @@ text-shadow: 1px 1px 2px #000000;
 display: block;
 margin-right: auto;
 margin-left: auto;
+}
+.madeleinemccann {
+float: left;
+margin-right: 15px;
+margin-bottom:0px;
+max-width:50%;
+border-radius:14px;
 }
 .spiegelcollection {
 float: right;
@@ -666,6 +681,13 @@ text-shadow: 1px 1px 2px #000000;
 display: block;
 margin-right: auto;
 margin-left: auto;
+}
+.madeleinemccann {
+float: left;
+margin-right: 15px;
+margin-bottom:0px;
+max-width:50%;
+border-radius:14px;
 }
 .spiegelcollection {
 float: right;
