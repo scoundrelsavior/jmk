@@ -20,17 +20,6 @@ background: transparent; /* Disable scrollbar Chrome/Safari/Webkit */
 .box {
   display: flow-root;
 }
-/*Remove <p></p> or you will have a mysterious top margin.
-Just let the text be inside the div. Also, photo might
-require margin-bottom:25px at mobile screen*/
-.clearfix:after {
-    visibility: hidden;
-    display: block;
-    content: "";
-    clear: both;
-    height: 0;
-    margin-bottom: 20px;
-}
 hr {
 border:none;
 width: 100%;
