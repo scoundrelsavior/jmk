@@ -215,17 +215,14 @@ td { vertical-align: top; }
 /* Hide visually and from screenreaders, but maintain layout */
 .invisible { visibility: hidden; }
 
-/* Removed because if affect on fonts, etc. See clearfix in layout.css. Contain floats: h5bp.com/q
-.clearfix:before, .clearfix:after { content: ""; display: table; }
+/* Remove text from <p> element or a top margin will push the paragraph down.
+Requires a margin-bottom on floating image at mobile screen size in layout.css. h5bp.com/q*/
+.clearfix:before, .clearfix:after { content: ""; display: block; }
 .clearfix:after { clear: both; }
 .clearfix {
 	zoom: 1;
-	font-size: 14pt;
-	font-weight: normal;
-	color: #FFFFFF;
 	clear: both;
-} 
-*/
+}
 
 
 /* ==|== print styles =======================================================
