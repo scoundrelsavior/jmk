@@ -152,6 +152,14 @@ font-family: Georgia, Times, "Times New Roman", serif;
 blockquote p {
 display: inline;
 }
+.xembedleft {
+margin-left:auto;
+margin-right:auto;
+}
+.xembedright {
+margin-left:auto;
+margin-right:auto;
+}
 .laptopvisible {
 display:none;
 }
@@ -353,6 +361,16 @@ font-family: Georgia, Times, "Times New Roman", serif;
 }
 blockquote p {
 display: inline;
+}
+.xembedleft {
+width:500px;
+float:left;
+margin-right:15px;
+}
+.xembedright {
+width:500px;
+float:right;
+margin-left:15px;
 }
 .laptopvisible {
 display:none;
@@ -558,6 +576,18 @@ font-family: Georgia, Times, "Times New Roman", serif;
 }
 blockquote p {
 display: inline;
+}
+/*550px is the max width size of an X embed. 
+Greater widths make empty margins*/
+.xembedleft {
+width:550px;
+float:left;
+margin-right:15px;
+}
+.xembedright {
+width:550px;
+float:right;
+margin-left:15px;
 }
 .laptopvisible {
 display:block;
