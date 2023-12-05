@@ -152,6 +152,11 @@ font-family: Georgia, Times, "Times New Roman", serif;
 blockquote p {
 display: inline;
 }
+.xembed {
+display:block;
+margin-right:auto;
+margin-left:auto;
+}
 .laptopvisible {
 display:none;
 }
@@ -348,6 +353,10 @@ font-family: Georgia, Times, "Times New Roman", serif;
 }
 blockquote p {
 display: inline;
+}
+.xembed {
+float:left;
+margin-right:15px;
 }
 .laptopvisible {
 display:none;
@@ -547,6 +556,10 @@ font-family: Georgia, Times, "Times New Roman", serif;
 }
 blockquote p {
 display: inline;
+}
+.xembed {
+float:left;
+margin-right:15px;
 }
 .laptopvisible {
 display:block;
