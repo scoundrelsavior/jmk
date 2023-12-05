@@ -292,6 +292,11 @@ margin-left:auto;
 margin-right:auto;
 border-radius:12px;
 }
+.antikarrgroup {
+margin-left:auto;
+margin-right:auto;
+border-radius:12px;
+}
 .mySlides {
 max-width:100%;
 max-height:100%;
@@ -487,7 +492,13 @@ border-radius:12px;
 .spiegelcollection {
 float: right;
 margin-left: 15px;
-max-width:50%;
+max-width:60%;
+border-radius:12px;
+}
+.antikarrgroup {
+float: left;
+margin-right: 15px;
+max-width:60%;
 border-radius:12px;
 }
 .mySlides {
@@ -688,6 +699,13 @@ border-radius:12px;
 .spiegelcollection {
 float: right;
 margin-left: 15px;
+max-width:50%;
+border-radius:12px;
+}
+.antikarrgroup {
+float: left;
+margin-right: 15px;
+margin-bottom:26px;
 max-width:50%;
 border-radius:12px;
 }
