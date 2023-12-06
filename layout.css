@@ -336,6 +336,9 @@ flex: 50%;
 flex: 50%;
 background:rgba(0,0,0,0.70);
 }
+.klaasflexleft {
+flex:70%;
+}
 .content {
 color: #FFFFFF;
 background-color: rgba(0,0,0,1.00);
@@ -548,6 +551,13 @@ flex: 50%;
 }
 .flex-item-right {
 flex: 50%;
+background:rgba(0,0,0,0.70);
+}
+.klaasflexleft {
+flex:50%;
+}
+.klaasflexright {
+flex:50%;
 background:rgba(0,0,0,0.70);
 }
 .content {
