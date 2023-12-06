@@ -127,6 +127,14 @@ flex: 50%;
 flex: 50%;
 background:rgba(0,0,0,0.70);
 }
+.content {
+background-color: rgba(0,0,0,1.00);
+color: #FFFFFF;
+font-size:1.09rem;
+margin-left: auto;
+margin-right: auto;
+padding: 10px;
+}
 blockquote {
 position: relative;
 /* background: #ddd; */
@@ -209,14 +217,6 @@ margin-right: auto;
 .reducedjmkheader {
 margin-left: auto;
 margin-right: auto;
-}
-.content {
-background-color: rgba(0,0,0,1.00);
-color: #FFFFFF;
-font-size:1.09rem;
-margin-left: auto;
-margin-right: auto;
-padding: 10px;
 }
 #jmkbrookecourt {
 display:block;
@@ -336,6 +336,14 @@ flex: 50%;
 flex: 50%;
 background:rgba(0,0,0,0.70);
 }
+.content {
+color: #FFFFFF;
+background-color: rgba(0,0,0,1.00);
+font-size:1.09rem;
+margin-left: auto;
+margin-right: auto;
+padding:15px;
+}
 blockquote {
 position: relative;
 /* background: #ddd; */
@@ -425,14 +433,6 @@ margin-left: 15px;
 margin-left: 15px;
 float:right;
 max-width:300px;
-}
-.content {
-color: #FFFFFF;
-background-color: rgba(0,0,0,1.00);
-font-size:1.09rem;
-margin-left: auto;
-margin-right: auto;
-padding:15px;
 }
 #jmkbrookecourt {
 float: left;
@@ -550,6 +550,16 @@ flex: 50%;
 flex: 50%;
 background:rgba(0,0,0,0.70);
 }
+.content {
+max-width: 1000px;
+margin-left: auto;
+margin-right: auto;
+color: #FFFFFF;
+font-size:1.09rem;
+background-color: rgba(0,0,0,1.00);
+padding: 15px;
+box-shadow: rgba(255, 255, 255, 0.56) 0px 0px 70px 4px;
+}
 blockquote {
 position: relative;
 /* background: #ddd; */
@@ -640,16 +650,6 @@ margin-left: 15px;
 margin-left: 15px;
 float:right;
 max-width:350px;
-}
-.content {
-max-width: 1000px;
-margin-left: auto;
-margin-right: auto;
-color: #FFFFFF;
-font-size:1.09rem;
-background-color: rgba(0,0,0,1.00);
-padding: 15px;
-box-shadow: rgba(255, 255, 255, 0.56) 0px 0px 70px 4px;
 }
 #jmkbrookecourt {
 float: left;
