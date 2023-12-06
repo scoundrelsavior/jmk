@@ -330,10 +330,10 @@ justify-content: center;
 padding:8px;
 }
 .flex-item-left {
-flex: 60%;
+flex: 50%;
 }
 .flex-item-right {
-flex: 40%;
+flex: 50%;
 background:rgba(0,0,0,0.70);
 }
 .content {
