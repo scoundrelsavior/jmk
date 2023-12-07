@@ -120,11 +120,18 @@ gap: 8px;
 /*Don't change padding below to margin*/
 padding:8px;
 }
-.flex-item-left {
+.flexleftjmk {
 flex: 50%;
 }
-.flex-item-right {
+.flexrightjmk {
 flex: 50%;
+background:rgba(0,0,0,0.70);
+}
+.flexleftklaas {
+flex:50%;
+}
+.flexrightklaas {
+flex:50%;
 background:rgba(0,0,0,0.70);
 }
 .content {
@@ -329,15 +336,19 @@ justify-content: center;
 /*Don't change padding below to margin*/
 padding:8px;
 }
-.flex-item-left {
+.flexleftjmk {
 flex: 50%;
 }
-.flex-item-right {
+.flexrightjmk {
 flex: 50%;
 background:rgba(0,0,0,0.70);
 }
-.klaasflexleft {
+.flexleftklaas {
 flex:70%;
+}
+.flexrightklaas {
+flex:50%;
+background:rgba(0,0,0,0.70);
 }
 .content {
 color: #FFFFFF;
@@ -546,15 +557,19 @@ justify-content: center;
 /*Don't change padding below to margin*/
 padding:8px;
 }
-.flex-item-left {
+.flexleftjmk {
 flex: 50%;
 }
-.flex-item-right {
+.flexrightjmk {
 flex: 50%;
 background:rgba(0,0,0,0.70);
 }
-.klaasflexleft {
+.flexleftklaas {
 flex:50%;
+}
+.flexrightklaas {
+flex:50%;
+background:rgba(0,0,0,0.70);
 }
 .content {
 max-width: 1000px;
