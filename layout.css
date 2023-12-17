@@ -518,8 +518,8 @@ margin-right: auto;
 margin-left: auto;
 }
 .madeleinemccann {
-float: left;
-margin-right: 15px;
+float: right;
+margin-left: 15px;
 max-width:70%;
 border-radius:12px;
 }
@@ -745,8 +745,8 @@ margin-right: auto;
 margin-left: auto;
 }
 .madeleinemccann {
-float: left;
-margin-right: 15px;
+float: right;
+margin-left: 15px;
 max-width:70%;
 border-radius:12px;
 }
