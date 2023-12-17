@@ -615,12 +615,12 @@ display: inline;
 /*550px is the max width size of an X embed. 
 Greater widths make empty margins*/
 .xembedleft {
-width:550px;
+width:600px;
 float:left;
 margin-right:15px;
 }
 .xembedright {
-width:550px;
+width:600px;
 float:right;
 margin-left:15px;
 }
