@@ -136,6 +136,17 @@ background:rgba(0,0,0,0.70);
 padding:0px 20px 0px;
 margin:0px;
 }
+.christmascard {
+display: flex;
+flex-direction: column;
+gap:10px;
+border:1px solid #555;
+max-width:600px;
+padding:10px;
+border-radius:12px;
+background-position:center;
+background-size:cover;
+}
 .content {
 background-color: rgba(0,0,0,1.00);
 color: #FFFFFF;
@@ -353,6 +364,18 @@ flex:50%;
 background:rgba(0,0,0,0.70);
 padding:0px 20px 0px;
 margin:0px;
+}
+.christmascard {
+display: flex;
+flex-direction: column;
+gap:20px;
+border:1px solid #555;
+max-width:600px;
+padding:20px;
+border-radius:12px;
+background-position:center;
+background-size:cover;
+margin:26px auto 26px;
 }
 .content {
 color: #FFFFFF;
@@ -576,6 +599,18 @@ flex:50%;
 background:rgba(0,0,0,0.70);
 padding:0px 20px 0px;
 margin:0px;
+}
+.christmascard {
+display: flex;
+flex-direction: column;
+gap:20px;
+border:1px solid #555;
+max-width:600px;
+padding:20px;
+border-radius:12px;
+background-position:center;
+background-size:cover;
+margin:26px auto 26px;
 }
 .content {
 max-width: 1000px;
