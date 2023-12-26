@@ -203,10 +203,11 @@ margin-right: auto;
 margin-left: auto;
 }
 .jonbenetxmas {
-display:block;
 margin-left: auto;
 margin-right: auto;
 margin-bottom:15px;
+border:1px solid #555;
+border-radius:12px;
 }
 .heading {
 font-size:25px;
@@ -435,12 +436,17 @@ display:none;
 max-width: 480px;
 margin-right: 15px;
 float: left;
+border:1px solid #555;
+border-radius:12px;
+padding:10px;
 }
 .jonbenetxmas {
 float:right;
 max-width: 500px;
 margin-left:15px;
 margin-bottom:0px;
+border:1px solid #555;
+border-radius:12px;
 }
 .heading {
 font-size:28px;
@@ -675,12 +681,17 @@ display:none;
 max-width: 581px;
 margin-right: 15px;
 float: left;
+border:1px solid #555;
+border-radius:12px;
+padding:10px;
 }
 .jonbenetxmas {
 max-width: 560px;
 float:right;
 margin-left:15px;
 margin-bottom:0px;
+border:1px solid #555;
+border-radius:12px;
 }
 .heading {
 font-size:30px;
