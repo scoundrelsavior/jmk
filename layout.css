@@ -84,6 +84,10 @@ padding-top: 20px;
 padding-top: 10px;
 margin-top: -10px;
 }
+#charlottelast {
+padding-top: 10px;
+margin-top: -10px;
+}
 /*Text fade with Read More at bottom of fade*/
 .textfade {
   max-height: 120px;
