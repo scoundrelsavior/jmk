@@ -80,10 +80,11 @@ font-weight: bolder;
 padding-top: 20px;
 }
 /* Anchor Tags: Write all the same way based on #ID 
-Two different methods are used. Scroll method
-doesn't work on IE browsers. The anchors
-are distributed in the media queries with different
-margin top spaces according to screen size*/
+Two different methods are used. Example one requires
+an additional div above target so is not ideal. Scroll
+method doesn't work on IE browsers but is the ideal
+choice. The anchors are distributed in the media queries 
+with different margin top spaces according to screen size*/
 #exampleone {
 padding-top: 10px;
 margin-top: -10px;
@@ -348,8 +349,7 @@ display: none;
 scroll-margin-top:10px;
 }
 #charlottelast {
-padding-top: 10px;
-margin-top: -10px;
+scroll-margin-top:10px;
 }
 
 /* Tablet Layout: 481px to 835px - Ipad Pro 11-inch and below. Inherits styles from: Mobile Layout. */
@@ -593,9 +593,7 @@ margin-left: 0;
 scroll-margin-top:26px;
 }
 #charlottelast {
-padding-top: 26px;
-margin-top: -26px;
-}
+scroll-margin-top:10px;
 }
 
 /* Desktop Layout: 835px to a max of 1232px - Everything above Ipad Pro 11-inch. Inherits styles from: Mobile Layout and Tablet Layout. */
@@ -842,7 +840,6 @@ display: none;
 scroll-margin-top:26px;
 }
 #charlottelast {
-padding-top: 26px;
-margin-top: -26px;
+scroll-margin-top:26px;
 }
 }
