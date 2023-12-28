@@ -79,7 +79,10 @@ font-weight: bolder;
 .headliner {
 padding-top: 20px;
 }
-/* Anchor Tags: Write all the same way based on #ID */
+/* Anchor Tags: Write all the same way based on #ID 
+Two different methods are used. Scroll method
+doesn't work on IE browsers. 26 px is used on
+charlottexmas because that is the desired margin*/
 #juliawendelmadeleine {
 padding-top: 10px;
 margin-top: -10px;
@@ -87,6 +90,9 @@ margin-top: -10px;
 #charlottelast {
 padding-top: 10px;
 margin-top: -10px;
+}
+#charlottexmas {
+scroll-margin-top:26px;
 }
 /*Text fade with Read More at bottom of fade*/
 .textfade {
