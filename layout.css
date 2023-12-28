@@ -81,17 +81,14 @@ padding-top: 20px;
 }
 /* Anchor Tags: Write all the same way based on #ID 
 Two different methods are used. Scroll method
-doesn't work on IE browsers. 26 px is used on
-charlottexmas because that is the desired margin*/
-#juliawendelmadeleine {
+doesn't work on IE browsers. The anchors
+are distributed in the media queries with different
+margin top spaces according to screen size*/
+#exampleone {
 padding-top: 10px;
 margin-top: -10px;
 }
-#charlottelast {
-padding-top: 10px;
-margin-top: -10px;
-}
-#charlottexmas {
+#exampletwo {
 scroll-margin-top:26px;
 }
 /*Text fade with Read More at bottom of fade*/
@@ -346,6 +343,14 @@ margin-left: 0;
 .hide_mobile {
 display: none;
 }
+/*Anchors*/
+#charlottexmas {
+scroll-margin-top:10px;
+}
+#charlottelast {
+padding-top: 10px;
+margin-top: -10px;
+}
 
 /* Tablet Layout: 481px to 835px - Ipad Pro 11-inch and below. Inherits styles from: Mobile Layout. */
 @media only screen and (min-width: 481px) {
@@ -582,6 +587,14 @@ display: none;
 }
 .zeroMargin_tablet {
 margin-left: 0;
+}
+/*Anchors*/
+#charlottexmas {
+scroll-margin-top:26px;
+}
+#charlottelast {
+padding-top: 26px;
+margin-top: -26px;
 }
 }
 
@@ -823,5 +836,13 @@ margin-left: 0;
 }
 .hide_desktop {
 display: none;
+}
+/*Anchors*/
+#charlottexmas {
+scroll-margin-top:26px;
+}
+#charlottelast {
+padding-top: 26px;
+margin-top: -26px;
 }
 }
