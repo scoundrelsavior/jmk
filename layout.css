@@ -603,10 +603,12 @@ scroll-margin-top:26px;
 }
 #estellexmas {
 scroll-margin-top:26px;
+}
 #patriciabday2023 {
 scroll-margin-top:26px;
 }
 }
+
 /* Desktop Layout: 835px to a max of 1232px - Everything above Ipad Pro 11-inch. Inherits styles from: Mobile Layout and Tablet Layout. */
 @media only screen and (min-width: 835px) {
 
