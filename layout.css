@@ -357,7 +357,6 @@ scroll-margin-top:10px;
 #patriciabday2023 {
 scroll-margin-top:10px;
 }
-}
 
 /* Tablet Layout: 481px to 835px - Ipad Pro 11-inch and below. Inherits styles from: Mobile Layout. */
 @media only screen and (min-width: 481px) {
@@ -607,7 +606,7 @@ scroll-margin-top:26px;
 #patriciabday2023 {
 scroll-margin-top:26px;
 }
-
+}
 /* Desktop Layout: 835px to a max of 1232px - Everything above Ipad Pro 11-inch. Inherits styles from: Mobile Layout and Tablet Layout. */
 @media only screen and (min-width: 835px) {
 
