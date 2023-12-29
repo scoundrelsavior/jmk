@@ -354,6 +354,9 @@ scroll-margin-top:10px;
 #estellexmas {
 scroll-margin-top:10px;
 }
+#patriciabday2023 {
+scroll-margin-top:10px;
+}
 
 /* Tablet Layout: 481px to 835px - Ipad Pro 11-inch and below. Inherits styles from: Mobile Layout. */
 @media only screen and (min-width: 481px) {
@@ -599,6 +602,8 @@ scroll-margin-top:26px;
 scroll-margin-top:26px;
 }
 #estellexmas {
+scroll-margin-top:26px;
+#patriciabday2023 {
 scroll-margin-top:26px;
 }
 
@@ -849,6 +854,9 @@ scroll-margin-top:26px;
 scroll-margin-top:26px;
 }
 #estellexmas {
+scroll-margin-top:26px;
+}
+#patriciabday2023 {
 scroll-margin-top:26px;
 }
 }
