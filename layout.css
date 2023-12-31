@@ -153,6 +153,16 @@ border-radius:12px;
 background-position:center;
 background-size:cover;
 }
+.photolayout {
+display:flex;
+flex-direction:column;
+gap:5px;
+padding:5px;
+border:1px solid #555;
+border-radius:12px;
+background-position:center;
+background-size:cover;
+}
 .content {
 background-color: rgba(0,0,0,1.00);
 color: #FFFFFF;
@@ -357,6 +367,9 @@ scroll-margin-top:10px;
 #patriciabday2023 {
 scroll-margin-top:10px;
 }
+#swedenroyalfamily2020 {
+scroll-margin-top:10px;
+}
 
 /* Tablet Layout: 481px to 835px - Ipad Pro 11-inch and below. Inherits styles from: Mobile Layout. */
 @media only screen and (min-width: 481px) {
@@ -394,6 +407,17 @@ gap:20px;
 border:1px solid #555;
 max-width:600px;
 padding:20px;
+border-radius:12px;
+background-position:center;
+background-size:cover;
+margin:26px auto 26px;
+}
+.photolayout {
+display:flex;
+flex-direction:column;
+gap:10px;
+padding:10px;
+border:1px solid #555;
 border-radius:12px;
 background-position:center;
 background-size:cover;
@@ -596,16 +620,19 @@ margin-left: 0;
 }
 /*Anchors*/
 #charlottexmassitting {
-scroll-margin-top:26px;
+scroll-margin-top:15px;
 }
 #charlottexmaswalk {
-scroll-margin-top:26px;
+scroll-margin-top:15px;
 }
 #estellexmas {
-scroll-margin-top:26px;
+scroll-margin-top:15px;
 }
 #patriciabday2023 {
-scroll-margin-top:26px;
+scroll-margin-top:15px;
+}
+#swedenroyalfamily2020 {
+scroll-margin-top:15px;
 }
 }
 
@@ -645,6 +672,18 @@ gap:20px;
 border:1px solid #555;
 max-width:600px;
 padding:20px;
+border-radius:12px;
+background-position:center;
+background-size:cover;
+margin:26px auto 26px;
+}
+.photolayout {
+display:flex;
+flex-direction:column;
+gap:10px;
+padding:10px;
+border:1px solid #555;
+max-width:1000px;
 border-radius:12px;
 background-position:center;
 background-size:cover;
@@ -850,15 +889,18 @@ display: none;
 }
 /*Anchors*/
 #charlottexmassitting {
-scroll-margin-top:26px;
+scroll-margin-top:15px;
 }
 #charlottexmaswalk {
-scroll-margin-top:26px;
+scroll-margin-top:15px;
 }
 #estellexmas {
-scroll-margin-top:26px;
+scroll-margin-top:15px;
 }
 #patriciabday2023 {
-scroll-margin-top:26px;
+scroll-margin-top:15px;
+}
+#swedenroyalfamily2020 {
+scroll-margin-top:15px;
 }
 }
