@@ -596,13 +596,13 @@ border-radius:12px;
 .spiegelcollection {
 float: right;
 margin-left: 15px;
-max-width:70%;
+max-width:60%;
 border-radius:12px;
 }
 .antikarrgroup {
 float: left;
 margin-right: 15px;
-max-width:70%;
+max-width:60%;
 border-radius:12px;
 }
 .mySlides {
@@ -864,13 +864,13 @@ border-radius:12px;
 .spiegelcollection {
 float: right;
 margin-left: 15px;
-max-width:70%;
+max-width:50%;
 border-radius:12px;
 }
 .antikarrgroup {
 float: left;
 margin-right: 15px;
-max-width:70%;
+max-width:50%;
 border-radius:12px;
 }
 .mySlides {
