@@ -163,6 +163,14 @@ background-position:center;
 background-size:cover;
 margin:26px auto 26px;
 }
+.cinzel {
+font-family:'Cinzel',serif;
+font-size:0.8rem;
+}
+.pinyonscript {
+font-family:'Pinyon Script',cursive;
+font-size:1.7rem;
+}
 .content {
 background-color: rgba(0,0,0,1.00);
 color: #FFFFFF;
@@ -420,6 +428,14 @@ border-radius:12px;
 background-position:center;
 background-size:cover;
 margin:26px auto 26px;
+}
+.cinzel {
+font-family:'Cinzel',serif;
+font-size:1.4rem;
+}
+.pinyonscript {
+font-family:'Pinyon Script',cursive;
+font-size:2.7rem;
 }
 .content {
 color: #FFFFFF;
@@ -684,6 +700,14 @@ border-radius:12px;
 background-position:center;
 background-size:cover;
 margin:26px auto 26px;
+}
+.cinzel {
+font-family:'Cinzel',serif;
+font-size:1.5rem;
+}
+.pinyonscript {
+font-family:'Pinyon Script',cursive;
+font-size:3.0rem;
 }
 .content {
 max-width: 1000px;
