@@ -167,23 +167,19 @@ margin:26px auto 26px;
 font-family:Cinzel-Regular;
 font-size:11pt;
 margin-top:0px;
-font-display:block;
 }
 .trajan {
 font-family:TrajanPro3-Regular;
 font-size:10pt;
 margin-top:3px;
-font-display:block;
 }
 .vivaldi {
 font-family:VIVALDII;
 font-size:14pt;
-font-display:block;
 }
 .edwardian {
 font-family:ITCEDSCR;
 font-size:24pt;
-font-display:block;
 }
 .content {
 background-color: rgba(0,0,0,1.00);
@@ -446,23 +442,19 @@ margin:26px auto 26px;
 font-family:TrajanPro3-Regular;
 font-size:16pt;
 margin-top:6px;
-font-display:block;
 }
 .cinzel {
 font-family:Cinzel-Regular;
 font-size:17pt;
 margin-top:0px;
-font-display:block;
 }
 .vivaldi {
 font-family:VIVALDII;
 font-size:22.5pt;
-font-display:block;
 }
 .edwardian {
 font-family:ITCEDSCR;
 font-size:36pt;
-font-display:block;
 }
 .content {
 color: #FFFFFF;
@@ -731,23 +723,21 @@ margin:26px auto 26px;
 font-family:TrajanPro3-Regular;
 font-size:16pt;
 margin-top:8px;
-font-display:block;
+
 }
 .cinzel {
 font-family:Cinzel-Regular;
 font-size:18pt;
 margin-top:0px;
-font-display:block;
+
 }
 .vivaldi {
 font-family:VIVALDII;
 font-size:22.5pt;
-font-display:block;
 }
 .edwardian {
 font-family:ITCEDSCR;
 font-size:40pt;
-font-display:block;
 }
 .content {
 max-width: 1000px;
