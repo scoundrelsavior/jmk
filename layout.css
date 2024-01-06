@@ -163,13 +163,18 @@ background-position:center;
 background-size:cover;
 margin:26px auto 26px;
 }
-.cinzel {
-font-family:'Cinzel',serif;
-font-size:0.85rem;
+.trajan {
+font-family:TrajanPro3-Regular;
+font-size:10pt;
+margin-top:3px;
 }
-.pinyonscript {
-font-family:'Pinyon Script',cursive;
-font-size:1.7rem;
+.vivaldi {
+font-family:VIVALDII;
+font-size:14pt;
+}
+.edwardian {
+font-family:ITCEDSCR;
+font-size:24pt;
 }
 .content {
 background-color: rgba(0,0,0,1.00);
@@ -242,7 +247,7 @@ margin-top:0;
 margin-bottom:0;
 } 
 figcaption {
-font-family: 'Montserrat', sans-serif;
+font-family:Montserrat-Thin;
 font-size:0.95rem;
 font-style:italic;
 padding-top:10px;
@@ -429,13 +434,18 @@ background-position:center;
 background-size:cover;
 margin:26px auto 26px;
 }
-.cinzel {
-font-family:'Cinzel',serif;
-font-size:1.4rem;
+.trajan {
+font-family:TrajanPro3-Regular;
+font-size:16pt;
+margin-top:6px;
 }
-.pinyonscript {
-font-family:'Pinyon Script',cursive;
-font-size:2.7rem;
+.vivaldi {
+font-family:VIVALDII;
+font-size:22.5pt;
+}
+.edwardian {
+font-family:ITCEDSCR;
+font-size:36pt;
 }
 .content {
 color: #FFFFFF;
@@ -511,7 +521,7 @@ margin-top:0;
 margin-bottom:0;
 } 
 figcaption {
-font-family: 'Montserrat', sans-serif;
+font-family:Montserrat-Thin;
 font-size: 0.95rem;
 font-style:italic;
 padding-top:10px;	
@@ -701,13 +711,18 @@ background-position:center;
 background-size:cover;
 margin:26px auto 26px;
 }
-.cinzel {
-font-family:'Cinzel',serif;
-font-size:1.5rem;
+.trajan {
+font-family:TrajanPro3-Regular;
+font-size:16pt;
+margin-top:8px;
 }
-.pinyonscript {
-font-family:'Pinyon Script',cursive;
-font-size:3.0rem;
+.vivaldi {
+font-family:VIVALDII;
+font-size:22.5pt;
+}
+.edwardian {
+font-family:ITCEDSCR;
+font-size:40pt;
 }
 .content {
 max-width: 1000px;
@@ -787,7 +802,7 @@ margin-top:0;
 margin-bottom:0;
 } 
 figcaption {
-font-family: 'Montserrat', sans-serif;
+font-family:Montserrat-Thin;
 font-size: 0.95rem;
 font-style:italic;
 padding-top:10px;
