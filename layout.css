@@ -250,9 +250,8 @@ margin-top:0;
 margin-bottom:0;
 } 
 figcaption {
-font-family:Montserrat-Thin;
+font-family:Montserrat-ThinItalic;
 font-size:0.95rem;
-font-style:italic;
 padding-top:10px;
 color:white;
 }
@@ -527,9 +526,8 @@ margin-top:0;
 margin-bottom:0;
 } 
 figcaption {
-font-family:Montserrat-Thin;
+font-family:Montserrat-ThinItalic;
 font-size: 0.95rem;
-font-style:italic;
 padding-top:10px;	
 padding-bottom:5px;
 color:white;	
@@ -811,9 +809,8 @@ margin-top:0;
 margin-bottom:0;
 } 
 figcaption {
-font-family:Montserrat-Thin;
+font-family:Montserrat-ThinItalic;
 font-size: 0.95rem;
-font-style:italic;
 padding-top:10px;
 color:white;	
 }
