@@ -52,57 +52,41 @@ body {
   font-family:ITCEDSCR;
   src: url(fonts/ITCEDSCR.TTF);
 }
-
 @font-face {
   font-family:VIVALDII;
   src: url(fonts/VIVALDII.TTF);
 }
-
 @font-face {
   font-family:TrajanPro3-Regular;
   src: url(fonts/TrajanPro3-Regular.otf);
 }
-
 @font-face {
-  font-family:Cinzel-VariableFont_wght;
-  src: url(fonts/Cinzel-VariableFont_wght.ttf);
+  font-family:Cinzel-Regular;
+  src: url(fonts/Cinzel-Regular.ttf);
 }
-
 @font-face {
   font-family:OpenSans-Light;
   src: url(fonts/OpenSans-Light.ttf);
 }
-
 @font-face {
   font-family:Montserrat-Light;
   src: url(fonts/Montserrat-Light.ttf);
 }
-
 @font-face {
   font-family:Montserrat-Thin;
   src: url(fonts/Montserrat-Thin.ttf);
 }
-
 @font-face {
   font-family:Montserrat-ThinItalic;
   src: url(fonts/Montserrat-ThinItalic.ttf);
 }
-
 @font-face {
   font-family:Montserrat-ExtraLight;
   src: url(fonts/Montserrat-ExtraLight.ttf);
 }
-
 @font-face {
   font-family:PinyonScript-Regular;
   src: url(fonts/PinyonScript-Regular.ttf);
-}
-
-.shadowed {
-    -webkit-filter: drop-shadow(0px 0px 0px 0px rgba(255,255,255,0.5));
-    filter: url(#drop-shadow);
-    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=0, OffY=0, Color='#FFFFFF')";
-    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=0, OffY=0, Color='#FFFFFF')";
 }
 
 </style>
@@ -117,7 +101,7 @@ body {
 
 <div>
 <p class="vivaldi" style="float:left;margin-top:0px;">Anna-Lena Ahlstrom</p>
-<p class="trajan" style="float:right;">John Mark Karr</p>
+<p class="cinzel" style="float:right;">John Mark Karr</p>
 <img class="center" style="max-width:700px;width:100%" src="images/estelleoscar2020familycircle.jpg" alt="Sweden Royal Family"/>
 <p class="edwardian" style="text-align:center;margin:16px auto 0px;">Princess Estelle and Prince Oscar</p>
 </div>
@@ -367,22 +351,6 @@ body {
 </div>
 	
 <p style="text-align:center">Copyright 2024 All Rights Reserved</p>
-
-
-<!--Shadows and Glows Around PNGs. Apply Class="shadowed" to desired elements. Adjustments are made below.-->
-<div style="height:0">
-<svg height="0" xmlns="http://www.w3.org/2000/svg">
-    <filter id="drop-shadow">
-        <feGaussianBlur in="SourceAlpha" /*Adjust Entire Width of Shadow or Glow*/ stdDeviation="16"/>
-        <feOffset dx="0" dy="0" result="offsetblur"/>
-        <feFlood flood-color="rgba(255,255,255,0.5)"/>
-        <feComposite in2="offsetblur" operator="in"/>
-        <feMerge>
-            <feMergeNode/>
-            <feMergeNode in="SourceGraphic"/>
-        </feMerge>
-    </filter>
-</svg>
 
 </div>
 </div>
