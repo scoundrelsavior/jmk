@@ -163,6 +163,12 @@ background-position:center;
 background-size:cover;
 margin:26px auto 26px;
 }
+.cinzel {
+font-family:Cinzel-Regular;
+font-size:11pt;
+margin-top:0px;
+font-display:block;
+}
 .trajan {
 font-family:TrajanPro3-Regular;
 font-size:10pt;
@@ -442,6 +448,12 @@ font-size:16pt;
 margin-top:6px;
 font-display:block;
 }
+.cinzel {
+font-family:Cinzel-Regular;
+font-size:17pt;
+margin-top:0px;
+font-display:block;
+}
 .vivaldi {
 font-family:VIVALDII;
 font-size:22.5pt;
@@ -719,6 +731,12 @@ margin:26px auto 26px;
 font-family:TrajanPro3-Regular;
 font-size:16pt;
 margin-top:8px;
+font-display:block;
+}
+.cinzel {
+font-family:Cinzel-Regular;
+font-size:18pt;
+margin-top:0px;
 font-display:block;
 }
 .vivaldi {
