@@ -186,14 +186,14 @@ font-size:30.6px;
 .cinzeloutlined {
 font-family:Cinzel-Regular;
 font-size:15px;
-margin:-6px auto -6px;
-padding:10px;
+margin:-4px auto -4px;
+padding:8px;
 }
 .vivaldioutlined {
 font-family:VIVALDII;
 font-size:19px;
-margin:-6px auto -6px;
-padding:10px;
+margin:-4px auto -4px;
+padding:8px;
 }
 .content {
 background-color: rgba(0,0,0,1.00);
@@ -475,13 +475,13 @@ font-size:48px;
 .cinzeloutlined {
 font-family:Cinzel-Regular;
 font-size:16px;
-margin:-8px auto -8px;
+margin:-5px auto -5px;
 padding:10px 10px 0px;
 }
 .vivaldioutlined {
 font-family:VIVALDII;
 font-size:23px;
-margin:-8px auto -8px;
+margin:-5px auto -5px;
 padding:10px 10px 0px;
 }
 .content {
