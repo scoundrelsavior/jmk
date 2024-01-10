@@ -123,9 +123,9 @@ blockquote.removequote:before {
 .flex-container {
 flex-direction: column;
 display: flex;
-gap: 8px;
 /*Don't change padding below to margin*/
 padding:8px;
+gap:8px;
 }
 .flexleftjmk {
 flex: 50%;
@@ -409,12 +409,11 @@ scroll-margin-top:10px;
 /* Responsive flex two-column layout over 481px */
 .flex-container {
 display: flex;
-gap:8px;
 flex-direction: row;
-align-items: center;
-justify-content: center;
+align-items:center;
 /*Don't change padding below to margin*/
 padding:8px;
+gap:8px;
 }
 .flexleftjmk {
 flex: 50%;
@@ -704,12 +703,11 @@ scroll-margin-top:15px;
 /* Responsive flex two-column layout over 835px */
 .flex-container {
 display: flex;
-gap:8px;
 flex-direction: row;
-align-items: center;
-justify-content: center;
+align-items:center;
 /*Don't change padding below to margin*/
-padding:24px;
+padding:10px;
+gap:10px;
 }
 .flexleftjmk {
 flex: 50%;
