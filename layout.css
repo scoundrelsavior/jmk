@@ -135,6 +135,7 @@ flex: 50%;
 border:0px;
 border-radius: 12px
 background:rgba(0,0,0,0.70);
+margin:auto;
 }
 .flexleftklaas {
 flex:50%;
@@ -186,13 +187,13 @@ font-size:30.6px;
 .cinzeloutlined {
 font-family:Cinzel-Regular;
 font-size:15px;
-margin:-4px auto -4px;
+margin:-4px auto 0px;
 padding:8px;
 }
 .vivaldioutlined {
 font-family:VIVALDII;
 font-size:19px;
-margin:-4px auto -4px;
+margin:-4px auto 0px;
 padding:8px;
 }
 .content {
@@ -423,6 +424,7 @@ flex: 50%;
 border:1px solid #555;
 border-radius: 12px;
 background:rgba(0,0,0,0.70);
+margin-right:10px;
 }
 .flexleftklaas {
 flex:73%;
@@ -475,13 +477,13 @@ font-size:48px;
 .cinzeloutlined {
 font-family:Cinzel-Regular;
 font-size:16px;
-margin:-5px auto -5px;
+margin:-5px auto 0px;
 padding:10px 10px 0px;
 }
 .vivaldioutlined {
 font-family:VIVALDII;
 font-size:23px;
-margin:-5px auto -5px;
+margin:-5px auto 0px;
 padding:10px 10px 0px;
 }
 .content {
@@ -717,6 +719,7 @@ flex: 50%;
 border:1px solid #555;
 border-radius: 12px;
 background:rgba(0,0,0,0.70);
+margin-right:15px;
 }
 .flexleftklaas {
 flex:50%;
@@ -770,13 +773,13 @@ font-size:53px;
 .cinzeloutlined {
 font-family:Cinzel-Regular;
 font-size:19px;
-margin:-5px auto -5px;
+margin:-5px auto 0px;
 padding:10px 10px 0px;
 }
 .vivaldioutlined {
 font-family:VIVALDII;
 font-size:26px;
-margin:-5px auto -5px;
+margin:-5px auto 0px;
 padding:10px 10px 0px;
 }
 .content {
