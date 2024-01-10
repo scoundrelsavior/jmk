@@ -125,7 +125,7 @@ flex-direction: column;
 display: flex;
 gap: 8px;
 /*Don't change padding below to margin*/
-padding:0px;
+padding:8px;
 }
 .flexleftjmk {
 flex: 50%;
