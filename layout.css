@@ -146,6 +146,11 @@ background:rgba(0,0,0,0.70);
 padding:0px 20px 0px;
 margin:0px;
 }
+.jmktopquote {
+margin:0px auto 40px;
+border:1px solid #555;
+border-radius:12px;
+}
 .christmascard {
 display:flex;
 flex-direction:column;
@@ -433,6 +438,13 @@ flex:50%;
 background:rgba(0,0,0,0.70);
 padding:0px 20px 0px;
 margin:0px;
+}
+.jmktopquote {
+float:left;
+margin:0px 15px 0px 0px;
+max-width:450px;
+border:1px solid #555;
+border-radius:12px;
 }
 .christmascard {
 display:flex;
@@ -727,6 +739,13 @@ flex:50%;
 background:rgba(0,0,0,0.70);
 padding:0px 20px 0px;
 margin:0px;
+}
+.jmktopquote {
+float:left;
+margin:0px 15px 0px 0px;
+max-width:580px;
+border:1px solid #555;
+border-radius:12px;
 }
 .christmascard {
 display:flex;
