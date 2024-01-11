@@ -441,8 +441,8 @@ margin:0px;
 }
 .jmktopquote {
 float:left;
-margin:0px 15px 0px 0px;
-max-width:450px;
+margin:0px 15px auto 0px;
+max-width:440px;
 border:1px solid #555;
 border-radius:12px;
 }
