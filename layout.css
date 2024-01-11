@@ -146,6 +146,9 @@ background:rgba(0,0,0,0.70);
 padding:0px 20px 0px;
 margin:0px;
 }
+.title {
+display:none;
+}
 .jmktopquote {
 margin:auto;
 border:1px solid #555;
@@ -442,6 +445,9 @@ flex:50%;
 background:rgba(0,0,0,0.70);
 padding:0px 20px 0px;
 margin:0px;
+}
+.title {
+display:block;
 }
 .jmktopquote {
 float:left;
@@ -747,6 +753,9 @@ flex:50%;
 background:rgba(0,0,0,0.70);
 padding:0px 20px 0px;
 margin:0px;
+}
+.title {
+display:block;
 }
 .jmktopquote {
 float:left;
