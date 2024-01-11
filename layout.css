@@ -216,7 +216,7 @@ position: relative;
 blockquote:before {
 position: absolute;
 content: open-quote; 
-font-size: 3.25em;
+font-size: 2.90em;
 margin-left: -0.5em;
 margin-top: -0.3em;
 font-family: Georgia, Times, "Times New Roman", serif;
@@ -224,7 +224,7 @@ font-family: Georgia, Times, "Times New Roman", serif;
 blockquote:after {
 position: absolute;
 content: close-quote;
-font-size: 3.25em;
+font-size: 2.90em;
 bottom: 0;
 right: 0;
 margin-right: -0.5em;
@@ -428,7 +428,6 @@ flex: 50%;
 border:1px solid #555;
 border-radius: 12px;
 background:rgba(0,0,0,0.70);
-margin-right:10px;
 }
 .flexleftklaas {
 flex:73%;
@@ -729,7 +728,6 @@ flex: 50%;
 border:1px solid #555;
 border-radius: 12px;
 background:rgba(0,0,0,0.70);
-margin-right:15px;
 }
 .flexleftklaas {
 flex:50%;
