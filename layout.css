@@ -271,7 +271,8 @@ border-radius:12px;
 font-size:25px;
 }
 .toptitle {
-font-size: 1.5rem;
+font-family:Cinzel-Regular;
+font-size:18px;
 margin-top:0;
 margin-bottom:0;
 } 
@@ -578,7 +579,8 @@ border-radius:12px;
 font-size:28px;
 }
 .toptitle {
-font-size: 1.55rem;
+font-family:Cinzel-Regular;
+font-size:17.7px;
 margin-top:0;
 margin-bottom:0;
 } 
@@ -893,7 +895,8 @@ border-radius:12px;
 font-size:30px;
 }
 .toptitle {
-font-size: 1.7rem;
+font-family:Cinzel-Regular;
+font-size:20px;
 margin-top:0;
 margin-bottom:0;
 } 
