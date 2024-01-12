@@ -124,7 +124,7 @@ blockquote.removequote:before {
 flex-direction: column;
 display: flex;
 /*Don't change padding below to margin*/
-padding:8px;
+padding:0px;
 gap:8px;
 }
 .flexleftjmk {
@@ -435,8 +435,8 @@ flex: 50%;
 }
 .flexrightjmk {
 flex: 50%;
-border:1px solid #555;
 border-radius: 12px;
+margin-right:20px;
 background:rgba(0,0,0,0.70);
 }
 .flexleftklaas {
@@ -743,8 +743,8 @@ flex: 50%;
 }
 .flexrightjmk {
 flex: 50%;
-border:1px solid #555;
 border-radius: 12px;
+margin-right:30px;
 background:rgba(0,0,0,0.70);
 }
 .flexleftklaas {
@@ -761,7 +761,6 @@ display:block;
 }
 .jmktopquote {
 margin:auto auto 40px;
-max-width:834px;
 border:1px solid #555;
 border-radius:12px;
 }
