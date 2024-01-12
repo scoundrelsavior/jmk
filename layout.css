@@ -123,8 +123,10 @@ blockquote.removequote:before {
 .flex-container {
 flex-direction: column;
 display: flex;
-/*Don't change padding below to margin*/
-padding:0px;
+/*Don't change padding below to margin. 
+This affects Polly Klaas Lead.
+Do not change this setting.*/
+padding:8px;
 gap:8px;
 }
 .flexleftjmk {
@@ -425,9 +427,11 @@ scroll-margin-top:10px;
 display: flex;
 flex-direction: row;
 align-items:center;
-/*Don't change padding below to margin*/
-padding:0px;
-gap:0px;
+/*Don't change padding below to margin. 
+This affects Polly Klaas Lead.
+Do not change this setting.*/
+padding:8px;
+gap:8px;
 }
 .flexleftjmk {
 flex: 50%;
@@ -739,9 +743,11 @@ scroll-margin-top:15px;
 display: flex;
 flex-direction: row;
 align-items:center;
-/*Don't change padding below to margin*/
-padding:0px;
-gap:0px;
+/*Don't change padding below to margin. 
+This affects Polly Klaas Lead.
+Do not change this setting.*/
+padding:8px;
+gap:8px;
 }
 .flexleftjmk {
 flex: 50%;
@@ -768,6 +774,8 @@ max-width:860px;
 margin:40px auto 50px;
 border:1px solid #555;
 border-radius:12px;
+gap:0px;
+padding:0px;
 }
 .christmascard {
 display:flex;
