@@ -451,7 +451,8 @@ margin:0px;
 display:block;
 }
 .jmktopquote {
-margin:auto auto 36px;
+max-width:680px;
+margin:30px auto 40px;
 border:1px solid #555;
 border-radius:12px;
 }
@@ -584,7 +585,6 @@ margin-bottom:0;
 .headline {
 font-size:1.09rem;
 text-align:center;
-margin:-15px auto auto;
 }
 figcaption {
 font-family:Montserrat-ThinItalic;
@@ -758,7 +758,8 @@ margin:0px;
 display:block;
 }
 .jmktopquote {
-margin:auto auto 40px;
+max-width:860px;
+margin:40px auto 50px;
 border:1px solid #555;
 border-radius:12px;
 }
@@ -897,7 +898,6 @@ margin-bottom:0;
 .headline {
 font-size:1.2rem;
 text-align:center;
-margin:-15px auto auto;
 }
 figcaption {
 font-family:Montserrat-ThinItalic;
