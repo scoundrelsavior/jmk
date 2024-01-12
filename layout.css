@@ -732,7 +732,7 @@ display: flex;
 flex-direction: row;
 align-items:center;
 /*Don't change padding below to margin*/
-padding:10px;
+padding:0px;
 gap:0px;
 }
 .flexleftjmk {
