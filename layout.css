@@ -591,6 +591,14 @@ padding-top:10px;
 padding-bottom:5px;
 color:white;	
 }
+.pollyklaastitle {
+font-family:ITCEDSCR;
+color:#EFEFEF;
+font-size:40px;
+width:50%;
+margin:-4px auto -4px;
+text-align:center;
+}
 .pollyklaas {
 max-width: 460px;
 float:left;
@@ -900,6 +908,14 @@ font-family:Montserrat-ThinItalic;
 font-size: 0.95rem;
 padding-top:10px;
 color:white;	
+}
+.pollyklaastitle {
+font-family:ITCEDSCR;
+color:#EFEFEF;
+font-size:45px;
+width:50%;
+margin:-4px auto -4px;
+text-align:center;
 }
 .pollyklaas {
 max-width: 535px;
