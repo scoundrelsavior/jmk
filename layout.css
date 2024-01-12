@@ -452,9 +452,7 @@ margin:0px;
 display:block;
 }
 .jmktopquote {
-float:left;
-margin-right:15px;
-max-width:446px;
+margin:auto auto 36px;
 border:1px solid #555;
 border-radius:12px;
 }
@@ -762,9 +760,8 @@ margin:0px;
 display:block;
 }
 .jmktopquote {
-float:left;
-margin-right:15px;
-max-width:580px;
+margin:auto auto 40px;
+max-width:834px;
 border:1px solid #555;
 border-radius:12px;
 }
