@@ -453,6 +453,11 @@ margin:0px;
 .title {
 display:block;
 }
+.jmktoptitle {
+font-family:Cinzel-Regular;
+font-size:25px;
+text-align:center;
+}
 .jmktopquote {
 float:left;
 margin-right:15px;
@@ -589,7 +594,7 @@ margin-bottom:0;
 .headline {
 font-size:1.09rem;
 text-align:center;
-margin:-15px auto auto;
+margin:-5px auto auto;
 }
 figcaption {
 font-family:Montserrat-ThinItalic;
@@ -772,6 +777,11 @@ margin:0px;
 .title {
 display:block;
 }
+.jmktoptitle {
+font-family:Cinzel-Regular;
+font-size:30px;
+text-align:center;
+}
 .jmktopquote {
 float:left;
 margin-right:15px;
@@ -914,7 +924,7 @@ margin-bottom:0;
 .headline {
 font-size:1.2rem;
 text-align:center;
-margin:-15px auto auto;
+margin:-5px auto auto;
 }
 figcaption {
 font-family:Montserrat-ThinItalic;
