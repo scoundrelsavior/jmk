@@ -123,7 +123,8 @@ blockquote.removequote:before {
 .flex-container {
 flex-direction: column;
 display: flex;
-/*Don't change padding below to margin*/
+/*Don't change padding below to margin.
+Affects Polly Klaas Lead*/
 padding:8px;
 gap:8px;
 }
@@ -426,7 +427,8 @@ scroll-margin-top:10px;
 display: flex;
 flex-direction: row;
 align-items:center;
-/*Don't change padding below to margin*/
+/*Don't change padding below to margin.
+Affects Polly Klaas Lead*/
 padding:8px;
 gap:8px;
 }
@@ -744,7 +746,8 @@ scroll-margin-top:15px;
 display: flex;
 flex-direction: row;
 align-items:center;
-/*Don't change padding below to margin*/
+/*Don't change padding below to margin.
+Affects Polly Klaas Lead*/
 padding:10px;
 gap:10px;
 }
