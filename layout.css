@@ -123,9 +123,7 @@ blockquote.removequote:before {
 .flex-container {
 flex-direction: column;
 display: flex;
-/*Don't change padding below to margin. 
-This affects Polly Klaas Lead.
-Do not change this setting.*/
+/*Don't change padding below to margin*/
 padding:8px;
 gap:8px;
 }
@@ -213,6 +211,7 @@ font-size:1.09rem;
 margin-left: auto;
 margin-right: auto;
 padding: 10px;
+border-width:0px 0px 0px 0px;
 }
 blockquote {
 position: relative;
@@ -427,9 +426,7 @@ scroll-margin-top:10px;
 display: flex;
 flex-direction: row;
 align-items:center;
-/*Don't change padding below to margin. 
-This affects Polly Klaas Lead.
-Do not change this setting.*/
+/*Don't change padding below to margin*/
 padding:8px;
 gap:8px;
 }
@@ -438,6 +435,7 @@ flex: 50%;
 }
 .flexrightjmk {
 flex: 50%;
+border:1px solid #555;
 border-radius: 12px;
 background:rgba(0,0,0,0.70);
 }
@@ -454,8 +452,9 @@ margin:0px;
 display:block;
 }
 .jmktopquote {
-max-width:680px;
-margin:30px auto 40px;
+float:left;
+margin-right:15px;
+max-width:446px;
 border:1px solid #555;
 border-radius:12px;
 }
@@ -500,13 +499,13 @@ font-size:48px;
 }
 .cinzeloutlined {
 font-family:Cinzel-Regular;
-font-size:19px;
+font-size:16px;
 margin:-5px auto 0px;
 padding:10px 10px 0px;
 }
 .vivaldioutlined {
 font-family:VIVALDII;
-font-size:26px;
+font-size:23px;
 margin:-5px auto 0px;
 padding:10px 10px 0px;
 }
@@ -517,6 +516,7 @@ font-size:1.09rem;
 margin-left: auto;
 margin-right: auto;
 padding:15px;
+border-width:0px 0px 0px 0px;
 }
 blockquote {
 position: relative;
@@ -587,6 +587,7 @@ margin-bottom:0;
 .headline {
 font-size:1.09rem;
 text-align:center;
+margin:-15px auto auto;
 }
 figcaption {
 font-family:Montserrat-ThinItalic;
@@ -743,17 +744,16 @@ scroll-margin-top:15px;
 display: flex;
 flex-direction: row;
 align-items:center;
-/*Don't change padding below to margin. 
-This affects Polly Klaas Lead.
-Do not change this setting.*/
-padding:8px;
-gap:8px;
+/*Don't change padding below to margin*/
+padding:10px;
+gap:10px;
 }
 .flexleftjmk {
 flex: 50%;
 }
 .flexrightjmk {
 flex: 50%;
+border:1px solid #555;
 border-radius: 12px;
 background:rgba(0,0,0,0.70);
 }
@@ -770,12 +770,11 @@ margin:0px;
 display:block;
 }
 .jmktopquote {
-max-width:860px;
-margin:40px auto 50px;
+float:left;
+margin-right:15px;
+max-width:580px;
 border:1px solid #555;
 border-radius:12px;
-gap:0px;
-padding:0px;
 }
 .christmascard {
 display:flex;
@@ -837,6 +836,8 @@ color: #FFFFFF;
 font-size:1.09rem;
 background-color: rgba(0,0,0,1.00);
 padding: 15px;
+border:1px solid #555;
+border-width:1px 1px 1px 1px;
 box-shadow: rgba(255, 255, 255, 0.56) 0px 0px 70px 4px;
 }
 blockquote {
@@ -910,6 +911,7 @@ margin-bottom:0;
 .headline {
 font-size:1.2rem;
 text-align:center;
+margin:-15px auto auto;
 }
 figcaption {
 font-family:Montserrat-ThinItalic;
