@@ -155,6 +155,11 @@ margin:auto;
 border:1px solid #555;
 border-radius:12px;
 }
+.headings {
+font-family:Cinzel-Regular;
+font-size:22px;
+text-align:center;
+}
 .christmascard {
 display:flex;
 flex-direction:column;
@@ -466,6 +471,11 @@ max-width:446px;
 border:1px solid #555;
 border-radius:12px;
 }
+.headings {
+font-family:Cinzel-Regular;
+font-size:22px;
+text-align:center;
+}
 .christmascard {
 display:flex;
 flex-direction:column;
@@ -607,9 +617,9 @@ color:white;
 .pollyklaastitle {
 font-family:ITCEDSCR;
 color:#EFEFEF;
-font-size:42px;
+font-size:47px;
 width:50%;
-margin:-10px auto auto;
+margin:-10px auto -5px;
 text-align:center;
 }
 .pollyklaas {
@@ -777,6 +787,7 @@ margin:0px;
 }
 .title {
 display:block;
+background-image:url(/images/spiderweb.jpg);
 }
 .jmktoptitle {
 font-family:Cinzel-Regular;
@@ -790,6 +801,11 @@ margin-right:15px;
 max-width:580px;
 border:1px solid #555;
 border-radius:12px;
+}
+.headings {
+font-family:Cinzel-Regular;
+font-size:17px;
+text-align:center;
 }
 .christmascard {
 display:flex;
@@ -937,7 +953,7 @@ color:white;
 .pollyklaastitle {
 font-family:ITCEDSCR;
 color:#EFEFEF;
-font-size:45px;
+font-size:50px;
 width:50%;
 margin:-10px auto auto;
 text-align:center;
