@@ -628,6 +628,11 @@ float:left;
 margin-right:15px;
 margin-bottom:0px;
 }
+.butterflies {
+max-width:150px;
+width:25%;
+margin:-5px 0px 0px;
+}
 #pollyklaas {
 padding-top: 10px;
 margin-top: -5px;
@@ -962,6 +967,11 @@ max-width: 535px;
 float:left;
 margin-right:15px;
 margin-bottom:0px;
+}
+.butterflies {
+max-width:175px;
+width:25%;
+margin:-5px 0px 0px;
 }
 #pollyklaas {
 padding-top: 10px;
