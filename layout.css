@@ -125,8 +125,9 @@ flex-direction: column;
 display: flex;
 /*Don't change padding below to margin.
 Affects Polly Klaas Lead*/
-padding:8px;
+padding:0px;
 gap:8px;
+margin:auto;
 }
 .flexleftjmk {
 flex: 50%;
@@ -430,8 +431,8 @@ flex-direction: row;
 align-items:center;
 /*Don't change padding below to margin.
 Affects Polly Klaas Lead*/
-padding:0px 15px 0px; 
-gap:8px;
+padding:0px;
+gap:15px;
 }
 .flexleftjmk {
 flex: 50%;
@@ -443,10 +444,10 @@ border-radius: 12px;
 background:rgba(0,0,0,0.70);
 }
 .flexleftklaas {
-flex:73%;
+flex:55%;
 }
 .flexrightklaas {
-flex:50%;
+flex:45%;
 background:rgba(0,0,0,0.70);
 }
 .title {
@@ -763,8 +764,8 @@ flex-direction: row;
 align-items:center;
 /*Don't change padding below to margin.
 Affects Polly Klaas Lead*/
-padding:0px 15px 0px;
-gap:10px;
+padding:0px;
+gap:30px;
 }
 .flexleftjmk {
 flex: 50%;
