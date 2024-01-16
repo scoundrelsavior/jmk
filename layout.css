@@ -125,7 +125,7 @@ flex-direction: column;
 display: flex;
 /*Don't change padding below to margin.
 Affects Polly Klaas Lead*/
-padding:0px;
+padding:10px 0px 26px;
 gap:8px;
 margin:auto;
 }
@@ -431,7 +431,7 @@ flex-direction: row;
 align-items:center;
 /*Don't change padding below to margin.
 Affects Polly Klaas Lead*/
-padding:0px;
+padding:0px 0px 10px;
 gap:10px;
 }
 .flexleftjmk {
@@ -764,7 +764,7 @@ flex-direction: row;
 align-items:center;
 /*Don't change padding below to margin.
 Affects Polly Klaas Lead*/
-padding:0px;
+padding:0px 0px 10px;
 gap:30px;
 }
 .flexleftjmk {
