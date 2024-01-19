@@ -143,6 +143,7 @@ margin:auto;
 }
 .flexleftklaas {
 flex:50%;
+border-radius: 12px;
 border:1px solid #555;
 }
 .flexrightklaas {
