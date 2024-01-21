@@ -202,7 +202,11 @@ margin-top:-4px;
 }
 .edwardian {
 font-family:ITCEDSCR;
-font-size:30.6px;
+font-size:36px;
+}
+.Montserrat-ThinItalic {
+font-family:Montserrat-ThinItalic;
+font-size:15.5px;
 }
 .cinzeloutlined {
 font-family:Cinzel-Regular;
@@ -530,7 +534,11 @@ margin-top:-8px;
 }
 .edwardian {
 font-family:ITCEDSCR;
-font-size:48px;
+font-size:42px;
+}
+.Montserrat-ThinItalic {
+font-family:Montserrat-ThinItalic;
+font-size:17px;
 }
 .cinzeloutlined {
 font-family:Cinzel-Regular;
@@ -879,7 +887,11 @@ margin-top:-8px;
 }
 .edwardian {
 font-family:ITCEDSCR;
-font-size:53px;
+font-size:42px;
+}
+.Montserrat-ThinItalic {
+font-family:Montserrat-ThinItalic;
+font-size:17px;
 }
 .cinzeloutlined {
 font-family:Cinzel-Regular;
