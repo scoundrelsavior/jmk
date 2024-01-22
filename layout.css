@@ -485,6 +485,11 @@ font-size:28px;
 text-align:center;
 margin:-9px auto -4px;
 }
+.jmktitlesides {
+max-width:90px;
+width:25%;
+margin:-5px 0px 0px;
+}
 .jmktopquote {
 float:left;
 margin-right:15px;
@@ -836,6 +841,11 @@ font-family:Cinzel-Regular;
 font-size:30px;
 text-align:center;
 margin:-9px auto -4px;
+}
+.jmktitlesides {
+max-width:100px;
+width:25%;
+margin:-5px 0px 0px;
 }
 .jmktopquote {
 float:left;
