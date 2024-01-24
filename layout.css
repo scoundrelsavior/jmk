@@ -322,14 +322,20 @@ margin:0px auto 15px;
 }
 .pollyklaas {
 margin-bottom:26px;
+border:1px solid #555;
+border-radius:12px;
 }
 .klaasportrait {
 display:flex;
 flex-direction:row;
 flex-wrap:wrap;
-margin-top:-33px;
-border:1px solid #555;
-border-radius:12px;
+margin-top:-10px;
+}
+.klaasedwardianoutlined {
+font-family:ITCEDSCR;
+font-size:24px;
+margin:-4px auto -14px;
+padding:6px;
 }
 .klaascinzeloutlined {
 font-family:Cinzel-Regular;
@@ -704,6 +710,9 @@ flex-direction:row;
 flex-wrap:wrap;
 margin-top:-15px;
 border-width:0px;
+}
+.klaasedwardianoutlined {
+display:none;
 }
 .klaascinzeloutlined {
 display:none;
@@ -1086,6 +1095,9 @@ flex-direction:row;
 flex-wrap:wrap;
 margin-top:-15px;
 border-width:0px;
+}
+.klaasedwardianoutlined {
+display:none;
 }
 .klaascinzeloutlined {
 display:none;
