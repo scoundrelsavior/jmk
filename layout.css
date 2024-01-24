@@ -322,6 +322,14 @@ margin:0px auto 15px;
 }
 .pollyklaas {
 margin-bottom:26px;
+border:1px solid #555;
+border-radius:12px;
+}
+.klaascinzeloutlined {
+font-family:Cinzel-Regular;
+font-size:15px;
+margin:-4px auto 0px;
+padding:8px;
 }
 #pollyklaas {
 padding-top: 10px;
@@ -681,6 +689,11 @@ max-width: 460px;
 float:left;
 margin-right:15px;
 margin-bottom:0px;
+border:0px solid #555;
+border-radius:0px;
+}
+.klaascinzeloutlined {
+display:none;
 }
 .butterflies {
 max-width:150px;
@@ -1051,6 +1064,11 @@ max-width: 580px;
 float:left;
 margin-right:15px;
 margin-bottom:0px;
+border:0px solid #555;
+border-radius:0px;
+}
+.klaascinzeloutlined {
+display:none;
 }
 .butterflies {
 max-width:175px;
