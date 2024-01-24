@@ -322,6 +322,12 @@ margin:0px auto 15px;
 }
 .pollyklaas {
 margin-bottom:26px;
+}
+.klaasportrait {
+display:flex;
+flex-direction:row;
+flex-wrap:wrap;
+margin-top:-33px;
 border:1px solid #555;
 border-radius:12px;
 }
@@ -691,6 +697,13 @@ margin-right:15px;
 margin-bottom:0px;
 border:0px solid #555;
 border-radius:0px;
+}
+.klaasportrait {
+display:flex;
+flex-direction:row;
+flex-wrap:wrap;
+margin-top:-15px;
+border-width:0px;
 }
 .klaascinzeloutlined {
 display:none;
@@ -1066,6 +1079,13 @@ margin-right:15px;
 margin-bottom:0px;
 border:0px solid #555;
 border-radius:0px;
+}
+.klaasportrait {
+display:flex;
+flex-direction:row;
+flex-wrap:wrap;
+margin-top:-15px;
+border-width:0px;
 }
 .klaascinzeloutlined {
 display:none;
