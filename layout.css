@@ -322,14 +322,14 @@ margin:0px auto 15px;
 }
 .pollyklaas {
 margin-bottom:26px;
-border:1px solid #555;
-border-radius:12px;
 }
 .klaasportrait {
 display:flex;
 flex-direction:row;
 flex-wrap:wrap;
-margin-top:-15px;
+margin-top:0px;
+border:1px solid #555;
+border-radius:12px;
 }
 .klaasedwardianoutlined {
 font-family:ITCEDSCR;
