@@ -277,6 +277,9 @@ margin-right: auto;
 margin-left: auto;
 }
 .jonbenetxmas {
+display:flex;
+flex-direction:row;
+flex-wrap:wrap;
 margin-left: auto;
 margin-right: auto;
 margin-bottom:15px;
@@ -644,6 +647,9 @@ margin-right: 15px;
 float: left;
 }
 .jonbenetxmas {
+display:flex;
+flex-direction:row;
+flex-wrap:wrap;
 float:right;
 max-width: 500px;
 margin-left:15px;
@@ -1030,6 +1036,9 @@ margin-right: 15px;
 float: left;
 }
 .jonbenetxmas {
+display:flex;
+flex-direction:row;
+flex-wrap:wrap;
 max-width: 560px;
 float:right;
 margin-left:15px;
