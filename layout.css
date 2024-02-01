@@ -677,12 +677,13 @@ font-size:1.09rem;
 text-align:center;
 margin:-5px auto auto;
 }
+/*maxwidth changed for
+each photo inline*/
 .whatsoeverborder {
 border:1px solid #555;
 outline:1px solid #555;
 outline-offset:5px;
 margin:50px auto 26px;
-max-width:600px;
 padding:0px 26px 0px;
 }
 figcaption {
@@ -1069,12 +1070,13 @@ font-size:1.2rem;
 text-align:center;
 margin:-5px auto auto;
 }
+/*maxwidth changed for
+each photo inline*/
 .whatsoeverborder {
 border:1px solid #555;
 outline:1px solid #555;
 outline-offset:5px;
 margin:50px auto 26px;
-max-width:600px;
 padding:0px 26px 0px;
 }
 figcaption {
