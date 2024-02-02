@@ -89,8 +89,14 @@ with different margin top spaces according to screen size*/
 padding-top: 10px;
 margin-top: -10px;
 }
-#exampletwo {
+#exampletwoimages {
 scroll-margin-top:26px;
+}
+#examplethreetext {
+scroll-margin-top:18px;
+}
+#protectingkiller {
+scroll-margin-top:18px;
 }
 /*Text fade with Read More at bottom of fade*/
 .textfade {
