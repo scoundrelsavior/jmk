@@ -184,13 +184,12 @@ background-size:cover;
 }
 .photolayout {
 display:flex;
-flex-direction:column;
-gap:5px;
+flex-direction:row;
+flex-wrap:wrap;
 border:1px solid #555;
 border-radius:12px;
 background-position:center;
 background-size:cover;
-margin:26px auto 26px;
 }
 .trajan {
 font-family:TrajanPro3-Regular;
@@ -315,7 +314,16 @@ border-width:0px 0px 6px 0px;
 outline:0px solid #555;
 outline-offset:0px;
 margin:auto auto 15px;
-padding:0px 0px 0px;
+padding:18px 0px 0px;
+}
+.whatsoevercaption {
+font-family:Montserrat-ThinItalic;
+font-size: 0.95rem;
+margin:18px auto 20px;
+border:1px solid #555;
+background:rgba(0,0,0,0.80);
+padding:10px;
+border-radius:12px;
 }
 figcaption {
 font-family:Montserrat-ThinItalic;
@@ -549,19 +557,15 @@ gap:20px;
 border:1px solid #555;
 padding:20px;
 border-radius:12px;
-background-position:center;
-background-size:cover;
-margin:26px auto 26px;
 }
 .photolayout {
 display:flex;
-flex-direction:column;
-gap:10px;
+flex-direction:row;
+flex-wrap:wrap;
 border:1px solid #555;
 border-radius:12px;
 background-position:center;
 background-size:cover;
-margin:26px auto 26px;
 }
 .trajan {
 font-family:TrajanPro3-Regular;
@@ -690,7 +694,16 @@ border:1px solid #555;
 outline:1px solid #555;
 outline-offset:5px;
 margin:50px auto 26px;
-padding:0px 26px 0px;
+padding:20px 20px 20px;
+}
+.whatsoevercaption {
+font-family:Montserrat-ThinItalic;
+font-size: 0.95rem;
+margin:20px auto 0px;
+border:1px solid #555;
+background:rgba(0,0,0,0.80);
+padding:10px;
+border-radius:12px;
 }
 figcaption {
 font-family:Montserrat-ThinItalic;
@@ -938,18 +951,13 @@ padding:20px;
 border-radius:12px;
 background-position:center;
 background-size:cover;
-margin:26px auto 26px;
 }
 .photolayout {
 display:flex;
-flex-direction:column;
-gap:10px;
+flex-direction:row;
+flex-wrap:wrap;
 border:1px solid #555;
-max-width:1000px;
 border-radius:12px;
-background-position:center;
-background-size:cover;
-margin:26px auto 26px;
 }
 .trajan {
 font-family:TrajanPro3-Regular;
@@ -1083,7 +1091,16 @@ border:1px solid #555;
 outline:1px solid #555;
 outline-offset:5px;
 margin:50px auto 26px;
-padding:0px 26px 0px;
+padding:20px 20px 20px;
+}
+.whatsoevercaption {
+font-family:Montserrat-ThinItalic;
+font-size: 0.95rem;
+margin:20px auto 0px;
+border:1px solid #555;
+background:rgba(0,0,0,0.80);
+padding:10px;
+border-radius:12px;
 }
 figcaption {
 font-family:Montserrat-ThinItalic;
