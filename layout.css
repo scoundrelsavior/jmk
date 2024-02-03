@@ -213,6 +213,10 @@ font-size:38px;
 font-family:Montserrat-ThinItalic;
 font-size:15px;
 }
+.Montserrat-ExtraLightItalic {
+font-family:Montserrat-ExtraLightItalic;
+font-size: 1rem;
+}
 .cinzeloutlined {
 font-family:Cinzel-Regular;
 font-size:15px;
@@ -317,8 +321,8 @@ margin:auto auto 15px;
 padding:18px 0px 0px;
 }
 .whatsoevercaption {
-font-family:Montserrat-ThinItalic;
-font-size: 0.95rem;
+font-family:Montserrat-ExtraLightItalic;
+font-size: 1rem;
 margin:18px auto 20px;
 border:1px solid #555;
 background:rgba(0,0,0,0.80);
@@ -557,6 +561,8 @@ gap:20px;
 border:1px solid #555;
 padding:20px;
 border-radius:12px;
+background-position:center;
+background-size:cover;
 }
 .photolayout {
 display:flex;
@@ -588,6 +594,10 @@ font-size:42px;
 .Montserrat-ThinItalic {
 font-family:Montserrat-ThinItalic;
 font-size:16px;
+}
+.Montserrat-ExtraLightItalic {
+font-family:Montserrat-ExtraLightItalic;
+font-size: 1rem;
 }
 .cinzeloutlined {
 font-family:Cinzel-Regular;
@@ -697,8 +707,8 @@ margin:50px auto 26px;
 padding:20px 20px 20px;
 }
 .whatsoevercaption {
-font-family:Montserrat-ThinItalic;
-font-size: 0.95rem;
+font-family:Montserrat-ExtraLightItalic;
+font-size: 1rem;
 margin:20px auto 0px;
 border:1px solid #555;
 background:rgba(0,0,0,0.80);
@@ -981,6 +991,10 @@ font-size:42px;
 font-family:Montserrat-ThinItalic;
 font-size:16px;
 }
+.Montserrat-ExtraLightItalic {
+font-family:Montserrat-ExtraLightItalic;
+font-size: 1rem;
+}
 .cinzeloutlined {
 font-family:Cinzel-Regular;
 font-size:16px;
@@ -1094,8 +1108,8 @@ margin:50px auto 26px;
 padding:20px 20px 20px;
 }
 .whatsoevercaption {
-font-family:Montserrat-ThinItalic;
-font-size: 0.95rem;
+font-family:Montserrat-ExtraLightItalic;
+font-size: 1rem;
 margin:20px auto 0px;
 border:1px solid #555;
 background:rgba(0,0,0,0.80);
