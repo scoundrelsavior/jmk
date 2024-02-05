@@ -211,11 +211,13 @@ font-size:38px;
 }
 .Montserrat-ThinItalic {
 font-family:Montserrat-ThinItalic;
-font-size:15px;
+font-size: 17px;
+line-height:1.5;
 }
 .Montserrat-ExtraLightItalic {
 font-family:Montserrat-ExtraLightItalic;
-font-size: 1rem;
+font-size: 17px;
+line-height:1.5;
 }
 .cinzeloutlined {
 font-family:Cinzel-Regular;
@@ -320,14 +322,20 @@ outline-offset:0px;
 margin:auto auto 15px;
 padding:18px 0px 0px;
 }
+.whatsoeverheading {
+font-family:Montserrat-ExtraLightItalic;
+font-size: 17px;
+line-height:1.4;
+}
 .whatsoevercaption {
 font-family:Montserrat-ExtraLightItalic;
-font-size: 1rem;
+font-size: 16px;
 margin:18px auto 20px;
 border:1px solid #555;
 background:rgba(0,0,0,0.80);
 padding:10px;
 border-radius:12px;
+line-height:1.4;
 }
 figcaption {
 font-family:Montserrat-ThinItalic;
@@ -593,11 +601,13 @@ font-size:42px;
 }
 .Montserrat-ThinItalic {
 font-family:Montserrat-ThinItalic;
-font-size:16px;
+font-size: 17px;
+line-height:1.5;
 }
 .Montserrat-ExtraLightItalic {
 font-family:Montserrat-ExtraLightItalic;
-font-size: 1rem;
+font-size: 17px;
+line-height:1.5;
 }
 .cinzeloutlined {
 font-family:Cinzel-Regular;
@@ -706,14 +716,20 @@ outline-offset:5px;
 margin:50px auto 26px;
 padding:20px 20px 20px;
 }
+.whatsoeverheading {
+font-family:Montserrat-ExtraLightItalic;
+font-size: 17px;
+line-height:1.4;
+}
 .whatsoevercaption {
 font-family:Montserrat-ExtraLightItalic;
-font-size: 1rem;
+font-size: 16px;
 margin:20px auto 0px;
 border:1px solid #555;
 background:rgba(0,0,0,0.80);
 padding:10px;
 border-radius:12px;
+line-height:1.4;
 }
 figcaption {
 font-family:Montserrat-ThinItalic;
@@ -989,11 +1005,13 @@ font-size:42px;
 }
 .Montserrat-ThinItalic {
 font-family:Montserrat-ThinItalic;
-font-size:16px;
+font-size: 17px;
+line-height:1.5;
 }
 .Montserrat-ExtraLightItalic {
 font-family:Montserrat-ExtraLightItalic;
-font-size: 1rem;
+font-size: 17px;
+line-height:1.5;
 }
 .cinzeloutlined {
 font-family:Cinzel-Regular;
@@ -1107,14 +1125,20 @@ outline-offset:5px;
 margin:50px auto 26px;
 padding:20px 20px 20px;
 }
+.whatsoeverheading {
+font-family:Montserrat-ExtraLightItalic;
+font-size: 17px;
+line-height:1.4;
+}
 .whatsoevercaption {
 font-family:Montserrat-ExtraLightItalic;
-font-size: 1rem;
+font-size: 16px;
 margin:20px auto 0px;
 border:1px solid #555;
 background:rgba(0,0,0,0.80);
 padding:10px;
 border-radius:12px;
+line-height:1.4;
 }
 figcaption {
 font-family:Montserrat-ThinItalic;
