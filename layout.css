@@ -283,12 +283,9 @@ display:none;
 display:block;
 }
 .jonbenetportrait {
-display:block;
 margin-right: auto;
 margin-left: auto;
-border:1px solid #555;
 padding:10px;
-border-radius:12px;
 }
 .jonbenetxmas {
 display:flex;
@@ -678,9 +675,6 @@ display:none;
 max-width: 480px;
 margin-right: 15px;
 float: left;
-border:1px solid #555;
-padding:10px;
-border-radius:12px;
 }
 .jonbenetxmas {
 display:flex;
@@ -1087,9 +1081,6 @@ display:none;
 max-width: 581px;
 margin-right: 15px;
 float: left;
-border:1px solid #555;
-padding:10px;
-border-radius:12px;
 }
 .jonbenetxmas {
 display:flex;
