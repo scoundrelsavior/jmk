@@ -98,6 +98,9 @@ scroll-margin-top:18px;
 #protectingkiller {
 scroll-margin-top:18px;
 }
+#johnramseyallegation {
+scroll-margin-top:18px;
+}
 /*Text fade with Read More at bottom of fade*/
 .textfade {
   max-height: 120px;
@@ -496,9 +499,6 @@ scroll-margin-top:10px;
 }
 #swedenroyals2020 {
 scroll-margin-top:10px;
-}
-#johnramseyallegation {
-scroll-margin-top:0px;
 }
 
 /* Tablet Layout: 610px to 835px - Ipad Pro 11-inch down to
@@ -902,9 +902,6 @@ scroll-margin-top:26px;
 }
 #swedenroyals2020 {
 scroll-margin-top:15px;
-}
-#johnramseyallegation {
-scroll-margin-top:110px;
 }
 }
 
@@ -1310,8 +1307,5 @@ scroll-margin-top:26px;
 }
 #swedenroyals2020 {
 scroll-margin-top:15px;
-}
-#johnramseyallegation {
-scroll-margin-top:110px;
 }
 }
