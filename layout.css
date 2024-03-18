@@ -319,8 +319,8 @@ border:6px double #555;
 border-width:0px 0px 6px 0px;
 outline:0px solid #555;
 outline-offset:0px;
-margin:auto auto 15px;
-padding:18px 0px 0px;
+margin:26px auto 26px;
+padding:0px 0px 0px;
 }
 .whatsoeverheading {
 font-family:Montserrat-ExtraLightItalic;
@@ -712,7 +712,7 @@ each photo inline*/
 border:1px solid #555;
 outline:1px solid #555;
 outline-offset:5px;
-margin:50px auto 26px;
+margin:26px auto 26px;
 padding:20px 20px 20px;
 }
 .whatsoeverheading {
