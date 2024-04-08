@@ -296,7 +296,16 @@ flex-direction:row;
 flex-wrap:wrap;
 margin-left: auto;
 margin-right: auto;
-margin-bottom:15px;
+border:1px solid #555;
+border-radius:12px;
+}
+.jonbenetwhites {
+display:flex;
+flex-direction:row;
+flex-wrap:wrap;
+margin-left: auto;
+margin-right: auto;
+margin-bottom:0px;
 border:1px solid #555;
 border-radius:12px;
 }
@@ -688,6 +697,17 @@ flex-wrap:wrap;
 float:right;
 max-width: 500px;
 margin-left:15px;
+margin-bottom:0px;
+border:1px solid #555;
+border-radius:12px;
+}
+.jonbenetwhites {
+display:flex;
+flex-direction:row;
+flex-wrap:wrap;
+max-width: 428px;
+float:left;
+margin-right:15px;
 margin-bottom:0px;
 border:1px solid #555;
 border-radius:12px;
@@ -1094,6 +1114,17 @@ flex-wrap:wrap;
 max-width: 560px;
 float:right;
 margin-left:15px;
+margin-bottom:0px;
+border:1px solid #555;
+border-radius:12px;
+}
+.jonbenetwhites {
+display:flex;
+flex-direction:row;
+flex-wrap:wrap;
+max-width: 428px;
+float:left;
+margin-right:15px;
 margin-bottom:0px;
 border:1px solid #555;
 border-radius:12px;
