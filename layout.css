@@ -668,12 +668,12 @@ blockquote p {
 display: inline;
 }
 .xembedleft {
-width:500px;
+width:450px;
 float:left;
 margin-right:15px;
 }
 .xembedright {
-width:500px;
+width:450px;
 float:right;
 margin-left:15px;
 }
@@ -1085,12 +1085,12 @@ display: inline;
 /*550px is the max width size of an X embed. 
 Greater widths make empty margins*/
 .xembedleft {
-width:600px;
+width:550px;
 float:left;
 margin-right:15px;
 }
 .xembedright {
-width:600px;
+width:550px;
 float:right;
 margin-left:15px;
 }
