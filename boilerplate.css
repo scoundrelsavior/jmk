@@ -23,14 +23,14 @@ a {
 	text-decoration: none;
 }
 a:visited {
-	color: rgba(255,255,255,1.00);
+	color: #88f;
 }
 a:hover {
 	color: #88f;
 
 }
 a:focus {
-	color: rgba(255,255,255,1.00);
+	color: #88f;
 }
 
 a:hover, a:active {
