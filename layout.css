@@ -166,7 +166,35 @@ border:1px solid #555;
 background:rgba(0,0,0,0.70);
 }
 .title {
-display:none;
+
+}
+.jmktoptitle {
+font-family:Cinzel-Regular;
+font-size:18px;
+text-align:center;
+margin:0px auto 0px;
+}
+.pollyklaastitle {
+font-family:ITCEDSCR;
+color:#EFEFEF;
+font-size:28px;
+width:100%;
+margin:-10px auto -5px;
+text-align:center;
+}
+.jmktitlesides {
+max-width:60px;
+width:100%;
+margin:0px 0px 0px;
+}
+.butterflies {
+max-width:80px;
+width:100%;
+margin:0px 0px 0px;
+}
+.jmksubtitle {
+font-family:Montserrat-ThinItalic;
+font-size:12px;
 }
 .jmktopquote {
 margin:auto;
@@ -361,7 +389,7 @@ line-height:1.4;
 }
 figcaption {
 font-family:Montserrat-ThinItalic;
-font-size:0.95rem;
+font-size:0.85rem;
 padding-top:10px;
 color:white;
 }
@@ -373,6 +401,9 @@ border-width:0px;
 padding-top:0px;
 padding-bottom:10px;
 margin:0px auto 15px;
+}
+.katsaris {
+margin-bottom:26px;
 }
 .pollyklaas {
 margin-bottom:26px;
@@ -573,6 +604,10 @@ margin:-9px auto -4px;
 max-width:90px;
 width:25%;
 margin:-5px 0px 0px;
+}
+.jmksubtitle {
+font-family:Montserrat-ThinItalic;
+font-size:14px;
 }
 .jmktopquote {
 float:left;
@@ -777,8 +812,7 @@ line-height:1.4;
 figcaption {
 font-family:Montserrat-ThinItalic;
 font-size: 0.95rem;
-padding-top:10px;	
-padding-bottom:5px;
+padding-top:10px;
 color:white;	
 }
 .figcaption-overlay {
@@ -788,6 +822,14 @@ font-size:18px;
 border:1px solid #555;
 padding-bottom:10px;
 margin:26px auto 26px;
+}
+.katsaris {
+max-width: 500px;
+float:left;
+margin-right:15px;
+margin-bottom:0px;
+border:0px solid #555;
+border-radius:0px;
 }
 .pollyklaastitle {
 font-family:ITCEDSCR;
@@ -998,6 +1040,10 @@ margin:-9px auto -4px;
 max-width:100px;
 width:25%;
 margin:-5px 0px 0px;
+}
+.jmksubtitle {
+font-family:Montserrat-ThinItalic;
+font-size:14px;
 }
 .jmktopquote {
 float:left;
@@ -1215,6 +1261,14 @@ font-size:18px;
 border:1px solid #555;
 padding-bottom:10px;
 margin:26px auto 26px;
+}
+.katsaris {
+max-width: 650px;
+float:left;
+margin-right:15px;
+margin-bottom:0px;
+border:0px solid #555;
+border-radius:0px;
 }
 .pollyklaastitle {
 font-family:ITCEDSCR;
