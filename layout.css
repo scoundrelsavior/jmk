@@ -198,8 +198,8 @@ font-size:10.5px;
 }
 .jmktopquote {
 margin:auto;
-border:1px solid #555;
-border-radius:12px;
+/*border:1px solid #555;
+border-radius:12px;*/
 }
 .headings {
 font-family:Cinzel-Regular;
@@ -526,6 +526,11 @@ margin-left:auto;
 margin-right:auto;
 border-radius:12px;
 }
+.karrcult {
+margin-left:auto;
+margin-right:auto;
+border-radius:12px;
+}
 .mySlides {
 max-width:100%;
 max-height:100%;
@@ -613,8 +618,8 @@ font-size:14px;
 float:left;
 margin-right:15px;
 max-width:446px;
-border:1px solid #555;
-border-radius:12px;
+/*border:1px solid #555;
+border-radius:12px;*/
 }
 .headings {
 font-family:Cinzel-Regular;
@@ -951,15 +956,21 @@ max-width:60%;
 border-radius:12px;
 }
 .spiegelcollection {
-float: right;
-margin-left: 15px;
-max-width:60%;
+float: left;
+margin-right: 15px;
+max-width:400px;
 border-radius:12px;
 }
 .antikarrgroup {
 float: left;
 margin-right: 15px;
 max-width:60%;
+border-radius:12px;
+}
+.karrcult {
+float: right;
+margin-left: 15px;
+max-width:400px;
 border-radius:12px;
 }
 .mySlides {
@@ -1049,8 +1060,8 @@ font-size:14px;
 float:left;
 margin-right:15px;
 max-width:580px;
-border:1px solid #555;
-border-radius:12px;
+/*border:1px solid #555;
+border-radius:12px;*/
 }
 .headings {
 font-family:Cinzel-Regular;
@@ -1391,15 +1402,21 @@ max-width:50%;
 border-radius:12px;
 }
 .spiegelcollection {
-float: right;
-margin-left: 15px;
-max-width:50%;
+float: left;
+margin-right: 15px;
+max-width:400px;
 border-radius:12px;
 }
 .antikarrgroup {
 float: left;
 margin-right: 15px;
 max-width:50%;
+border-radius:12px;
+}
+.karrcult {
+float:right;
+margin-left:15px;
+max-width:400px;
 border-radius:12px;
 }
 .mySlides {
