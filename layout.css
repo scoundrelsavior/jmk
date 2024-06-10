@@ -234,11 +234,10 @@ background-position:center;
 background-size:cover;
 }
 .scrolldivider {
-max-width:130px;
+max-width:100px;
 display:block;
 margin-left:auto;
 margin-right:auto;
-margin-top:30px;
 }
 .trajan {
 font-family:TrajanPro3-Regular;
@@ -659,11 +658,10 @@ background-position:center;
 background-size:cover;
 }
 .scrolldivider {
-max-width:150px;
+max-width:130px;
 display:block;
 margin-left:auto;
 margin-right:auto;
-margin-top:30px;
 }
 .trajan {
 font-family:TrajanPro3-Regular;
@@ -1115,11 +1113,10 @@ border:1px solid #555;
 border-radius:12px;
 }
 .scrolldivider {
-max-width:180px;
+max-width:150px;
 display:block;
 margin-left:auto;
 margin-right:auto;
-margin-top:30px;
 }
 .trajan {
 font-family:TrajanPro3-Regular;
