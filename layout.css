@@ -364,12 +364,11 @@ text-align:center;
 margin:auto;
 }
 .whatsoeverborder {
-border:6px double #555;
-border-width:0px 0px 6px 0px;
+border:1px solid #555;
 outline:0px solid #555;
-outline-offset:0px;
+border-radius:12px;
 margin:26px auto 26px;
-padding:0px 0px 0px;
+padding:20px 10px 5px;
 }
 .whatsoeverheading {
 font-family:Montserrat-ExtraLightItalic;
@@ -379,7 +378,7 @@ line-height:1.4;
 .whatsoevercaption {
 font-family:Montserrat-ExtraLightItalic;
 font-size: 16px;
-margin:18px auto 20px;
+margin:18px auto 9px;
 border:1px solid #555;
 background:rgba(0,0,0,0.80);
 padding:10px;
@@ -795,6 +794,7 @@ each photo inline*/
 border:1px solid #555;
 outline:1px solid #555;
 outline-offset:5px;
+border-radius:0px;
 margin:50px auto 50px;
 padding:20px 20px 20px;
 }
@@ -1240,6 +1240,7 @@ each photo inline*/
 border:1px solid #555;
 outline:1px solid #555;
 outline-offset:5px;
+border-radius:0px;
 margin:50px auto 50px;
 padding:20px 20px 20px;
 }
