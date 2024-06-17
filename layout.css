@@ -288,6 +288,9 @@ margin-right: auto;
 padding: 10px;
 border-width:0px 0px 0px 0px;
 }
+.tableofcontents {
+padding:0px;
+}
 blockquote {
 position: relative;
 /* background: #ddd; */
@@ -711,6 +714,9 @@ margin-right: auto;
 padding:15px;
 border-width:0px 0px 0px 0px;
 }
+.tableofcontents {
+padding:6px;
+}
 blockquote {
 position: relative;
 /* background: #ddd; */
@@ -808,7 +814,7 @@ margin:-5px auto auto;
 /*maxwidth changed for
 each photo inline*/
 .whatsoeverborder {
-border:1px solid #555;
+border:1px double #555;
 outline:1px solid #555;
 outline-offset:5px;
 border-radius:0px;
@@ -1168,6 +1174,9 @@ padding: 15px;
 border:1px solid #555;
 border-width:1px 1px 1px 1px;
 box-shadow: rgba(255, 255, 255, 0.56) 0px 0px 70px 4px;
+}
+.tableofcontents {
+padding:0px;
 }
 blockquote {
 position: relative;
