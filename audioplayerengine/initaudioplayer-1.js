@@ -34,7 +34,7 @@ jQuery(document).ready(function(){
         showloading:false,
         forcefirefoxflash:false,
         tracklistscroll:true,
-        preloadaudio:true,
+        preloadaudio:false,
         showvolumebar:true,
         imagefullwidth:false,
         width:300,
@@ -53,7 +53,7 @@ jQuery(document).ready(function(){
         stopimage:"stop-48-48-0.png",
         showvolume:true,
         playpauseimage:"playpause-48-48-0.png",
-        forcehtml5:false,
+        forcehtml5:true,
         showprevnext:true,
         backgroundimage:"",
         loadingformat:"Loading...",
@@ -78,7 +78,7 @@ jQuery(document).ready(function(){
         timeformat:"%CURRENT% / %DURATION%",
         autoplay:false,
         fullwidth:false,
-        loop:0,
+        loop:1,
         tracklistitem:10
     });
 });
