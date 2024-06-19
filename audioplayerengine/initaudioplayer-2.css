@@ -32,7 +32,7 @@
 	display: block;
 	position: absolute;
 	top: 8px;
-	left: 12px;
+	left: 7px;
 	margin: 4px;
 	overflow: hidden;
 	-webkit-box-shadow: 0 8px 6px -6px black;
@@ -59,10 +59,10 @@
 #amazingaudioplayer-2 .amazingaudioplayer-text {
 	display: block;
 	position: absolute;
-	top: 8px;
-	left: 124px;
+	top: 56px;
+	left: 217px;
 	overflow: hidden;
-	padding: 4px 12px;
+	padding: 11px 0px;
 	height: 60px;
 }
 
@@ -75,6 +75,7 @@
 	font-family: "Noto Sans",Arial,sans-serif;
 	font-size: 14px;
 	font-weight: bold;
+	text-align: center;
 }
 
 #amazingaudioplayer-2 .amazingaudioplayer-title-clear {
@@ -85,8 +86,10 @@
 	display: block;
 	color: #ddd;
 	font-family: Arial, sans-serif;
-	font-size: 11px;
+	font-size: 12px;
 	font-style: italic;
+	padding-top: 8px;
+	text-align: center;
 }
 
 #amazingaudioplayer-2 .amazingaudioplayer-info-clear {
@@ -107,8 +110,8 @@
 
 #amazingaudioplayer-2 .amazingaudioplayer-playpause {
 	position: absolute;
-	left: 160px;
-	top: 72px;
+	left: 252px;
+	top: 158px;
 }
 
 #amazingaudioplayer-2 .amazingaudioplayer-play {
@@ -126,14 +129,14 @@
 
 #amazingaudioplayer-2 .amazingaudioplayer-prev {
 	position: absolute;
-	left: 125px;
-	top: 72px;
+	left: 213px;
+	top: 158px;
 }
 
 #amazingaudioplayer-2 .amazingaudioplayer-next {
 	position: absolute;
-	left: 195px;
-	top: 72px;
+	left: 290px;
+	top: 158px;
 }
 
 #amazingaudioplayer-2 .amazingaudioplayer-loop {
@@ -145,7 +148,7 @@
 #amazingaudioplayer-2 .amazingaudioplayer-progress {
 	position: absolute;
 	left: 12px;
-	top: 118px;
+	top: 218px;
 	right: 12px;
 	background-color: #222;
 	-webkit-box-shadow: -1px -1px 0 rgba( 0, 0, 0, 0.5 ), 1px 1px 0 rgba( 255, 255, 255, 0.1 );
@@ -179,7 +182,7 @@
 
 #amazingaudioplayer-2 .amazingaudioplayer-time {
 	position: absolute;
-	top: 136px;
+	top: 237px;
 	left: 12px;
 	color: #a0a0a0;
 	font-family: 'Open Sans', sans-serif;
@@ -191,8 +194,8 @@
 
 #amazingaudioplayer-2 .amazingaudioplayer-volume {
 	position: absolute;
-	top: 84px;
-	left: 265px;
+	top: 238px;
+	left: 307px;
 }
 
 #amazingaudioplayer-2 .amazingaudioplayer-volume-bar {
@@ -329,5 +332,7 @@
 
 #amazingaudioplayer-2 .amazingaudioplayer-item-title {
 	overflow: hidden;
-}
-
+}
+
+
+
