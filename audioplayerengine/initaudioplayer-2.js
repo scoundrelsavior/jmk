@@ -34,7 +34,7 @@ jQuery(document).ready(function(){
         showloading:false,
         forcefirefoxflash:false,
         tracklistscroll:true,
-        preloadaudio:true,
+        preloadaudio:false,
         showvolumebar:true,
         imagefullwidth:false,
         width:300,
