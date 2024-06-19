@@ -53,7 +53,7 @@ jQuery(document).ready(function(){
         stopimage:"stop-48-48-0.png",
         showvolume:true,
         playpauseimage:"playpause-48-48-0.png",
-        forcehtml5:false,
+        forcehtml5:true,
         showprevnext:true,
         backgroundimage:"",
         loadingformat:"Loading...",
