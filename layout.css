@@ -407,6 +407,12 @@ padding-top:10px;
 padding-bottom:2px;
 color:white;
 }
+.figcaptionborder {
+border: 1px solid #555;
+padding:8px;
+border-radius:12px;
+margin-top:12px;
+}
 .figcaption-overlay {
 position:relative;
 text-align:center;
@@ -854,6 +860,11 @@ font-size: 0.95rem;
 padding-top:10px;
 padding-bottom:2px;
 color:white;	
+}
+.figcaptionborder {
+border-width:0px;
+padding:0px;
+border-radius:0px;
 }
 .figcaption-overlay {
 position:relative;
@@ -1337,6 +1348,11 @@ font-size: 0.95rem;
 padding-top:10px;
 padding-bottom:2px;
 color:white;	
+}
+.figcaptionborder {
+border-width:0px;
+padding:0px;
+border-radius:0px;
 }
 .figcaption-overlay {
 position:relative;
