@@ -404,6 +404,7 @@ figcaption {
 font-family:Montserrat-ThinItalic;
 font-size:0.85rem;
 padding-top:10px;
+padding-bottom:2px;
 color:white;
 }
 .figcaption-overlay {
@@ -851,6 +852,7 @@ figcaption {
 font-family:Montserrat-ThinItalic;
 font-size: 0.95rem;
 padding-top:10px;
+padding-bottom:2px;
 color:white;	
 }
 .figcaption-overlay {
@@ -1333,6 +1335,7 @@ figcaption {
 font-family:Montserrat-ThinItalic;
 font-size: 0.95rem;
 padding-top:10px;
+padding-bottom:2px;
 color:white;	
 }
 .figcaption-overlay {
