@@ -34,7 +34,7 @@ jQuery(document).ready(function(){
         showloading:false,
         forcefirefoxflash:false,
         tracklistscroll:true,
-        preloadaudio:true,
+        preloadaudio:false,
         showvolumebar:true,
         imagefullwidth:false,
         width:300,
@@ -71,14 +71,14 @@ jQuery(document).ready(function(){
         stopimagewidth:48,
         volumebarheight:80,
         noncontinous:false,
-        stopotherplayers:true,
+        stopotherplayers:false,
         showbarbackgroundimage:false,
         volumebarpadding:8,
         imagewidth:100,
         timeformat:"%CURRENT% / %DURATION%",
         autoplay:false,
         fullwidth:false,
-        loop:1,
+        loop:0,
         tracklistitem:10
     });
 });
