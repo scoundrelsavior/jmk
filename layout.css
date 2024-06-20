@@ -404,7 +404,7 @@ figcaption {
 font-family:Montserrat-ThinItalic;
 font-size:0.85rem;
 padding-top:10px;
-padding-bottom:5px;
+padding-bottom:10px;
 color:white;
 }
 .figcaption-overlay {
@@ -548,10 +548,14 @@ border-radius:12px;
 .mariakatsarisaudio {
 margin-left:auto;
 margin-right:auto;
+width:100%;
+max-width:340px;
 }
 .deathtapeaudio {
 margin-left:auto;
 margin-right:auto;
+width:100%;
+max-width:340px;
 }
 .mySlides {
 max-width:100%;
@@ -848,7 +852,7 @@ figcaption {
 font-family:Montserrat-ThinItalic;
 font-size: 0.95rem;
 padding-top:10px;
-padding-bottom:3px;
+padding-bottom:10px;
 color:white;	
 }
 .figcaption-overlay {
@@ -1019,7 +1023,9 @@ float:right;
 margin-left:15px;
 width:100%;
 max-width:340px;
-height:264px;
+padding:10px 12px 0px 10px;
+border:1px solid #555;
+border-radius:12px;
 }
 .deathtapeaudio {
 display:block;
@@ -1027,7 +1033,9 @@ float:left;
 margin-right:15px;
 width:100%;
 max-width:340px;
-height:264px;
+padding:10px 12px 0px 10px;
+border:1px solid #555;
+border-radius:12px;
 }
 .mySlides {
 max-width:100%;
@@ -1188,7 +1196,7 @@ margin:-5px auto 0px;
 padding:10px 10px 0px;
 }
 .content {
-max-width: 1000px;
+max-width: 1200px;
 margin-left: auto;
 margin-right: auto;
 color: #FFFFFF;
@@ -1327,7 +1335,7 @@ figcaption {
 font-family:Montserrat-ThinItalic;
 font-size: 0.95rem;
 padding-top:10px;
-padding-bottom:5px;
+padding-bottom:10px;
 color:white;	
 }
 .figcaption-overlay {
@@ -1499,7 +1507,9 @@ float:right;
 margin-left:15px;
 width:100%;
 max-width:340px;
-height:264px;
+padding:10px 12px 0px 10px;
+border:1px solid #555;
+border-radius:12px;
 }
 .deathtapeaudio {
 display:block;
@@ -1508,7 +1518,9 @@ margin-right:15px;
 margin-top:5px;
 width:100%;
 max-width:340px;
-height:264px;
+padding:10px 12px 0px 10px;
+border:1px solid #555;
+border-radius:12px;
 }
 .mySlides {
 max-width: 100%;
