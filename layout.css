@@ -529,6 +529,11 @@ margin-left:auto;
 margin-right:auto;
 border-radius:12px;
 }
+.madeleinemccannls {
+margin-left:auto;
+margin-right:auto;
+border-radius:12px;
+}
 .spiegelcollection {
 margin-left:auto;
 margin-right:auto;
@@ -992,9 +997,15 @@ margin-right: auto;
 margin-left: auto;
 }
 .madeleinemccann {
+float: left;
+margin-right: 15px;
+max-width:60%;
+border-radius:12px;
+}
+.madeleinemccannls {
 float: right;
 margin-left: 15px;
-max-width:60%;
+max-width:480px;
 border-radius:12px;
 }
 .spiegelcollection {
@@ -1477,6 +1488,12 @@ margin-right: auto;
 margin-left: auto;
 }
 .madeleinemccann {
+float: left;
+margin-right: 15px;
+max-width:700px;
+border-radius:12px;
+}
+.madeleinemccannls {
 float: right;
 margin-left: 15px;
 max-width:50%;
