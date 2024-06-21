@@ -204,11 +204,6 @@ margin:0px 0px 0px;
 font-family:Montserrat-ThinItalic;
 font-size:10.5px;
 }
-.jmktopquote {
-margin:auto;
-/*border:1px solid #555;
-border-radius:12px;*/
-}
 .headings {
 font-family:Cinzel-Regular;
 font-size:22px;
@@ -428,13 +423,9 @@ margin-bottom:26px;
 .pollyklaas {
 margin-bottom:26px;
 }
-.klaasportrait {
-display:flex;
-flex-direction:row;
-flex-wrap:wrap;
-margin-top:0px;
-border:1px solid #555;
-border-radius:12px;
+.jmkquote {
+margin-bottom:26px;
+border:none;
 }
 .klaasedwardianoutlined {
 font-family:ITCEDSCR;
@@ -645,13 +636,6 @@ margin:-5px 0px 0px;
 .jmksubtitle {
 font-family:Montserrat-ThinItalic;
 font-size:14px;
-}
-.jmktopquote {
-float:left;
-margin-right:15px;
-max-width:446px;
-/*border:1px solid #555;
-border-radius:12px;*/
 }
 .headings {
 font-family:Cinzel-Regular;
@@ -903,15 +887,14 @@ max-width: 460px;
 float:left;
 margin-right:15px;
 margin-bottom:0px;
-border:0px solid #555;
-border-radius:0px;
+border:none;
 }
-.klaasportrait {
-display:flex;
-flex-direction:row;
-flex-wrap:wrap;
-margin-top:-15px;
-border-width:0px;
+.jmkquote {
+max-width: 460px;
+float:left;
+margin-right:15px;
+margin-bottom:0px;
+border:none;
 }
 .klaasedwardianoutlined {
 display:none;
@@ -1131,13 +1114,6 @@ margin:-5px 0px 0px;
 font-family:Montserrat-ThinItalic;
 font-size:14px;
 }
-.jmktopquote {
-float:left;
-margin-right:15px;
-max-width:580px;
-/*border:1px solid #555;
-border-radius:12px;*/
-}
 .headings {
 font-family:Cinzel-Regular;
 font-size:17px;
@@ -1207,7 +1183,7 @@ margin:-5px auto 0px;
 padding:10px 10px 0px;
 }
 .content {
-max-width: 1200px;
+max-width: 1366px;
 margin-left: auto;
 margin-right: auto;
 color: #FFFFFF;
@@ -1387,19 +1363,20 @@ margin:-10px auto auto;
 text-align:center;
 }
 .pollyklaas {
-max-width: 580px;
+max-width:700px;
 float:left;
 margin-right:15px;
 margin-bottom:0px;
-border:0px solid #555;
-border-radius:0px;
-}
-.klaasportrait {
-display:flex;
-flex-direction:row;
-flex-wrap:wrap;
+border:none;
 margin-top:-15px;
-border-width:0px;
+}
+.jmkquote {
+max-width:700px;
+float:left;
+margin-right:15px;
+margin-bottom:0px;
+border:none;
+margin-top:-15px;
 }
 .klaasedwardianoutlined {
 display:none;
