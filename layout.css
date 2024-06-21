@@ -297,6 +297,7 @@ font-size: 2.90em;
 margin-left: -0.5em;
 margin-top: -0.3em;
 font-family: Georgia, Times, "Times New Roman", serif;
+color:#999;
 }
 blockquote:after {
 position: absolute;
@@ -307,6 +308,7 @@ right: 0;
 margin-right: -0.5em;
 margin-bottom: -0.83em;
 font-family: Georgia, Times, "Times New Roman", serif;
+color:#999;
 }
 blockquote p {
 display: inline;
@@ -730,6 +732,7 @@ font-size: 3.25em;
 margin-left: -0.5em;
 margin-top: -0.3em;
 font-family: Georgia, Times, "Times New Roman", serif;
+color:#999;
 }
 blockquote:after {
 position: absolute;
@@ -740,6 +743,7 @@ right: 0;
 margin-right: -0.5em;
 margin-bottom: -0.8em;
 font-family: Georgia, Times, "Times New Roman", serif;
+color:#999;
 }
 blockquote p {
 display: inline;
@@ -1208,6 +1212,7 @@ font-size: 3.25em;
 margin-left: -0.5em;
 margin-top: -0.3em;
 font-family: Georgia, Times, "Times New Roman", serif;
+color:#888;
 }
 blockquote:after {
 position: absolute;
@@ -1218,6 +1223,7 @@ right: 0;
 margin-right: -0.5em;
 margin-bottom: -0.8em;
 font-family: Georgia, Times, "Times New Roman", serif;
+color:#888;
 }
 blockquote p {
 display: inline;
