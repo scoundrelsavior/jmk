@@ -409,6 +409,7 @@ border: 1px solid #555;
 padding:8px;
 border-radius:12px;
 margin-top:12px;
+background-image: linear-gradient(#000, #111);
 }
 .figcaption-overlay {
 position:relative;
@@ -1009,8 +1010,8 @@ max-width:480px;
 border-radius:12px;
 }
 .spiegelcollection {
-float: left;
-margin-right: 15px;
+float: right;
+margin-left: 15px;
 max-width:400px;
 border-radius:12px;
 }
@@ -1035,6 +1036,7 @@ max-width:340px;
 padding:10px 12px 5px 10px;
 border:1px solid #555;
 border-radius:12px;
+background-image: linear-gradient(#000, #111);
 }
 .deathtapeaudio {
 display:block;
@@ -1045,6 +1047,7 @@ max-width:340px;
 padding:10px 12px 5px 10px;
 border:1px solid #555;
 border-radius:12px;
+background-image: linear-gradient(#000, #111);
 }
 .mySlides {
 max-width:100%;
@@ -1500,8 +1503,8 @@ max-width:50%;
 border-radius:12px;
 }
 .spiegelcollection {
-float: left;
-margin-right: 15px;
+float: right;
+margin-left: 15px;
 max-width:400px;
 border-radius:12px;
 }
@@ -1526,6 +1529,7 @@ max-width:340px;
 padding:10px 12px 10px 10px;
 border:1px solid #555;
 border-radius:12px;
+background-image: linear-gradient(#000, #111);
 }
 .deathtapeaudio {
 display:block;
@@ -1537,6 +1541,7 @@ max-width:340px;
 padding:10px 12px 10px 10px;
 border:1px solid #555;
 border-radius:12px;
+background-image: linear-gradient(#000, #111);
 }
 .mySlides {
 max-width: 100%;
