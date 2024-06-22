@@ -1035,7 +1035,7 @@ max-width:340px;
 padding:10px 12px 5px 10px;
 border:1px solid #555;
 border-radius:12px;
-background-image: linear-gradient(#000, #111);
+background-image: linear-gradient(#111,#000,#111);
 }
 .deathtapeaudio {
 display:block;
@@ -1046,7 +1046,7 @@ max-width:340px;
 padding:10px 12px 5px 10px;
 border:1px solid #555;
 border-radius:12px;
-background-image: linear-gradient(#000, #111);
+background-image: linear-gradient(#111,#000,#111);
 }
 .mySlides {
 max-width:100%;
@@ -1528,7 +1528,7 @@ max-width:340px;
 padding:10px 12px 10px 10px;
 border:1px solid #555;
 border-radius:12px;
-background-image: linear-gradient(#000, #111);
+background-image: linear-gradient(#111,#000,#111);
 }
 .deathtapeaudio {
 display:block;
@@ -1540,7 +1540,7 @@ max-width:340px;
 padding:10px 12px 10px 10px;
 border:1px solid #555;
 border-radius:12px;
-background-image: linear-gradient(#000, #111);
+background-image: linear-gradient(#111,#000,#111);
 }
 .mySlides {
 max-width: 100%;
