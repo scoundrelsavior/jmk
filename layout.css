@@ -166,7 +166,7 @@ border:1px solid #555;
 background:rgba(0,0,0,0.70);
 }
 .title {
-
+padding:0px 0px 5px;
 }
 .jmktoptitle {
 font-family:Cinzel-Regular;
@@ -628,6 +628,7 @@ background:rgba(0,0,0,0.70);
 }
 .title {
 display:block;
+padding:0px 0px 5px;
 }
 .jmktoptitle {
 font-family:Cinzel-Regular;
@@ -1115,6 +1116,7 @@ background:rgba(0,0,0,0.70);
 }
 .title {
 display:block;
+padding:0px 0px 5px;
 }
 .jmktoptitle {
 font-family:Cinzel-Regular;
