@@ -204,6 +204,11 @@ margin:0px 0px 0px;
 font-family:Montserrat-ThinItalic;
 font-size:10.5px;
 }
+.jmktitlecorners {
+font-family:Montserrat-ThinItalic;
+font-size:10.5px;
+margin:7px 0px 0px;
+}
 .headings {
 font-family:Cinzel-Regular;
 font-size:22px;
@@ -644,6 +649,11 @@ margin:-5px 0px 0px;
 .jmksubtitle {
 font-family:Montserrat-ThinItalic;
 font-size:14px;
+}
+.jmktitlecorners {
+font-family:Montserrat-ThinItalic;
+font-size:14px;
+margin:7px 0px 0px;
 }
 .headings {
 font-family:Cinzel-Regular;
@@ -1132,6 +1142,11 @@ margin:-5px 0px 0px;
 .jmksubtitle {
 font-family:Montserrat-ThinItalic;
 font-size:14px;
+}
+.jmktitlecorners {
+font-family:Montserrat-ThinItalic;
+font-size:14px;
+margin:7px 0px 0px;
 }
 .headings {
 font-family:Cinzel-Regular;
