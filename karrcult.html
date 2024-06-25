@@ -186,39 +186,36 @@ visibility:hidden;
 
 <div style="display:flex;flex-direction:row;flex-wrap:wrap;align-items:center;background-image: linear-gradient(#1a0000,#000,#1a0000);padding:10px;border:1px solid #555;border-radius:12px;">
 
-<img style="width:49%;border:1px solid #555;border-radius:12px;" src="images/mariakatsarissquare.jpg" alt="Maria Katsaris">
+<img style="width:50%;border-radius:12px;" src="images/mariakatsarissquare.jpg" alt="Maria Katsaris">
 
 <div style="width:50%;text-align:center;color:white;line-height:1.5;">
 <p style="font-weight:bold;font-family:Montserrat-ExtraLightItalic;font-size:18px;">Maria Katsaris</p>
 <p style="font-family:Montserrat-ThinItalic;font-size:14px;">Jonestown Radio Call<br>April 17th 1978</p>
 
 <div>
-<img style="opacity:0.5;padding-top:5px;" id="myImg" src="images/playbutton.png" width="40" height="40">
+<img style="opacity:0.5;padding-top:5px;" id="myImg1" src="images/playbutton.png" width="40" height="40">
 </div>
 
-<audio id="player">
+<audio id="player1">
   <source src='mariakatsarisradiocall.mp3' type='audio/mpeg'/>
 </audio>
 
 <script type="text/javascript">
-var img = document.getElementById("myImg");
-var audio = document.getElementById("player");
+var myImg1 = document.getElementById("myImg1");
+var audio1 = document.getElementById("player1");
 
-img.addEventListener("click", function(){
-  if(audio.paused){
-    audio.play();
-    document.getElementById("myImg").src = "images/pausebutton.png";
+myImg1.addEventListener("click", function(){
+  if(audio1.paused){
+    audio1.play();
+    document.getElementById("myImg1").src = "images/pausebutton.png";
   } else {
-    audio.pause();
-    document.getElementById("myImg").src = "images/playbutton.png";  }
+    audio1.pause();
+    document.getElementById("myImg1").src = "images/playbutton.png";  }
 });
-
 </script>
 
 </div>
-
 <figcaption style="border:solid #555;border-width:1px 0px 0px 0px;padding-top:10px;margin-top:15px;">On April 17th 1978, in a radio transmission from Jonestown to address concerned relatives in America, Maria Katsaris tells her father that he raped her, starting from childhood. She vows she will never leave Jonestown and return to the US. (San Francisco Examiner / Photo Designed by JMK)</figcaption>
-
 </div>
 
 </figure>
@@ -232,7 +229,41 @@ img.addEventListener("click", function(){
 <p>I tend to hold members of The People's Temple more responsible, not only on that fateful day in November 1978, but as the group progressed through the years. It has been widely reported for decades that Jones massacred his flock, but what about some, if not many, of the parents who murdered their own children? I agree that some were likely forced to do so, but what of the other parents who willfully killed their children in the name of their strong religious convictions? I have much more respect for the families who defected on November 18th. They at least made an effort to escape with their children. Though one mom, Patricia Parks, died in that escape effort, her children survived. One hundred ninety children, aged 12 and under, died in Jonestown. I have grieved their loss ever since.</p>
 
 <figure class="deathtapeaudio">
-<embed id="death" src="deathtape.html" width="100%" height="100%" frameborder="no"></embed>
+
+<div style="display:flex;flex-direction:row;flex-wrap:wrap;align-items:center;background-image: linear-gradient(#1a0000,#000,#1a0000);padding:10px;border:1px solid #555;border-radius:12px;">
+
+<img style="width:50%;border:1px solid #555;border-radius:12px;" src="images/jimjones1.jpg" alt="Jim Jones">
+
+<div style="width:49%;text-align:center;color:white;line-height:1.5;">
+<p style="font-weight:bold;font-family:Montserrat-ExtraLightItalic;">The Death Tape</p>
+<p style="font-family:Montserrat-ThinItalic;font-size:14px;">Jonestown Suicides<br>November 18th 1978</p>
+
+<div>
+<img style="opacity:0.5;padding-top:5px;" id="myImg2" src="images/playbutton.png" width="40" height="40">
+</div>
+
+<audio id="player2">
+  <source src='deathtape.mp3' type='audio/mpeg'/>
+</audio>
+
+<script type="text/javascript">
+var myImg2 = document.getElementById("myImg2");
+var audio2 = document.getElementById("player2");
+
+myImg2.addEventListener("click", function(){
+  if(audio2.paused){
+    audio2.play();
+    document.getElementById("myImg2").src = "images/pausebutton.png";
+  } else {
+    audio2.pause();
+    document.getElementById("myImg2").src = "images/playbutton.png";  }
+});
+</script>
+
+</div>
+<figcaption style="border:solid #555;border-width:1px 0px 0px 0px;padding-top:10px;margin-top:15px;">In this November 18th 1978 recording, Jim Jones leads 909 members of his congregation in the largest mass suicide in history. (San Francisco Examiner / The Life & Death of Peoples Temple / JMK)</figcaption>
+</div>
+
 </figure>
 
 <p>It seems I'm from a long line of leaders and organisers of religious groups in foreign lands. My father was a missionary preacher in Jamaica in the late 50's. He did some preaching at the church he attended as a child. He did radio sermons in Atlanta. His first wife was the daughter of a preacher. His second wife, my mother, was also the daughter of a preacher. My mother's father was a church pastor on several occasions in the United States. Her father was a missionary evangelist in Guatemala, Central America in the 1970's. My mother was a missionary with a young preacher as a teenager in the mid 50's on the U.S. west coast that included the states of California and Oregon. After they married in 1958, my mother returned on several occasions to my father's previous missionary work in Jamaica. My mother and father were both Pentecostal preachers during their marriage from 1958 to 1969. I do admit that, with such a religiously rooted set of parents and grandfather, there was an influence in my life to possibly pursue a similar path.</p>
@@ -250,7 +281,7 @@ img.addEventListener("click", function(){
 <p>It was brought to my attention by those who watched the 2010 coverage that I was compared to Charles Manson and Jim Jones in the media. I had already been compared to Manson by his prosecutor, Vincent Bugliosi, in 2006; however, Spiegel brought him back in 2010 because she was corresponding with him at the time. She was also corresponding with Richard Ramirez and Richard Allen Davis. I have a past with Davis, at least through an FBI investigation going back to 2001 and possibly earlier. Read more in my October 2023 article, <a href="pollyklaas">The Disastrous Abduction of Polly Klaas</a> Keep in mind that Spiegel was sharing stories of her contact with all her killer celebrities with the media.</p>
 
 <p>If I am, or have ever been, the leader of a large group of like-minded individuals with a central cause, it would never be modeled after Manson or Jones and it certainly would not be called a cult. We would not be killing ourselves. We would be defending our growing family from outsiders who might want to destroy us. My followers would not fear me. They would love me and I would love them and would want the best for all. We would be united in a common cause. Our group would lead a very covert and nomadic existence. And finally, if the focus of our group is little girls, I would not be raising them for sex. I would be raising an army.</p>
-	
+
 <div style="text-align:center;">
 <div style="display:inline-block;font-size:16.3px;border:1px solid #555;border-width:1px 0px 1px 0px;padding:8px 0px 8px;margin:26px auto 26px;background-image: linear-gradient(#000,#000,#000,#1a0000)">
 <p style="max-width:830px;font-family:Montserrat-ExtraLightItalic;"><b>"Nobody joins a cult. Nobody joins something they think's going to hurt them. You join a religious organisation. You join a political movement. And you join with people that you really like."</b></p>
