@@ -559,15 +559,19 @@ border-radius:12px;
 }
 .audioplayer {
 display:flex;
-flex-direction:row;
+flex-direction:column;
 flex-wrap:wrap;
-justify-content:center;
+justify-content:space-evenly;
 align-items:center;
-background-image: linear-gradient(#1a0000,#000,#1a0000);
 padding:10px;
+gap:10px;
+background-image: linear-gradient(#1a0000,#000,#1a0000);
 border:1px solid #555;
 border-radius:12px;
-max-width:440px;
+}
+.audiophoto {
+max-width:428px;
+border:none;
 }
 .mariakatsarisaudio {
 margin-left:auto;
@@ -1055,13 +1059,18 @@ border-radius:12px;
 display:flex;
 flex-direction:row;
 flex-wrap:wrap;
-justify-content:center;
+justify-content:space-evenly;
 align-items:center;
-background-image: linear-gradient(#1a0000,#000,#1a0000);
 padding:10px;
+gap:10px;
+background-image: linear-gradient(#1a0000,#000,#1a0000);
 border:1px solid #555;
 border-radius:12px;
 max-width:440px;
+}
+.audiophoto {
+max-width:275px;
+border:none;
 }
 .mariakatsarisaudio {
 float:right;
@@ -1555,13 +1564,18 @@ border-radius:12px;
 display:flex;
 flex-direction:row;
 flex-wrap:wrap;
-justify-content:center;
+justify-content:space-evenly;
 align-items:center;
-background-image: linear-gradient(#1a0000,#000,#1a0000);
 padding:10px;
+gap:10px;
+background-image: linear-gradient(#1a0000,#000,#1a0000);
 border:1px solid #555;
 border-radius:12px;
 max-width:440px;
+}
+.audiophoto {
+max-width:275px;
+border:none;
 }
 .mariakatsarisaudio {
 float:right;
