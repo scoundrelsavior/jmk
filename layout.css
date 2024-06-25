@@ -571,7 +571,8 @@ border-radius:12px;
 }
 .audiophoto {
 max-width:428px;
-border:none;
+border:1px solid #555;
+border-radius:4px;
 }
 .mariakatsarisaudio {
 margin-left:auto;
@@ -1070,7 +1071,8 @@ max-width:440px;
 }
 .audiophoto {
 max-width:275px;
-border:none;
+border:1px solid #555;
+border-radius:4px;
 }
 .mariakatsarisaudio {
 float:right;
@@ -1575,7 +1577,8 @@ max-width:440px;
 }
 .audiophoto {
 max-width:275px;
-border:none;
+border:1px solid #555;
+border-radius:4px;
 }
 .mariakatsarisaudio {
 float:right;
