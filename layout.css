@@ -559,7 +559,7 @@ border-radius:12px;
 }
 .audioplayer {
 display:flex;
-flex-direction:column;
+flex-direction:row;
 flex-wrap:wrap;
 justify-content:space-evenly;
 align-items:center;
@@ -570,7 +570,6 @@ border:1px solid #555;
 border-radius:12px;
 }
 .audiophoto {
-max-width:428px;
 border:1px solid #555;
 border-radius:4px;
 }
