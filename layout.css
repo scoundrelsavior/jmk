@@ -1180,7 +1180,7 @@ scroll-margin-top:15px;
 }
 }
 
-/* Desktop Layout: 835px to a max of 1232px - Everything above Ipad Pro 11-inch. Inherits styles from: Mobile Layout and Tablet Layout. */
+/* Desktop Layout: 835px to a max of 1366px - Everything above Ipad Pro 11-inch. Inherits styles from: Mobile Layout and Tablet Layout. */
 @media only screen and (min-width: 835px) {
 
 /* Responsive flex two-column layout over 835px */
@@ -1319,8 +1319,8 @@ color: #FFFFFF;
 font-size:1.09rem;
 background-color:#000000;
 padding: 15px;
-border:1px solid #555;
-border-width:0px 1px 0px 1px;
+border:0px solid #555;
+border-width:0px 0px 0px 0px;
 }
 .tableofcontents {
 padding:0px;
@@ -1718,5 +1718,20 @@ scroll-margin-top:26px;
 }
 #swedenroyals2020 {
 scroll-margin-top:15px;
+}
+}
+
+/* Desktop Layout: 1366px and above. This is here to place the white outline along the left and right of the content for screens above 1366px. Inherits styles from: Mobile Layout and Tablet Layout. */
+@media only screen and (min-width: 1367px) {
+.content {
+max-width: 1366px;
+margin-left: auto;
+margin-right: auto;
+color: #FFFFFF;
+font-size:1.09rem;
+background-color:#000000;
+padding: 15px;
+border:1px solid #555;
+border-width:0px 1px 0px 1px;
 }
 }
