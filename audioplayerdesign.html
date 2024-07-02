@@ -1,0 +1,152 @@
+<!doctype html>
+<html class=""><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Audio Player Design</title>
+
+<!--CSS Referrals-->
+<link href="layout.css" rel="stylesheet" type="text/css">
+<link href="boilerplate.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="favicon.ico">
+<link href="video-js.css" rel="stylesheet">
+<link rel="stylesheet" href="essential_audio.css" />
+
+<style>
+
+body {
+	background-color: #000;
+	font-family:OpenSans-Light;
+	<!--background-image: url(images/marble.jpg);
+	background-attachment: fixed;
+	background-repeat:repeat;-->
+}
+
+@font-face {
+  font-family:ITCEDSCR;
+  src: url(fonts/ITCEDSCR.TTF);
+  font-display: block;
+}
+@font-face {
+  font-family:VIVALDII;
+  src: url(fonts/VIVALDII.TTF);
+  font-display: block;
+}
+@font-face {
+  font-family:TrajanPro3-Regular;
+  src: url(fonts/TrajanPro3-Regular.otf);
+  font-display: block;
+}
+@font-face {
+  font-family:Cinzel-Regular;
+  src: url(fonts/Cinzel-Regular.ttf);
+  font-display: block;
+}
+@font-face {
+  font-family:OpenSans-Light;
+  src: url(fonts/OpenSans-Light.ttf);
+  font-display: block;
+}
+@font-face {
+  font-family:Montserrat-Light;
+  src: url(fonts/Montserrat-Light.ttf);
+  font-display: block;
+}
+@font-face {
+  font-family:Montserrat-Thin;
+  src: url(fonts/Montserrat-Thin.ttf);
+  font-display: block;
+}
+@font-face {
+  font-family:Montserrat-ThinItalic;
+  src: url(fonts/Montserrat-ThinItalic.ttf);
+  font-display: block;
+}
+@font-face {
+  font-family:Montserrat-ExtraLight;
+  src: url(fonts/Montserrat-ExtraLight.ttf);
+  font-display: block;
+}
+@font-face {
+  font-family:Montserrat-ExtraLightItalic;
+  src: url(fonts/Montserrat-ExtraLightItalic.ttf);
+  font-display: block;
+}
+@font-face {
+  font-family:PinyonScript-Regular;
+  src: url(fonts/PinyonScript-Regular.ttf);
+  font-display: block;
+}
+
+</style>
+
+<script src="essential_audio.js"></script>
+
+<script src="respond.min.js"></script>
+
+</head>
+
+<body>
+
+<div style="padding:15px;color:white;">
+
+<div class="audiojonestown">
+
+<figure>
+
+<div class="audioplayer">
+
+<div class="photolayout audiophoto" style="border:none;">
+<img style="width:50%;border-radius:4px 0px 0px 0px;" src="images/katsarisa.jpg" alt="Katsaris"/>
+<img style="width:50%;border-radius:0px 4px 0px 0px;" src="images/katsarisb.jpg" alt="Katsaris"/>
+<img style="width:50%;" src="images/katsarisc.jpg" alt="Katsaris"/>
+<img style="width:50%;" src="images/katsarisd.jpg" alt="Katsaris"/>
+<img style="width:50%;" src="images/katsarise.jpg" alt="Katsaris"/>
+<img style="width:50%;" src="images/katsarisf.jpg" alt="Katsaris"/>
+<img style="width:50%;border-radius:0px 0px 0px 4px;" src="images/katsarisg.jpg" alt="Katsaris"/>
+<img style="width:50%;border-radius:0px 0px 4px 0px;" src="images/katsarish.jpg" alt="Katsaris"/>
+</div>
+
+<div style="text-align:center;margin:10px auto 10px;line-height:1.7;">
+<div style="font-weight:bold;font-family:Montserrat-ExtraLightItalic;font-size:20px;">Maria Katsaris</div>
+<div style="font-family:Montserrat-ThinItalic;font-size:15px;">Jonestown Radio Call<br>April 17th 1978</div>
+
+</div>
+
+<div style="width:100%;">
+
+<div class="essential_audio" data-file="https://www.dropbox.com/scl/fi/mujm2isuplq9ott73apaf/mariakatsarisradiocall.mp3?rlkey=i6m1hp8qg9ia07fwm29bdjpuk&st=560ttucr&dl=1"><span class="no_js">Please activate JavaScript for the audio player.</span>
+</div>
+
+</div>
+
+<figcaption style="text-align:justify;font-size:15px;padding-top:12px;line-height:1.6;">On April 17th 1978, in a radio transmission from Jonestown to address concerned relatives in America, Maria Katsaris said that her father raped her from childhood up. She vowed she would never leave Jonestown and return to the US. (San Francisco Examiner / Photo Designed by JMK)</figcaption>
+
+</figure>
+
+<figure>
+
+<div class="audioplayer">
+
+<img class="audiophoto" style="border:none;" src="images/jonestownsuicide.jpg" alt="Jim Jones">
+
+<div style="text-align:center;margin:10px auto 10px;line-height:1.7;">
+<div style="font-weight:bold;font-family:Montserrat-ExtraLightItalic;font-size:20px;">The Death Tape</div>
+<div style="font-family:Montserrat-ThinItalic;font-size:15px;">Jonestown Suicides<br>April 17th 1978</div>
+
+</div>
+
+<div style="width:100%;">
+
+<div class="essential_audio" data-file="https://www.dropbox.com/scl/fi/lufjdvmj56a0z8bxr2ic3/deathtape.mp3?rlkey=v4enhnz2f9q7rgdlag42nw093&st=dmxit3we&dl=1"><span class="no_js">Please activate JavaScript for the audio player.</span>
+</div>
+
+</div>
+
+<figcaption style="text-align:justify;font-size:15px;padding-top:12px;line-height:1.6;">In this November 18th 1978 recording, Jim Jones leads 909 members of his congregation in the largest mass suicide in history. One hundred ninety children, aged 12 and under, died in Jonestown that day. (Time Magazine / JMK)</figcaption>
+
+</figure>
+
+</div>
+
+</body>
+</html>
