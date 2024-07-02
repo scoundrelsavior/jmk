@@ -8,6 +8,8 @@
 <link href="layout.css" rel="stylesheet" type="text/css">
 <link href="boilerplate.css" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" href="favicon.ico">
+<link href="video-js.css" rel="stylesheet">
+<link rel="stylesheet" href="essential_audio.css" />
 
 <!--Amazing Audio Player
 <script src="audioplayerengine/jquery.js"></script>
@@ -134,6 +136,8 @@ visibility:hidden;
 
 <script src="respond.min.js"></script>
 
+<script src="essential_audio.js"></script>
+
 </head>
 
 <body>
@@ -238,50 +242,37 @@ visibility:hidden;
 
 <div style="text-align:center;margin-top:26px;"><figcaption style="display:inline-block;border:1px solid #555;border-width:1px 0px 1px 0px;padding:8px 0px 8px;line-height:1.6;">Article and Photography Design by John Mark Karr<br>Copyright 2024 All Rights Reserved</figcaption></div>
 
-<div class="jonestownaudio">
+<div class="audiojonestown">
 
 <figure>
 
 <div class="audioplayer">
 
-<div class="photolayout audiophoto">
-<img style="width:50%;border-radius:4px 0px 0px 0px;" src="images/mariakatsarissquarea.jpg" alt="mariakatsarissquare"/>
-<img style="width:50%;border-radius:0px 4px 0px 0px;" src="images/mariakatsarissquareb.jpg" alt="mariakatsarissquare"/>
-<img style="width:50%;" src="images/mariakatsarissquarec.jpg" alt="mariakatsarissquare"/>
-<img style="width:50%;" src="images/mariakatsarissquared.jpg" alt="mariakatsarissquare"/>
-<img style="width:50%;" src="images/mariakatsarissquaree.jpg" alt="mariakatsarissquare"/>
-<img style="width:50%;" src="images/mariakatsarissquaref.jpg" alt="mariakatsarissquare"/>
-<img style="width:50%;border-radius:0px 0px 0px 4px;" src="images/mariakatsarissquareg.jpg" alt="mariakatsarissquare"/>
-<img style="width:50%;border-radius:0px 0px 4px 0px;" src="images/mariakatsarissquareh.jpg" alt="mariakatsarissquare"/>
+<div class="photolayout audiophoto" style="border:none;">
+<img style="width:50%;border-radius:4px 0px 0px 0px;" src="images/katsarisa.jpg" alt="Katsaris"/>
+<img style="width:50%;border-radius:0px 4px 0px 0px;" src="images/katsarisb.jpg" alt="Katsaris"/>
+<img style="width:50%;" src="images/katsarisc.jpg" alt="Katsaris"/>
+<img style="width:50%;" src="images/katsarisd.jpg" alt="Katsaris"/>
+<img style="width:50%;" src="images/katsarise.jpg" alt="Katsaris"/>
+<img style="width:50%;" src="images/katsarisf.jpg" alt="Katsaris"/>
+<img style="width:50%;border-radius:0px 0px 0px 4px;" src="images/katsarisg.jpg" alt="Katsaris"/>
+<img style="width:50%;border-radius:0px 0px 4px 0px;" src="images/katsarish.jpg" alt="Katsaris"/>
 </div>
 
-<div style="text-align:center;margin:10px auto 10px;">
-<div style="font-weight:bold;font-family:Montserrat-ExtraLightItalic;padding-bottom:10px;">Maria Katsaris</div>
-<div style="font-family:Montserrat-ThinItalic;font-size:14px;padding-bottom:10px;">Jonestown Radio Call<br>April 17th 1978</div>
+<div style="text-align:center;margin:10px auto 10px;line-height:1.7;">
+<div style="font-weight:bold;font-family:Montserrat-ExtraLightItalic;font-size:20px;">Maria Katsaris</div>
+<div style="font-family:Montserrat-ThinItalic;font-size:15px;">Jonestown Radio Call<br>April 17th 1978</div>
 
-<div>
-<img style="opacity:0.5;cursor:pointer;" id="myImg1" src="images/playbutton.png" width="40" height="40">
+</div>
 
-<audio id="player1"><source src='mariakatsarisradiocall.mp3' type='audio/mpeg'/></audio>
+<div style="width:100%;">
 
-<script type="text/javascript">
-var myImg1 = document.getElementById("myImg1");
-var audio1 = document.getElementById("player1");
-
-myImg1.addEventListener("click", function(){
-  if(audio1.paused){
-    audio1.play();
-    document.getElementById("myImg1").src = "images/pausebutton.png";
-  } else {
-    audio1.pause();
-    document.getElementById("myImg1").src = "images/playbutton.png";  }
-});
-</script>
+<div class="essential_audio" data-url="/mariakatsarisradiocall.mp3"><span class="no_js">Please activate JavaScript for the audio player.</span>
 </div>
 
 </div>
 
-<figcaption style="text-align:justify;font-size:15px;border:solid #555;border-width:1px 0px 0px 0px;padding-top:8px;">On April 17th 1978, in a radio transmission from Jonestown to address concerned relatives in America, Maria Katsaris said that her father raped her from childhood up. She vowed she would never leave Jonestown and return to the US. (San Francisco Examiner / Photo Designed by JMK)</figcaption>
+<figcaption style="text-align:justify;font-size:15px;padding-top:12px;line-height:1.6;">On April 17th 1978, in a radio transmission from Jonestown to address concerned relatives in America, Maria Katsaris said that her father raped her from childhood up. She vowed she would never leave Jonestown and return to the US. (San Francisco Examiner / Photo Designed by JMK)</figcaption>
 
 </figure>
 
@@ -289,35 +280,22 @@ myImg1.addEventListener("click", function(){
 
 <div class="audioplayer">
 
-<img class="audiophoto" src="images/jimjones1.jpg" alt="Jim Jones">
+<img class="audiophoto" style="border:none;" src="images/jonestownsuicide.jpg" alt="Jim Jones">
 
-<div style="text-align:center;margin:10px auto 10px;">
-<div style="font-weight:bold;font-family:Montserrat-ExtraLightItalic;padding-bottom:10px;">The Death Tape</div>
-<div style="font-family:Montserrat-ThinItalic;font-size:14px;padding-bottom:10px;">Jonestown Suicides<br>November 18th 1978</div>
+<div style="text-align:center;margin:10px auto 10px;line-height:1.7;">
+<div style="font-weight:bold;font-family:Montserrat-ExtraLightItalic;font-size:20px;">The Death Tape</div>
+<div style="font-family:Montserrat-ThinItalic;font-size:15px;">Jonestown Suicides<br>November 18th 1978</div>
 
-<div>
-<img style="opacity:0.5;cursor:pointer;" id="myImg2" src="images/playbutton.png" width="40" height="40">
+</div>
 
-<audio id="player2"><source src='deathtape.mp3' type='audio/mpeg'/></audio>
+<div style="width:100%;">
 
-<script type="text/javascript">
-var myImg2 = document.getElementById("myImg2");
-var audio2 = document.getElementById("player2");
-
-myImg2.addEventListener("click", function(){
-  if(audio2.paused){
-    audio2.play();
-    document.getElementById("myImg2").src = "images/pausebutton.png";
-  } else {
-    audio2.pause();
-    document.getElementById("myImg2").src = "images/playbutton.png";  }
-});
-</script>
+<div class="essential_audio" data-url="/deathtape.mp3"><span class="no_js">Please activate JavaScript for the audio player.</span>
 </div>
 
 </div>
 
-<figcaption style="text-align:justify;font-size:15px;border:solid #555;border-width:1px 0px 0px 0px;padding-top:8px;">In this November 18th 1978 recording, Jim Jones leads 909 members of his congregation in the largest mass suicide in history. One hundred ninety children, aged 12 and under, died in Jonestown that day. (San Francisco Examiner / The Life & Death of Peoples Temple / JMK)</figcaption>
+<figcaption style="text-align:justify;font-size:15px;padding-top:12px;line-height:1.6;">In this November 18th 1978 recording, Jim Jones leads 909 members of his congregation in the largest mass suicide in history. One hundred ninety children, aged 12 and under, died in Jonestown that day. (Time Magazine / Audio Edited by Olen Sluder / Archive.org / JMK)</figcaption>
 
 </figure>
 
