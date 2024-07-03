@@ -602,6 +602,15 @@ border-radius:10px;
 border:1px solid #555;
 border-radius:4px;
 }
+.audiotitle {
+display:inline-block;
+border:1px solid #555;
+border-width:1px 0px 1px 0px;
+padding:5px 0px 5px;
+text-align:center;
+margin:5px auto 5px;
+line-height:1.5;
+}
 .mariakatsarisaudio {
 margin-left:auto;
 margin-right:auto;
@@ -1136,6 +1145,15 @@ max-width:700px;
 .audiophoto {
 border:1px solid #555;
 border-radius:4px;
+}
+.audiotitle {
+display:inline-block;
+border:1px solid #555;
+border-width:1px 0px 1px 0px;
+padding:5px 0px 5px;
+text-align:center;
+margin:5px auto 5px;
+line-height:1.5;
 }
 .mariakatsarisaudio {
 float:right;
@@ -1678,6 +1696,15 @@ max-width:700px;
 .audiophoto {
 border:1px solid #555;
 border-radius:4px;
+}
+.audiotitle {
+display:inline-block;
+border:1px solid #555;
+border-width:1px 0px 1px 0px;
+padding:5px 0px 5px;
+text-align:center;
+margin:5px auto 5px;
+line-height:1.5;
 }
 .mariakatsarisaudio {
 max-width:440px;
