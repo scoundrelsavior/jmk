@@ -401,12 +401,9 @@ border-radius:12px;
 line-height:1.4;
 }
 .whatsoeverborder {
-border:1px solid #555;
-outline:0px solid #555;
-border-radius:12px;
 border-width:0px;
 margin:26px auto 26px;
-padding:10px 10px 5px;
+padding:0px;
 }
 .whatsoeverheading {
 font-family:Montserrat-ExtraLightItalic;
@@ -1340,7 +1337,7 @@ border:0px solid #555;
 border-width:1px 1px 1px 1px;
 }
 .tableofcontents {
-padding:0px;
+padding: 15px;
 }
 blockquote {
 position: relative;
