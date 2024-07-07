@@ -938,7 +938,7 @@ figcaption {
 font-family:Montserrat-ThinItalic;
 font-size: 0.95rem;
 padding-top:10px;
-padding-bottom:5px;
+padding-bottom:2px;
 color:white;
 }
 .figcaptionborder {
@@ -958,13 +958,15 @@ margin:26px auto 26px;
 max-width: 500px;
 float:right;
 margin-left:15px;
-margin-bottom:0px;
+margin-top:5px;
+margin-bottom:5px;
 border:0px solid #555;
 border-radius:0px;
 }
 .christamartinamos {
 max-width: 1000px;
-margin-bottom:0px;
+margin-top:5px;
+margin-bottom:5px;
 border:none;
 }
 .bellum7 {
@@ -1167,6 +1169,8 @@ margin-left:15px;
 .mariakatsaristeen {
 float:left;
 margin-right:15px;
+margin-top:5px;
+margin-bottom:5px;
 max-width:500px;
 }
 .deathtapeaudio {
@@ -1491,7 +1495,7 @@ figcaption {
 font-family:Montserrat-ThinItalic;
 font-size: 0.95rem;
 padding-top:10px;
-padding-bottom:5px;
+padding-bottom:2px;
 color:white;	
 }
 .figcaptionborder {
@@ -1511,7 +1515,8 @@ margin:26px auto 26px;
 max-width: 650px;
 float:right;
 margin-left:15px;
-margin-bottom:0px;
+margin-top:5px;
+margin-bottom:5px;
 border:0px solid #555;
 border-radius:0px;
 }
@@ -1519,7 +1524,8 @@ border-radius:0px;
 max-width: 950px;
 float:right;
 margin-left:15px;
-margin-bottom:0px;
+margin-top:5px;
+margin-bottom:5px;
 }
 .bellum7 {
 max-width: 700px;
@@ -1723,6 +1729,8 @@ max-width:440px;
 .mariakatsaristeen {
 float:left;
 margin-right:15px;
+margin-top:5px;
+margin-bottom:5px;
 max-width:600px;
 }
 .deathtapeaudio {
