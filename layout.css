@@ -447,6 +447,13 @@ margin-bottom:26px;
 }
 .christamartinamos {
 margin-bottom:26px;
+display:none;
+}
+.martinamos {
+display:block;
+}
+.christaamos {
+display:block;
 }
 .bellum7 {
 margin-bottom:26px;
@@ -968,6 +975,13 @@ max-width: 1000px;
 margin-top:5px;
 margin-bottom:5px;
 border:none;
+display:block;
+}
+.martinamos {
+display:none;
+}
+.christaamos {
+display:none;
 }
 .bellum7 {
 max-width: 500px;
@@ -1526,6 +1540,13 @@ float:right;
 margin-left:15px;
 margin-top:5px;
 margin-bottom:5px;
+display:block;
+}
+.martinamos {
+display:none;
+}
+.christaamos {
+display:none;
 }
 .bellum7 {
 max-width: 700px;
