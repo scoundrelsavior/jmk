@@ -1322,9 +1322,6 @@ border-radius:12px;
 background-position:center;
 background-size:cover;
 }
-/*13px border-radius solves fill
-problem in corners because of
-border of 1px*/
 .photolayout {
 display:flex;
 flex-wrap:wrap;
