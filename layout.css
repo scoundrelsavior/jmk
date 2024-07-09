@@ -1567,14 +1567,6 @@ display:none;
 .katsarismobile {
 display:none;
 }
-.christamartinamos {
-max-width: 950px;
-float:right;
-margin-left:15px;
-margin-top:5px;
-margin-bottom:5px;
-display:block;
-}
 .martinamos {
 display:none;
 }
@@ -1823,6 +1815,18 @@ scroll-margin-top:26px;
 }
 #swedenroyals2020 {
 scroll-margin-top:15px;
+}
+}
+
+/* Desktop Layout: 1025px and above. Exception made because the display of this image was off when viewed on a 1024 wide tablet. */
+@media only screen and (min-width: 1025px) {
+.christamartinamos {
+max-width: 950px;
+float:right;
+margin-left:15px;
+margin-top:5px;
+margin-bottom:5px;
+display:block;
 }
 }
 
