@@ -442,7 +442,13 @@ padding-bottom:10px;
 margin:0px auto 15px;
 }
 .katsaris {
-margin-bottom:26px;
+display:none;
+}
+.katsaristablet {
+display:none;
+}
+.katsarismobile {
+display:block;
 }
 .christamartinamos {
 margin-bottom:26px;
@@ -622,6 +628,12 @@ margin-left:auto;
 margin-right:auto;
 }
 .mariakatsaristeen {
+display:none;
+}
+.mariakatsaristeentablet {
+display:none;
+}
+.mariakatsaristeenmobile {
 margin-left:auto;
 margin-right:auto;
 }
@@ -960,6 +972,9 @@ padding-bottom:10px;
 margin:26px auto 26px;
 }
 .katsaris {
+display:none;
+}
+.katsaristablet {
 max-width: 500px;
 float:right;
 margin-left:15px;
@@ -967,6 +982,10 @@ margin-top:5px;
 margin-bottom:5px;
 border:0px solid #555;
 border-radius:0px;
+display:block;
+}
+.katsarismobile {
+display:none;
 }
 .christamartinamos {
 max-width: 1000px;
@@ -1179,11 +1198,18 @@ float:right;
 margin-left:15px;
 }
 .mariakatsaristeen {
+display:none;
+}
+.mariakatsaristeentablet {
 float:left;
 margin-right:15px;
 margin-top:5px;
 margin-bottom:5px;
 max-width:500px;
+display:block;
+}
+.mariakatsaristeenmobile {
+display:none;
 }
 .deathtapeaudio {
 float:left;
@@ -1533,6 +1559,13 @@ margin-top:5px;
 margin-bottom:5px;
 border:0px solid #555;
 border-radius:0px;
+display:block;
+}
+.katsaristablet {
+display:none;
+}
+.katsarismobile {
+display:none;
 }
 .christamartinamos {
 max-width: 950px;
@@ -1753,6 +1786,13 @@ margin-right:15px;
 margin-top:5px;
 margin-bottom:5px;
 max-width:600px;
+display:block;
+}
+.mariakatsaristeentablet {
+display:none;
+}
+.mariakatsaristeenmobile {
+display:none;
 }
 .deathtapeaudio {
 float:left;
