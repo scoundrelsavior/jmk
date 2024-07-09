@@ -229,10 +229,9 @@ background-size:cover;
 }
 .photolayout {
 display:flex;
-flex-direction:row;
 flex-wrap:wrap;
 border:1px solid #555;
-border-radius:12px;
+border-radius:13px;
 background-position:center;
 background-size:cover;
 }
@@ -739,10 +738,9 @@ background-size:cover;
 }
 .photolayout {
 display:flex;
-flex-direction:row;
 flex-wrap:wrap;
 border:1px solid #555;
-border-radius:12px;
+border-radius:13px;
 background-position:center;
 background-size:cover;
 }
@@ -1298,12 +1296,14 @@ border-radius:12px;
 background-position:center;
 background-size:cover;
 }
+/*13px border-radius solves fill
+problem in corners because of
+border of 1px*/
 .photolayout {
 display:flex;
-flex-direction:row;
 flex-wrap:wrap;
 border:1px solid #555;
-border-radius:12px;
+border-radius:13px;
 }
 .scrolldivider {
 max-width:130px;
