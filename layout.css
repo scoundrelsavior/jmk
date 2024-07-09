@@ -231,7 +231,7 @@ background-size:cover;
 display:flex;
 flex-wrap:wrap;
 border:1px solid #555;
-border-radius:13px;
+border-radius:12px;
 background-position:center;
 background-size:cover;
 }
@@ -752,7 +752,7 @@ background-size:cover;
 display:flex;
 flex-wrap:wrap;
 border:1px solid #555;
-border-radius:13px;
+border-radius:12px;
 background-position:center;
 background-size:cover;
 }
@@ -1329,7 +1329,7 @@ border of 1px*/
 display:flex;
 flex-wrap:wrap;
 border:1px solid #555;
-border-radius:13px;
+border-radius:12px;
 }
 .scrolldivider {
 max-width:130px;
