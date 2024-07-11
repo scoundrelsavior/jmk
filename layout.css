@@ -400,9 +400,10 @@ border-radius:12px;
 line-height:1.4;
 }
 .whatsoeverborder {
-border-width:0px;
+border:1px solid #555;
+border-radius:10px;
 margin:26px auto 26px;
-padding:0px;
+padding:26px 8px 0px;
 }
 .whatsoeverheading {
 font-family:Montserrat-ExtraLightItalic;
