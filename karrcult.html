@@ -391,20 +391,12 @@ visibility:hidden;
 <div style="font-family:Montserrat-ThinItalic;font-size:15px;">Jonestown NBC News Interview<br>November 1978</div>
 </div>
 
-<div style="width:100%;padding-top:15px;">
-
-<video width="width:100%" controls class="center fluid video-js vjs-fluid vjs-big-play-centered video vjs-4-3 vjs-ended videomargin" poster="images/mariaandanthonykatsarisvideo.jpg" preload="none" width= "auto" height="auto" data-setup="{}">
+<video controls class="center fluid video-js vjs-fluid vjs-big-play-centered video vjs-4-3 vjs-ended videomargin" controls preload="none" poster="images/mariaandanthonykatsarisvideo.jpg" preload="none" border-radius="12px" width= "100%" height="100%" data-setup="{}">
   <source src="videos/mariaandanthonykatsarisnbcnews.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+    <p class="vjs-no-js">
+    To view this video please enable JavaScript, and consider upgrading to a web browser that<a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+    </p>
 </video>
-
-<!--Makes video return to poster after video plays. Must be in body - not in head.-->
-<script>
-var video = document.querySelector('video');       
-video.addEventListener('ended', function() {
-  video.load();     
-});
-</script>
 
 <figcaption style="text-align:justify;font-size:15.5px;padding-top:12px;line-height:1.6;">In this November 1978 video recording, Maria Katsaris and Anthony Katsaris spoke to NBC News. At the end of the video, Maria's brother Anthony breaks down as if he could see a bitter glimpse of what was to come. (NBC News / Barnett / Video and Audio Edited by John Mark Karr) Direct link to video <a href="videos/mariaandanthonykatsarisnbcnews.mp4">MP4</a>. </figcaption>
 
@@ -455,6 +447,14 @@ video.addEventListener('ended', function() {
 <p style="text-align:center;">Copyright 2024 All Rights Reserved</p>
 
 <script src="https://vjs.zencdn.net/8.16.1/video.min.js"></script>
+
+<!--Makes video return to poster after video plays. Must be in body - not in head.-->
+<script>
+var video = document.querySelector('video');       
+video.addEventListener('ended', function() {
+  video.load();     
+});
+</script>
 
 </div>
 
