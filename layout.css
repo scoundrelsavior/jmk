@@ -404,7 +404,7 @@ line-height:1.4;
 }
 .whatsoeverborder {
 border:1px solid #555;
-border-radius:10px;
+border-radius:6px;
 margin:26px auto 26px;
 padding:26px 8px 0px;
 }
@@ -420,7 +420,7 @@ margin:10px auto 10px;
 border:1px solid #555;
 background:rgba(0,0,0,0.80);
 padding:10px;
-border-radius:12px;
+border-radius:6px;
 line-height:1.4;
 }
 figcaption {
