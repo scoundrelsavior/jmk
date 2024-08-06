@@ -271,12 +271,21 @@ margin-top:-4px;
 font-family:ITCEDSCR;
 font-size:36px;
 }
+.jonbenetbdayedwardian {
+font-family:ITCEDSCR;
+font-size:42px;
+}
 .Montserrat-ThinItalic {
 font-family:Montserrat-ThinItalic;
 font-size: 17px;
 line-height:1.5;
 }
 .Montserrat-ExtraLightItalic {
+font-family:Montserrat-ExtraLightItalic;
+font-size: 17px;
+line-height:1.5;
+}
+.Montserrat-ExtraLightItalicJonBenetBday {
 font-family:Montserrat-ExtraLightItalic;
 font-size: 17px;
 line-height:1.5;
@@ -789,6 +798,10 @@ margin-top:-8px;
 font-family:ITCEDSCR;
 font-size:42px;
 }
+.jonbenetbdayedwardian {
+font-family:ITCEDSCR;
+font-size:30px;
+}
 .Montserrat-ThinItalic {
 font-family:Montserrat-ThinItalic;
 font-size: 17px;
@@ -797,6 +810,11 @@ line-height:1.5;
 .Montserrat-ExtraLightItalic {
 font-family:Montserrat-ExtraLightItalic;
 font-size: 17px;
+line-height:1.5;
+}
+.Montserrat-ExtraLightItalicJonBenetBday {
+font-family:Montserrat-ExtraLightItalic;
+font-size: 14px;
 line-height:1.5;
 }
 .cinzeloutlined {
@@ -1354,12 +1372,21 @@ margin-top:-8px;
 font-family:ITCEDSCR;
 font-size:42px;
 }
+.jonbenetbdayedwardian {
+font-family:ITCEDSCR;
+font-size:42px;
+}
 .Montserrat-ThinItalic {
 font-family:Montserrat-ThinItalic;
 font-size: 17px;
 line-height:1.5;
 }
 .Montserrat-ExtraLightItalic {
+font-family:Montserrat-ExtraLightItalic;
+font-size: 17px;
+line-height:1.5;
+}
+.Montserrat-ExtraLightItalicJonBenetBday {
 font-family:Montserrat-ExtraLightItalic;
 font-size: 17px;
 line-height:1.5;
