@@ -201,6 +201,20 @@ over div with the options below .container-->
 
 <script src="essential_audio.js"></script>
 
+<script>
+    function killCopy(e){
+        return false;
+    }
+    function reEnable(){
+        return true;
+    }
+    document.onselectstart=new Function ("return false");
+    if (window.sidebar){
+        document.onmousedown=killCopy;
+        document.onclick=reEnable;
+    }
+</script>
+
 </head>
 
 <body oncontextmenu="return false;">
