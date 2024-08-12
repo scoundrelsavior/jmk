@@ -138,6 +138,15 @@ body {
 
 <body oncontextmenu="return false;">
 
+<script>
+document.addEventListener('keyup', (e) => {
+    if (e.key == 'PrintScreen') {
+        navigator.clipboard.writeText('');
+        alert('Screenshots disabled!');
+    }
+});
+</script>
+
 <div id="top" class="content" style="text-align:justify">
 
 <!--SITE LINKS-->
