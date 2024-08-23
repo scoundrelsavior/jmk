@@ -480,8 +480,6 @@ margin-bottom:26px;
 margin-bottom:26px;
 }
 .jmkquote {
-margin-top:-15px;
-margin-bottom:-15px;
 border:none;
 }
 .klaasedwardianoutlined {
@@ -1054,8 +1052,6 @@ border:none;
 max-width: 460px;
 float:left;
 margin-right:15px;
-margin-top:-15px;
-margin-bottom:-15px;
 border:none;
 }
 .klaasedwardianoutlined {
@@ -1633,9 +1629,7 @@ margin-top:-15px;
 max-width:700px;
 float:left;
 margin-right:15px;
-margin-bottom:-15px;
 border:none;
-margin-top:-15px;
 }
 .klaasedwardianoutlined {
 display:none;
