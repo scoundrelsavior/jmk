@@ -522,7 +522,7 @@ margin-left: auto;
 margin-right: auto;
 display: block;
 }
-#jmksonomalawyers {
+.jmksonomalawyers {
 margin-left: auto;
 margin-right: auto;
 display: block;
@@ -1054,9 +1054,9 @@ margin-bottom:0px;
 border:none;
 }
 .pollyklaas2001 {
-max-width:430px;
-float:left;
-margin-right:15px;
+max-width:450px;
+float:right;
+margin-left:15px;
 }
 .jmkquote {
 max-width: 460px;
@@ -1098,9 +1098,9 @@ float: right;
 border-radius: 25px;
 margin-left: 15px;
 }
-#jmksonomalawyers {
-float: right;
-margin-left: 15px;
+.jmksonomalawyers {
+float: left;
+margin-right: 15px;
 }
 #mooneysolution {
 float: right;
@@ -1108,9 +1108,9 @@ margin-left: 15px;
 width: 100%;
 }
 .georgiamoses {
-max-width: 430px;
-float:right;
-margin-left:15px;
+max-width: 450px;
+float:left;
+margin-right:15px;
 }
 .cho {
 float: right;
@@ -1635,9 +1635,9 @@ border:none;
 margin-top:-15px;
 }
 .pollyklaas2001 {
-max-width:600px;
-float:left;
-margin-right:15px;
+max-width:500px;
+float:right;
+margin-left:15px;
 margin-bottom:20px;
 }
 .jmkquote {
@@ -1680,9 +1680,9 @@ float: right;
 border-radius: 12px;
 margin-left: 15px;
 }
-#jmksonomalawyers {
-float: right;
-margin-left: 15px;
+.jmksonomalawyers {
+float: left;
+margin-right: 15px;
 }
 #mooneysolution {
 float: right;
@@ -1690,9 +1690,9 @@ margin-left: 15px;
 width: 68.6%;
 }
 .georgiamoses {
-max-width: 600px;
-float:right;
-margin-left:15px;
+max-width: 500px;
+float:left;
+margin-right:15px;
 }
 .cho {
 float: right;
