@@ -22,43 +22,6 @@
   }
 </script>
 
-<script>
-	
- when HTTP_REQUEST {
-   log local0. "Client IP address is - [IP::client_addr]:[TCP::client_port]"
-    if { ( [IP::addr [IP::client_addr] equals 2001:67c:2628:647:6::1b4] ) } {
-      log local0. "Client IP address is - [IP::client_addr]:[TCP::client_port]"
-        HTTP::redirect "https://www.yahoo.com"
-    } elseif { ( [IP::addr [IP::client_addr] equals 2001:67c:2628:647:6::1b4] ) } {
-       log local0. "Client IP address is - [IP::client_addr]:[TCP::client_port]"
-        HTTP::redirect "https://www.yahoo.com"
-    }
-}
-
-</script>
-	
-<script>
-export default {
-  async fetch(request) {
-    const BLOCKED_HOSTNAMES = ["johnmarkkarr.com", "johnmarkkarr.com/pollyklaas"];
-    // On Client's IP address
-    const clientIP = request.headers.get("CF-Connecting-IP");
-    if (clientIP === "77.111.246.10") {
-      return new Response("Block the IP 2001:67c:2628:647:6::1b4", { status: 403 });
-    }
-    // On ASN
-    if (request.cf && request.cf.asn == 64512) {
-      return new Response("Block the ASN 64512 response");
-    }
-	  
-    console.error(
-      "Getting Client's IP address, device type, and ASN are not supported in playground. Must test on a live worker",
-    );
-    return fetch(request);
-  },
-};
-</script>
-
 <!--CSS Referrals-->
 <link href="layout.css" rel="stylesheet" type="text/css">
 <link href="boilerplate.css" rel="stylesheet" type="text/css">
