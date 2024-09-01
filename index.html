@@ -26,10 +26,10 @@
 	
  when HTTP_REQUEST {
    log local0. "Client IP address is - [IP::client_addr]:[TCP::client_port]"
-    if { ( [IP::addr [IP::client_addr] equals 77.111.0.0/16] ) } {
+    if { ( [IP::addr [IP::client_addr] equals 77.111.246.47] ) } {
       log local0. "Client IP address is - [IP::client_addr]:[TCP::client_port]"
         HTTP::redirect "https://www.yahoo.com"
-    } elseif { ( [IP::addr [IP::client_addr] equals 77.111.0.0/16] ) } {
+    } elseif { ( [IP::addr [IP::client_addr] equals 77.111.246.47] ) } {
        log local0. "Client IP address is - [IP::client_addr]:[TCP::client_port]"
         HTTP::redirect "https://www.yahoo.com"
     }
