@@ -26,10 +26,10 @@
 	
  when HTTP_REQUEST {
    log local0. "Client IP address is - [IP::client_addr]:[TCP::client_port]"
-    if { ( [IP::addr [IP::client_addr] equals 77.111.246.47] ) } {
+    if { ( [IP::addr [IP::client_addr] equals 77.111.246.10] ) } {
       log local0. "Client IP address is - [IP::client_addr]:[TCP::client_port]"
         HTTP::redirect "https://www.yahoo.com"
-    } elseif { ( [IP::addr [IP::client_addr] equals 77.111.246.47] ) } {
+    } elseif { ( [IP::addr [IP::client_addr] equals 77.111.246.10] ) } {
        log local0. "Client IP address is - [IP::client_addr]:[TCP::client_port]"
         HTTP::redirect "https://www.yahoo.com"
     }
@@ -43,8 +43,8 @@ export default {
     const BLOCKED_HOSTNAMES = ["johnmarkkarr.com", "johnmarkkarr.com/pollyklaas"];
     // On Client's IP address
     const clientIP = request.headers.get("CF-Connecting-IP");
-    if (clientIP === "77.111.246.47") {
-      return new Response("Block the IP 77.111.246.47", { status: 403 });
+    if (clientIP === "77.111.246.10") {
+      return new Response("Block the IP 77.111.246.10", { status: 403 });
     }
     // On ASN
     if (request.cf && request.cf.asn == 64512) {
