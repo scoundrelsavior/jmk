@@ -558,6 +558,11 @@ margin-right: auto;
 margin-left: auto;
 margin-bottom: 20px;
 }
+.catchmeifyoucan {
+margin-left:auto;
+margin-right:auto;
+border-radius:12px;
+}
 .madeleinemccann {
 margin-left:auto;
 margin-right:auto;
@@ -1132,6 +1137,12 @@ text-shadow: 1px 1px 2px #000000;
 display: block;
 margin-right: auto;
 margin-left: auto;
+}
+.catchmeifyoucan {
+float: left;
+margin-right: 15px;
+max-width:60%;
+border-radius:12px;
 }
 .madeleinemccann {
 float: left;
@@ -1717,6 +1728,12 @@ text-shadow: 1px 1px 2px #000000;
 display: block;
 margin-right: auto;
 margin-left: auto;
+}
+.catchmeifyoucan {
+float: left;
+margin-right: 15px;
+max-width:700px;
+border-radius:12px;
 }
 .madeleinemccann {
 float: left;
