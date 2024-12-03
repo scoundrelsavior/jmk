@@ -390,7 +390,7 @@ line-height:1.4;
 .whatsoeverborder {
 border:1px solid #555;
 border-radius:6px;
-margin:26px auto 26px;
+margin:26px auto 40px;
 padding:26px 8px 0px;
 }
 .whatsoeverheading {
@@ -407,6 +407,13 @@ background:rgba(0,0,0,0.80);
 padding:10px;
 border-radius:6px;
 line-height:1.4;
+}
+.footer {
+display:flex;
+justify-content:center;
+column-gap:30px;
+padding:10px;
+margin-top:-15px;
 }
 figcaption {
 font-family:Montserrat-ThinItalic;
@@ -947,7 +954,7 @@ border:1px double #555;
 outline:1px solid #555;
 outline-offset:5px;
 border-radius:0px;
-margin:50px auto 50px;
+margin:26px auto 80px;
 padding:20px 20px 20px;
 }
 .whatsoeverheading {
@@ -964,6 +971,13 @@ background:rgba(0,0,0,0.80);
 padding:10px;
 border-radius:12px;
 line-height:1.4;
+}
+.footer {
+display:flex;
+justify-content:center;
+column-gap:30px;
+padding:10px;
+margin-top:-50px;
 }
 figcaption {
 font-family:Montserrat-ThinItalic;
@@ -1544,7 +1558,7 @@ border:1px solid #555;
 outline:1px solid #555;
 outline-offset:5px;
 border-radius:0px;
-margin:50px auto 50px;
+margin:26px auto 80px;
 padding:20px 20px 20px;
 }
 .whatsoeverheading {
@@ -1561,6 +1575,13 @@ background:rgba(0,0,0,0.80);
 padding:10px;
 border-radius:12px;
 line-height:1.4;
+}
+.footer {
+display:flex;
+justify-content:center;
+column-gap:30px;
+padding:10px;
+margin-top:-50px;
 }
 figcaption {
 font-family:Montserrat-ThinItalic;
