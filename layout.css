@@ -344,6 +344,11 @@ display:block;
 margin-left: auto;
 margin-right: auto;
 }
+.jonbenetxmastall {
+display:block;
+margin-left: auto;
+margin-right: auto;
+}
 .jonbenetwhites {
 display:block;
 max-width: 430px;
@@ -907,6 +912,12 @@ display:block;
 float:right;
 max-width: 500px;
 margin-left:15px;
+}
+.jonbenetxmastall {
+display:block;
+max-width: 420px;
+float:left;
+margin-right:15px;
 }
 .jonbenetwhites {
 display:block;
@@ -1515,6 +1526,12 @@ display:block;
 max-width: 560px;
 float:right;
 margin-left:15px;
+}
+.jonbenetxmastall {
+display:block;
+max-width: 469px;
+float:left;
+margin-right:15px;
 }
 .jonbenetwhites {
 display:block;
