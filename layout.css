@@ -686,6 +686,9 @@ scroll-margin-top:10px;
 #georgiaconnection {
 scroll-margin-top:10px;
 }
+#dnaprobe {
+scroll-margin-top:10px;
+}
 
 /* Tablet Layout: 701px to 835px - Ipad Pro 11-inch down to
 600px wide Kindle Fires and Samsung Galaxy Tab 2. These are 600px
@@ -1301,6 +1304,9 @@ scroll-margin-top:15px;
 #georgiaconnection {
 scroll-margin-top:15px;
 }
+#dnaprobe {
+scroll-margin-top:15px;
+}
 }
 
 /* Desktop Layout: 835px to a max of 1366px - Everything above Ipad Pro 11-inch. Inherits styles from: Mobile Layout and Tablet Layout. */
@@ -1913,6 +1919,9 @@ scroll-margin-top:15px;
 scroll-margin-top:15px;
 }
 #georgiaconnection {
+scroll-margin-top:15px;
+}
+#dnaprobe {
 scroll-margin-top:15px;
 }
 }
