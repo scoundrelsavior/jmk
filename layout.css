@@ -1112,6 +1112,11 @@ max-width: 460px;
 float:left;
 margin-right:15px;
 }
+.jmkquoteright {
+max-width: 460px;
+float:right;
+margin-left:15px;
+}
 .klaasedwardianoutlined {
 display:none;
 }
@@ -1751,7 +1756,11 @@ margin-left:15px;
 max-width:700px;
 float:left;
 margin-right:15px;
-margin-bottom:15px;
+}
+.jmkquoteright {
+max-width: 700px;
+float:right;
+margin-left:15px;
 }
 .klaasedwardianoutlined {
 display:none;
