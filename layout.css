@@ -2019,7 +2019,6 @@ margin-left: 0;
 display: none;
 }
 /*Anchors*/
-}
 #charlottexmassitting {
 scroll-margin-top:26px;
 }
@@ -2058,6 +2057,7 @@ scroll-margin-top:15px;
 }
 #dnaprobe {
 scroll-margin-top:15px;
+}
 }
 
 /* Desktop Layout: 1366px and above. This is here to place the white outline around the content with 15px margin top and bottom for screens above 1366px. Inherits styles from: Mobile Layout and Tablet Layout. */
