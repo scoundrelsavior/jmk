@@ -124,7 +124,7 @@ flex: 50%;
 .flexrightjmk {
 flex: 50%;
 border:0px;
-border-radius: 12px
+border-radius: 12px;
 background:rgba(0,0,0,0.70);
 margin:auto;
 }
@@ -286,6 +286,14 @@ font-size:1.09rem;
 margin:10px auto 10px;
 padding: 10px;
 border-width:0px 0px 0px 0px;
+}
+.border {
+display:flex;
+flex-direction:column;
+margin:10px 10px 10px;
+border:1px solid #555;
+border-width:1px 1px 1px 1px;
+border-radius:10px;
 }
 .tableofcontents {
 padding:0px;
@@ -879,13 +887,20 @@ margin:-5px auto 0px;
 padding:10px 10px 0px;
 }
 .content {
-display:block;
 color: #FFFFFF;
 background-color: #000000;
 font-size:1.09rem;
 margin:15px auto 15px;
 padding:15px;
 border-width:0px 0px 0px 0px;
+}
+.border {
+display:flex;
+flex-direction:column;
+margin:15px 15px 15px;
+border:1px solid #555;
+border-width:1px 1px 1px 1px;
+border-radius:10px;
 }
 .tableofcontents {
 padding:6px;
@@ -1539,15 +1554,22 @@ margin:-5px auto 0px;
 padding:10px 10px 0px;
 }
 .content {
-display:block;
-max-width: 1366px;
-margin:15px auto 15px;
+margin:15px 15px 15px;
 color: #FFFFFF;
 font-size:1.09rem;
 background-color:#000000;
 padding: 15px;
 border:0px solid #555;
 border-width:1px 1px 1px 1px;
+}
+.border {
+display:flex;
+flex-direction:column;
+margin:15px 15px 15px;
+border:1px solid #555;
+border-width:1px 1px 1px 1px;
+border-radius:0px;
+max-width:1366px;
 }
 .tableofcontents {
 padding: 15px;
@@ -2039,7 +2061,6 @@ scroll-margin-top:15px;
 #dnaprobe {
 scroll-margin-top:15px;
 }
-}
 
 /* Desktop Layout: 1366px and above. This is here to place the white outline around the content with 15px margin top and bottom for screens above 1366px. Inherits styles from: Mobile Layout and Tablet Layout. */
 @media only screen and (min-width: 1367px) {
@@ -2049,6 +2070,11 @@ color: #FFFFFF;
 font-size:1.09rem;
 background-color:#000000;
 padding: 15px;
+margin:15px auto 15px;
+border:1px solid #555;
+border-width:1px 1px 1px 1px;
+}
+.border {
 margin:15px auto 15px;
 border:1px solid #555;
 border-width:1px 1px 1px 1px;
