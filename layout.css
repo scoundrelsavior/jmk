@@ -279,11 +279,9 @@ margin:-4px auto 0px;
 padding:8px;
 }
 .content {
-display:block;
 background-color: #000000;
 color: #FFFFFF;
 font-size:1.09rem;
-margin:10px auto 10px;
 padding: 10px;
 border-width:0px 0px 0px 0px;
 }
