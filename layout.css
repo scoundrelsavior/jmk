@@ -1378,8 +1378,17 @@ scroll-margin-top:15px;
 }
 }
 
-/* Desktop Layout: 835px to a max of 1366px - Everything above Ipad Pro 11-inch. Inherits styles from: Mobile Layout and Tablet Layout. */
+/* Ipad Pro 11-inch to 12-inch Ipad. This is just for 12-inch Ipad layouts. Inherits styles from: Mobile Layout and Tablet Layout. */
 @media only screen and (min-width: 835px) {
+.princesscharlotte {
+max-width:700px;
+float:left;
+margin-right:15px;
+}
+}
+
+/* Desktop Layout: 1025px to a max of 1366px - Everything above Ipad Pro 11-inch. Inherits styles from: Mobile Layout and Tablet Layout. */
+@media only screen and (min-width: 1025px) {
 
 /* Responsive flex two-column layout over 835px */
 .flex-container {
