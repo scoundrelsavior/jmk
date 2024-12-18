@@ -184,6 +184,14 @@ margin:10px auto 0px;
 border:1px solid #555;
 border-width:0px 0px 0px 0px;
 }
+.photocaptiontop {
+display:inline-block;
+border:1px solid #555;
+border-width:1px 0px 1px 0px;
+margin:15px auto 0px;
+padding:5px 10px 5px;
+line-height:1.6;
+}
 .jmktoptitle {
 font-family:Cinzel-Regular;
 font-size:1.1rem;
@@ -800,6 +808,14 @@ margin:-8px auto -8px;
 margin:15px auto 15px;
 border:1px solid #555;
 border-width:0px 0px 1px 0px;
+}
+.photocaptiontop {
+display:inline-block;
+border:1px solid #555;
+border-width:1px 0px 1px 0px;
+margin:15px auto 10px;
+padding:5px 10px 5px;
+line-height:1.6;
 }
 .jmktoptitle {
 font-family:Cinzel-Regular;
@@ -1490,6 +1506,14 @@ margin:-12px auto -12px;
 margin:15px auto 15px;
 border:1px solid #555;
 border-width:0px 0px 1px 0px;
+}
+.photocaptiontop {
+display:inline-block;
+border:1px solid #555;
+border-width:1px 0px 1px 0px;
+margin:15px auto 15px;
+padding:5px 10px 5px;
+line-height:1.6;
 }
 .jmktoptitle {
 font-family:Cinzel-Regular;
