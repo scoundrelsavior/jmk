@@ -1025,7 +1025,7 @@ font-size:17.7px;
 font-family:TrajanPro3-Regular;
 font-size:1.1rem;
 text-align:center;
-margin:26px auto auto;
+margin:auto auto auto;
 }
 .minimalistborder {
 border:1px solid #555;
@@ -1708,7 +1708,7 @@ font-size:20px;
 font-family:TrajanPro3-Regular;
 font-size:1.2rem;
 text-align:center;
-margin:-5px auto auto;
+margin:auto auto auto;
 }
 /*maxwidth changed for
 each photo inline*/
