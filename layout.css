@@ -177,7 +177,7 @@ display:flex;
 flex-direction:row;
 justify-content:space-between;
 align-items:center;
-margin:0px auto 0px;
+margin:-3px auto -3px;
 }
 .headerhr {
 margin:10px auto 0px;
@@ -789,7 +789,7 @@ display:flex;
 flex-direction:row;
 justify-content:space-between;
 align-items:center;
-margin:-5px auto -5px;
+margin:-8px auto -8px;
 }
 .headerhr {
 margin:15px auto 15px;
@@ -1468,7 +1468,7 @@ display:flex;
 flex-direction:row;
 justify-content:space-between;
 align-items:center;
-margin:-10px auto -10px;
+margin:-12px auto -12px;
 }
 .headerhr {
 margin:15px auto 15px;
