@@ -186,12 +186,12 @@ border-width:0px 0px 0px 0px;
 }
 .jmktoptitle {
 font-family:Cinzel-Regular;
-font-size:15px;
+font-size:1.2rem;
 text-align:center;
 }
 .jmksubtitle {
 font-family:Montserrat-ThinItalic;
-font-size:10.5px;
+font-size:0.80rem;
 text-align:center;
 }
 .jmktitlecorners {
@@ -268,7 +268,7 @@ line-height:1.5;
 }
 .Montserrat-ExtraLightItalic {
 font-family:Montserrat-ExtraLightItalic;
-font-size: 1.08rem;
+font-size: 1.03rem;
 line-height:1.5;
 }
 .Montserrat-ExtraLightItalicJonBenetBday {
@@ -398,9 +398,10 @@ font-family:Cinzel-Regular;
 font-size:18px;
 } 
 .headline {
-font-size:1rem;
+font-family:TrajanPro3-Regular;
+font-size:1.05rem;
 text-align:center;
-margin:auto;
+margin:26px auto auto;
 }
 .minimalistborder {
 border:1px solid #555;
@@ -798,12 +799,12 @@ border-width:0px 0px 1px 0px;
 }
 .jmktoptitle {
 font-family:Cinzel-Regular;
-font-size:26px;
+font-size:1.5rem;
 text-align:center;
 }
 .jmksubtitle {
 font-family:Montserrat-ThinItalic;
-font-size:14px;
+font-size:0.9rem;
 text-align:center;
 }
 .jmktitlesides {
@@ -885,7 +886,7 @@ line-height:1.5;
 }
 .Montserrat-ExtraLightItalic {
 font-family:Montserrat-ExtraLightItalic;
-font-size: 1.08rem;
+font-size: 1.05rem;
 line-height:1.5;
 }
 .Montserrat-ExtraLightItalicJonBenetBday {
@@ -1021,9 +1022,10 @@ font-family:Cinzel-Regular;
 font-size:17.7px;
 } 
 .headline {
-font-size:1.09rem;
+font-family:TrajanPro3-Regular;
+font-size:1.1rem;
 text-align:center;
-margin:-5px auto auto;
+margin:26px auto auto;
 }
 .minimalistborder {
 border:1px solid #555;
@@ -1477,12 +1479,12 @@ border-width:0px 0px 1px 0px;
 }
 .jmktoptitle {
 font-family:Cinzel-Regular;
-font-size:28px;
+font-size:1.7rem;
 text-align:center;
 }
 .jmksubtitle {
 font-family:Montserrat-ThinItalic;
-font-size:14px;
+font-size:0.9rem;
 text-align:center;
 }
 .jmktitlesides {
@@ -1562,7 +1564,7 @@ line-height:1.5;
 }
 .Montserrat-ExtraLightItalic {
 font-family:Montserrat-ExtraLightItalic;
-font-size: 1.08rem;
+font-size: 1.05rem;
 line-height:1.5;
 }
 .Montserrat-ExtraLightItalicJonBenetBday {
@@ -1703,7 +1705,8 @@ font-family:Cinzel-Regular;
 font-size:20px;
 } 
 .headline {
-font-size:1.09rem;
+font-family:TrajanPro3-Regular;
+font-size:1.2rem;
 text-align:center;
 margin:-5px auto auto;
 }
