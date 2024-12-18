@@ -146,13 +146,6 @@ padding:0px 0px 5px;
 .titleramseyklaas {
 display:block;
 }
-.jmktoptitle {
-font-family:Cinzel-Regular;
-font-size:15px;
-text-align:center;
-display:block;
-margin:0px auto 0px;
-}
 .pollyklaastitle {
 font-family:ITCEDSCR;
 color:#EFEFEF;
@@ -179,14 +172,31 @@ max-width:70px;
 width:100%;
 margin:0px 0px 0px;
 }
+.header {
+display:flex;
+flex-direction:row;
+justify-content:space-between;
+align-items:center;
+margin:0px auto 0px;
+}
+.headerhr {
+margin:10px auto 10px;
+border:1px solid #555;
+border-width:0px 0px 1px 0px;
+}
+.jmktoptitle {
+font-family:Cinzel-Regular;
+font-size:15px;
+text-align:center;
+}
 .jmksubtitle {
 font-family:Montserrat-ThinItalic;
 font-size:10.5px;
+text-align:center;
 }
 .jmktitlecorners {
 font-family:Montserrat-ThinItalic;
 font-size:10.5px;
-margin:7px 0px 0px;
 }
 .headings {
 font-family:Cinzel-Regular;
@@ -774,25 +784,36 @@ padding:0px 0px 5px;
 .titleramseyklaas {
 display:block;
 }
+.header {
+display:flex;
+flex-direction:row;
+justify-content:space-between;
+align-items:center;
+margin:-5px auto -5px;
+}
+.headerhr {
+margin:15px auto 15px;
+border:1px solid #555;
+border-width:0px 0px 1px 0px;
+}
 .jmktoptitle {
 font-family:Cinzel-Regular;
 font-size:25px;
 text-align:center;
-margin:-9px auto -4px;
+}
+.jmksubtitle {
+font-family:Montserrat-ThinItalic;
+font-size:14px;
+text-align:center;
 }
 .jmktitlesides {
 max-width:90px;
 width:25%;
 margin:-5px 0px 0px;
 }
-.jmksubtitle {
-font-family:Montserrat-ThinItalic;
-font-size:14px;
-}
 .jmktitlecorners {
 font-family:Montserrat-ThinItalic;
 font-size:14px;
-margin:7px 0px 0px;
 }
 .headings {
 font-family:Cinzel-Regular;
@@ -1442,25 +1463,36 @@ padding:0px 0px 5px;
 .titleramseyklaas {
 display:block;
 }
+.header {
+display:flex;
+flex-direction:row;
+justify-content:space-between;
+align-items:center;
+margin:-10px auto -10px;
+}
+.headerhr {
+margin:15px auto 15px;
+border:1px solid #555;
+border-width:0px 0px 1px 0px;
+}
 .jmktoptitle {
 font-family:Cinzel-Regular;
 font-size:30px;
 text-align:center;
-margin:-9px auto -4px;
+}
+.jmksubtitle {
+font-family:Montserrat-ThinItalic;
+font-size:14px;
+text-align:center;
 }
 .jmktitlesides {
 max-width:100px;
 width:25%;
 margin:-5px 0px 0px;
 }
-.jmksubtitle {
-font-family:Montserrat-ThinItalic;
-font-size:14px;
-}
 .jmktitlecorners {
 font-family:Montserrat-ThinItalic;
 font-size:14px;
-margin:7px 0px 0px;
 }
 .headings {
 font-family:Cinzel-Regular;
