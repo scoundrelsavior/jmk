@@ -180,9 +180,9 @@ align-items:center;
 margin:0px auto 0px;
 }
 .headerhr {
-margin:10px auto 10px;
+margin:10px auto 0px;
 border:1px solid #555;
-border-width:0px 0px 1px 0px;
+border-width:0px 0px 0px 0px;
 }
 .jmktoptitle {
 font-family:Cinzel-Regular;
