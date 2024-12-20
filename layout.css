@@ -524,6 +524,10 @@ margin-right:auto;
 margin-left:auto;
 margin-right:auto;
 }
+.estelleoscarcrop2020 {
+margin-left:auto;
+margin-right:auto;
+}
 .klaasedwardianoutlined {
 font-family:ITCEDSCR;
 font-size:28px;
@@ -1200,6 +1204,11 @@ max-width:540px;
 float:left;
 margin-right:15px;
 }
+.estelleoscarcrop2020 {
+max-width:540px;
+float:left;
+margin-right:15px;
+}
 .klaasedwardianoutlined {
 display:none;
 }
@@ -1446,6 +1455,11 @@ float:left;
 margin-right:15px;
 }
 .princessestelletall {
+max-width:700px;
+float:left;
+margin-right:15px;
+}
+.estelleoscarcrop2020 {
 max-width:700px;
 float:left;
 margin-right:15px;
@@ -1899,6 +1913,11 @@ float:left;
 margin-right:15px;
 }
 .princessestelletall {
+max-width:700px;
+float:left;
+margin-right:15px;
+}
+.estelleoscarcrop2020 {
 max-width:700px;
 float:left;
 margin-right:15px;
