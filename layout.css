@@ -201,12 +201,12 @@ line-height:1.6;
 }
 .jmktoptitle {
 font-family:Cinzel-Regular;
-font-size:1.1rem;
+font-size:1.2rem;
 text-align:center;
 }
 .jmksubtitle {
 font-family:Montserrat-ThinItalic;
-font-size:0.65rem;
+font-size:0.75rem;
 text-align:center;
 }
 .jmktitlecorners {
@@ -2026,7 +2026,7 @@ text-align:center;
 .estelletitle {
 font-family:ITCEDSCR;
 color:#EFEFEF;
-font-size:2.8rem;
+font-size:2.6rem;
 margin:-3px auto -5px;
 text-align:center;
 }
