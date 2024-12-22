@@ -1076,7 +1076,7 @@ font-size:17.7px;
 } 
 .headline {
 font-family:TrajanPro3-Regular;
-font-size:1.1rem;
+font-size:1.02rem;
 text-align:center;
 margin:auto auto auto;
 }
@@ -1521,6 +1521,12 @@ margin-right:15px;
 max-width:700px;
 float:left;
 margin-right:15px;
+}
+.headline {
+font-family:TrajanPro3-Regular;
+font-size:1.1rem;
+text-align:center;
+margin:auto auto auto;
 }
 }
 
