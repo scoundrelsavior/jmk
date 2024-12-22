@@ -162,6 +162,13 @@ width:100%;
 margin: 0px auto 0px;
 text-align:center;
 }
+.estelletitle {
+font-family:ITCEDSCR;
+color:#EFEFEF;
+font-size:2.2rem;
+margin:-3px auto -5px;
+text-align:center;
+}
 .jmktitlesides {
 max-width:60px;
 width:100%;
@@ -203,6 +210,7 @@ font-size:0.65rem;
 text-align:center;
 }
 .jmktitlecorners {
+color:#000000;
 font-family:Montserrat-ThinItalic;
 font-size:0.60rem;
 }
@@ -1239,6 +1247,13 @@ width:50%;
 margin:-10px auto -5px;
 text-align:center;
 }
+.estelletitle {
+font-family:ITCEDSCR;
+color:#EFEFEF;
+font-size:2.7rem;
+margin:-3px auto -5px;
+text-align:center;
+}
 .pollyklaas {
 max-width: 460px;
 float:left;
@@ -2004,6 +2019,13 @@ color:#EFEFEF;
 font-size:50px;
 width:50%;
 margin:-10px auto auto;
+text-align:center;
+}
+.estelletitle {
+font-family:ITCEDSCR;
+color:#EFEFEF;
+font-size:2.8rem;
+margin:-3px auto -5px;
 text-align:center;
 }
 .pollyklaas {
