@@ -549,6 +549,10 @@ margin-right:auto;
 margin-left:auto;
 margin-right:auto;
 }
+.charlotte9bday {
+margin-left:auto;
+margin-right:auto;
+}
 .princessestelletall {
 margin-left:auto;
 margin-right:auto;
@@ -1257,6 +1261,10 @@ margin-left:15px;
 margin-left:auto;
 margin-right:auto;
 }
+.charlotte9bday {
+margin-left:auto;
+margin-right:auto;
+}
 .princessestelletall {
 max-width:540px;
 float:left;
@@ -1507,10 +1515,23 @@ scroll-margin-top:15px;
 
 /* Ipad Pro 11-inch to 12-inch Ipad. This is just for 12-inch Ipad layouts. Inherits styles from: Mobile Layout and Tablet Layout. */
 @media only screen and (min-width: 835px) {
+
+.headline {
+font-family:TrajanPro3-Regular;
+font-size:1.1rem;
+text-align:center;
+margin:auto auto auto;
+}
 .princesscharlotte {
 max-width:700px;
 float:left;
 margin-right:15px;
+}
+.charlotte9bday {
+max-width:700px;
+float:left;
+margin-right:15px;
+margin-bottom:15px;
 }
 .princessestelletall {
 max-width:700px;
@@ -1521,12 +1542,6 @@ margin-right:15px;
 max-width:700px;
 float:left;
 margin-right:15px;
-}
-.headline {
-font-family:TrajanPro3-Regular;
-font-size:1.1rem;
-text-align:center;
-margin:auto auto auto;
 }
 }
 
@@ -2004,6 +2019,12 @@ margin-left:15px;
 max-width:850px;
 float:left;
 margin-right:15px;
+}
+.charlotte9bday {
+max-width:800px;
+float:left;
+margin-right:15px;
+margin-bottom:15px;
 }
 .princessestelletall {
 max-width:700px;
