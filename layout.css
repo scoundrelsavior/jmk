@@ -1361,13 +1361,13 @@ margin-left: auto;
 .catchmeifyoucanright {
 float: right;
 margin-left: 15px;
-max-width:60%;
+max-width:500px;
 border-radius:12px;
 }
 .catchmeifyoucan {
 float: left;
 margin-right: 15px;
-max-width:60%;
+max-width:500px;
 border-radius:12px;
 }
 .madeleinemccann {
@@ -1816,7 +1816,7 @@ font-size:20px;
 } 
 .headline {
 font-family:TrajanPro3-Regular;
-font-size:1.2rem;
+font-size:1.1rem;
 text-align:center;
 margin:auto auto auto;
 }
@@ -2111,7 +2111,7 @@ border-radius:12px;
 .catchmeifyoucan {
 float: left;
 margin-right: 15px;
-max-width:50%;
+max-width:600px;
 border-radius:12px;
 }
 .madeleinemccann {
