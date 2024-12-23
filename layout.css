@@ -1743,8 +1743,9 @@ padding:10px 10px 0px;
 }
 .content {
 padding: 15px;
+margin:15px 15px 15px;
 border:0px solid #555;
-border-width:0px 0px 0px 0px;
+border-width:1px 1px 1px 1px;
 }
 .border {
 display:flex;
@@ -2313,7 +2314,6 @@ max-width: 1301px;
 padding: 15px;
 margin:15px auto 15px;
 border:1px solid #555;
-border-radius:12px;
 border-width:1px 1px 1px 1px;
 }
 .border {
