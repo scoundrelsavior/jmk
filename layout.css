@@ -149,9 +149,14 @@ display:block;
 .pollyklaastitle {
 font-family:ITCEDSCR;
 color:#EFEFEF;
-font-size:28px;
+font-size:1.7rem;
 width:100%;
 margin: 0px auto 0px;
+text-align:center;
+}
+.pollyklaassubtitle {
+font-family:Montserrat-ThinItalic;
+font-size:0.60rem;
 text-align:center;
 }
 .jonbenetramseytitle {
@@ -160,6 +165,12 @@ color:#EFEFEF;
 font-size:28px;
 width:100%;
 margin: 0px auto 0px;
+text-align:center;
+}
+.jonbenetramseysubtitle {
+display:none;
+font-family:Montserrat-ThinItalic;
+font-size:0.60rem;
 text-align:center;
 }
 .estelletitle {
@@ -326,7 +337,7 @@ content: open-quote;
 font-size: 2.90em;
 margin-left: -0.5em;
 margin-top: -0.3em;
-font-family: Georgia, Times, "Times New Roman", serif;
+font-family: Georgia, Times, Times New Roman, serif;
 color:#999;
 }
 blockquote:after {
@@ -337,7 +348,7 @@ bottom: 0;
 right: 0;
 margin-right: -0.5em;
 margin-bottom: -0.83em;
-font-family: Georgia, Times, "Times New Roman", serif;
+font-family: Georgia, Times, Times New Roman, serif;
 color:#999;
 }
 blockquote p {
@@ -441,7 +452,7 @@ display:inline-block;
 border:1px solid #555;
 border-width:1px 0px 1px 0px;
 padding:8px 0px 8px;
-margin:10px auto 10px;"
+margin:10px auto 10px;
 }
 .photolinktitle {
 font-family:ITCEDSCR;
@@ -992,7 +1003,7 @@ content: open-quote;
 font-size: 3.25em;
 margin-left: -0.5em;
 margin-top: -0.3em;
-font-family: Georgia, Times, "Times New Roman", serif;
+font-family: Georgia, Times, Times New Roman, serif;
 color:#999;
 }
 blockquote:after {
@@ -1003,7 +1014,7 @@ bottom: 0;
 right: 0;
 margin-right: -0.5em;
 margin-bottom: -0.8em;
-font-family: Georgia, Times, "Times New Roman", serif;
+font-family: Georgia, Times, Times New Roman, serif;
 color:#999;
 }
 blockquote p {
@@ -1116,7 +1127,7 @@ display:inline-block;
 border:1px solid #555;
 border-width:1px 0px 1px 0px;
 padding:8px 0px 8px;
-margin:15px auto 15px;"
+margin:15px auto 15px;
 }
 .photolinktitle {
 font-family:ITCEDSCR;
@@ -1223,9 +1234,14 @@ border-radius:0px;
 .pollyklaastitle {
 font-family:ITCEDSCR;
 color:#EFEFEF;
-font-size:47px;
+font-size:2.7rem;
 width:50%;
 margin:-10px auto -5px;
+text-align:center;
+}
+.pollyklaassubtitle {
+font-family:Montserrat-ThinItalic;
+font-size:0.80rem;
 text-align:center;
 }
 .jonbenetramseytitle {
@@ -1234,6 +1250,11 @@ color:#EFEFEF;
 font-size:47px;
 width:50%;
 margin:-10px auto -5px;
+text-align:center;
+}
+.jonbenetramseysubtitle {
+font-family:Montserrat-ThinItalic;
+font-size:0.80rem;
 text-align:center;
 }
 .estelletitle {
@@ -1544,6 +1565,11 @@ font-family:Montserrat-ThinItalic;
 font-size:1.03rem;
 text-align:center;
 }
+.pollyklaassubtitle {
+font-family:Montserrat-ThinItalic;
+font-size:1.03rem;
+text-align:center;
+}
 .princesscharlotte {
 max-width:700px;
 float:left;
@@ -1769,7 +1795,7 @@ content: open-quote;
 font-size: 3.25em;
 margin-left: -0.5em;
 margin-top: -0.3em;
-font-family: Georgia, Times, "Times New Roman", serif;
+font-family: Georgia, Times, Times New Roman, serif;
 color:#888;
 }
 blockquote:after {
@@ -1780,7 +1806,7 @@ bottom: 0;
 right: 0;
 margin-right: -0.5em;
 margin-bottom: -0.8em;
-font-family: Georgia, Times, "Times New Roman", serif;
+font-family: Georgia, Times, Times New Roman, serif;
 color:#888;
 }
 blockquote p {
@@ -1897,7 +1923,7 @@ display:inline-block;
 border:1px solid #555;
 border-width:1px 0px 1px 0px;
 padding:8px 0px 8px;
-margin:15px auto 15px;"
+margin:15px auto 15px;
 }
 .photolinktitle {
 font-family:ITCEDSCR;
@@ -2007,12 +2033,22 @@ width:50%;
 margin:-10px auto auto;
 text-align:center;
 }
+.pollyklaassubtitle {
+font-family:Montserrat-ThinItalic;
+font-size:0.95rem;
+text-align:center;
+}
 .jonbenetramseytitle {
 font-family:ITCEDSCR;
 color:#EFEFEF;
 font-size:50px;
 width:50%;
 margin:-10px auto auto;
+text-align:center;
+}
+.jonbenetramseysubtitle {
+font-family:Montserrat-ThinItalic;
+font-size:0.95rem;
 text-align:center;
 }
 .estelletitle {
