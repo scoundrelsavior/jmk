@@ -373,8 +373,7 @@ display:block;
 }
 .jonbenetportrait {
 display:block;
-margin-right: auto;
-margin-left: auto;
+margin: auto auto 26px;
 }
 .jonbenetportraitright {
 display:block;
