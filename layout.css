@@ -180,10 +180,7 @@ width:100%;
 margin:0px 0px 0px;
 }
 .header {
-display:flex;
-flex-direction:row;
-justify-content:space-between;
-align-items:center;
+text-align:center;
 margin:0px auto 0px;
 }
 .headerhr {
@@ -210,7 +207,7 @@ font-size:0.75rem;
 text-align:center;
 }
 .jmktitlecorners {
-color:#000000;
+color:#FFFFFF;
 font-family:Montserrat-ThinItalic;
 font-size:0.60rem;
 }
@@ -305,9 +302,6 @@ margin:-4px auto 0px;
 padding:8px;
 }
 .content {
-background-color: #000000;
-color: #FFFFFF;
-font-size:1.09rem;
 padding: 10px;
 border-width:0px 0px 0px 0px;
 }
@@ -847,10 +841,7 @@ padding:0px 0px 5px;
 display:block;
 }
 .header {
-display:flex;
-flex-direction:row;
-justify-content:space-between;
-align-items:center;
+text-align:center;
 margin:-8px auto -8px;
 }
 .headerhr {
@@ -873,7 +864,7 @@ text-align:center;
 }
 .jmksubtitle {
 font-family:Montserrat-ThinItalic;
-font-size:0.8rem;
+font-size:1.0rem;
 text-align:center;
 }
 .jmktitlesides {
@@ -882,7 +873,7 @@ width:25%;
 margin:-5px 0px 0px;
 }
 .jmktitlecorners {
-color:#ffffff;
+color:#FFFFFF;
 font-family:Montserrat-ThinItalic;
 font-size:14px;
 }
@@ -977,9 +968,6 @@ margin:-5px auto 0px;
 padding:10px 10px 0px;
 }
 .content {
-color: #FFFFFF;
-background-color: #000000;
-font-size:1.09rem;
 padding:15px;
 border-width:0px 0px 0px 0px;
 }
@@ -992,7 +980,7 @@ border-width:1px 1px 1px 1px;
 border-radius:10px;
 }
 .tableofcontents {
-margin:0px 0px -5px;
+margin:0px 6px -5px;
 }
 blockquote {
 position: relative;
@@ -1537,7 +1525,7 @@ scroll-margin-top:15px;
 }
 }
 
-/* Ipad Pro 11-inch to 12-inch Ipad. This is just for 12-inch Ipad layouts. Inherits styles from: Mobile Layout and Tablet Layout. */
+/* 12-inch Ipad. This is just for 12-inch Ipad layouts. Inherits styles from: Mobile Layout and Tablet Layout. */
 @media only screen and (min-width: 835px) {
 
 .headline {
@@ -1545,6 +1533,16 @@ font-family:TrajanPro3-Regular;
 font-size:1.1rem;
 text-align:center;
 margin:auto auto auto;
+}
+.jmktoptitle {
+font-family:Cinzel-Regular;
+font-size:1.7rem;
+text-align:center;
+}
+.jmksubtitle {
+font-family:Montserrat-ThinItalic;
+font-size:1.03rem;
+text-align:center;
 }
 .princesscharlotte {
 max-width:700px;
@@ -1619,11 +1617,8 @@ padding:0px 0px 5px;
 display:block;
 }
 .header {
-display:flex;
-flex-direction:row;
-justify-content:space-between;
-align-items:center;
-margin:-12px auto -12px;
+text-align:center;
+margin:-8px auto -8px;
 }
 .headerhr {
 margin:15px auto 15px;
@@ -1645,7 +1640,7 @@ text-align:center;
 }
 .jmksubtitle {
 font-family:Montserrat-ThinItalic;
-font-size:0.95rem;
+font-size:1.03rem;
 text-align:center;
 }
 .jmktitlesides {
@@ -1654,7 +1649,7 @@ width:25%;
 margin:-5px 0px 0px;
 }
 .jmktitlecorners {
-color:#ffffff;
+color:#FFFFFF;
 font-family:Montserrat-ThinItalic;
 font-size:14px;
 }
@@ -1747,13 +1742,9 @@ margin:-5px auto 0px;
 padding:10px 10px 0px;
 }
 .content {
-margin:15px 15px 15px;
-color: #FFFFFF;
-font-size:1.09rem;
-background-color:#000000;
 padding: 15px;
 border:0px solid #555;
-border-width:1px 1px 1px 1px;
+border-width:0px 0px 0px 0px;
 }
 .border {
 display:flex;
@@ -2319,9 +2310,6 @@ scroll-margin-top:15px;
 @media only screen and (min-width: 1367px) {
 .content {
 max-width: 1301px;
-color: #FFFFFF;
-font-size:1.09rem;
-background-color:#000000;
 padding: 15px;
 margin:15px auto 15px;
 border:1px solid #555;
