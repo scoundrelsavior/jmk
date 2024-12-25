@@ -687,7 +687,6 @@ border-radius:12px;
 .madeleinemccann {
 margin-left:auto;
 margin-right:auto;
-border-radius:12px;
 }
 .madeleinemccannls {
 display:block;
@@ -1414,8 +1413,7 @@ border-radius:12px;
 .madeleinemccann {
 float: left;
 margin-right: 15px;
-max-width:60%;
-border-radius:12px;
+max-width:500px;
 }
 .madeleinemccannls {
 float: right;
@@ -1614,6 +1612,11 @@ margin-bottom:15px;
 max-width: 700px;
 float:left;
 margin-right:15px;
+}
+.madeleinemccann {
+float: left;
+margin-right: 15px;
+max-width:700px;
 }
 }
 
@@ -2232,8 +2235,7 @@ border-radius:12px;
 .madeleinemccann {
 float: left;
 margin-right: 15px;
-max-width:700px;
-border-radius:12px;
+max-width:783px;
 }
 .madeleinemccannls {
 float: right;
