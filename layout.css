@@ -203,7 +203,7 @@ border-width:0px 0px 0px 0px;
 display:inline-block;
 border:1px solid #555;
 border-width:1px 0px 1px 0px;
-margin:15px auto 0px;
+margin:15px auto auto;
 padding:5px 10px 5px;
 line-height:1.6;
 }
@@ -375,7 +375,6 @@ display:block;
 display:block;
 margin-right: auto;
 margin-left: auto;
-margin-bottom:26px;
 }
 .jonbenetportraitright {
 display:block;
@@ -422,7 +421,7 @@ font-size:18px;
 font-family:TrajanPro3-Regular;
 font-size:1.05rem;
 text-align:center;
-margin:20px auto auto;
+margin:26px auto auto;
 }
 .minimalistborder {
 border:1px solid #555;
@@ -541,10 +540,12 @@ display:block;
 display:block;
 }
 .bellum7 {
-margin-bottom:26px;
+margin-left:auto;
+margin-right:auto;
 }
 .pollyklaas {
-margin-bottom:26px;
+margin-left:auto;
+margin-right:auto;
 }
 .pollyklaas2001 {
 margin-left:auto;
@@ -1228,7 +1229,6 @@ display:none;
 max-width: 500px;
 float:left;
 margin-right:15px;
-margin-bottom:0px;
 border:0px solid #555;
 border-radius:0px;
 }
@@ -1269,7 +1269,7 @@ text-align:center;
 max-width: 500px;
 float:left;
 margin-right:15px;
-margin-bottom:0px;
+margin-bottom:5px;
 }
 .pollyklaas2001 {
 max-width:450px;
@@ -1601,7 +1601,7 @@ margin-right:15px;
 max-width: 700px;
 float:left;
 margin-right:15px;
-margin-bottom:0px;
+margin-bottom:auto;
 }
 .jonbenetportrait {
 display:block;
@@ -1609,6 +1609,11 @@ max-width: 700px;
 margin-right: 15px;
 float: left;
 margin-bottom:15px;
+}
+.georgiamoses {
+max-width: 700px;
+float:left;
+margin-right:15px;
 }
 }
 
@@ -2035,7 +2040,6 @@ display:none;
 max-width: 700px;
 float:left;
 margin-right:15px;
-margin-bottom:0px;
 border:0px solid #555;
 border-radius:0px;
 }
@@ -2076,7 +2080,7 @@ text-align:center;
 max-width:700px;
 float:left;
 margin-right:15px;
-margin-bottom:15px;
+margin-bottom:auto;
 }
 .pollyklaas2001 {
 max-width:550px;
