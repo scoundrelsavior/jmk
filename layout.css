@@ -325,7 +325,7 @@ border-width:1px 1px 1px 1px;
 border-radius:10px;
 }
 .tableofcontents {
-margin:0px 0px -5px;
+margin:0px 0px 0px;
 }
 blockquote {
 position: relative;
@@ -484,7 +484,7 @@ column-gap:30px;
 margin:0px auto 20px;
 }
 footer {
-margin-top:-5px;
+margin-top:0px;
 margin-bottom:30px;
 }
 .footertitle {
@@ -1015,7 +1015,7 @@ border-width:1px 1px 1px 1px;
 border-radius:10px;
 }
 .tableofcontents {
-margin:0px 6px -5px;
+margin:0px 6px 0px;
 }
 blockquote {
 position: relative;
@@ -1852,7 +1852,7 @@ border-radius:0px;
 max-width:1366px;
 }
 .tableofcontents {
-margin:0px 0px -5px;
+margin:0px 0px 0px;
 }
 blockquote {
 position: relative;
