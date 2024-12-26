@@ -483,6 +483,23 @@ justify-content:center;
 column-gap:30px;
 margin:0px auto 20px;
 }
+footer {
+margin-top:-5px;
+margin-bottom:30px;
+}
+.footertitle {
+font-family:TrajanPro3-Regular;
+font-size:1.1rem;
+text-align:center;
+margin-bottom:-4px;
+}
+.footersubtitle {
+font-family:Montserrat-ThinItalic;
+font-size:0.8rem;
+text-align:center;
+font-weight:bold;
+margin:8px auto auto;
+}
 .phoneicon {
 max-width:30px;
 }
@@ -1159,6 +1176,23 @@ display:flex;
 justify-content:center;
 column-gap:30px;
 margin:-40px auto 20px;
+}
+footer {
+margin-top:-30px;
+margin-bottom:30px;
+}
+.footertitle {
+font-family:TrajanPro3-Regular;
+font-size:1.3rem;
+text-align:center;
+margin-bottom:-4px;
+}
+.footersubtitle {
+font-family:Montserrat-ThinItalic;
+font-size:0.9rem;
+text-align:center;
+font-weight:bold;
+margin:8px auto auto;
 }
 .phoneicon {
 max-width:40px;
@@ -1977,6 +2011,23 @@ justify-content:center;
 column-gap:30px;
 margin:-40px auto 20px;
 }
+footer {
+margin-top:-30px;
+margin-bottom:30px;
+}
+.footertitle {
+font-family:TrajanPro3-Regular;
+font-size:1.3rem;
+text-align:center;
+margin-bottom:-4px;
+}
+.footersubtitle {
+font-family:Montserrat-ThinItalic;
+font-size:0.9rem;
+text-align:center;
+font-weight:bold;
+margin:8px auto auto;
+}
 .phoneicon {
 max-width:40px;
 }
@@ -2364,6 +2415,9 @@ scroll-margin-top:15px;
 /* Desktop Layout: 1366px and above. This is here to place the white outline around the content with 15px margin top and bottom for screens above 1366px. Inherits styles from: Mobile Layout and Tablet Layout. */
 @media only screen and (min-width: 1367px) {
 .content {
+min-height: 100vh;
+display:flex;
+flex-direction:column;
 max-width: 1301px;
 padding: 15px;
 margin:15px auto 15px;
