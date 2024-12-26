@@ -2436,9 +2436,6 @@ scroll-margin-top:15px;
 /* Desktop Layout: 1366px and above. This is here to place the white outline around the content with 15px margin top and bottom for screens above 1366px. Inherits styles from: Mobile Layout and Tablet Layout. */
 @media only screen and (min-width: 1367px) {
 .content {
-min-height: 100vh;
-display:flex;
-flex-direction:column;
 max-width: 1301px;
 padding: 15px;
 margin:15px auto 15px;
