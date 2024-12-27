@@ -215,7 +215,7 @@ text-align:center;
 }
 .jmksubtitle {
 font-family:Montserrat-ThinItalic;
-font-size:0.85rem;
+font-size:0.80rem;
 text-align:center;
 }
 .jmktitlecorners {
@@ -500,7 +500,6 @@ margin-bottom:-4px;
 font-family:Montserrat-ExtraLightItalic;
 font-size:0.9rem;
 text-align:center;
-font-weight:bold;
 margin:8px auto auto;
 }
 .footercopyright {
@@ -1207,7 +1206,6 @@ margin-bottom:-4px;
 font-family:Montserrat-ExtraLightItalic;
 font-size:1.0rem;
 text-align:center;
-font-weight:bold;
 margin:8px auto auto;
 }
 .footercopyright {
@@ -2058,7 +2056,6 @@ margin-bottom:-4px;
 font-family:Montserrat-ExtraLightItalic;
 font-size:1.0rem;
 text-align:center;
-font-weight:bold;
 margin:8px auto auto;
 }
 .footercopyright {
