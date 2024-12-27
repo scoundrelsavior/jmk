@@ -492,20 +492,19 @@ margin-bottom:41px;
 }
 .footertitle {
 font-family:TrajanPro3-Regular;
-font-size:1.1rem;
+font-size:1.2rem;
 text-align:center;
 margin-bottom:-4px;
 }
 .footeremail {
-font-family:Montserrat-ThinItalic;
-font-size:0.95rem;
+font-family:Montserrat-ExtraLightItalic;
+font-size:0.9rem;
 text-align:center;
-font-weight:bold;
 margin:8px auto auto;
 }
 .footercopyright {
-font-family:Montserrat-ThinItalic;
-font-size:0.8rem;
+font-family:Montserrat-ExtraLightItalic;
+font-size:0.9rem;
 text-align:center;
 font-weight:bold;
 margin:8px auto auto;
@@ -1204,14 +1203,13 @@ text-align:center;
 margin-bottom:-4px;
 }
 .footeremail {
-font-family:Montserrat-ThinItalic;
+font-family:Montserrat-ExtraLightItalic;
 font-size:1.0rem;
 text-align:center;
-font-weight:bold;
 margin:8px auto auto;
 }
 .footercopyright {
-font-family:Montserrat-ThinItalic;
+font-family:Montserrat-ExtraLightItalic;
 font-size:0.9rem;
 text-align:center;
 font-weight:bold;
@@ -2056,14 +2054,13 @@ text-align:center;
 margin-bottom:-4px;
 }
 .footeremail {
-font-family:Montserrat-ThinItalic;
+font-family:Montserrat-ExtraLightItalic;
 font-size:1.0rem;
 text-align:center;
-font-weight:bold;
 margin:8px auto auto;
 }
 .footercopyright {
-font-family:Montserrat-ThinItalic;
+font-family:Montserrat-ExtraLightItalic;
 font-size:0.9rem;
 text-align:center;
 font-weight:bold;
