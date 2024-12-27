@@ -1867,7 +1867,6 @@ margin:15px 15px 15px;
 border:1px solid #555;
 border-width:1px 1px 1px 1px;
 border-radius:0px;
-max-width:1366px;
 }
 .tableofcontents {
 margin:0px 0px 0px;
@@ -2457,14 +2456,15 @@ scroll-margin-top:15px;
 }
 }
 
-/* Desktop Layout: 1366px and above. This is here to place the white outline around the content with 15px margin top and bottom for screens above 1366px. Inherits styles from: Mobile Layout and Tablet Layout. */
-@media only screen and (min-width: 1367px) {
+/* Desktop Layout: 1650px and above. This is here to place the white outline around the content with 15px margin top and bottom for screens above 1366px. Inherits styles from: Mobile Layout and Tablet Layout. */
+@media only screen and (min-width: 1650px) {
 
 .border {
 min-height:100vh;
 margin:15px auto 15px;
 border:1px solid #555;
 border-width:1px 1px 1px 1px;
+max-width:1650px;
 }
 .content {
 display:block;
