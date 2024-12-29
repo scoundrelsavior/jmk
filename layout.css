@@ -586,6 +586,10 @@ margin-right:auto;
 margin-left:auto;
 margin-right:auto;
 }
+.featureright {
+margin-left:auto;
+margin-right:auto;
+}
 .pollyklaas2001 {
 margin-left:auto;
 margin-right:auto;
@@ -1360,6 +1364,11 @@ max-width: 500px;
 float:right;
 margin-left:15px;
 }
+.featureright {
+max-width: 500px;
+float:right;
+margin-left:15px;
+}
 .pollyklaas2001 {
 max-width:450px;
 float:right;
@@ -1711,6 +1720,11 @@ float:left;
 margin-right:15px;
 }
 .pollyklaasright {
+max-width: 700px;
+float:right;
+margin-left:15px;
+}
+.featureright {
 max-width: 700px;
 float:right;
 margin-left:15px;
@@ -2232,6 +2246,11 @@ margin-right:15px;
 margin-bottom:auto;
 }
 .pollyklaasright {
+max-width:700px;
+float:right;
+margin-right:15px;
+}
+.featureright {
 max-width:700px;
 float:right;
 margin-right:15px;
