@@ -605,6 +605,10 @@ margin-right:auto;
 margin-left:auto;
 margin-right:auto;
 }
+.desalittostandingclose {
+margin-left:auto;
+margin-right:auto;
+}
 .princessestelletall {
 margin-left:auto;
 margin-right:auto;
@@ -1366,6 +1370,10 @@ margin-right:auto;
 margin-left:auto;
 margin-right:auto;
 }
+.desalittostandingclose {
+margin-left:auto;
+margin-right:auto;
+}
 .princessestelletall {
 max-width:540px;
 float:left;
@@ -1655,6 +1663,12 @@ margin-right:15px;
 margin-bottom:15px;
 }
 .ladyamelia {
+max-width:700px;
+float:left;
+margin-right:15px;
+margin-bottom:15px;
+}
+.desalittostandingclose {
 max-width:700px;
 float:left;
 margin-right:15px;
@@ -2220,6 +2234,12 @@ margin-right:15px;
 margin-bottom:15px;
 }
 .ladyamelia {
+max-width:800px;
+float:left;
+margin-right:15px;
+margin-bottom:15px;
+}
+.desalittostandingclose {
 max-width:800px;
 float:left;
 margin-right:15px;
