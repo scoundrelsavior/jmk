@@ -747,6 +747,10 @@ margin-left:auto;
 margin-right:auto;
 border-radius:12px;
 }
+.patriciaramseybday {
+margin-left:auto;
+margin-right:auto;
+}
 .audioplayer {
 display:flex;
 flex-direction:row;
@@ -812,7 +816,7 @@ scroll-margin-top:10px;
 #estellexmas {
 scroll-margin-top:10px;
 }
-#patriciabday2023 {
+#patriciabday2024 {
 scroll-margin-top:10px;
 }
 #swedenroyals2020 {
@@ -1516,6 +1520,12 @@ margin-left: 15px;
 max-width:400px;
 border-radius:12px;
 }
+.patriciaramseybday {
+float: right;
+margin-left: 15px;
+max-width:400px;
+border-radius:12px;
+}
 .audioplayer {
 display:flex;
 flex-direction:row;
@@ -1589,7 +1599,7 @@ scroll-margin-top:26px;
 #estellexmas {
 scroll-margin-top:26px;
 }
-#patriciabday2023 {
+#patriciabday2024 {
 scroll-margin-top:26px;
 }
 #swedenroyals2020 {
@@ -2389,6 +2399,12 @@ margin-left:15px;
 max-width:400px;
 border-radius:12px;
 }
+.patriciaramseybday {
+float:right;
+margin-left:15px;
+max-width:500px;
+border-radius:12px;
+}
 .audioplayer {
 display:flex;
 flex-direction:row;
@@ -2457,7 +2473,7 @@ scroll-margin-top:26px;
 #estellexmas {
 scroll-margin-top:26px;
 }
-#patriciabday2023 {
+#patriciabday2024 {
 scroll-margin-top:26px;
 }
 #swedenroyals2020 {
