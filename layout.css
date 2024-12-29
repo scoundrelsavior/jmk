@@ -223,6 +223,15 @@ color:#FFFFFF;
 font-family:Montserrat-ThinItalic;
 font-size:0.60rem;
 }
+.articleheadings {
+text-align:center;
+font-weight:bold;
+}
+.articlesubheadings {
+font-size:0.95rem;
+text-align:center;
+margin-top:-15px;
+}
 .headings {
 font-family:Cinzel-Regular;
 font-size:22px;
@@ -928,6 +937,15 @@ margin:-5px 0px 0px;
 color:#FFFFFF;
 font-family:Montserrat-ThinItalic;
 font-size:14px;
+}
+.articleheadings {
+text-align:center;
+font-weight:bold;
+}
+.articlesubheadings {
+font-size:0.95rem;
+text-align:center;
+margin-top:-15px;
 }
 .headings {
 font-family:Cinzel-Regular;
@@ -1795,6 +1813,15 @@ margin:-5px 0px 0px;
 color:#FFFFFF;
 font-family:Montserrat-ThinItalic;
 font-size:14px;
+}
+.articleheadings {
+text-align:center;
+font-weight:bold;
+}
+.articlesubheadings {
+font-size:0.95rem;
+text-align:center;
+margin-top:-15px;
 }
 .headings {
 font-family:Cinzel-Regular;
