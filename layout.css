@@ -1657,7 +1657,7 @@ scroll-margin-top:15px;
 }
 
 /* 12-inch Ipad. This is just for 12-inch Ipad layouts. Inherits styles from: Mobile Layout and Tablet Layout. */
-@media only screen and (min-width: 835px) {
+@media only screen and (min-width: 851px) {
 
 .headline {
 font-family:TrajanPro3-Regular;
