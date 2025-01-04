@@ -1683,6 +1683,11 @@ font-family:Montserrat-ThinItalic;
 font-size:1.03rem;
 text-align:center;
 }
+.pollyklaas {
+max-width:700px;
+float:left;
+margin-right:15px;
+}
 .princesscharlotte {
 max-width:700px;
 float:left;
