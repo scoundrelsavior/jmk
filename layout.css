@@ -591,6 +591,10 @@ margin-left:auto;
 margin-right:auto;
 max-width: 500px;
 }
+.missamerica2025 {
+margin-left:auto;
+margin-right:auto;
+}
 .pollyklaas2001 {
 margin-left:auto;
 margin-right:auto;
@@ -1374,6 +1378,11 @@ max-width: 500px;
 float:right;
 margin-left:15px;
 }
+.missamerica2025 {
+float:left;
+margin-right:15px;
+max-width:500px;
+}
 .pollyklaas2001 {
 max-width:450px;
 float:right;
@@ -1755,6 +1764,11 @@ margin-left:15px;
 max-width: 500px;
 float:right;
 margin-left:15px;
+}
+ .missamerica2025 {
+max-width: 500px;
+float:left;
+margin-right:15px;
 }
 .jonbenetportrait {
 display:block;
@@ -2280,6 +2294,11 @@ margin-right:15px;
 .featureright {
 max-width:500px;
 float:right;
+margin-right:15px;
+}
+ .missamerica2025 {
+max-width: 500px;
+float:left;
 margin-right:15px;
 }
 .pollyklaas2001 {
