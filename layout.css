@@ -623,6 +623,10 @@ margin-right:auto;
 margin-left:auto;
 margin-right:auto;
 }
+.lilica {
+margin-left:auto;
+margin-right:auto;
+}
 .princessestelletall {
 margin-left:auto;
 margin-right:auto;
@@ -913,7 +917,7 @@ margin:-8px auto -8px;
 .headerhr {
 margin:15px auto 15px;
 border:1px solid #555;
-border-width:0px 0px 1px 0px;
+border-width:0px 0px 0px 0px;
 }
 .photocaptiontop {
 display:inline-block;
@@ -1159,7 +1163,7 @@ font-size:17.7px;
 } 
 .headline {
 font-family:TrajanPro3-Regular;
-font-size:1.02rem;
+font-size:1.1rem;
 text-align:center;
 margin:15px auto auto;
 }
@@ -1402,6 +1406,11 @@ margin-left:auto;
 margin-right:auto;
 }
 .desalitto {
+margin-left:auto;
+margin-right:auto;
+max-width:850px;
+}
+.lilica {
 margin-left:auto;
 margin-right:auto;
 max-width:850px;
@@ -1663,6 +1672,11 @@ rotated mobile phones up to 1000px long into account. Inherits styles from:
 Mobile Layout and Tablet Layout. */
 @media only screen and (min-width: 1001px) {
 
+.headerhr {
+margin:15px auto 15px;
+border:1px solid #555;
+border-width:0px 0px 1px 0px;
+}
 .headline {
 font-family:TrajanPro3-Regular;
 font-size:1.1rem;
@@ -1713,6 +1727,11 @@ margin-right:15px;
 margin-bottom:15px;
 }
 .desalitto {
+max-width:700px;
+float:left;
+margin-right:15px;
+}
+.lilica {
 max-width:700px;
 float:left;
 margin-right:15px;
@@ -2303,6 +2322,11 @@ margin-bottom:15px;
 }
 .desalitto {
 max-width:800px;
+float:left;
+margin-right:15px;
+}
+.lilica {
+max-width:700px;
 float:left;
 margin-right:15px;
 }
