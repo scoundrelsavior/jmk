@@ -1373,9 +1373,9 @@ float:right;
 margin-left:15px;
 }
 .featureright {
-max-width:500px;
-float:right;
-margin-left:15px;
+max-width:750px;
+margin-right:auto;
+margin-left:auto;
 }
 .missamerica2025 {
 float:left;
@@ -2298,7 +2298,7 @@ float:right;
 margin-right:15px;
 }
 .featureright {
-max-width:700px;
+max-width:750px;
 float:right;
 margin-left:15px;
 }
