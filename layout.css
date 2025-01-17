@@ -1818,6 +1818,12 @@ margin-right:15px;
 border:0px solid #555;
 border-radius:0px;
 }
+.catchmeifyoucanright {
+float: right;
+margin-left: 15px;
+max-width:600px;
+border-radius:12px;
+}
 }
 
 /* Desktop Layout: 1025px to a max of 1366px - Everything above Ipad Pro 12.9. Inherits styles from: Mobile Layout and Tablet Layout. */
