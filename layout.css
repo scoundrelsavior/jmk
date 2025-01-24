@@ -464,7 +464,7 @@ line-height:1.4;
 .whatsoeverborder {
 border:1px solid #555;
 border-radius:6px;
-margin:26px 0px 40px;
+margin:26px auto 40px;
 padding:0px 10px 0px;
 }
 .titlelines {
