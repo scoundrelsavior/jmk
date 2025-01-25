@@ -490,9 +490,9 @@ margin:3px auto 0px;
 }
 .whatsoevercaption {
 font-family:Montserrat-ExtraLightItalic;
-font-size: 0.80rem;
+font-size: 0.9rem;
 margin:10px auto 10px;
-line-height:1.4;
+line-height:1.8;
 text-align:justify;
 }
 .whatsoeverheading {
@@ -545,7 +545,8 @@ margin:0px auto 26px;
 }
 figcaption {
 font-family:Montserrat-ThinItalic;
-font-size:0.85rem;
+font-size:0.9rem;
+line-height:1.4;
 text-align:justify;
 padding-top:10px;
 margin-bottom:0px;
