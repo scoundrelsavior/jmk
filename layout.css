@@ -1214,10 +1214,8 @@ line-height:1.4;
 /*maxwidth changed for
 each photo inline*/
 .whatsoeverborder {
-border:1px double #555;
-outline:1px solid #555;
-outline-offset:5px;
-border-radius:0px;
+border:1px solid #555;
+border-radius:12px;
 margin:26px auto 80px;
 padding:0px 15px 0px;
 }
@@ -2172,9 +2170,7 @@ line-height:1.4;
 each photo inline*/
 .whatsoeverborder {
 border:1px solid #555;
-outline:1px solid #555;
-outline-offset:5px;
-border-radius:0px;
+border-radius:12px;
 margin:26px auto 80px;
 padding:0px 15px 0px;
 }
