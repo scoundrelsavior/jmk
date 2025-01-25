@@ -251,21 +251,22 @@ background-size:cover;
 display:flex;
 flex-wrap:wrap;
 border:1px solid #555;
-border-radius:6px;
+border-width:1px 0px 1px 0px;
+border-radius:0px;
 background-position:center;
 background-size:cover;
 }
 .border-radius-top-left {
-border-radius:6px 0px 0px 0px;
+border-radius:0px 0px 0px 0px;
 }
 .border-radius-top-right {
-border-radius:0px 6px 0px 0px;
+border-radius:0px 0px 0px 0px;
 }
 .border-radius-bottom-left {
-border-radius:0px 0px 0px 6px;
+border-radius:0px 0px 0px 0px;
 }
 .border-radius-bottom-right {
-border-radius:0px 0px 6px 0px;
+border-radius:0px 0px 0px 0px;
 }
 .scrolldivider {
 max-width:100px;
@@ -465,7 +466,7 @@ line-height:1.4;
 border:1px solid #555;
 border-radius:6px;
 margin:26px auto 40px;
-padding:0px 10px 0px;
+padding:0px 0px 0px;
 }
 .titlelines {
 display:inline-block;
@@ -490,7 +491,7 @@ margin:3px auto 0px;
 .whatsoevercaption {
 font-family:Montserrat-ExtraLightItalic;
 font-size: 0.80rem;
-margin:10px auto 10px;
+margin:10px 10px 10px;
 line-height:1.4;
 text-align:justify;
 }
