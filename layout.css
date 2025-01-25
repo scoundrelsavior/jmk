@@ -251,22 +251,21 @@ background-size:cover;
 display:flex;
 flex-wrap:wrap;
 border:1px solid #555;
-border-width:1px 0px 1px 0px;
-border-radius:0px;
+border-radius:6px;
 background-position:center;
 background-size:cover;
 }
 .border-radius-top-left {
-border-radius:0px 0px 0px 0px;
+border-radius:6px 0px 0px 0px;
 }
 .border-radius-top-right {
-border-radius:0px 0px 0px 0px;
+border-radius:0px 6px 0px 0px;
 }
 .border-radius-bottom-left {
-border-radius:0px 0px 0px 0px;
+border-radius:0px 0px 0px 6px;
 }
 .border-radius-bottom-right {
-border-radius:0px 0px 0px 0px;
+border-radius:0px 0px 6px 0px;
 }
 .scrolldivider {
 max-width:100px;
@@ -343,11 +342,11 @@ margin:0px 10px 0px;
 .navigatepages {
 font-family:TrajanPro3-Regular;
 font-size:1.1rem;
-display:inline-block;
+display:block;
 border:1px double #555;
 border-width:4px 0px 4px 0px;
 padding:10px 0px 4px;
-margin:20px auto 10px;
+margin:26px auto 0px;
 }
 blockquote {
 position: relative;
@@ -464,16 +463,17 @@ line-height:1.4;
 }
 .whatsoeverborder {
 border:1px solid #555;
-border-radius:6px;
-margin:26px auto 40px;
+border-radius:0px;
+margin:0px auto 0px;
 padding:0px 0px 0px;
+border-width:0px 0px 1px 0px;
 }
 .titlelines {
 display:inline-block;
 border:1px solid #555;
 border-width:1px 0px 1px 0px;
 padding:8px 0px 8px;
-margin:10px auto 10px;
+margin:26px auto 26px;
 }
 .photolinktitle {
 font-family:ITCEDSCR;
@@ -491,7 +491,7 @@ margin:3px auto 0px;
 .whatsoevercaption {
 font-family:Montserrat-ExtraLightItalic;
 font-size: 0.80rem;
-margin:10px 10px 10px;
+margin:10px auto 10px;
 line-height:1.4;
 text-align:justify;
 }
