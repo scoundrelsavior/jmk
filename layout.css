@@ -1225,7 +1225,7 @@ display:inline-block;
 border:1px solid #555;
 border-width:1px 0px 1px 0px;
 padding:8px 0px 8px;
-margin:15px auto 15px;
+margin:15px auto 13px;
 }
 .photolinktitle {
 font-family:ITCEDSCR;
@@ -1298,6 +1298,7 @@ margin:0px auto 20px;
 figcaption {
 font-family:Montserrat-ThinItalic;
 font-size: 0.95rem;
+line-height:1.4;
 text-align:justify;
 padding-top:10px;
 margin-bottom:5px;
@@ -2180,7 +2181,7 @@ display:inline-block;
 border:1px solid #555;
 border-width:1px 0px 1px 0px;
 padding:8px 0px 8px;
-margin:15px auto 15px;
+margin:15px auto 13px;
 }
 .photolinktitle {
 font-family:ITCEDSCR;
@@ -2254,6 +2255,7 @@ figcaption {
 font-family:Montserrat-ThinItalic;
 text-align:justify;
 font-size: 0.95rem;
+line-height:1.4;
 padding-top:10px;
 margin-bottom:5px;
 color:white;	
