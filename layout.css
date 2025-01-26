@@ -639,8 +639,12 @@ margin-right:auto;
 margin-left:auto;
 margin-right:auto;
 }
-.desalittologo {
-margin:15px auto auto;
+.desalittologotop {
+margin-top:15px;
+max-width:190px;
+}
+.desalittologobottom {
+margin-top:4px;
 max-width:190px;
 }
 .lilica {
@@ -1444,8 +1448,12 @@ margin-left:auto;
 margin-right:auto;
 max-width:850px;
 }
-.desalittologo {
-margin:10px auto auto;
+.desalittologotop {
+margin-top:10px;
+max-width:220px;
+}
+.desalittologobottom {
+margin-top:4px;
 max-width:240px;
 }
 .lilica {
@@ -2406,8 +2414,12 @@ max-width:800px;
 float:left;
 margin-right:15px;
 }
-.desalittologo {
-margin:10px auto auto;
+.desalittologotop {
+margin-top:10px;
+max-width:220px;
+}
+.desalittologobottom {
+margin-top:4px;
 max-width:240px;
 }
 .lilica {
