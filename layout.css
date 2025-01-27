@@ -612,6 +612,7 @@ margin-left:auto;
 margin-right:auto;
 }
 .jmkquote {
+max-width:550px;
 margin-left:auto;
 margin-right:auto;
 }
@@ -1719,7 +1720,7 @@ Mobile Layout and Tablet Layout. */
 @media only screen and (min-width: 1001px) {
 
 .jmkquote {
-max-width:600px;
+max-width:550px;
 float:left;
 margin-right:15px;
 }
@@ -2376,7 +2377,7 @@ float:right;
 margin-left:15px;
 }
 .jmkquote {
-max-width:600px;
+max-width:550px;
 float:left;
 margin-right:15px;
 }
