@@ -611,6 +611,9 @@ margin-right:auto;
 margin-left:auto;
 margin-right:auto;
 }
+.clearboth {
+clear:none;
+}
 .jmkquote {
 max-width:550px;
 margin-left:auto;
@@ -1422,6 +1425,9 @@ max-width:450px;
 float:right;
 margin-left:15px;
 }
+.clearboth {
+clear:none;
+}
 .jmkquote {
 max-width: 500px;
 float:left;
@@ -1728,6 +1734,9 @@ rotated mobile phones up to 1000px long into account. Inherits styles from:
 Mobile Layout and Tablet Layout. */
 @media only screen and (min-width: 1001px) {
 
+.clearboth {
+clear:both;
+}
 .jmkquote {
 max-width:550px;
 float:left;
@@ -2397,6 +2406,9 @@ margin-right:15px;
 max-width:550px;
 float:right;
 margin-left:15px;
+}
+.clearboth {
+clear:none;
 }
 .jmkquote {
 max-width:550px;
