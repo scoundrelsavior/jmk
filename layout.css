@@ -2741,6 +2741,10 @@ border:1px solid #555;
 border-width:1px 1px 1px 1px;
 max-width:1361px;
 }
+footer {
+margin-top:auto;
+margin-bottom:30px;
+}
 .content {
 display:block;
 font-size:1.09rem;
