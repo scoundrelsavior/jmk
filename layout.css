@@ -647,6 +647,10 @@ margin-right:auto;
 margin-left:auto;
 margin-right:auto;
 }
+.twinset {
+margin-left:auto;
+margin-right:auto;
+}
 .desalitto {
 margin-left:auto;
 margin-right:auto;
@@ -1467,6 +1471,11 @@ margin-left:auto;
 margin-right:auto;
 max-width:700px;
 }
+.twinset {
+margin-left:auto;
+margin-right:auto;
+max-width:850px;
+}
 .desalitto {
 margin-left:auto;
 margin-right:auto;
@@ -1817,6 +1826,11 @@ margin-bottom:15px;
 .ladyameliasleek {
 margin-left:auto;
 margin-right:auto;
+max-width:700px;
+float:left;
+margin-right:15px;
+}
+.twinset {
 max-width:700px;
 float:left;
 margin-right:15px;
@@ -2464,8 +2478,13 @@ max-width:700px;
 float:left;
 margin-right:15px;
 }
+.twinset {
+max-width:850px;
+float:left;
+margin-right:15px;
+}
 .desalitto {
-max-width:800px;
+max-width:850px;
 float:left;
 margin-right:15px;
 }
