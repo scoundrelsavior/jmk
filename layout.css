@@ -1751,6 +1751,10 @@ rotated mobile phones up to 1000px long into account. Inherits styles from:
 Mobile Layout and Tablet Layout. */
 @media only screen and (min-width: 1001px) {
 
+.desalittologotop {
+margin-top:5px;
+max-width:220px;
+}
 .clearboth {
 clear:both;
 }
