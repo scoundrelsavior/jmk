@@ -607,6 +607,11 @@ max-width:450px;
 margin-left:auto;
 margin-right:auto;
 }
+.featureleft {
+max-width:450px;
+margin-left:auto;
+margin-right:auto;
+}
 .missamerica2025 {
 margin-left:auto;
 margin-right:auto;
@@ -1426,6 +1431,12 @@ max-width:450px;
 float:right;
 margin-left:15px;
 }
+.featureleft {
+display:block;
+max-width:850px;
+margin-left:auto;
+margin-right:auto;
+}
 .missamerica2025 {
 float:left;
 margin-right:15px;
@@ -1818,12 +1829,6 @@ float:left;
 margin-right:15px;
 margin-bottom:15px;
 }
-.ladyamelia {
-max-width:700px;
-float:left;
-margin-right:15px;
-margin-bottom:15px;
-}
 .ladyameliasleek {
 margin-left:auto;
 margin-right:auto;
@@ -1865,6 +1870,11 @@ margin-left:15px;
 max-width:450px;
 float:right;
 margin-left:15px;
+}
+.featureleft {
+max-width:700px;
+float:left;
+margin-right:15px;
 }
 .missamerica2025 {
 max-width: 500px;
@@ -2427,6 +2437,11 @@ margin-right:15px;
 max-width:450px;
 float:right;
 margin-left:15px;
+}
+.featureleft {
+max-width:700px;
+float:left;
+margin-right:15px;
 }
 .missamerica2025 {
 max-width: 600px;
