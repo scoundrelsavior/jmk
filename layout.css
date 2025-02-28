@@ -2338,7 +2338,7 @@ text-align:justify;
 font-size: 0.95rem;
 line-height:1.4;
 padding-top:10px;
-margin-bottom:5px;
+margin-bottom:15px;
 color:white;	
 }
 .figcaptionborder {
@@ -2454,7 +2454,7 @@ float:right;
 margin-left:15px;
 }
 .clearboth {
-clear:none;
+clear:both;
 }
 .jmkquote {
 max-width:550px;
