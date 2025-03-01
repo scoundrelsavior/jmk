@@ -1,0 +1,2804 @@
+@charset "utf-8";
+html {
+font-size:100%;
+}
+img, object, embed, video {
+max-width: 100%;
+}
+.ie6 img {
+width:100%;
+}
+@-moz-document url-prefix() { /* Disable scrollbar Firefox */
+html {
+scrollbar-width: none;
+ }
+}
+body::-webkit-scrollbar {
+width: 0px;
+background: transparent; /* Disable scrollbar Chrome/Safari/Webkit */
+}
+.box {
+  display: flow-root;
+}
+.hrshadow {
+border:none;
+width: 100%;
+height: 50px;
+border-bottom: 1px solid #000;
+box-shadow: 0px 20px 20px -20px #fff;
+margin: -50px auto 30px; 
+}
+.returntop {
+text-align: center;
+color: #FFFFFF;
+font-weight: bold;
+text-decoration: none;
+}
+.center {
+clear: both;
+display: block;
+margin-right: auto;
+margin-left: auto;
+}
+.video {
+clear: both;
+}
+.videomargin {
+margin-bottom: 22px;
+}
+.audiomargin {
+margin-bottom: 12px;
+}
+.home {
+max-width: 60px;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+text-align: center;
+font-size: x-large;
+clear: both;
+margin-left: auto;
+margin-right: auto;
+padding-top: 30px;
+color: rgba(255,255,255,1.00);
+}
+/* VideoJS - show poster, show play button, hide bottom controls */
+.video-js.vjs-ended .vjs-poster {
+display: block;
+}
+.video-js.vjs-ended .vjs-control-bar {
+display: none;
+}
+.video-js.vjs-ended .vjs-big-play-button {
+display: block;
+}
+/* VideoJS - END */
+.bold {
+font-weight: bolder;
+}
+.headliner {
+padding-top: 20px;
+}
+/*Text fade with Read More at bottom of fade*/
+.textfade {
+  max-height: 120px;
+  position: relative;
+  overflow: hidden;
+}
+.textfade .read-more { 
+  position: absolute; 
+  bottom: 0; 
+  left: 0;
+  width: 100%;
+  text-align: center; 
+  margin: 0; padding: 30px 0; 
+
+  /* "transparent" only works here because == rgba(0,0,0,0) */
+  background-image: linear-gradient(to bottom, transparent, black);
+}
+blockquote.removequote:after {
+    content: "";
+}
+
+blockquote.removequote:before {
+    content: "";
+}
+
+/* Mobile Layout: 609px and below. */
+
+/* Responsive flex one column-layout instead of two-column layout */
+.flex-container {
+flex-direction: column;
+display: flex;
+/*Don't change padding below to margin.
+Affects Polly Klaas Lead*/
+padding:8px;
+gap:8px;
+border:1px solid #555;
+border-radius:12px;
+margin:auto;
+}
+.flexleftjmk {
+flex: 50%;
+}
+.flexrightjmk {
+flex: 50%;
+border:0px;
+border-radius: 12px;
+background:rgba(0,0,0,0.70);
+margin:auto;
+}
+.flexleftklaas {
+flex:50%;
+border-radius: 12px;
+border:1px solid #555;
+}
+.flexrightklaas {
+flex:50%;
+border-radius:12px;
+padding:0px 10px 10px;
+border:1px solid #555;
+background:rgba(0,0,0,0.70);
+}
+.title {
+padding:0px 0px 5px;
+}
+.titleramseyklaas {
+display:block;
+}
+.pollyklaastitle {
+font-family:ITCEDSCR;
+color:#EFEFEF;
+font-size:1.8rem;
+width:100%;
+margin: 0px auto 0px;
+text-align:center;
+}
+.pollyklaassubtitle {
+font-family:Montserrat-ThinItalic;
+font-size:0.60rem;
+text-align:center;
+}
+.jonbenetramseytitle {
+font-family:ITCEDSCR;
+color:#EFEFEF;
+font-size:1.8rem;
+width:100%;
+margin: 0px auto -3px;
+text-align:center;
+}
+.jonbenetramseysubtitle {
+display:none;
+font-family:Montserrat-ThinItalic;
+font-size:0.60rem;
+text-align:center;
+}
+.featuretitle {
+font-family:ITCEDSCR;
+color:#EFEFEF;
+font-size:1.8rem;
+width:100%;
+margin: 0px auto -3px;
+text-align:center;
+}
+.jmktitlesides {
+max-width:60px;
+width:100%;
+margin:0px 0px 0px;
+}
+.butterflies {
+max-width:70px;
+width:100%;
+margin:0px 0px 0px;
+}
+.header {
+text-align:center;
+margin:0px auto 0px;
+}
+.headerhr {
+margin:10px auto 0px;
+border:1px solid #555;
+border-width:0px 0px 0px 0px;
+}
+.indenttext {
+margin-left:0px;
+margin-right:0px;
+}
+.photocaptiontop {
+display:inline-block;
+border:1px solid #555;
+border-width:1px 0px 1px 0px;
+margin:15px auto auto;
+padding:5px 10px 5px;
+line-height:1.6;
+}
+.jmktoptitle {
+font-family:Cinzel-Regular;
+font-size:1.2rem;
+text-align:center;
+}
+.jmksubtitle {
+font-family:Montserrat-ThinItalic;
+font-size:0.80rem;
+text-align:center;
+}
+.jmktitlecorners {
+color:#FFFFFF;
+font-family:Montserrat-ThinItalic;
+font-size:0.60rem;
+}
+.articleheadings {
+text-align:center;
+font-weight:bold;
+}
+.articlesubheadings {
+font-size:0.95rem;
+text-align:center;
+margin-top:-15px;
+}
+.articleheadingsedwardian {
+font-family:ITCEDSCR;
+font-size:2.2rem;
+margin:10px auto 10px;
+text-align:center;
+}
+.headings {
+font-family:Cinzel-Regular;
+font-size:22px;
+text-align:center;
+}
+.christmascard {
+display:flex;
+flex-direction:column;
+gap:12px;
+border:1px solid #555;
+padding:12px;
+border-radius:12px;
+background-position:center;
+background-size:cover;
+}
+.photolayout {
+display:flex;
+flex-wrap:wrap;
+border:1px solid #555;
+border-radius:6px;
+background-position:center;
+background-size:cover;
+}
+.border-radius-top-left {
+border-radius:6px 0px 0px 0px;
+}
+.border-radius-top-right {
+border-radius:0px 6px 0px 0px;
+}
+.border-radius-bottom-left {
+border-radius:0px 0px 0px 6px;
+}
+.border-radius-bottom-right {
+border-radius:0px 0px 6px 0px;
+}
+.scrolldivider {
+max-width:100px;
+display:block;
+margin-left:auto;
+margin-right:auto;
+}
+.trajan {
+font-family:TrajanPro3-Regular;
+font-size:20px;
+}
+.cinzel {
+font-family:Cinzel-Regular;
+font-size:15px;
+margin-top:-4px;
+}
+.vivaldi {
+font-family:VIVALDII;
+font-size:19px;
+margin-top:-4px;
+}
+.edwardian {
+font-family:ITCEDSCR;
+font-size:2.1rem;
+}
+.jonbenetbdayedwardian {
+font-family:ITCEDSCR;
+font-size:38px;
+}
+.Montserrat-ThinItalic {
+font-family:Montserrat-ThinItalic;
+font-size: 17px;
+line-height:1.5;
+}
+.Montserrat-ExtraLightItalic {
+font-family:Montserrat-ExtraLightItalic;
+font-size: 1.03rem;
+line-height:1.6;
+}
+.Montserrat-ExtraLightItalicJonBenetBday {
+font-family:Montserrat-ExtraLightItalic;
+font-size: 17px;
+line-height:1.5;
+}
+.cinzeloutlined {
+font-family:Cinzel-Regular;
+font-size:15px;
+margin:-4px auto 0px;
+padding:8px;
+}
+.vivaldioutlined {
+font-family:VIVALDII;
+font-size:19px;
+margin:-4px auto 0px;
+padding:8px;
+}
+.content {
+display: block;
+font-size:1.09rem;
+padding: 10px;
+}
+.border {
+min-height:100vh;
+display:flex;
+flex-direction:column;
+margin:0px 0px 0px;
+border:1px solid #555;
+border-width:0px 0px 0px 0px;
+border-radius:10px;
+}
+.tableofcontents {
+margin:0px 10px 0px;
+}
+.navigatepages {
+font-family:TrajanPro3-Regular;
+font-size:1.1rem;
+display:block;
+border:1px double #555;
+border-width:4px 0px 4px 0px;
+padding:10px 0px 4px;
+margin:26px auto 0px;
+}
+blockquote {
+position: relative;
+/* background: #ddd; */
+}
+blockquote:before {
+position: absolute;
+content: open-quote; 
+font-size: 2.90em;
+margin-left: -0.5em;
+margin-top: -0.3em;
+font-family: Georgia, Times, Times New Roman, serif;
+color:#999;
+}
+blockquote:after {
+position: absolute;
+content: close-quote;
+font-size: 2.90em;
+bottom: 0;
+right: 0;
+margin-right: -0.5em;
+margin-bottom: -0.83em;
+font-family: Georgia, Times, Times New Roman, serif;
+color:#999;
+}
+blockquote p {
+display: inline;
+}
+.xembedleft {
+margin-left:auto;
+margin-right:auto;
+}
+.xembedright {
+margin-left:auto;
+margin-right:auto;
+}
+.laptopvisible {
+display:none;
+}
+.tabletvisible {
+display:none;
+}
+.phonevisible {
+display:block;
+}
+.jonbenetportrait {
+display:block;
+margin-right: auto;
+margin-left: auto;
+}
+.jonbenetportraitright {
+display:block;
+margin-right: auto;
+margin-left: auto;
+}
+.jonbenetxmas {
+display:block;
+margin-left: auto;
+margin-right: auto;
+}
+.jonbenetxmastall {
+display:block;
+margin-left: auto;
+margin-right: auto;
+}
+.jonbenetxmastallleft {
+display:block;
+margin-left: auto;
+margin-right: auto;
+}
+.jonbenetwhites {
+display:block;
+max-width: 430px;
+margin-left: auto;
+margin-right: auto;
+}
+.pkxmas {
+display:flex;
+flex-direction:row;
+flex-wrap:wrap;
+margin-left: auto;
+margin-right: auto;
+margin-bottom:0px;
+}
+.heading {
+font-size:25px;
+}
+.toptitle {
+font-family:Cinzel-Regular;
+font-size:18px;
+} 
+.headline {
+font-family:TrajanPro3-Regular;
+font-size:1.05rem;
+text-align:center;
+margin:26px auto auto;
+}
+.minimalistborder {
+border:1px solid #555;
+outline:0px solid #555;
+border-radius:12px;
+margin:26px auto 26px;
+padding:10px 10px 5px;
+}
+.minimalistcaption {
+font-family:Montserrat-ExtraLightItalic;
+font-size: 16px;
+margin:12px auto 9px;
+border:1px solid #555;
+background:rgba(0,0,0,0.80);
+padding:10px;
+border-radius:12px;
+line-height:1.4;
+}
+.whatsoeverborder {
+border:1px solid #555;
+border-radius:0px;
+margin:0px auto 0px;
+padding:0px 0px 0px;
+border-width:0px 0px 1px 0px;
+}
+.titlelines {
+display:inline-block;
+border:1px solid #555;
+border-width:1px 0px 1px 0px;
+padding:8px 0px 8px;
+margin:26px auto 26px;
+}
+.photolinktitle {
+font-family:ITCEDSCR;
+font-size: 1.95rem;
+text-align:center;
+margin:0px auto 0px;
+line-height:1.0;
+}
+.photolinksubtitle {
+font-family:Montserrat-ExtraLightItalic;
+font-size: 0.80rem;
+text-align:center;
+margin:3px auto 0px;
+}
+.whatsoevercaption {
+font-family:Montserrat-ExtraLightItalic;
+font-size: 0.9rem;
+margin:10px auto 10px;
+line-height:1.8;
+text-align:justify;
+}
+.whatsoeverheading {
+font-family:Montserrat-ExtraLightItalic;
+font-size: 17px;
+line-height:1.4;
+}
+.footer {
+display:flex;
+justify-content:center;
+column-gap:30px;
+margin:0px auto 20px;
+}
+footer {
+margin-top:auto;
+margin-bottom:30px;
+}
+.footertitle {
+font-family:TrajanPro3-Regular;
+font-size:1.15rem;
+text-align:center;
+margin-bottom:-4px;
+}
+.footeremail {
+font-family:Montserrat-ExtraLightItalic;
+font-size:0.9rem;
+text-align:center;
+margin:8px auto auto;
+}
+.footercopyright {
+font-family:Montserrat-ExtraLightItalic;
+font-size:0.8rem;
+text-align:center;
+font-weight:bold;
+margin:8px auto auto;
+}
+.phoneicon {
+max-width:30px;
+}
+.mailicon {
+max-width:30px;
+}
+.xicon {
+max-width:26px;padding-top:3px
+}
+.copyrightbottom {
+text-align:center;
+font-size:0.9rem;
+margin:0px auto 26px;
+}
+figcaption {
+font-family:Montserrat-ThinItalic;
+font-size:0.85rem;
+line-height:1.6;
+text-align:justify;
+padding-top:10px;
+margin-bottom:0px;
+color:white;
+}
+.figcaptionborder {
+border: 1px solid #555;
+padding:8px;
+border-radius:12px;
+margin-top:12px;
+}
+.figcaption-overlay {
+position:relative;
+text-align:center;
+font-size:16px;
+border-width:0px;
+padding-top:0px;
+padding-bottom:10px;
+margin:0px auto 15px;
+}
+.katsaris {
+display:none;
+}
+.katsaristablet {
+display:none;
+}
+.katsarismobile {
+display:block;
+}
+.christamartinamos {
+margin-bottom:26px;
+display:none;
+}
+.martinamos {
+display:block;
+}
+.christaamos {
+display:block;
+}
+.bellum7 {
+margin-left:auto;
+margin-right:auto;
+}
+.pollyklaas {
+margin-left:auto;
+margin-right:auto;
+}
+.pollyklaasright {
+margin-left:auto;
+margin-right:auto;
+}
+.featureright {
+max-width:450px;
+margin-left:auto;
+margin-right:auto;
+}
+.featureleft {
+margin-left:auto;
+margin-right:auto;
+}
+.missamerica2025 {
+margin-left:auto;
+margin-right:auto;
+}
+.pollyklaas2001 {
+margin-left:auto;
+margin-right:auto;
+}
+.clearboth {
+clear:none;
+}
+.jmkquote {
+max-width:550px;
+margin-left:auto;
+margin-right:auto;
+}
+.jmkquoteright {
+margin-left:auto;
+margin-right:auto;
+}
+.princesscharlotte {
+margin-left:auto;
+margin-right:auto;
+}
+.charlotte9bday {
+margin-left:auto;
+margin-right:auto;
+}
+.estelle11bday {
+margin-left:auto;
+margin-right:auto;
+}
+.ladyamelia {
+margin-left:auto;
+margin-right:auto;
+}
+.ladyameliasleek {
+margin-left:auto;
+margin-right:auto;
+}
+.twinset {
+margin-left:auto;
+margin-right:auto;
+}
+.desalitto {
+margin-left:auto;
+margin-right:auto;
+}
+.desalittologotop {
+max-width:220px;
+}
+.desalittologobottom {
+margin-top:4px;
+max-width:190px;
+}
+.lilica {
+margin-left:auto;
+margin-right:auto;
+}
+.princessestelletall {
+margin-left:auto;
+margin-right:auto;
+}
+.estelleoscarcrop2020 {
+margin-left:auto;
+margin-right:auto;
+}
+.klaasedwardianoutlined {
+font-family:ITCEDSCR;
+font-size:28px;
+margin:-4px auto -14px;
+padding:6px;
+}
+.klaascinzeloutlined {
+font-family:Cinzel-Regular;
+font-size:14px;
+margin:-4px auto 0px;
+padding:8px;
+}
+#pollyklaas {
+padding-top: 10px;
+margin-top: -10px;
+}
+.richardallendavis {
+margin-left: auto;
+margin-right: auto;
+}
+.reducedjmkheader {
+margin-left: auto;
+margin-right: auto;
+}
+.jmkbrookecourt {
+display:block;
+margin-left:auto;
+margin-right:auto;
+}
+#law {
+border-radius: 25px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+.jmksonomalawyers {
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+#mooneysolution {
+float: right;
+margin-left: 10px;
+margin-bottom: 10px;
+width: 100%;
+}
+.georgiamoses {
+margin-left: auto;
+margin-right: auto;
+}
+.cho {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+#cherish {
+display: block;
+margin-left: auto;
+margin-right: auto;
+border-radius: 25px;
+}
+#donaldsmith {
+margin-right: auto;
+margin-left: auto;
+display: block;
+}
+.slidermobilepage {
+font-weight: bold;
+font-size: 9pt;
+margin: auto;
+text-align: center;
+color: rgba(255,255,255,1.00);
+font-style: italic;
+padding-bottom: 6px;
+padding-top: 6px;
+text-shadow: 1px 1px 2px #000000;
+}
+.slidercomputerpage {
+font-weight: bold;
+font-size: 10pt;
+margin: auto;
+text-align: center;
+color: rgba(255,255,255,1.00);
+display: none;
+font-style: italic;
+padding-top: 6px;
+padding-bottom: 6px;
+text-shadow: 1px 1px 2px #000000;
+}
+.scoundrel {
+display: block;
+margin-right: auto;
+margin-left: auto;
+margin-bottom: 20px;
+}
+.catchmeifyoucanright {
+margin-left:auto;
+margin-right:auto;
+border-radius:12px;
+}
+.catchmeifyoucan {
+margin-left:auto;
+margin-right:auto;
+}
+.madeleinemccann {
+margin-left:auto;
+margin-right:auto;
+}
+.madeleinemccannls {
+display:block;
+margin-left:auto;
+margin-right:auto;
+border-radius:12px;
+}
+.spiegelcollection {
+margin-left:auto;
+margin-right:auto;
+border-radius:12px;
+}
+.antikarrgroup {
+margin-left:auto;
+margin-right:auto;
+border-radius:12px;
+}
+.karrcult {
+margin-left:auto;
+margin-right:auto;
+border-radius:12px;
+}
+.patriciaramseybday {
+margin-left:auto;
+margin-right:auto;
+}
+.audioplayer {
+display:flex;
+flex-direction:row;
+flex-wrap:wrap;
+justify-content:center;
+align-items:center;
+padding:10px;
+gap:10px;
+background-image: linear-gradient(#1a0000,#000,#000,#1a0000);
+border:1px solid #555;
+border-radius:6px;
+margin:26px auto 26px;
+}
+.audiophoto {
+border:1px solid #555;
+border-radius:4px;
+}
+.audiotitle {
+display:inline-block;
+border:1px solid #555;
+border-width:1px 0px 1px 0px;
+padding:5px 0px 5px;
+text-align:center;
+margin:5px auto 5px;
+line-height:1.5;
+}
+.mariakatsarisaudio {
+margin-left:auto;
+margin-right:auto;
+}
+.mariakatsaristeen {
+display:none;
+}
+.mariakatsaristeentablet {
+display:none;
+}
+.mariakatsaristeenmobile {
+margin-left:auto;
+margin-right:auto;
+}
+.deathtapeaudio {
+margin-left:auto;
+margin-right:auto;
+}
+.mySlides {
+max-width:100%;
+max-height:100%;
+padding-top:0px;
+}
+.zeroMargin_mobile {
+margin-left: 0;
+}
+.hide_mobile {
+display: none;
+}
+/*Anchors*/
+#charlottexmassitting {
+scroll-margin-top:10px;
+}
+#charlottexmaswalk {
+scroll-margin-top:10px;
+}
+#estellexmas {
+scroll-margin-top:10px;
+}
+#patriciabday2024 {
+scroll-margin-top:10px;
+}
+#swedenroyals2020 {
+scroll-margin-top:10px;
+}
+#jmkturnssixty {
+scroll-margin-top:10px;
+}
+#pedotransfreak {
+scroll-margin-top:10px;
+}
+#thismeanswar {
+scroll-margin-top:10px;
+}
+#georgiaconnection {
+scroll-margin-top:10px;
+}
+#catchmeifyoucan {
+scroll-margin-top:10px;
+}
+#johnramseyallegation {
+scroll-margin-top:10px;
+}
+#protectingkiller {
+scroll-margin-top:10px;
+}
+#dnaprobe {
+scroll-margin-top:10px;
+}
+
+/* Tablet Layout: 701px to 835px - Ipad Pro 11-inch down to
+600px wide Kindle Fires and Samsung Galaxy Tab 2. These are 600px
+wide but I take it to 701 to be on the safe side. Most of my images
+are 700px max so stop here.
+Inherits styles from: Mobile Layout. */
+@media only screen and (min-width: 701px) {
+
+/* Responsive flex two-column layout over 701px */
+.flex-container {
+display: flex;
+flex-direction: row;
+align-items:center;
+/*Don't change padding below to margin.
+Affects Polly Klaas Lead*/
+padding:10px;
+gap:10px;
+border:1px solid #555;
+}
+.flexleftjmk {
+flex: 50%;
+}
+.flexrightjmk {
+flex: 50%;
+border:1px solid #555;
+border-radius: 12px;
+background:rgba(0,0,0,0.70);
+}
+.flexleftklaas {
+flex:60%;
+border-radius:12px;
+border:1px solid #555;
+}
+.flexrightklaas {
+flex:40%;
+border-radius:12px;
+padding:0px 10px 10px;
+border:1px solid #555;
+background:rgba(0,0,0,0.70);
+}
+.title {
+display:block;
+padding:0px 0px 5px;
+}
+.titleramseyklaas {
+display:block;
+}
+.header {
+text-align:center;
+margin:-2px auto -2px;
+}
+.headerhr {
+margin:15px auto 15px;
+border:1px solid #555;
+border-width:0px 0px 0px 0px;
+}
+.indenttext {
+margin-left:0px;
+margin-right:0px;
+}
+.photocaptiontop {
+display:inline-block;
+border:1px solid #555;
+border-width:1px 0px 1px 0px;
+margin:15px auto 10px;
+padding:5px 10px 5px;
+line-height:1.6;
+}
+.jmktoptitle {
+font-family:Cinzel-Regular;
+font-size:1.5rem;
+text-align:center;
+}
+.jmksubtitle {
+font-family:Montserrat-ThinItalic;
+font-size:1.0rem;
+text-align:center;
+}
+.jmktitlesides {
+max-width:90px;
+width:25%;
+margin:-5px 0px 0px;
+}
+.jmktitlecorners {
+color:#FFFFFF;
+font-family:Montserrat-ThinItalic;
+font-size:14px;
+}
+.articleheadings {
+text-align:center;
+font-weight:bold;
+}
+.articlesubheadings {
+font-size:0.95rem;
+text-align:center;
+margin-top:-15px;
+}
+.articleheadingsedwardian {
+font-family:ITCEDSCR;
+font-size:2.4rem;
+margin:10px auto 10px;
+text-align:center;
+}
+.headings {
+font-family:Cinzel-Regular;
+font-size:22px;
+text-align:center;
+}
+.christmascard {
+display:flex;
+flex-direction:column;
+gap:20px;
+border:1px solid #555;
+padding:20px;
+border-radius:12px;
+background-position:center;
+background-size:cover;
+}
+.photolayout {
+display:flex;
+flex-wrap:wrap;
+border:1px solid #555;
+border-radius:12px;
+background-position:center;
+background-size:cover;
+}
+.border-radius-top-left {
+border-radius:12px 0px 0px 0px;
+}
+.border-radius-top-right {
+border-radius:0px 12px 0px 0px;
+}
+.border-radius-bottom-left {
+border-radius:0px 0px 0px 12px;
+}
+.border-radius-bottom-right {
+border-radius:0px 0px 12px 0px;
+}
+.scrolldivider {
+max-width:130px;
+display:block;
+margin-left:auto;
+margin-right:auto;
+}
+.trajan {
+font-family:TrajanPro3-Regular;
+font-size:23px;
+}
+.cinzel {
+font-family:Cinzel-Regular;
+font-size:23px;
+margin-top:-8px;
+}
+.vivaldi {
+font-family:VIVALDII;
+font-size:30px;
+margin-top:-8px;
+}
+.edwardian {
+font-family:ITCEDSCR;
+font-size:2.4rem;
+}
+.jonbenetbdayedwardian {
+font-family:ITCEDSCR;
+font-size:36px;
+}
+.Montserrat-ThinItalic {
+font-family:Montserrat-ThinItalic;
+font-size: 17px;
+line-height:1.5;
+}
+.Montserrat-ExtraLightItalic {
+font-family:Montserrat-ExtraLightItalic;
+font-size: 1.03rem;
+line-height:1.6;
+}
+.Montserrat-ExtraLightItalicJonBenetBday {
+font-family:Montserrat-ExtraLightItalic;
+font-size: 14px;
+line-height:1.5;
+}
+.cinzeloutlined {
+font-family:Cinzel-Regular;
+font-size:15px;
+margin:-5px auto 0px;
+padding:10px 10px 0px;
+}
+.vivaldioutlined {
+font-family:VIVALDII;
+font-size:19px;
+margin:-5px auto 0px;
+padding:10px 10px 0px;
+}
+.content {
+display: block;
+font-size:1.09rem;
+padding: 15px;
+}
+.border {
+min-height:100vh;
+display:flex;
+flex-direction:column;
+margin:0px 0px 0px;
+border:1px solid #555;
+border-width:0px 0px 0px 0px;
+border-radius:10px;
+}
+.tableofcontents {
+margin:0px 6px 0px;
+}
+.navigatepages {
+font-family:TrajanPro3-Regular;
+font-size:1.4rem;
+display:inline-block;
+border:1px double #555;
+border-width:4px 0px 4px 0px;
+padding:10px 0px 4px;
+margin:40px auto 40px;
+}
+blockquote {
+position: relative;
+/* background: #ddd; */
+}
+blockquote:before {
+position: absolute;
+content: open-quote; 
+font-size: 3.25em;
+margin-left: -0.5em;
+margin-top: -0.3em;
+font-family: Georgia, Times, Times New Roman, serif;
+color:#999;
+}
+blockquote:after {
+position: absolute;
+content: close-quote;
+font-size: 3.25em;
+bottom: 0;
+right: 0;
+margin-right: -0.5em;
+margin-bottom: -0.8em;
+font-family: Georgia, Times, Times New Roman, serif;
+color:#999;
+}
+blockquote p {
+display: inline;
+}
+.xembedleft {
+width:450px;
+float:left;
+margin-right:15px;
+}
+.xembedright {
+width:450px;
+float:right;
+margin-left:15px;
+}
+.laptopvisible {
+display:none;
+}
+.tabletvisible {
+display:block;
+}
+.phonevisible {
+display:none;
+}
+.jonbenetportrait {
+display:block;
+max-width: 480px;
+margin-right: 15px;
+float: left;
+margin-bottom:0px;
+}
+.jonbenetportraitright {
+display:block;
+max-width: 480px;
+margin-left: 15px;
+float: right;
+}
+.jonbenetxmas {
+display:block;
+float:right;
+max-width: 500px;
+margin-left:15px;
+}
+.jonbenetxmastall {
+display:block;
+max-width: 450px;
+float:right;
+margin-left:15px;
+}
+.jonbenetxmastallleft {
+display:block;
+max-width: 450px;
+float:left;
+margin-right:15px;
+}
+.jonbenetwhites {
+display:block;
+max-width: 430px;
+float:left;
+margin-right:15px;
+}
+.pkxmas {
+display:flex;
+flex-direction:row;
+flex-wrap:wrap;
+float:left;
+max-width:570px;
+margin-right:15px;
+}
+.heading {
+font-size:28px;
+}
+.toptitle {
+font-family:Cinzel-Regular;
+font-size:17.7px;
+} 
+.headline {
+font-family:TrajanPro3-Regular;
+font-size:1.1rem;
+text-align:center;
+margin:15px auto auto;
+}
+.minimalistborder {
+border:1px solid #555;
+border-radius:12px;
+margin:50px auto 50px;
+padding:12px 12px 12px;
+}
+.minimalistcaption {
+font-family:Montserrat-ExtraLightItalic;
+font-size: 16px;
+margin:12px auto 0px;
+border:1px solid #555;
+background:rgba(0,0,0,0.80);
+padding:10px;
+border-radius:12px;
+line-height:1.4;
+}
+/*maxwidth changed for
+each photo inline*/
+.whatsoeverborder {
+border:1px solid #555;
+border-radius:12px;
+margin:26px auto 80px;
+padding:0px 15px 0px;
+}
+.titlelines {
+display:inline-block;
+border:1px solid #555;
+border-width:1px 0px 1px 0px;
+padding:8px 0px 8px;
+margin:15px auto 13px;
+}
+.photolinktitle {
+font-family:ITCEDSCR;
+font-size: 2.1rem;
+text-align:center;
+margin:0px auto 0px;
+line-height:1.0;
+}
+.photolinksubtitle {
+font-family:Montserrat-ExtraLightItalic;
+font-size: 1.0rem;
+text-align:center;
+margin:3px auto 0px;
+}
+.whatsoevercaption {
+font-family:Montserrat-ExtraLightItalic;
+font-size: 1.0rem;
+margin:10px auto 10px;
+line-height:1.4;
+text-align:justify;
+}
+.whatsoeverheading {
+font-family:Montserrat-ExtraLightItalic;
+font-size: 17px;
+line-height:1.4;
+}
+.footer {
+display:flex;
+justify-content:center;
+column-gap:30px;
+margin:-40px auto 20px;
+}
+footer {
+margin-top:auto;
+margin-bottom:30px;
+}
+.footertitle {
+font-family:TrajanPro3-Regular;
+font-size:1.3rem;
+text-align:center;
+margin-bottom:-4px;
+}
+.footeremail {
+font-family:Montserrat-ExtraLightItalic;
+font-size:1.0rem;
+text-align:center;
+margin:8px auto auto;
+}
+.footercopyright {
+font-family:Montserrat-ExtraLightItalic;
+font-size:0.9rem;
+text-align:center;
+font-weight:bold;
+margin:8px auto auto;
+}
+.phoneicon {
+max-width:40px;
+}
+.mailicon {
+max-width:40px;
+}
+.xicon {
+max-width:36px;padding-top:3px
+}
+.copyrightbottom {
+text-align:center;
+font-size:1.0rem;
+margin:0px auto 20px;
+}
+figcaption {
+font-family:Montserrat-ThinItalic;
+font-size: 0.95rem;
+line-height:1.4;
+text-align:justify;
+padding-top:10px;
+margin-bottom:5px;
+color:white;
+}
+.figcaptionborder {
+border-width:0px;
+padding:0px;
+border-radius:0px;
+}
+.figcaption-overlay {
+position:relative;
+text-align:center;
+font-size:18px;
+border:1px solid #555;
+padding-bottom:10px;
+margin:26px auto 26px;
+}
+.katsaris {
+display:none;
+}
+.katsaristablet {
+max-width: 500px;
+float:right;
+margin-left:15px;
+margin-top:5px;
+margin-bottom:5px;
+border:0px solid #555;
+border-radius:0px;
+display:block;
+}
+.katsarismobile {
+display:none;
+}
+.christamartinamos {
+max-width: 1000px;
+margin-top:5px;
+margin-bottom:5px;
+border:none;
+display:block;
+}
+.martinamos {
+display:none;
+}
+.christaamos {
+display:none;
+}
+.bellum7 {
+max-width: 500px;
+float:left;
+margin-right:15px;
+border:0px solid #555;
+border-radius:0px;
+}
+.pollyklaastitle {
+font-family:ITCEDSCR;
+color:#EFEFEF;
+font-size:2.3rem;
+width:50%;
+margin:-10px auto -5px;
+text-align:center;
+}
+.pollyklaassubtitle {
+font-family:Montserrat-ThinItalic;
+font-size:0.80rem;
+text-align:center;
+}
+.jonbenetramseytitle {
+font-family:ITCEDSCR;
+color:#EFEFEF;
+font-size:2.3rem;
+width:50%;
+margin:-10px auto -5px;
+text-align:center;
+}
+.jonbenetramseysubtitle {
+font-family:Montserrat-ThinItalic;
+font-size:0.80rem;
+text-align:center;
+}
+.featuretitle {
+font-family:ITCEDSCR;
+color:#EFEFEF;
+font-size:2.3rem;
+width:50%;
+margin:-10px auto -5px;
+text-align:center;
+}
+.pollyklaas {
+max-width: 500px;
+float:left;
+margin-right:15px;
+margin-bottom:5px;
+}
+.pollyklaasright {
+max-width: 500px;
+float:right;
+margin-left:15px;
+}
+.featureright {
+max-width:450px;
+float:right;
+margin-left:15px;
+}
+.featureleft {
+display:block;
+max-width:850px;
+margin-left:auto;
+margin-right:auto;
+}
+.missamerica2025 {
+float:left;
+margin-right:15px;
+max-width:500px;
+}
+.pollyklaas2001 {
+max-width:450px;
+float:right;
+margin-left:15px;
+}
+.clearboth {
+clear:none;
+}
+.jmkquote {
+max-width: 500px;
+float:left;
+margin-right:15px;
+}
+.jmkquoteright {
+max-width: 460px;
+float:right;
+margin-left:15px;
+}
+.princesscharlotte {
+margin-left:auto;
+margin-right:auto;
+}
+.charlotte9bday {
+margin-left:auto;
+margin-right:auto;
+}
+.estelle11bday {
+margin-left:auto;
+margin-right:auto;
+}
+.ladyamelia {
+margin-left:auto;
+margin-right:auto;
+}
+.ladyameliasleek {
+margin-left:auto;
+margin-right:auto;
+max-width:700px;
+}
+.twinset {
+margin-left:auto;
+margin-right:auto;
+max-width:850px;
+}
+.desalitto {
+margin-left:auto;
+margin-right:auto;
+max-width:850px;
+}
+.desalittologotop {
+max-width:220px;
+}
+.desalittologobottom {
+margin-top:4px;
+max-width:240px;
+}
+.lilica {
+margin-left:auto;
+margin-right:auto;
+max-width:850px;
+}
+.princessestelletall {
+max-width:540px;
+float:left;
+margin-right:15px;
+}
+.estelleoscarcrop2020 {
+max-width:520px;
+float:left;
+margin-right:15px;
+}
+.klaasedwardianoutlined {
+display:none;
+}
+.klaascinzeloutlined {
+display:none;
+}
+.butterflies {
+max-width:150px;
+width:25%;
+margin:-5px 0px 0px;
+}
+#pollyklaas {
+padding-top: 10px;
+margin-top: -5px;
+}
+.richardallendavis {
+max-width: 460px;
+float: right;
+margin-left: 15px;
+}
+.reducedjmkheader {
+margin-left: 15px;
+float:right;
+max-width:300px;
+}
+.jmkbrookecourt {
+float: left;
+margin-right: 15px;
+max-width:550px;
+}
+#law {
+float: right;
+border-radius: 25px;
+margin-left: 15px;
+}
+.jmksonomalawyers {
+float: left;
+margin-right: 15px;
+}
+#mooneysolution {
+float: right;
+margin-left: 15px;
+width: 100%;
+}
+.georgiamoses {
+max-width: 450px;
+float:left;
+margin-right:15px;
+}
+.cho {
+float: right;
+margin-left: 15px;
+}
+#cherish {
+border-radius: 12px;
+float: left;
+margin-right: 15px;
+max-width: 60%;
+}
+#donaldsmith {
+float: right;
+margin-left: 15px;
+}
+.slidermobilepage {
+font-weight: bold;
+font-size: 9pt;
+margin: auto;
+text-align: center;
+color: rgba(255,255,255,1.00);
+font-style: italic;
+padding-bottom: 6px;
+padding-top: 6px;
+text-shadow: 1px 1px 2px #000000;
+}
+.slidercomputerpage {
+font-weight: bold;
+font-size: 10pt;
+margin: auto;
+text-align: center;
+color: rgba(255,255,255,1.00);
+display: none;
+font-style: italic;
+padding-top: 6px;
+padding-bottom: 6px;
+text-shadow: 1px 1px 2px #000000;
+}
+.scoundrel {
+display: block;
+margin-right: auto;
+margin-left: auto;
+}
+.catchmeifyoucanright {
+float: right;
+margin-left: 15px;
+max-width:500px;
+border-radius:12px;
+}
+.catchmeifyoucan {
+float: left;
+margin-right: 15px;
+max-width:500px;
+}
+.madeleinemccann {
+float: left;
+margin-right: 15px;
+max-width:500px;
+}
+.madeleinemccannls {
+float: right;
+margin-left: 15px;
+max-width:480px;
+border-radius:12px;
+}
+.spiegelcollection {
+float: right;
+margin-left: 15px;
+max-width:400px;
+border-radius:12px;
+}
+.antikarrgroup {
+float: left;
+margin-right: 15px;
+max-width:60%;
+border-radius:12px;
+}
+.karrcult {
+float: right;
+margin-left: 15px;
+max-width:400px;
+border-radius:12px;
+}
+.patriciaramseybday {
+float: right;
+margin-left: 15px;
+max-width:400px;
+border-radius:12px;
+}
+.audioplayer {
+display:flex;
+flex-direction:row;
+flex-wrap:wrap;
+justify-content:center;
+align-items:center;
+padding:15px;
+gap:10px;
+background-image: linear-gradient(#1a0000,#000,#000,#1a0000);
+border:1px solid #555;
+border-radius:12px;
+max-width:700px;
+margin:50px auto 50px;
+}
+.audiophoto {
+border:1px solid #555;
+border-radius:10px;
+}
+.audiotitle {
+display:inline-block;
+border:1px solid #555;
+border-width:1px 0px 1px 0px;
+padding:5px 0px 5px;
+text-align:center;
+margin:5px auto 10px;
+line-height:1.5;
+}
+.mariakatsarisaudio {
+float:right;
+margin-left:15px;
+}
+.mariakatsaristeen {
+display:none;
+}
+.mariakatsaristeentablet {
+float:left;
+margin-right:15px;
+margin-top:5px;
+margin-bottom:5px;
+max-width:500px;
+display:block;
+}
+.mariakatsaristeenmobile {
+display:none;
+}
+.deathtapeaudio {
+float:left;
+margin-right:15px;
+}
+.mySlides {
+max-width:100%;
+max-height:100%;
+padding-top:0px;
+}
+.hide_tablet {
+display: none;
+}
+.zeroMargin_tablet {
+margin-left: 0;
+}
+/*Anchors*/
+#johnramseyallegation {
+scroll-margin-top:10px;
+}
+#charlottexmassitting {
+scroll-margin-top:26px;
+}
+#charlottexmaswalk {
+scroll-margin-top:26px;
+}
+#estellexmas {
+scroll-margin-top:26px;
+}
+#patriciabday2024 {
+scroll-margin-top:26px;
+}
+#swedenroyals2020 {
+scroll-margin-top:15px;
+}
+#jmkturnssixty {
+scroll-margin-top:15px;
+}
+#pedotransfreak {
+scroll-margin-top:15px;
+}
+#thismeanswar {
+scroll-margin-top:15px;
+}
+#georgiaconnection {
+scroll-margin-top:15px;
+}
+#catchmeifyoucan {
+scroll-margin-top:15px;
+}
+#johnramseyallegation {
+scroll-margin-top:15px;
+}
+#protectingkiller {
+scroll-margin-top:15px;
+}
+#dnaprobe {
+scroll-margin-top:15px;
+}
+}
+
+/* 12.9 inch Ipad 1024x1366 Custom. This is just for 12-inch Ipad layouts holding
+rotated mobile phones up to 1000px long into account. Inherits styles from: 
+Mobile Layout and Tablet Layout. */
+@media only screen and (min-width: 1001px) {
+
+.desalittologotop {
+max-width:220px;
+}
+.clearboth {
+clear:both;
+}
+.jmkquote {
+max-width:550px;
+float:left;
+margin-right:15px;
+}
+.headerhr {
+margin:15px auto 15px;
+border:1px solid #555;
+border-width:0px 0px 1px 0px;
+}
+.indenttext {
+margin-left:715px;
+margin-right:0px;
+}
+.headline {
+font-family:TrajanPro3-Regular;
+font-size:1.1rem;
+text-align:center;
+margin:auto auto auto;
+}
+.jmktoptitle {
+font-family:Cinzel-Regular;
+font-size:1.7rem;
+text-align:center;
+}
+.jmksubtitle {
+font-family:Montserrat-ThinItalic;
+font-size:1.0rem;
+text-align:center;
+}
+.pollyklaassubtitle {
+font-family:Montserrat-ThinItalic;
+font-size:1.03rem;
+text-align:center;
+}
+.pollyklaas {
+max-width:700px;
+float:left;
+margin-right:15px;
+}
+.princesscharlotte {
+max-width:700px;
+float:left;
+margin-right:15px;
+}
+.charlotte9bday {
+max-width:700px;
+float:left;
+margin-right:15px;
+margin-bottom:15px;
+}
+.estelle11bday {
+max-width:700px;
+float:left;
+margin-right:15px;
+margin-bottom:15px;
+}
+.ladyamelia {
+max-width:700px;
+float:left;
+margin-right:15px;
+margin-bottom:15px;
+}
+.ladyameliasleek {
+margin-left:auto;
+margin-right:auto;
+max-width:700px;
+float:left;
+margin-right:15px;
+}
+.twinset {
+max-width:700px;
+float:left;
+margin-right:15px;
+}
+.desalitto {
+max-width:700px;
+float:left;
+margin-right:15px;
+}
+.lilica {
+max-width:700px;
+float:left;
+margin-right:15px;
+}
+.princessestelletall {
+max-width:700px;
+float:left;
+margin-right:15px;
+}
+.estelleoscarcrop2020 {
+max-width:700px;
+float:left;
+margin-right:15px;
+}
+.pollyklaasright {
+max-width: 700px;
+float:right;
+margin-left:15px;
+}
+.featureright {
+max-width:450px;
+float:right;
+margin-left:15px;
+}
+.featureleft {
+max-width:700px;
+float:left;
+margin-right:15px;
+}
+.missamerica2025 {
+max-width: 500px;
+float:left;
+margin-right:15px;
+}
+.jonbenetportrait {
+display:block;
+max-width: 700px;
+margin-right: 15px;
+float: left;
+margin-bottom:15px;
+}
+.georgiamoses {
+max-width: 700px;
+float:left;
+margin-right:15px;
+}
+.madeleinemccann {
+float: left;
+margin-right: 15px;
+max-width:700px;
+}
+.bellum7 {
+max-width: 700px;
+float:left;
+margin-right:15px;
+border:0px solid #555;
+border-radius:0px;
+}
+.catchmeifyoucanright {
+float: right;
+margin-left: 15px;
+max-width:600px;
+border-radius:12px;
+}
+.jmkbrookecourt {
+float: left;
+margin-right: 15px;
+max-width:650px;
+}
+}
+
+/* Desktop Layout: 1025px to a max of 1366px - Everything above Ipad Pro 12.9. Inherits styles from: Mobile Layout and Tablet Layout. */
+@media only screen and (min-width: 1025px) {
+
+/* Responsive flex two-column layout over 835px */
+.flex-container {
+display: flex;
+flex-direction: row;
+align-items:center;
+/*Don't change padding below to margin.
+Affects Polly Klaas Lead*/
+padding:10px;
+gap:10px;
+border-radius:12px;
+border:1px solid #555;
+}
+.flexleftjmk {
+flex: 50%;
+}
+.flexrightjmk {
+flex: 50%;
+border:1px solid #555;
+border-radius: 12px;
+background:rgba(0,0,0,0.70);
+}
+.flexleftklaas {
+flex:50%;
+border-radius:12px;
+border:1px solid #555;
+}
+.flexrightklaas {
+flex:50%;
+border-radius:12px;
+padding:0px 10px 10px;
+border:1px solid #555;
+background:rgba(0,0,0,0.70);
+}
+.title {
+display:block;
+padding:0px 0px 5px;
+}
+.titleramseyklaas {
+display:block;
+}
+.header {
+text-align:center;
+margin:-8px auto -8px;
+}
+.headerhr {
+margin:15px auto 15px;
+border:1px solid #555;
+border-width:0px 0px 1px 0px;
+}
+.indenttext {
+margin-left:815px;
+margin-right:0px;
+}
+.photocaptiontop {
+display:inline-block;
+border:1px solid #555;
+border-width:1px 0px 1px 0px;
+margin:15px auto 0px;
+padding:5px 10px 5px;
+line-height:1.6;
+}
+.jmktoptitle {
+font-family:Cinzel-Regular;
+font-size:1.7rem;
+text-align:center;
+}
+.jmksubtitle {
+font-family:Montserrat-ThinItalic;
+font-size:1.0rem;
+text-align:center;
+}
+.jmktitlesides {
+max-width:100px;
+width:25%;
+margin:-5px 0px 0px;
+}
+.jmktitlecorners {
+color:#FFFFFF;
+font-family:Montserrat-ThinItalic;
+font-size:14px;
+}
+.articleheadings {
+text-align:center;
+font-weight:bold;
+}
+.articlesubheadings {
+font-size:0.95rem;
+text-align:center;
+margin-top:-15px;
+}
+.articleheadingsedwardian {
+font-family:ITCEDSCR;
+font-size:2.4rem;
+margin:10px auto 10px;
+text-align:center;
+}
+.headings {
+font-family:Cinzel-Regular;
+font-size:17px;
+text-align:center;
+}
+.christmascard {
+display:flex;
+flex-direction:column;
+gap:20px;
+border:1px solid #555;
+padding:20px;
+border-radius:12px;
+background-position:center;
+background-size:cover;
+}
+.photolayout {
+display:flex;
+flex-wrap:wrap;
+border:1px solid #555;
+border-radius:12px;
+}
+.border-radius-top-left {
+border-radius:12px 0px 0px 0px;
+}
+.border-radius-top-right {
+border-radius:0px 12px 0px 0px;
+}
+.border-radius-bottom-left {
+border-radius:0px 0px 0px 12px;
+}
+.border-radius-bottom-right {
+border-radius:0px 0px 12px 0px;
+}
+.scrolldivider {
+max-width:130px;
+display:block;
+margin-left:auto;
+margin-right:auto;
+}
+.trajan {
+font-family:TrajanPro3-Regular;
+font-size:23px;
+}
+.cinzel {
+font-family:Cinzel-Regular;
+font-size:23px;
+margin-top:-8px;
+}
+.vivaldi {
+font-family:VIVALDII;
+font-size:30px;
+margin-top:-8px;
+}
+.edwardian {
+font-family:ITCEDSCR;
+font-size:2.4rem;
+}
+.jonbenetbdayedwardian {
+font-family:ITCEDSCR;
+font-size:42px;
+}
+.Montserrat-ThinItalic {
+font-family:Montserrat-ThinItalic;
+font-size: 17px;
+line-height:1.5;
+}
+.Montserrat-ExtraLightItalic {
+font-family:Montserrat-ExtraLightItalic;
+font-size: 1.03rem;
+line-height:1.6;
+}
+.Montserrat-ExtraLightItalicJonBenetBday {
+font-family:Montserrat-ExtraLightItalic;
+font-size: 17px;
+line-height:1.5;
+}
+.cinzeloutlined {
+font-family:Cinzel-Regular;
+font-size:16px;
+margin:-5px auto 0px;
+padding:10px 10px 0px;
+}
+.vivaldioutlined {
+font-family:VIVALDII;
+font-size:20px;
+margin:-5px auto 0px;
+padding:10px 10px 0px;
+}
+.content {
+display:block;
+font-size:1.09rem;
+padding: 15px;
+}
+.border {
+min-height:100vh;
+display:flex;
+flex-direction:column;
+margin:15px 15px 15px;
+border:1px solid #555;
+border-width:1px 1px 1px 1px;
+border-radius:0px;
+}
+.tableofcontents {
+margin:0px 0px 0px;
+}
+.navigatepages {
+font-family:TrajanPro3-Regular;
+font-size:1.4rem;
+display:inline-block;
+border:1px double #555;
+border-width:4px 0px 4px 0px;
+padding:10px 0px 4px;
+margin:40px auto 40px;
+}
+blockquote {
+position: relative;
+/* background: #ddd; */
+}
+blockquote:before {
+position: absolute;
+content: open-quote; 
+font-size: 3.25em;
+margin-left: -0.5em;
+margin-top: -0.3em;
+font-family: Georgia, Times, Times New Roman, serif;
+color:#888;
+}
+blockquote:after {
+position: absolute;
+content: close-quote;
+font-size: 3.25em;
+bottom: 0;
+right: 0;
+margin-right: -0.5em;
+margin-bottom: -0.8em;
+font-family: Georgia, Times, Times New Roman, serif;
+color:#888;
+}
+blockquote p {
+display: inline;
+}
+/*550px is the max width size of an X embed. 
+Greater widths make empty margins*/
+.xembedleft {
+width:550px;
+float:left;
+margin-right:15px;
+}
+.xembedright {
+width:550px;
+float:right;
+margin-left:15px;
+}
+.laptopvisible {
+display:block;
+}
+.tabletvisible {
+display:none;
+}
+.phonevisible {
+display:none;
+}
+.jonbenetportrait {
+display:block;
+max-width: 700px;
+margin-right: 15px;
+float: left;
+margin-bottom:5px;
+}
+.jonbenetportraitright {
+display:block;
+max-width: 600px;
+margin-left: 15px;
+float: right;
+}
+.jonbenetxmas {
+display:block;
+max-width: 560px;
+float:right;
+margin-left:15px;
+}
+.jonbenetxmastall {
+display:block;
+max-width: 450px;
+float:right;
+margin-left:15px;
+}
+.jonbenetxmastallleft {
+display:block;
+max-width: 458px;
+float:left;
+margin-right:15px;
+}
+.jonbenetwhites {
+display:block;
+max-width: 430px;
+float:left;
+margin-right:15px;
+}
+.pkxmas {
+display:flex;
+flex-direction:row;
+flex-wrap:wrap;
+max-width:700px;
+float:left;
+margin-right:15px;
+}
+.heading {
+font-size:30px;
+}
+.toptitle {
+font-family:Cinzel-Regular;
+font-size:20px;
+} 
+.headline {
+font-family:TrajanPro3-Regular;
+font-size:1.1rem;
+text-align:center;
+margin:auto auto auto;
+}
+/*maxwidth changed for
+each photo inline*/
+.minimalistborder {
+border:1px solid #555;
+border-radius:12px;
+margin:50px auto 50px;
+padding:15px 15px 15px;
+}
+.minimalistcaption {
+font-family:Montserrat-ExtraLightItalic;
+font-size: 16px;
+margin:15px auto 0px;
+border:1px solid #555;
+background:rgba(0,0,0,0.80);
+padding:10px;
+border-radius:12px;
+line-height:1.4;
+}
+/*maxwidth changed for
+each photo inline*/
+.whatsoeverborder {
+border:1px solid #555;
+border-radius:12px;
+margin:26px auto 80px;
+padding:0px 15px 0px;
+}
+.titlelines {
+display:inline-block;
+border:1px solid #555;
+border-width:1px 0px 1px 0px;
+padding:8px 0px 8px;
+margin:15px auto 13px;
+}
+.photolinktitle {
+font-family:ITCEDSCR;
+font-size: 2.4rem;
+text-align:center;
+margin:0px auto 0px;
+line-height:1.0;
+}
+.photolinksubtitle {
+font-family:Montserrat-ExtraLightItalic;
+font-size: 1.0rem;
+text-align:center;
+margin:3px auto 0px;
+}
+.whatsoevercaption {
+font-family:Montserrat-ExtraLightItalic;
+font-size: 1.0rem;
+margin:10px auto 10px;
+line-height:1.4;
+text-align:justify;
+}
+.whatsoeverheading {
+font-family:Montserrat-ExtraLightItalic;
+font-size: 17px;
+line-height:1.4;
+}
+.footer {
+display:flex;
+justify-content:center;
+column-gap:30px;
+margin:-40px auto 20px;
+}
+footer {
+margin-top:auto;
+margin-bottom:30px;
+}
+.footertitle {
+font-family:TrajanPro3-Regular;
+font-size:1.3rem;
+text-align:center;
+margin-bottom:-4px;
+}
+.footeremail {
+font-family:Montserrat-ExtraLightItalic;
+font-size:1.0rem;
+text-align:center;
+margin:8px auto auto;
+}
+.footercopyright {
+font-family:Montserrat-ExtraLightItalic;
+font-size:0.9rem;
+text-align:center;
+font-weight:bold;
+margin:8px auto auto;
+}
+.phoneicon {
+max-width:40px;
+}
+.mailicon {
+max-width:40px;
+}
+.xicon {
+max-width:36px;padding-top:3px
+}
+.copyrightbottom {
+text-align:center;
+font-size:1.0rem;
+margin:0px auto 20px;
+}
+figcaption {
+font-family:Montserrat-ThinItalic;
+text-align:justify;
+font-size: 0.95rem;
+line-height:1.4;
+padding-top:10px;
+margin-bottom:5px;
+color:white;	
+}
+.figcaptionborder {
+border-width:0px;
+padding:0px;
+border-radius:0px;
+}
+.figcaption-overlay {
+position:relative;
+text-align:center;
+font-size:18px;
+border:1px solid #555;
+padding-bottom:10px;
+margin:26px auto 26px;
+}
+.katsaris {
+max-width: 700px;
+float:right;
+margin-left:15px;
+margin-top:5px;
+margin-bottom:0px;
+border:0px solid #555;
+border-radius:0px;
+display:block;
+}
+.katsaristablet {
+display:none;
+}
+.katsarismobile {
+display:none;
+}
+.christamartinamos {
+max-width: 950px;
+margin:0px auto 0px;
+display:block;
+}
+.martinamos {
+display:none;
+}
+.christaamos {
+display:none;
+}
+.bellum7 {
+max-width: 700px;
+float:left;
+margin-right:15px;
+border:0px solid #555;
+border-radius:0px;
+}
+.pollyklaastitle {
+font-family:ITCEDSCR;
+color:#EFEFEF;
+font-size:2.5rem;
+width:50%;
+margin:-10px auto -5px;
+text-align:center;
+}
+.pollyklaassubtitle {
+font-family:Montserrat-ThinItalic;
+font-size:0.95rem;
+text-align:center;
+}
+.jonbenetramseytitle {
+font-family:ITCEDSCR;
+color:#EFEFEF;
+font-size:2.5rem;
+width:50%;
+margin:-10px auto -5px;
+text-align:center;
+}
+.jonbenetramseysubtitle {
+font-family:Montserrat-ThinItalic;
+font-size:0.95rem;
+text-align:center;
+}
+.featuretitle {
+font-family:ITCEDSCR;
+color:#EFEFEF;
+font-size:2.5rem;
+width:50%;
+margin:-10px auto -5px;
+text-align:center;
+}
+.pollyklaas {
+max-width:700px;
+float:left;
+margin-right:15px;
+margin-bottom:auto;
+}
+.pollyklaasright {
+max-width:700px;
+float:right;
+margin-right:15px;
+}
+.featureright {
+max-width:450px;
+float:right;
+margin-left:15px;
+}
+.featureleft {
+max-width:800px;
+float:left;
+margin-right:15px;
+}
+.missamerica2025 {
+max-width: 600px;
+float:left;
+margin-right:15px;
+}
+.pollyklaas2001 {
+max-width:550px;
+float:right;
+margin-left:15px;
+}
+.clearboth {
+clear:both;
+}
+.jmkquote {
+max-width:550px;
+float:left;
+margin-right:15px;
+}
+.jmkquoteright {
+max-width: 700px;
+float:right;
+margin-left:15px;
+}
+.princesscharlotte {
+max-width:850px;
+float:left;
+margin-right:15px;
+}
+.charlotte9bday {
+max-width:800px;
+float:left;
+margin-right:15px;
+margin-bottom:15px;
+}
+.estelle11bday {
+max-width:800px;
+float:left;
+margin-right:15px;
+margin-bottom:15px;
+}
+.ladyamelia {
+max-width:800px;
+float:left;
+margin-right:15px;
+margin-bottom:15px;
+}
+.ladyameliasleek {
+max-width:700px;
+float:left;
+margin-right:15px;
+}
+.twinset {
+max-width:850px;
+float:left;
+margin-right:15px;
+}
+.desalitto {
+max-width:850px;
+float:left;
+margin-right:15px;
+}
+.desalittologotop {
+max-width:220px;
+}
+.desalittologobottom {
+margin-top:4px;
+max-width:240px;
+}
+.lilica {
+max-width:800px;
+float:left;
+margin-right:15px;
+}
+.princessestelletall {
+max-width:700px;
+float:left;
+margin-right:15px;
+}
+.estelleoscarcrop2020 {
+max-width:700px;
+float:left;
+margin-right:15px;
+margin-bottom:15px;
+}
+.klaasedwardianoutlined {
+display:none;
+}
+.klaascinzeloutlined {
+display:none;
+}
+.butterflies {
+max-width:175px;
+width:25%;
+margin:-5px 0px 0px;
+}
+#pollyklaas {
+padding-top: 10px;
+margin-top: -5px;
+}
+.richardallendavis {
+max-width: 700px;
+float: right;
+margin-left: 15px;
+}
+.reducedjmkheader {
+margin-left: 15px;
+float:right;
+max-width:350px;
+}
+.jmkbrookecourt {
+float: left;
+margin-right: 15px;
+max-width:700px;
+}
+#law {
+float: right;
+border-radius: 12px;
+margin-left: 15px;
+}
+.jmksonomalawyers {
+float: left;
+margin-right: 15px;
+}
+#mooneysolution {
+float: right;
+margin-left: 15px;
+width: 68.6%;
+}
+.georgiamoses {
+max-width: 700px;
+float:left;
+margin-right:15px;
+}
+.cho {
+float: right;
+margin-left: 15px;
+}
+#cherish {
+border-radius: 12px;
+float: left;
+margin-right: 15px;
+max-width: 57%;
+}
+#donaldsmith {
+float: right;
+margin-left: 15px;
+}
+.slidermobilepage {
+font-weight: bold;
+font-size: 10pt;
+margin: auto;
+text-align: center;
+color: rgba(255,255,255,1.00);
+display: none;
+font-style: italic;
+padding-bottom: 6px;
+padding-top: 6px;
+text-shadow: 1px 1px 2px #000000;
+}
+.slidercomputerpage {
+display: block;
+align-items: center;
+font-weight: bold;
+font-size: 10pt;
+text-align: center;
+color: rgba(255,255,255,1.00);
+font-style: italic;
+padding-top: 6px;
+padding-bottom: 6px;
+text-shadow: 1px 1px 2px #000000;
+}
+.scoundrel {
+display: block;
+margin-right: auto;
+margin-left: auto;
+}
+.catchmeifyoucanright {
+float: right;
+margin-left: 15px;
+max-width:600px;
+border-radius:12px;
+}
+.catchmeifyoucan {
+float: left;
+margin-right: 15px;
+max-width:700px;
+}
+.madeleinemccann {
+float: left;
+margin-right: 15px;
+max-width:783px;
+}
+.madeleinemccannls {
+float: right;
+margin-left: 15px;
+max-width:50%;
+border-radius:12px;
+}
+.spiegelcollection {
+float: right;
+margin-left: 15px;
+max-width:400px;
+border-radius:12px;
+}
+.antikarrgroup {
+float: left;
+margin-right: 15px;
+max-width:50%;
+border-radius:12px;
+}
+.karrcult {
+float:right;
+margin-left:15px;
+max-width:400px;
+border-radius:12px;
+}
+.patriciaramseybday {
+float:right;
+margin-left:15px;
+max-width:500px;
+border-radius:12px;
+}
+.audioplayer {
+display:flex;
+flex-direction:row;
+flex-wrap:wrap;
+justify-content:center;
+align-items:center;
+padding:15px;
+gap:10px;
+background-image: linear-gradient(#1a0000,#000,#000,#1a0000);
+border:1px solid #555;
+border-radius:12px;
+max-width:700px;
+margin:50px auto 50px;
+}
+.audiophoto {
+border:1px solid #555;
+border-radius:10px;
+}
+.audiotitle {
+display:inline-block;
+border:1px solid #555;
+border-width:1px 0px 1px 0px;
+padding:5px 0px 5px;
+text-align:center;
+margin:5px auto 10px;
+line-height:1.5;
+}
+.mariakatsarisaudio {
+max-width:440px;
+}
+.mariakatsaristeen {
+float:left;
+margin-right:15px;
+margin-top:5px;
+margin-bottom:5px;
+max-width:600px;
+display:block;
+}
+.mariakatsaristeentablet {
+display:none;
+}
+.mariakatsaristeenmobile {
+display:none;
+}
+.deathtapeaudio {
+float:left;
+margin-right:15px;
+}
+.mySlides {
+max-width: 100%;
+max-height: 100%;
+}
+.zeroMargin_desktop {
+margin-left: 0;
+}
+.hide_desktop {
+display: none;
+}
+/*Anchors*/
+#charlottexmassitting {
+scroll-margin-top:26px;
+}
+#charlottexmaswalk {
+scroll-margin-top:26px;
+}
+#estellexmas {
+scroll-margin-top:26px;
+}
+#patriciabday2024 {
+scroll-margin-top:26px;
+}
+#swedenroyals2020 {
+scroll-margin-top:15px;
+}
+#thismeanswar {
+scroll-margin-top:15px;
+}
+#jmkturnssixty {
+scroll-margin-top:15px;
+}
+#pedotransfreak {
+scroll-margin-top:15px;
+}
+#georgiaconnection {
+scroll-margin-top:15px;
+}
+#catchmeifyoucan {
+scroll-margin-top:15px;
+}
+#johnramseyallegation {
+scroll-margin-top:15px;
+}
+#protectingkiller {
+scroll-margin-top:15px;
+}
+#dnaprobe {
+scroll-margin-top:15px;
+}
+}
+
+/* Desktop Layout: 1367px and above. This is here to place the white outline around the content with 15px margin top and bottom for screens above 1366px. Inherits styles from: Mobile Layout and Tablet Layout. */
+@media only screen and (min-width: 1367px) {
+
+.border {
+min-height:100vh;
+margin:15px auto 15px;
+border:1px solid #555;
+border-width:1px 1px 1px 1px;
+max-width:1333px;
+}
+footer {
+margin-top:auto;
+margin-bottom:30px;
+}
+.content {
+display:block;
+font-size:1.09rem;
+padding: 15px;
+}
+}
