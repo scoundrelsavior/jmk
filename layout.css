@@ -966,7 +966,7 @@ margin:-2px auto -2px;
 .headerhr {
 margin:15px auto 15px;
 border:1px solid #555;
-border-width:0px 0px 1px 0px;
+border-width:0px 0px 0px 0px;
 }
 .indenttext {
 margin-left:0px;
@@ -1443,9 +1443,9 @@ float:right;
 margin-left:15px;
 }
 .featureleft {
-max-width:500px;
-float:left;
-margin-right:15px;
+max-width:850px;
+margin-left:auto;
+margin-right:auto;
 }
 .missamerica2025 {
 float:left;
@@ -2455,7 +2455,7 @@ float:right;
 margin-left:15px;
 }
 .featureleft {
-max-width:700px;
+max-width:850px;
 float:left;
 margin-right:15px;
 }
