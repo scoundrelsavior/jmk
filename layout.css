@@ -587,7 +587,7 @@ padding-top:0px;
 padding-bottom:10px;
 margin:0px auto 15px;
 }
-.katsaris {
+.mariaanthonykatsaris {
 margin-left:auto;
 margin-right:auto;
 }
@@ -1242,7 +1242,7 @@ font-size:17.7px;
 font-family:TrajanPro3-Regular;
 font-size:1.1rem;
 text-align:center;
-margin:15px auto auto;
+margin:26px auto auto;
 }
 .minimalistborder {
 border:1px solid #555;
@@ -1365,12 +1365,10 @@ border:1px solid #555;
 padding-bottom:10px;
 margin:26px auto 26px;
 }
-.katsaris {
-max-width:500px;
-float:left;
-margin-right:15px;
-border:0px solid #555;
-border-radius:0px;
+.mariaanthonykatsaris {
+max-width:850px;
+margin-left:auto;
+margin-right:auto;
 }
 .christamartinamos {
 max-width: 1000px;
@@ -1917,6 +1915,13 @@ float: left;
 margin-right: 15px;
 max-width:650px;
 }
+.mariaanthonykatsaris {
+max-width:700px;
+float:left;
+margin-right:15px;
+border:0px solid #555;
+border-radius:0px;
+}
 }
 
 /* Desktop Layout: 1025px to a max of 1366px - Everything above Ipad Pro 12.9. Inherits styles from: Mobile Layout and Tablet Layout. */
@@ -2371,8 +2376,8 @@ border:1px solid #555;
 padding-bottom:10px;
 margin:26px auto 26px;
 }
-.katsaris {
-max-width: 700px;
+.mariaanthonykatsaris {
+max-width: 850px;
 float:left;
 margin-right:15px;
 border:0px solid #555;
