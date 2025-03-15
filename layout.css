@@ -578,7 +578,8 @@ padding-bottom:10px;
 margin:0px auto 15px;
 }
 .katsaris {
-display:none;
+margin-left:auto;
+margin-right:auto;
 }
 .katsaristablet {
 display:none;
@@ -848,7 +849,8 @@ margin-left:auto;
 margin-right:auto;
 }
 .mariakatsaristeen {
-display:none;
+margin-left:auto;
+margin-right:auto;
 }
 .mariakatsaristeentablet {
 display:none;
@@ -1357,7 +1359,13 @@ padding-bottom:10px;
 margin:26px auto 26px;
 }
 .katsaris {
-display:none;
+max-width:500px;
+float:left;
+margin-right:15px;
+margin-top:5px;
+margin-bottom:0px;
+border:0px solid #555;
+border-radius:0px;
 }
 .katsaristablet {
 max-width: 500px;
@@ -1692,7 +1700,11 @@ float:right;
 margin-left:15px;
 }
 .mariakatsaristeen {
-display:none;
+max-width:500px;
+float:right;
+margin-left:15px;
+margin-top:5px;
+margin-bottom:5px;
 }
 .mariakatsaristeentablet {
 float:left;
@@ -2372,13 +2384,12 @@ margin:26px auto 26px;
 }
 .katsaris {
 max-width: 700px;
-float:right;
-margin-left:15px;
+float:left;
+margin-right:15px;
 margin-top:5px;
 margin-bottom:0px;
 border:0px solid #555;
 border-radius:0px;
-display:block;
 }
 .katsaristablet {
 display:none;
@@ -2712,12 +2723,11 @@ line-height:1.5;
 max-width:440px;
 }
 .mariakatsaristeen {
-float:left;
-margin-right:15px;
+max-width:600px;
+float:right;
+margin-left:15px;
 margin-top:5px;
 margin-bottom:5px;
-max-width:600px;
-display:block;
 }
 .mariakatsaristeentablet {
 display:none;
