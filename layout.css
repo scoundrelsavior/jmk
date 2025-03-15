@@ -106,6 +106,16 @@ blockquote.removequote:before {
 
 /* Mobile Layout: 609px and below. */
 
+.desktopdisplay {
+display:none;
+}
+.tabletdisplay {
+display:none;
+}
+.mobiledisplay {
+display:block;
+}
+
 /* Responsive flex one column-layout instead of two-column layout */
 .flex-container {
 flex-direction: column;
@@ -581,12 +591,6 @@ margin:0px auto 15px;
 margin-left:auto;
 margin-right:auto;
 }
-.katsaristablet {
-display:none;
-}
-.katsarismobile {
-display:block;
-}
 .christamartinamos {
 margin-bottom:26px;
 display:none;
@@ -852,13 +856,6 @@ margin-right:auto;
 margin-left:auto;
 margin-right:auto;
 }
-.mariakatsaristeentablet {
-display:none;
-}
-.mariakatsaristeenmobile {
-margin-left:auto;
-margin-right:auto;
-}
 .deathtapeaudio {
 margin-left:auto;
 margin-right:auto;
@@ -921,6 +918,16 @@ wide but I take it to 701 to be on the safe side. Most of my images
 are 700px max so stop here.
 Inherits styles from: Mobile Layout. */
 @media only screen and (min-width: 701px) {
+
+.desktopdisplay {
+display:none;
+}
+.tabletdisplay {
+display:block;
+}
+.mobiledisplay {
+display:none;
+}
 
 /* Responsive flex two-column layout over 701px */
 .flex-container {
@@ -1362,23 +1369,8 @@ margin:26px auto 26px;
 max-width:500px;
 float:left;
 margin-right:15px;
-margin-top:5px;
-margin-bottom:0px;
 border:0px solid #555;
 border-radius:0px;
-}
-.katsaristablet {
-max-width: 500px;
-float:right;
-margin-left:15px;
-margin-top:5px;
-margin-bottom:5px;
-border:0px solid #555;
-border-radius:0px;
-display:block;
-}
-.katsarismobile {
-display:none;
 }
 .christamartinamos {
 max-width: 1000px;
@@ -1703,19 +1695,6 @@ margin-left:15px;
 max-width:500px;
 float:right;
 margin-left:15px;
-margin-top:5px;
-margin-bottom:5px;
-}
-.mariakatsaristeentablet {
-float:left;
-margin-right:15px;
-margin-top:5px;
-margin-bottom:5px;
-max-width:500px;
-display:block;
-}
-.mariakatsaristeenmobile {
-display:none;
 }
 .deathtapeaudio {
 float:left;
@@ -1942,6 +1921,16 @@ max-width:650px;
 
 /* Desktop Layout: 1025px to a max of 1366px - Everything above Ipad Pro 12.9. Inherits styles from: Mobile Layout and Tablet Layout. */
 @media only screen and (min-width: 1025px) {
+
+.desktopdisplay {
+display:block;
+}
+.tabletdisplay {
+display:none;
+}
+.mobiledisplay {
+display:none;
+}
 
 /* Responsive flex two-column layout over 835px */
 .flex-container {
@@ -2386,16 +2375,8 @@ margin:26px auto 26px;
 max-width: 700px;
 float:left;
 margin-right:15px;
-margin-top:5px;
-margin-bottom:0px;
 border:0px solid #555;
 border-radius:0px;
-}
-.katsaristablet {
-display:none;
-}
-.katsarismobile {
-display:none;
 }
 .christamartinamos {
 max-width: 950px;
@@ -2726,14 +2707,6 @@ max-width:440px;
 max-width:600px;
 float:right;
 margin-left:15px;
-margin-top:5px;
-margin-bottom:5px;
-}
-.mariakatsaristeentablet {
-display:none;
-}
-.mariakatsaristeenmobile {
-display:none;
 }
 .deathtapeaudio {
 float:left;
