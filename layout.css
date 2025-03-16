@@ -975,7 +975,7 @@ margin:-2px auto -2px;
 .headerhr {
 margin:15px auto 15px;
 border:1px solid #555;
-border-width:0px 0px 1px 0px;
+border-width:0px 0px 0px 0px;
 }
 .indenttext {
 margin-left:0px;
@@ -1495,9 +1495,9 @@ margin-right:auto;
 max-width:850px;
 }
 .desalitto {
-max-width:500px;
-float:left;
-margin-right:15px;
+max-width:850px;
+margin-left:auto;
+margin-right:auto;
 }
 .desalittologotop {
 max-width:220px;
@@ -2513,7 +2513,7 @@ float:left;
 margin-right:15px;
 }
 .desalitto {
-max-width:700px;
+max-width:850px;
 float:left;
 margin-right:15px;
 }
