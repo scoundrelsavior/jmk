@@ -1425,10 +1425,9 @@ margin:-10px auto -5px;
 text-align:center;
 }
 .pollyklaas {
-max-width: 500px;
-float:left;
-margin-right:15px;
-margin-bottom:5px;
+max-width:850px;
+margin-left:auto;
+margin-right:auto;
 }
 .pollyklaasright {
 max-width: 500px;
@@ -2436,7 +2435,7 @@ margin:-10px auto -5px;
 text-align:center;
 }
 .pollyklaas {
-max-width:700px;
+max-width:750px;
 float:left;
 margin-right:15px;
 margin-bottom:auto;
