@@ -243,6 +243,7 @@ font-family:Montserrat-ThinItalic;
 font-size:0.60rem;
 }
 .articleheadings {
+font-size:1.0rem;
 text-align:center;
 font-weight:bold;
 }
@@ -605,6 +606,13 @@ display:block;
 }
 .christaamos {
 display:block;
+}
+.finalsectionupdate {
+border:1px solid #555;
+border-width:1px 1px 1px 1px;
+padding:0px 10px 0px;
+margin:40px 0px 40px;
+line-height:1.8;
 }
 .bellum7 {
 margin-left:auto;
@@ -1020,6 +1028,7 @@ font-family:Montserrat-ThinItalic;
 font-size:14px;
 }
 .articleheadings {
+font-size:1.1rem;
 text-align:center;
 font-weight:bold;
 }
@@ -1392,6 +1401,13 @@ display:none;
 }
 .christaamos {
 display:none;
+}
+.finalsectionupdate {
+border:1px solid #555;
+border-width:1px 1px 1px 1px;
+padding:0px 20px 0px;
+margin:40px 20px 40px;
+line-height:1.8;
 }
 .bellum7 {
 max-width: 500px;
@@ -2038,6 +2054,7 @@ font-family:Montserrat-ThinItalic;
 font-size:14px;
 }
 .articleheadings {
+font-size:1.0rem;
 text-align:center;
 font-weight:bold;
 }
@@ -2412,6 +2429,13 @@ display:none;
 }
 .christaamos {
 display:none;
+}
+.finalsectionupdate {
+border:1px solid #555;
+border-width:1px 1px 1px 1px;
+padding:0px 20px 0px;
+margin:40px 20px 40px;
+line-height:1.8;
 }
 .bellum7 {
 max-width: 700px;
