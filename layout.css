@@ -173,13 +173,14 @@ text-align:center;
 font-family:Montserrat-ThinItalic;
 font-size:0.60rem;
 text-align:center;
+margin: 0px auto 4px;
 }
 .jonbenetramseytitle {
 font-family:ITCEDSCR;
 color:#EFEFEF;
 font-size:1.8rem;
 width:100%;
-margin: 0px auto -3px;
+margin: 0px auto 0px;
 text-align:center;
 }
 .jonbenetramseysubtitle {
@@ -187,6 +188,7 @@ display:none;
 font-family:Montserrat-ThinItalic;
 font-size:0.60rem;
 text-align:center;
+margin: 0px auto 4px;
 }
 .featuretitle {
 font-family:ITCEDSCR;
@@ -1450,26 +1452,28 @@ font-family:ITCEDSCR;
 color:#EFEFEF;
 font-size:2.3rem;
 width:50%;
-margin:0px auto -5px;
+margin:0px auto 0px;
 text-align:center;
 }
 .pollyklaassubtitle {
 font-family:Montserrat-ThinItalic;
 font-size:0.80rem;
 text-align:center;
+margin: 0px auto 4px;
 }
 .jonbenetramseytitle {
 font-family:ITCEDSCR;
 color:#EFEFEF;
 font-size:2.3rem;
 width:50%;
-margin:0px auto -5px;
+margin:0px auto 0px;
 text-align:center;
 }
 .jonbenetramseysubtitle {
 font-family:Montserrat-ThinItalic;
 font-size:0.80rem;
 text-align:center;
+margin: 0px auto 4px;
 }
 .featuretitle {
 font-family:ITCEDSCR;
@@ -2492,26 +2496,28 @@ font-family:ITCEDSCR;
 color:#EFEFEF;
 font-size:2.5rem;
 width:50%;
-margin:-10px auto -5px;
+margin:0px auto 0px;
 text-align:center;
 }
 .pollyklaassubtitle {
 font-family:Montserrat-ThinItalic;
 font-size:0.95rem;
 text-align:center;
+margin:0px auto 0px;
 }
 .jonbenetramseytitle {
 font-family:ITCEDSCR;
 color:#EFEFEF;
 font-size:2.5rem;
 width:50%;
-margin:-10px auto -5px;
+margin:0px auto 0px;
 text-align:center;
 }
 .jonbenetramseysubtitle {
 font-family:Montserrat-ThinItalic;
 font-size:0.95rem;
 text-align:center;
+margin:0px auto 0px;
 }
 .featuretitle {
 font-family:ITCEDSCR;
