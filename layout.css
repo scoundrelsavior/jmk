@@ -209,6 +209,7 @@ margin:0px 0px 0px;
 .header {
 text-align:center;
 margin:0px auto 0px;
+line-height:1;
 }
 .headerhr {
 margin:10px auto 0px;
@@ -236,6 +237,7 @@ line-height:1.6;
 font-family:Cinzel-Regular;
 font-size:1.2rem;
 text-align:center;
+margin:0px auto 4px;
 }
 .jmksubtitle {
 font-family:Montserrat-ThinItalic;
@@ -999,6 +1001,7 @@ display:block;
 .header {
 text-align:center;
 margin:-2px auto -2px;
+line-height:1;
 }
 .headerhr {
 margin:15px auto 15px;
@@ -1026,6 +1029,7 @@ line-height:1.6;
 font-family:Cinzel-Regular;
 font-size:1.5rem;
 text-align:center;
+margin:0px auto 4px;
 }
 .jmksubtitle {
 font-family:Montserrat-ThinItalic;
@@ -1842,8 +1846,9 @@ margin:auto auto auto;
 }
 .jmktoptitle {
 font-family:Cinzel-Regular;
-font-size:1.7rem;
+font-size:1.5rem;
 text-align:center;
+margin:0px auto 4px;
 }
 .jmksubtitle {
 font-family:Montserrat-ThinItalic;
@@ -2035,6 +2040,7 @@ display:block;
 .header {
 text-align:center;
 margin:-8px auto -8px;
+line-height:1;
 }
 .headerhr {
 margin:15px auto 15px;
@@ -2062,11 +2068,13 @@ line-height:1.6;
 font-family:Cinzel-Regular;
 font-size:1.7rem;
 text-align:center;
+margin:4px auto 4px;
 }
 .jmksubtitle {
 font-family:Montserrat-ThinItalic;
 font-size:1.0rem;
 text-align:center;
+margin:0px auto 18px;
 }
 .jmktitlesides {
 max-width:100px;
