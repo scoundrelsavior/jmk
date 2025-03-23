@@ -628,7 +628,7 @@ display:block;
 .finalsectionupdate {
 border:1px solid #555;
 border-width:1px 1px 1px 1px;
-padding:5px 15px 5px;
+padding:0px 15px 0px;
 margin:26px auto 26px;
 line-height:1.8;
 border-radius:8px;
@@ -1435,7 +1435,7 @@ display:none;
 .finalsectionupdate {
 border:1px solid #555;
 border-width:1px 1px 1px 1px;
-padding:5px 15px 5px;
+padding:0px 15px 0px;
 margin:26px auto 26px;
 line-height:1.8;
 border-radius:12px;
@@ -2479,7 +2479,7 @@ display:none;
 .finalsectionupdate {
 border:1px solid #555;
 border-width:1px 1px 1px 1px;
-padding:5px 15px 5px;
+padding:0px 15px 0px;
 margin:26px auto 26px;
 line-height:1.8;
 border-radius:12px;
