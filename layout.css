@@ -17,6 +17,11 @@ body::-webkit-scrollbar {
 width: 0px;
 background: transparent; /* Disable scrollbar Chrome/Safari/Webkit */
 }
+body {
+background-color:#000000;
+color:#FFFFFF;
+text-decoration:none;
+}
 .box {
   display: flow-root;
 }
