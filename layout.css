@@ -348,6 +348,12 @@ font-size:19px;
 margin:-4px auto 0px;
 padding:8px;
 }
+.bodytypography {
+font-family:OpenSans-Light;
+font-size:1.0rem;
+color:#FFFFFF;
+line-height:1.9;
+}
 .content {
 display: block;
 font-size:1.09rem;
@@ -1133,6 +1139,12 @@ font-family:VIVALDII;
 font-size:19px;
 margin:-5px auto 0px;
 padding:10px 10px 0px;
+}
+.bodytypography {
+font-family:OpenSans-Light;
+font-size:1.09rem;
+color:#FFFFFF;
+line-height:1.6;
 }
 .content {
 display: block;
@@ -2159,6 +2171,12 @@ font-size:20px;
 margin:-5px auto 0px;
 padding:10px 10px 0px;
 }
+.bodytypography {
+font-family:OpenSans-Light;
+font-size:1.09rem;
+color:#FFFFFF;
+line-height:1.6;
+}
 .content {
 display:block;
 font-size:1.09rem;
@@ -2828,6 +2846,12 @@ max-width:1333px;
 footer {
 margin-top:auto;
 margin-bottom:30px;
+}
+.bodytypography {
+font-family:OpenSans-Light;
+font-size:1.09rem;
+color:#FFFFFF;
+line-height:1.6;
 }
 .content {
 display:block;
