@@ -20,6 +20,7 @@ background: transparent; /* Disable scrollbar Chrome/Safari/Webkit */
 body {
 background-color:#000000;
 color:#FFFFFF;
+font-size: 1em;
 text-decoration:none;
 }
 .box {
@@ -237,7 +238,7 @@ line-height:1.6;
 }
 .jmktoptitle {
 font-family:Cinzel-Regular;
-font-size:1.2rem;
+font-size:1.1rem;
 text-align:center;
 margin:0px auto 4px;
 }
@@ -483,7 +484,7 @@ font-size:18px;
 font-family:TrajanPro3-Regular;
 font-size:1.05rem;
 text-align:center;
-margin:26px auto auto;
+margin:26px auto 10px;
 }
 .minimalistborder {
 border:1px solid #555;
@@ -1288,7 +1289,7 @@ font-size:17.7px;
 font-family:TrajanPro3-Regular;
 font-size:1.1rem;
 text-align:center;
-margin:26px auto auto;
+margin:0px auto 10px;
 }
 .minimalistborder {
 border:1px solid #555;
@@ -1846,7 +1847,7 @@ margin-right:0px;
 font-family:TrajanPro3-Regular;
 font-size:1.1rem;
 text-align:center;
-margin:auto auto auto;
+margin:0px auto 10px;
 }
 .jmktoptitle {
 font-family:Cinzel-Regular;
@@ -2070,7 +2071,7 @@ line-height:1.6;
 }
 .jmktoptitle {
 font-family:Cinzel-Regular;
-font-size:1.7rem;
+font-size:1.5rem;
 text-align:center;
 margin:4px auto 4px;
 }
@@ -2330,7 +2331,7 @@ font-size:20px;
 font-family:TrajanPro3-Regular;
 font-size:1.1rem;
 text-align:center;
-margin:auto auto auto;
+margin:0px auto 10px;
 }
 /*maxwidth changed for
 each photo inline*/
