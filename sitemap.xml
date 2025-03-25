@@ -4,42 +4,39 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 
 <url>
   <loc>https://johnmarkkarr.com/</loc>
-  <lastmod>2024-06-22T16:04:39+00:00</lastmod>
+  <lastmod>2025-03-25T03:53:11+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://johnmarkkarr.com/jonbenetramsey</loc>
-  <lastmod>2024-06-22T16:04:39+00:00</lastmod>
-  <priority>0.8</priority>
+  <loc>https://johnmarkkarr.com/pollyklaas</loc>
+  <lastmod>2025-03-25T03:53:11+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://johnmarkkarr.com/statements</loc>
-  <lastmod>2024-06-22T16:04:39+00:00</lastmod>
-  <priority>0.8</priority>
+  <lastmod>2025-03-25T03:53:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://johnmarkkarr.com/jonbenetramsey</loc>
+  <lastmod>2025-03-25T03:53:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://johnmarkkarr.com/thefamily</loc>
+  <lastmod>2025-03-25T03:53:11+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://johnmarkkarr.com/2001investigation</loc>
-  <lastmod>2024-06-22T16:04:39+00:00</lastmod>
-  <priority>0.8</priority>
+  <lastmod>2025-03-25T03:53:11+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
-<url>
-  <loc>https://johnmarkkarr.com/pollyklaas</loc>
-  <lastmod>2024-06-22T16:04:39+00:00</lastmod>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://johnmarkkarr.com/karrcult</loc>
-  <lastmod>2024-06-22T16:04:39+00:00</lastmod>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://johnmarkkarr.com/post2006</loc>
-  <lastmod>2024-06-22T16:04:39+00:00</lastmod>
-  <priority>0.8</priority>
-</url>
+
 
 </urlset>
