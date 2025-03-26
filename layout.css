@@ -333,18 +333,15 @@ font-size:38px;
 }
 .Montserrat-ThinItalic {
 font-family:Montserrat-ThinItalic;
-font-size: 17px;
-line-height:1.5;
+font-size:1.0rem;
 }
 .Montserrat-ExtraLightItalic {
 font-family:Montserrat-ExtraLightItalic;
-font-size: 1.03rem;
-line-height:1.6;
+font-size: 1.01rem;
 }
 .Montserrat-ExtraLightItalicJonBenetBday {
 font-family:Montserrat-ExtraLightItalic;
 font-size: 17px;
-line-height:1.5;
 }
 .cinzeloutlined {
 font-family:Cinzel-Regular;
@@ -485,6 +482,7 @@ font-family:TrajanPro3-Regular;
 font-size:1.05rem;
 text-align:center;
 margin:26px auto 10px;
+line-height:1.5;
 }
 .minimalistborder {
 border:1px solid #555;
@@ -1130,18 +1128,15 @@ font-size:36px;
 }
 .Montserrat-ThinItalic {
 font-family:Montserrat-ThinItalic;
-font-size: 17px;
-line-height:1.5;
+font-size:1.09rem;
 }
 .Montserrat-ExtraLightItalic {
 font-family:Montserrat-ExtraLightItalic;
 font-size: 1.03rem;
-line-height:1.6;
 }
 .Montserrat-ExtraLightItalicJonBenetBday {
 font-family:Montserrat-ExtraLightItalic;
 font-size: 14px;
-line-height:1.5;
 }
 .cinzeloutlined {
 font-family:Cinzel-Regular;
@@ -1290,6 +1285,7 @@ font-family:TrajanPro3-Regular;
 font-size:1.1rem;
 text-align:center;
 margin:26px auto 10px;
+line-height:1.5;
 }
 .minimalistborder {
 border:1px solid #555;
@@ -1848,6 +1844,7 @@ font-family:TrajanPro3-Regular;
 font-size:1.1rem;
 text-align:center;
 margin:0px auto 10px;
+line-height:1.5;
 }
 .jmktoptitle {
 font-family:Cinzel-Regular;
@@ -2170,18 +2167,15 @@ font-size:42px;
 }
 .Montserrat-ThinItalic {
 font-family:Montserrat-ThinItalic;
-font-size: 17px;
-line-height:1.5;
+font-size: 1.09rem;
 }
 .Montserrat-ExtraLightItalic {
 font-family:Montserrat-ExtraLightItalic;
-font-size: 1.03rem;
-line-height:1.6;
+font-size: 1.09rem;
 }
 .Montserrat-ExtraLightItalicJonBenetBday {
 font-family:Montserrat-ExtraLightItalic;
 font-size: 17px;
-line-height:1.5;
 }
 .cinzeloutlined {
 font-family:Cinzel-Regular;
@@ -2332,6 +2326,7 @@ font-family:TrajanPro3-Regular;
 font-size:1.1rem;
 text-align:center;
 margin:0px auto 10px;
+line-height:1.5;
 }
 /*maxwidth changed for
 each photo inline*/
