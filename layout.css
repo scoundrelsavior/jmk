@@ -260,7 +260,7 @@ font-weight:bold;
 .articlesubheadings {
 font-size:0.95rem;
 text-align:center;
-margin-top:-15px;
+margin:-15px auto -5px;
 }
 .articleheadingsedwardian {
 font-family:ITCEDSCR;
@@ -481,7 +481,7 @@ font-size:18px;
 font-family:TrajanPro3-Regular;
 font-size:1.0rem;
 text-align:center;
-margin:26px auto 10px;
+margin:10px auto 10px;
 line-height:1.5;
 }
 .minimalistborder {
@@ -1056,7 +1056,7 @@ font-weight:bold;
 .articlesubheadings {
 font-size:0.95rem;
 text-align:center;
-margin-top:-15px;
+margin:-15px auto -5px;
 }
 .articleheadingsedwardian {
 font-family:ITCEDSCR;
@@ -2098,7 +2098,7 @@ font-weight:bold;
 .articlesubheadings {
 font-size:0.95rem;
 text-align:center;
-margin-top:-15px;
+margin:-15px auto -5px;
 }
 .articleheadingsedwardian {
 font-family:ITCEDSCR;
