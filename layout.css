@@ -943,6 +943,9 @@ scroll-margin-top:10px;
 #dnaprobe {
 scroll-margin-top:10px;
 }
+#usaexit {
+scroll-margin-top:10px;
+}
 
 /* Tablet Layout 701px to 835px - Ipad Pro 11-inch
 down to 600px wide Kindle Fires and Samsung Galaxy Tab 2. These are 600px
@@ -1807,6 +1810,9 @@ scroll-margin-top:15px;
 scroll-margin-top:15px;
 }
 #dnaprobe {
+scroll-margin-top:15px;
+}
+#usaexit {
 scroll-margin-top:15px;
 }
 }
@@ -2855,6 +2861,9 @@ scroll-margin-top:15px;
 scroll-margin-top:15px;
 }
 #dnaprobe {
+scroll-margin-top:15px;
+}
+#usaexit {
 scroll-margin-top:15px;
 }
 }
