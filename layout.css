@@ -508,6 +508,16 @@ margin:0px auto 0px;
 padding:0px 0px 0px;
 border-width:0px 0px 1px 0px;
 }
+.articlecopyright {
+text-align:center;
+font-family:Montserrat-ThinItalic;
+font-size:0.95rem;
+display:inline-block;
+border:1px solid #555;
+border-width:1px 0px 1px 0px;
+padding:8px 0px 8px;
+margin:20px auto 46px;
+}
 .titlelines {
 display:inline-block;
 border:1px solid #555;
@@ -1322,6 +1332,16 @@ border:1px solid #555;
 border-radius:12px;
 margin:26px auto 80px;
 padding:0px 15px 0px;
+}
+.articlecopyright {
+text-align:center;
+font-family:Montserrat-ThinItalic;
+font-size:0.95rem;
+display:inline-block;
+border:1px solid #555;
+border-width:1px 0px 1px 0px;
+padding:8px 0px 8px;
+margin:30px auto 46px;
 }
 .titlelines {
 display:inline-block;
@@ -2369,6 +2389,16 @@ border:1px solid #555;
 border-radius:12px;
 margin:26px auto 80px;
 padding:0px 15px 0px;
+}
+.articlecopyright {
+text-align:center;
+font-family:Montserrat-ThinItalic;
+font-size:0.95rem;
+display:inline-block;
+border:1px solid #555;
+border-width:1px 0px 1px 0px;
+padding:8px 0px 8px;
+margin:30px auto 46px;
 }
 .titlelines {
 display:inline-block;
