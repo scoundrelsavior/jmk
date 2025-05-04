@@ -203,7 +203,7 @@ margin:0px 0px 0px;
 }
 .header {
 text-align:center;
-margin:6px auto 15px;
+margin:5px auto 15px;
 line-height:1;
 }
 .headerhr {
@@ -1018,7 +1018,7 @@ display:block;
 }
 .header {
 text-align:center;
-margin:-2px auto -2px;
+margin:0px auto 15px;
 line-height:1;
 }
 .headerhr {
@@ -2081,7 +2081,7 @@ display:block;
 }
 .header {
 text-align:center;
-margin:-8px auto -8px;
+margin:0px auto 15px;
 line-height:1;
 }
 .headerhr {
