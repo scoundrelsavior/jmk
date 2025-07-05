@@ -663,6 +663,12 @@ margin-right:auto;
 margin-left:auto;
 margin-right:auto;
 }
+.floralpagedivider {
+max-width:160px;
+display:block;
+margin-left:auto;
+margin-right:auto;
+}
 .motherdaughterfield {
 margin-left:auto;
 margin-right:auto;
@@ -1527,8 +1533,14 @@ max-width:850px;
 margin-left:auto;
 margin-right:auto;
 }
+.floralpagedivider {
+max-width:200px;
+display:block;
+margin-left:auto;
+margin-right:auto;
+}
 .motherdaughterfield {
-max-width:550px;
+max-width:450px;
 float:right;
 margin-left:15px;
 }
@@ -1971,6 +1983,12 @@ margin-left:15px;
 max-width:700px;
 float:left;
 margin-right:15px;
+}
+.floralpagedivider {
+max-width:230px;
+display:block;
+margin-left:auto;
+margin-right:auto;
 }
 .motherdaughterfield {
 max-width:600px;
@@ -2593,6 +2611,12 @@ margin-left:15px;
 max-width:850px;
 float:left;
 margin-right:15px;
+}
+.floralpagedivider {
+max-width:230px;
+display:block;
+margin-left:auto;
+margin-right:auto;
 }
 .motherdaughterfield {
 max-width:750px;
