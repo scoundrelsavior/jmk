@@ -626,7 +626,7 @@ margin-left:auto;
 margin-right:auto;
 }
 .christamartinamos {
-margin-bottom:26px;
+display:none;
 }
 .martinamos {
 display:block;
@@ -670,6 +670,10 @@ margin-left:auto;
 margin-right:auto;
 }
 .motherdaughterfield {
+margin-left:auto;
+margin-right:auto;
+}
+.motherdaughtersmile {
 margin-left:auto;
 margin-right:auto;
 }
@@ -1459,9 +1463,8 @@ margin-left:auto;
 margin-right:auto;
 }
 .christamartinamos {
+display:block;
 max-width: 1000px;
-margin-top:5px;
-margin-bottom:5px;
 border:none;
 }
 .martinamos {
@@ -1540,6 +1543,11 @@ margin-left:auto;
 margin-right:auto;
 }
 .motherdaughterfield {
+max-width:450px;
+float:right;
+margin-left:15px;
+}
+.motherdaughtersmile {
 max-width:450px;
 float:right;
 margin-left:15px;
@@ -1991,6 +1999,11 @@ margin-left:auto;
 margin-right:auto;
 }
 .motherdaughterfield {
+max-width:600px;
+float:right;
+margin-left:15px;
+}
+.motherdaughtersmile {
 max-width:600px;
 float:right;
 margin-left:15px;
@@ -2539,7 +2552,8 @@ border:0px solid #555;
 border-radius:0px;
 }
 .christamartinamos {
-max-width:800px;
+display:block;
+max-width:1000px;
 float:left;
 margin-right:15px;
 }
@@ -2620,6 +2634,11 @@ margin-right:auto;
 }
 .motherdaughterfield {
 max-width:750px;
+float:right;
+margin-left:15px;
+}
+.motherdaughtersmile {
+max-width:850px;
 float:right;
 margin-left:15px;
 }
