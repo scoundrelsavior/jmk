@@ -625,8 +625,13 @@ margin:0px auto 15px;
 margin-left:auto;
 margin-right:auto;
 }
+.jimjonesgroup {
+margin-left:auto;
+margin-right:auto;
+}
 .christamartinamos {
-display:none;
+margin-left:auto;
+margin-right:auto;
 }
 .martinamos {
 display:block;
@@ -1462,9 +1467,15 @@ max-width:850px;
 margin-left:auto;
 margin-right:auto;
 }
+.jimjonesgroup {
+max-width:1000px;
+margin-left:auto;
+margin-right:auto;
+}
 .christamartinamos {
-display:block;
 max-width: 1000px;
+margin-left:auto;
+margin-right:auto;
 border:none;
 }
 .martinamos {
@@ -2551,8 +2562,12 @@ margin-right:15px;
 border:0px solid #555;
 border-radius:0px;
 }
+.jimjonesgroup {
+max-width:1000px;
+float:right;
+margin-left:15px;
+}
 .christamartinamos {
-display:block;
 max-width:1000px;
 float:left;
 margin-right:15px;
