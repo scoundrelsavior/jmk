@@ -1996,7 +1996,7 @@ float:right;
 margin-left:15px;
 }
 .featureleft {
-max-width:650px;
+max-width:600px;
 float:left;
 margin-right:15px;
 }
@@ -2022,7 +2022,7 @@ float:left;
 margin-right:15px;
 }
 .jonbenetportrait {
-max-width: 650px;
+max-width: 600px;
 margin-right: 15px;
 float: left;
 }
@@ -2362,7 +2362,7 @@ display:none;
 display:none;
 }
 .jonbenetportrait {
-max-width: 650px;
+max-width: 600px;
 margin-right: 15px;
 float: left;
 }
@@ -2630,7 +2630,7 @@ float:right;
 margin-left:15px;
 }
 .featureleft {
-max-width:650px;
+max-width:600px;
 float:left;
 margin-right:15px;
 }
