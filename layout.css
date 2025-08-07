@@ -1038,7 +1038,7 @@ line-height:1;
 .headerhr {
 margin:15px auto 15px;
 border:1px solid #555;
-border-width:0px 0px 1px 0px;
+border-width:0px 0px 0px 0px;
 }
 .headerhralways {
 margin:15px auto 15px;
@@ -1540,9 +1540,8 @@ float:right;
 margin-left:15px;
 }
 .featureleft {
-max-width:450px;
-float:left;
-margin-right:15px;
+margin-left:auto;
+margin-right:auto;
 }
 .floralpagedivider {
 max-width:200px;
@@ -1996,7 +1995,7 @@ float:right;
 margin-left:15px;
 }
 .featureleft {
-max-width:600px;
+max-width:700px;
 float:left;
 margin-right:15px;
 }
@@ -2630,7 +2629,7 @@ float:right;
 margin-left:15px;
 }
 .featureleft {
-max-width:600px;
+max-width:700px;
 float:left;
 margin-right:15px;
 }
