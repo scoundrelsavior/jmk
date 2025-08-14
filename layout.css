@@ -1540,9 +1540,8 @@ float:right;
 margin-left:15px;
 }
 .featureleft {
-max-width:480px;
-float:left;
-margin-right:15px;
+margin-left:auto;
+margin-right:auto;
 }
 .floralpagedivider {
 max-width:200px;
@@ -1996,9 +1995,8 @@ float:right;
 margin-left:15px;
 }
 .featureleft {
-max-width:650px;
-float:left;
-margin-right:15px;
+margin-left:auto;
+margin-right:auto;
 }
 .floralpagedivider {
 max-width:230px;
@@ -2630,7 +2628,7 @@ float:right;
 margin-left:15px;
 }
 .featureleft {
-max-width:650px;
+max-width:725px;
 float:left;
 margin-right:15px;
 }
