@@ -625,6 +625,10 @@ margin-left:auto;
 margin-right:auto;
 }
 .jimjonesgroup {
+display:none;
+}
+.jimjones {
+display:block;
 margin-left:auto;
 margin-right:auto;
 }
@@ -633,10 +637,12 @@ margin-left:auto;
 margin-right:auto;
 }
 .martinamos {
-display:block;
+margin-left:auto;
+margin-right:auto;
 }
 .christaamos {
-display:block;
+margin-left:auto;
+margin-right:auto;
 }
 .finalsectionupdate {
 border:1px solid #555;
@@ -1465,9 +1471,13 @@ margin-left:auto;
 margin-right:auto;
 }
 .jimjonesgroup {
+display:block;
 max-width:1000px;
 margin-left:auto;
 margin-right:auto;
+}
+.jimjones {
+display:none;
 }
 .christamartinamos {
 max-width: 1000px;
@@ -1476,10 +1486,14 @@ margin-right:auto;
 border:none;
 }
 .martinamos {
-display:none;
+max-width:450px;
+float:right;
+margin-left:15px;
 }
 .christaamos {
-display:none;
+max-width:450px;
+float:left;
+margin-right:15px;
 }
 .finalsectionupdate {
 border:1px solid #555;
@@ -2556,9 +2570,13 @@ border:0px solid #555;
 border-radius:0px;
 }
 .jimjonesgroup {
-max-width:1000px;
-float:right;
-margin-left:15px;
+display:block;
+max-width:950px;
+float:left;
+margin-right:15px;
+}
+.jimjones {
+display:none;
 }
 .christamartinamos {
 max-width:1000px;
@@ -2566,10 +2584,14 @@ float:left;
 margin-right:15px;
 }
 .martinamos {
-display:none;
+max-width:500px;
+float:right;
+margin-left:15px;
 }
 .christaamos {
-display:none;
+max-width:500px;
+float:left;
+margin-right:15px;
 }
 .finalsectionupdate {
 border:1px solid #555;
