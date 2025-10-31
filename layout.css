@@ -672,6 +672,10 @@ margin-right:auto;
 margin-left:auto;
 margin-right:auto;
 }
+.andrewmountbatten {
+margin-left:auto;
+margin-right:auto;
+}
 .floralpagedivider {
 max-width:160px;
 display:block;
@@ -1556,6 +1560,11 @@ max-width:480px;
 float:left;
 margin-right:15px;
 }
+.andrewmountbatten {
+max-width:480px;
+float:left;
+margin-right:15px;
+}
 .floralpagedivider {
 max-width:200px;
 display:block;
@@ -2009,6 +2018,11 @@ margin-right:auto;
 }
 .featureleft {
 max-width:650px;
+float:left;
+margin-right:15px;
+}
+.andrewmountbatten {
+max-width:700px;
 float:left;
 margin-right:15px;
 }
@@ -2651,6 +2665,11 @@ margin-left:15px;
 }
 .featureleft {
 max-width:650px;
+float:left;
+margin-right:15px;
+}
+.andrewmountbatten {
+max-width:700px;
 float:left;
 margin-right:15px;
 }
