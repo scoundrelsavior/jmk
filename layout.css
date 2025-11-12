@@ -17,10 +17,10 @@ body::-webkit-scrollbar {
 width: 0px;
 background: transparent; /* Disable scrollbar Chrome/Safari/Webkit */
 }
+/* Background color is a lighter shade of CMYK Peach #FFE4B8 done in Photoshop */
 body {
-background-color:#000000;
-color:#FFFFFF;
-font-size: 1em;
+background-color:#000;
+color:#fff;
 text-decoration:none;
 }
 .box {
@@ -363,9 +363,8 @@ margin:-4px auto 0px;
 padding:8px;
 }
 .bodytypography {
-font-family:OpenSans-Light;
+font-family:OpenSans-Regular;
 font-size:1.0rem;
-color:#FFFFFF;
 line-height:1.9;
 }
 .content {
@@ -1214,9 +1213,8 @@ margin:-5px auto 0px;
 padding:10px 10px 0px;
 }
 .bodytypography {
-font-family:OpenSans-Light;
+font-family:OpenSans-Regular;
 font-size:1.09rem;
-color:#FFFFFF;
 line-height:1.7;
 }
 .content {
@@ -2301,7 +2299,7 @@ font-size:42px;
 }
 .Montserrat-ThinItalic {
 font-family:Montserrat-ThinItalic;
-font-size: 1.05rem;
+font-size: 1.0rem;
 }
 .Montserrat-ExtraLightItalic {
 font-family:Montserrat-ExtraLightItalic;
@@ -2324,9 +2322,8 @@ margin:-5px auto 0px;
 padding:10px 10px 0px;
 }
 .bodytypography {
-font-family:OpenSans-Light;
+font-family:OpenSans-Regular;
 font-size:1.09rem;
-color:#FFFFFF;
 line-height:1.7;
 }
 .content {
@@ -3044,9 +3041,8 @@ margin-top:auto;
 margin-bottom:30px;
 }
 .bodytypography {
-font-family:OpenSans-Light;
+font-family:OpenSans-Regular;
 font-size:1.09rem;
-color:#FFFFFF;
 line-height:1.7;
 }
 .content {
