@@ -363,7 +363,7 @@ margin:-4px auto 0px;
 padding:8px;
 }
 .bodytypography {
-font-family:OpenSans-Regular;
+font-family:OpenSans-Light;
 font-size:1.0rem;
 line-height:1.9;
 }
@@ -1213,7 +1213,7 @@ margin:-5px auto 0px;
 padding:10px 10px 0px;
 }
 .bodytypography {
-font-family:OpenSans-Regular;
+font-family:OpenSans-Light;
 font-size:1.09rem;
 line-height:1.7;
 }
@@ -2322,7 +2322,7 @@ margin:-5px auto 0px;
 padding:10px 10px 0px;
 }
 .bodytypography {
-font-family:OpenSans-Regular;
+font-family:OpenSans-Light;
 font-size:1.09rem;
 line-height:1.7;
 }
@@ -3041,7 +3041,7 @@ margin-top:auto;
 margin-bottom:30px;
 }
 .bodytypography {
-font-family:OpenSans-Regular;
+font-family:OpenSans-Light;
 font-size:1.09rem;
 line-height:1.7;
 }
