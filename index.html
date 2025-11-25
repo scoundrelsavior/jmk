@@ -2,7 +2,7 @@
 <html class=""><head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>John Mark Karr Official Website</title>
+<title>John Mark Karr In His Own Words</title>
 
 <!--Schema Markup-->
 <script type="application/ld+json">
@@ -11,15 +11,39 @@
   "@type": "Article",
   "@id": "https://johnmarkkarr.com",
   "url": "https://johnmarkkarr.com",
-  "headline": "John Mark Karr Official Website",
-  "description": "In 2006, John Mark Karr was arrested for the murder, kidnapping, and sex assault of JonBenet Ramsey. Karr has been the subject of multiple FBI investigations spanning over two decades or more.",
-  "image": "https://johnmarkkarr.com/images/jmk.jpg",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://johnmarkkarr.com"
+  },
+  "headline": "John Mark Karr In His Own Words",
+  "description": "JonBenet Ramsey murder suspect, John Mark Karr, tells his side of every story on his personal website. In 2006, Karr was arrested for the murder, kidnapping, and sex assault of JonBenet Ramsey. He has been the subject of multiple FBI investigations spanning over two decades or possibly longer.",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://johnmarkkarr.com/images/jmk.jpg",
+    "width": 250,
+    "height": 250,
+    "caption": "John Mark Karr"
+  },
   "author": {
-            "@type": "Person",
-            "name": "John Mark Karr",
-            "url": "https://johnmarkkarr.com"
-        }
-  }
+    "@type": "Person",
+    "name": "John Mark Karr"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "John Mark Karr",
+    "url": "https://johnmarkkarr.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://johnmarkkarr.com/images/jmk.jpg",
+      "width": 250,
+      "height": 250
+    }
+  },
+  "datePublished": "2015-11-11T11:09:02Z" ,
+  "dateModified": "2025-11-24T00:00:00Z",
+  "inLanguage": "en-US",
+  "keywords": "John Mark Karr, JonBenét Ramsey, personal website"
+}
 </script>
 
 <!--CSS Referrals-->
@@ -29,7 +53,9 @@
 <link href="video-js.css" rel="stylesheet">
 
 <!--Fonts-->
+<link rel="preload" href="fonts/OpenSans-Regular.ttf" as="font" type="font/ttf" crossorigin>
 <link rel="preload" href="fonts/OpenSans-Light.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="preload" href="fonts/OpenSans-LightItalic.ttf" as="font" type="font/ttf" crossorigin>
 <link rel="preload" href="fonts/Cinzel-Regular.ttf" as="font" type="font/ttf" crossorigin>
 <link rel="preload" href="fonts/ITCEDSCR.TTF" as="font" type="font/ttf" crossorigin>
 <link rel="preload" href="fonts/Vivaldi.ttf" as="font" type="font/ttf" crossorigin>
@@ -39,14 +65,7 @@
 <link rel="preload" href="fonts/Montserrat-ExtraLightItalic.ttf" as="font" type="font/ttf" crossorigin>
 
 <!--Preload Top Images-->
-<link rel="preload" as="image" href="images/jonbenetringa.jpg">
-<link rel="preload" as="image" href="images/jonbenetringb.jpg">
-<link rel="preload" as="image" href="images/jonbenetringc.jpg">
-<link rel="preload" as="image" href="images/jonbenetringd.jpg">
-<link rel="preload" as="image" href="images/jonbenetringe.jpg">
-<link rel="preload" as="image" href="images/jonbenetringf.jpg">
-<link rel="preload" as="image" href="images/jonbenetringg.jpg">
-<link rel="preload" as="image" href="images/jonbenetringh.jpg">
+<link rel="preload" as="image" href="images/jmk.jpg">
 
 <!--Twitter Preview-->
 <meta name="twitter:card" content="summary_large_image">
@@ -68,16 +87,9 @@
 <meta name="google-site-verification" content="cWTYtpty2wSycDv9S3Ofkvpzzn8xuYWBJwm5fSklCXo">
 <meta name="Author" content="John Mark Karr">
 <meta name="Keywords" content="John Mark Karr,JonBenet Ramsey,Polly Klaas,Georgia Moses,official website">
-<meta name="Description" content="Arrested for the murder of JonBenet Ramsey in 2006">
+<meta name="Description" content="JonBenet Ramsey murder suspect, John Mark Karr, tells his side of every story on his personal website. In 2006, Karr was arrested for the murder, kidnapping, and sex assault of . He has been the subject of multiple FBI investigations spanning over two decades or possibly longer.">
 
 <style>
-
-body {
-background-color:#000000;
-font-family:OpenSans-Light;
-color: #FFFFFF;
-font-size:1.09rem;
-}
 
 @media print {
   body {
@@ -108,6 +120,16 @@ font-size:1.09rem;
 @font-face {
   font-family:OpenSans-Light;
   src: url(fonts/OpenSans-Light.ttf);
+  font-display: block;
+}
+@font-face {
+  font-family:OpenSans-LightItalic;
+  src: url(fonts/OpenSans-LightItalic.ttf);
+  font-display: block;
+}
+@font-face {
+  font-family:OpenSans-Regular;
+  src: url(fonts/OpenSans-Regular.ttf);
   font-display: block;
 }
 @font-face {
