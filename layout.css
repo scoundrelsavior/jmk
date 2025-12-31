@@ -2030,7 +2030,7 @@ margin-left:auto;
 margin-right:auto;
 }
 .featureleft {
-max-width:700px;
+max-width:650px;
 float:left;
 margin-right:15px;
 }
@@ -2684,7 +2684,7 @@ float:right;
 margin-left:15px;
 }
 .featureleft {
-max-width:780px;
+max-width:650px;
 float:left;
 margin-right:15px;
 }
