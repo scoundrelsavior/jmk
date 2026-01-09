@@ -947,9 +947,6 @@ margin-left: 0;
 display: none;
 }
 /*Anchors*/
-#mccann {
-scroll-margin-top:10px;
-}
 #charlottexmassitting {
 scroll-margin-top:10px;
 }
@@ -963,6 +960,9 @@ scroll-margin-top:10px;
 scroll-margin-top:10px;
 }
 #swedenroyals2020 {
+scroll-margin-top:10px;
+}
+#mccann {
 scroll-margin-top:10px;
 }
 #jmkturnssixty {
@@ -1865,12 +1865,6 @@ display: none;
 margin-left: 0;
 }
 /*Anchors*/
-#mccann {
-scroll-margin-top:10px;
-}
-#johnramseyallegation {
-scroll-margin-top:10px;
-}
 #charlottexmassitting {
 scroll-margin-top:26px;
 }
@@ -1884,6 +1878,12 @@ scroll-margin-top:26px;
 scroll-margin-top:26px;
 }
 #swedenroyals2020 {
+scroll-margin-top:15px;
+}
+#mccann {
+scroll-margin-top:15px;
+}
+#johnramseyallegation {
 scroll-margin-top:15px;
 }
 #jmkturnssixty {
@@ -2993,9 +2993,6 @@ margin-left: 0;
 display: none;
 }
 /*Anchors*/
-#mccann {
-scroll-margin-top:15px;
-}
 #charlottexmassitting {
 scroll-margin-top:26px;
 }
@@ -3007,6 +3004,9 @@ scroll-margin-top:26px;
 }
 #patriciabday2024 {
 scroll-margin-top:26px;
+}
+#mccann {
+scroll-margin-top:15px;
 }
 #swedenroyals2020 {
 scroll-margin-top:15px;
