@@ -306,6 +306,50 @@ src="https://c.statcounter.com/13007016/0/cec3615e/1/"
 alt="Web Analytics"
 referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
 <!-- End of Statcounter Code -->
+
+<script>
+  (function() {
+    const collector = 'https://round-block-b105.jmk-e2d.workers.dev';
+    const pageId = 'p1003';
+    const url = location.pathname + location.search;
+
+    // ⭐⭐⭐ REFERRER CAPTURE WITH FALLBACK ⭐⭐⭐
+    let ref = document.referrer;
+
+    // fallback: use last internal page if referrer is empty
+    const lastPage = localStorage.getItem('last_page');
+    if (!ref && lastPage) {
+      ref = lastPage;
+    }
+
+    // update last_page for next navigation
+    localStorage.setItem('last_page', location.pathname + location.search);
+    // ⭐⭐⭐ END REFERRER CAPTURE ⭐⭐⭐
+
+    let sid = localStorage.getItem('sid');
+    if (!sid) {
+      sid = 's_' + Math.random().toString(36).slice(2, 12);
+      localStorage.setItem('sid', sid);
+    }
+
+    const screenSize = {
+      width: window.screen.width,
+      height: window.screen.height
+    };
+
+    const userAgent = navigator.userAgent;
+
+    navigator.sendBeacon(collector, JSON.stringify({
+      page: pageId,
+      u: url,
+      sid: sid,
+      r: ref,
+      screen: screenSize,
+      ua_full: userAgent
+    }));
+    
+  })();
+</script>
 	
 </body>
 </html>
