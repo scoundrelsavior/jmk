@@ -314,10 +314,25 @@
             margin-right: 4px;
         }
 
-        .location-cell {
-            max-width: 150px;
-        }
+/* For the next column to prevent overlap */
+td:nth-child(7) { /* Adjust this number based on which column follows location */
+    word-break: break-word;
+    max-width: 300px;
+}
 
+.location-cell {
+    max-width: 150px;
+    line-height: 1.4;
+}
+.location-city-line {
+    font-weight: 500;
+}
+.location-state-line {
+    color: #6f8fae;
+}
+.location-country-line {
+    color: #8a9fb0;
+}
         .location-city {
             color: #9ca3af;
             font-size: 11px;
@@ -510,6 +525,15 @@
     let visitorData = [];
     let isLoading = false;
 
+function getCountryName(code) {
+    const regionNames = new Intl.DisplayNames(['en'], { type: 'region' });
+    try {
+        return regionNames.of(code);
+    } catch {
+        return code;
+    }
+}
+
 function formatInEasternTime(timestamp) {
     if (!timestamp) return { date: '—', time: '—' };
 
@@ -567,11 +591,11 @@ function formatInEasternTime(timestamp) {
         try {
             isLoading = true;
             if (showLoader) {
-                document.getElementById('tableBody').innerHTML = '<tr><td colspan="7" class="loading">📡 Fetching analytics data for JMK...</td></tr>'; // CHANGED
+                document.getElementById('tableBody').innerHTML = '<tr><td colspan="7" class="loading">📡 Fetching analytics data for JMK...</td></tr>';
             }
             
             const params = new URLSearchParams();
-            params.append('pageId', PAGE_ID); // Filter for this project
+            params.append('pageId', PAGE_ID);
             
             if (document.getElementById('excludeBots').checked) params.append('exclude_bots', '1');
             
@@ -635,6 +659,7 @@ function formatInEasternTime(timestamp) {
             topCountry = top[0];
             topCountryPercent = `${((top[1] / total) * 100).toFixed(1)}%`;
         }
+
 	const stateCounts = {};
 	visitorData.forEach(v => {
     	if (v.state) stateCounts[v.state] = (stateCounts[v.state] || 0) + 1;
@@ -676,13 +701,12 @@ function formatInEasternTime(timestamp) {
         const tbody = document.getElementById('tableBody');
         
         if (visitorData.length === 0) {
-            tbody.innerHTML = '<tr><td colspan="7" class="loading">📭 No visitor data found for JMK</td></tr>'; // CHANGED
+            tbody.innerHTML = '<tr><td colspan="7" class="loading">📭 No visitor data found for JMK</td></tr>';
             return;
         }
         
         let html = '';
         visitorData.forEach((row) => {
-            // Use the Eastern Time formatter
             const easternTime = formatInEasternTime(row.ts);
             
             const browserDisplay = row.browser || 'Unknown';
@@ -690,13 +714,6 @@ function formatInEasternTime(timestamp) {
             const screenDisplay = row.screen_width ? (row.screen_height ? `${row.screen_width}x${row.screen_height}` : String(row.screen_width)) : '—';
             
             const deviceIcon = row.device === 'mobile' ? '📱' : row.device === 'tablet' ? '📟' : '💻';
-            
-            const locationParts = [];
-            if (row.city) locationParts.push(row.city);
-            if (row.state) locationParts.push(row.state); 
-            if (row.region) locationParts.push(row.region);
-            if (row.country) locationParts.push(row.country);
-            const locationDisplay = locationParts.join(', ') || '—';
             
             // Country flag
             const countryCode = row.country ? row.country.toLowerCase() : '';
@@ -708,29 +725,25 @@ function formatInEasternTime(timestamp) {
                 : '<span class="flag-icon"></span>';
                     
             const pageUrl = row.url || '/';
-            const fullPageUrl = pageUrl.startsWith('http') ? pageUrl : `https://johnmarkkarr.com${pageUrl}`; // CHANGED
+            const fullPageUrl = pageUrl.startsWith('http') ? pageUrl : `https://johnmarkkarr.com${pageUrl}`;
             const displayUrl = fullPageUrl.length > 60 ? fullPageUrl.substring(0, 60) + '…' : fullPageUrl;
             
 let ref = (row.referrer || '').trim();
 let displayReferrer = '(No referring link)';
 
-// No referrer at all
 if (!ref) {
   displayReferrer = '(No referring link)';
 }
-// Homepage referrer → treat as no referrer
 else if (
-  ref === 'https://johnmarkkarr.com/' || // CHANGED
-  ref === 'https://johnmarkkarr.com' || // CHANGED
+  ref === 'https://johnmarkkarr.com/' ||
+  ref === 'https://johnmarkkarr.com' ||
   ref === '/'
 ) {
   displayReferrer = '(No referring link)';
 }
-// Path-only internal referrer → normalize
 else if (ref.startsWith('/')) {
-  displayReferrer = 'https://johnmarkkarr.com' + ref; // CHANGED
+  displayReferrer = 'https://johnmarkkarr.com' + ref;
 }
-// Everything else → show exactly what collector stored
 else {
   displayReferrer = ref;
 }
@@ -748,11 +761,14 @@ else {
                     <div style="color: #6f8fae; font-size: 11px;">${screenDisplay}</div>
                 </td>
                 <td style="padding: 0; line-height: 0; font-size: 0; margin-top:10px;">${flagHtml}</td>
-                    <td class="location-cell">
-                    <div>${locationDisplay}</div>
-                    <div class="location-city">${row.language || ''}</div>
-                </td>
-
+<td class="location-cell">
+    <div class="location-city-line">${row.city || ''}</div>
+    <div class="location-state-line">${row.state || row.region || ''}</div>
+    <div class="location-country-line">
+        ${row.country ? getCountryName(row.country) : ''}
+        ${row.language ? ' / ' + row.language.split(',')[0] : ''}
+    </div>
+</td>
 <td>
 <div><span class="hostname">${hostname}</span></div>
 <div><span><a href="https://www.ip2location.com/demo/${row.ip || ''}" target="_blank" rel="noopener noreferrer" style="color: #66b0ff !important;">${row.ip || 'No IP'}</a></span></div>
@@ -776,14 +792,14 @@ else {
     }
 
     async function deleteAllData() {
-        if (!confirm('⚠️ Delete ALL JMK visitor data? This cannot be undone.')) return; // CHANGED
+        if (!confirm('⚠️ Delete ALL JMK visitor data? This cannot be undone.')) return;
         
         try {
             const response = await fetch(`${API_URL}?pageId=${PAGE_ID}`, { method: 'DELETE' });
             if (response.ok) {
                 visitorData = [];
                 updateDashboard();
-                alert('All JMK data deleted successfully'); // CHANGED
+                alert('All JMK data deleted successfully');
             }
         } catch (e) {
             alert('Delete failed: ' + e.message);
@@ -826,7 +842,7 @@ else {
         const url = URL.createObjectURL(blob);
         const a = document.createElement('a');
         a.href = url;
-        a.download = `jmk_${new Date().toISOString().slice(0,10)}_US_Eastern.csv`; // CHANGED
+        a.download = `jmk_${new Date().toISOString().slice(0,10)}_US_Eastern.csv`;
         a.click();
     }
 </script>
