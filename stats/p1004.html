@@ -693,7 +693,7 @@ function formatInEasternTime(timestamp) {
             
             const locationParts = [];
             if (row.city) locationParts.push(row.city);
-	    console.log(row.region, row.state);
+            if (row.state) locationParts.push(row.state); 
             if (row.region) locationParts.push(row.region);
             if (row.country) locationParts.push(row.country);
             const locationDisplay = locationParts.join(', ') || '—';
