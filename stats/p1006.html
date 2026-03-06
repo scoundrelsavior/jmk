@@ -22,7 +22,6 @@
 <link rel="preload" href="../fonts/Montserrat-Light.ttf" as="font" type="font/ttf" crossorigin>
 <link rel="preload" href="../fonts/Montserrat-LightItalic.ttf" as="font" type="font/ttf" crossorigin>
 
-
 <style>
         * {
             margin: 0;
@@ -33,9 +32,7 @@
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
             background: #1a1e24;
-            color: #e5e7eb;
-            font-size: 13px;
-            line-height: 1.4;
+	    color:white;
             padding: 20px;
         }
 
@@ -246,7 +243,6 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            font-size: 0.85rem !important;
         }
 
         .table-title {
@@ -260,10 +256,13 @@
             align-items: center;
         }
 
+        :root {
+        --fs: 13px;   /* Main text size */
+        }
         table {
             width: 100%;
             border-collapse: collapse;
-            font-size: 12px;
+            font-size:var(--fs);
         }
 
         th {
@@ -336,7 +335,6 @@ td:nth-child(7) { /* Adjust this number based on which column follows location *
 
         .location-city {
             color: #9ca3af;
-            font-size: 11px;
         }
 
         .hostname {
@@ -360,7 +358,7 @@ td:nth-child(7) { /* Adjust this number based on which column follows location *
 
         .referrer {
             color: #4ade80;
-            max-width: 200px;
+            max-width: 300px;
             overflow: hidden;
             text-overflow: ellipsis;
             white-space: nowrap;
@@ -401,6 +399,7 @@ td:nth-child(7) { /* Adjust this number based on which column follows location *
             }
         }
     </style>
+
 </head>
 <body>
     <div class="container">
@@ -592,11 +591,11 @@ function formatInEasternTime(timestamp) {
         try {
             isLoading = true;
             if (showLoader) {
-                document.getElementById('tableBody').innerHTML = '<tr><td colspan="7" class="loading">📡 Fetching analytics data for JMK...</td></tr>';
+                document.getElementById('tableBody').innerHTML = '<tr><td colspan="7" class="loading">📡 Fetching analytics data...</td></tr>';
             }
             
             const params = new URLSearchParams();
-            params.append('pageId', PAGE_ID);
+            params.append('pageId', PAGE_ID); // Filter for this project
             
             if (document.getElementById('excludeBots').checked) params.append('exclude_bots', '1');
             
@@ -702,12 +701,13 @@ function formatInEasternTime(timestamp) {
         const tbody = document.getElementById('tableBody');
         
         if (visitorData.length === 0) {
-            tbody.innerHTML = '<tr><td colspan="7" class="loading">📭 No visitor data found for JMK</td></tr>';
+            tbody.innerHTML = '<tr><td colspan="7" class="loading">📭 No visitor data found...</td></tr>';
             return;
         }
         
         let html = '';
         visitorData.forEach((row) => {
+            // Use the Eastern Time formatter
             const easternTime = formatInEasternTime(row.ts);
             
             const browserDisplay = row.browser || 'Unknown';
@@ -715,6 +715,13 @@ function formatInEasternTime(timestamp) {
             const screenDisplay = row.screen_width ? (row.screen_height ? `${row.screen_width}x${row.screen_height}` : String(row.screen_width)) : '—';
             
             const deviceIcon = row.device === 'mobile' ? '📱' : row.device === 'tablet' ? '📟' : '💻';
+            
+            const locationParts = [];
+            if (row.city) locationParts.push(row.city);
+            if (row.state) locationParts.push(row.state); 
+            if (row.region) locationParts.push(row.region);
+            if (row.country) locationParts.push(row.country);
+            const locationDisplay = locationParts.join(', ') || '—';
             
             // Country flag
             const countryCode = row.country ? row.country.toLowerCase() : '';
@@ -732,9 +739,11 @@ function formatInEasternTime(timestamp) {
 let ref = (row.referrer || '').trim();
 let displayReferrer = '(No referring link)';
 
+// No referrer at all
 if (!ref) {
   displayReferrer = '(No referring link)';
 }
+// Homepage referrer → treat as no referrer
 else if (
   ref === 'https://johnmarkkarr.com/' ||
   ref === 'https://johnmarkkarr.com' ||
@@ -742,9 +751,11 @@ else if (
 ) {
   displayReferrer = '(No referring link)';
 }
+// Path-only internal referrer → normalize
 else if (ref.startsWith('/')) {
   displayReferrer = 'https://johnmarkkarr.com' + ref;
 }
+// Everything else → show exactly what collector stored
 else {
   displayReferrer = ref;
 }
@@ -753,21 +764,30 @@ else {
             const hostname = row.isp || row.hostname || (row.ip ? `IP ${row.ip}` : '—');
             
             html += `<tr>
-                <td>${easternTime.date}</td>
-                <td>${easternTime.time}</td>
-                <td><span class="device-icon">${deviceIcon}</span></td>
-                <td>
-                    <div><strong>${browserDisplay}</strong></div>
-                    <div>${osDisplay}</div>
-                    <div style="color: #6f8fae; font-size: 11px;">${screenDisplay}</div>
-                </td>
+<td>${easternTime.date}</td>
+<td>${easternTime.time}</td>
+<td><span class="device-icon">${deviceIcon}</span></td>
+<td>
+    <!-- Browser -->
+    <div>${browserDisplay}</div>
+
+    <!-- Operating System with version (ONLY for desktop) -->
+    ${row.device !== 'mobile' ? `<div>${row.os_version ? `${row.os} ${row.os_version}` : row.os}</div>` : ''}
+
+    <!-- Device Model (only for mobile) -->
+    ${row.device === 'mobile' ? `<div>${row.device_model || 'Unknown Device'}</div>` : ''}
+
+    <!-- Screen resolution -->
+    <div style="color: #6f8fae;">${screenDisplay}</div>
+</td>
+
                 <td style="padding: 0; line-height: 0; font-size: 0; margin-top:10px;">${flagHtml}</td>
 <td class="location-cell">
     <div class="location-city-line">${row.city || ''}</div>
     <div class="location-state-line">${row.state || row.region || ''}</div>
     <div class="location-country-line">
         ${row.country ? getCountryName(row.country) : ''}
-        ${row.language ? ' / ' + row.language.split(',')[0] : ''}
+        ${row.language ? ' / ' + row.language.split(',')[0].toLowerCase() : ''}
     </div>
 </td>
 <td>
@@ -793,14 +813,14 @@ else {
     }
 
     async function deleteAllData() {
-        if (!confirm('⚠️ Delete ALL JMK visitor data? This cannot be undone.')) return;
+        if (!confirm('⚠️ Delete ALL visitor data? This cannot be undone.')) return;
         
         try {
             const response = await fetch(`${API_URL}?pageId=${PAGE_ID}`, { method: 'DELETE' });
             if (response.ok) {
                 visitorData = [];
                 updateDashboard();
-                alert('All JMK data deleted successfully');
+                alert('All data deleted successfully');
             }
         } catch (e) {
             alert('Delete failed: ' + e.message);
