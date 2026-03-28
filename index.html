@@ -386,6 +386,26 @@ src="https://c.statcounter.com/9872937/0/bf4aa5b7/1/"
 alt="Web Analytics Made Easy - Statcounter"
 referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
 <!-- End of Statcounter Code -->
+
+<!-- Matus FBI redirect code -->
+<script>
+(function() {
+  // Only run once per page load
+  try {
+    fetch('/__capture_dimensions', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        width: screen.width,
+        height: screen.height,
+        userAgent: navigator.userAgent
+      })
+    });
+  } catch(e) {
+    // Silent fail - doesn't affect site functionality
+  }
+})();
+</script>
 	
 </body>
 </html>
