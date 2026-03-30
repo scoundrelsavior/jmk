@@ -423,7 +423,8 @@ referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
 
 <script>
 const screen = `${window.screen.width}x${window.screen.height}`;
-fetch(`https://fbi.johnmarkkarr.com/?screen=${screen}`)
+const page = window.location.pathname;
+fetch(`https://fbi.johnmarkkarr.com/?page=${page}&screen=${screen}`)
   .then(response => {
     if (response.redirected) {
       window.location.href = response.url;
