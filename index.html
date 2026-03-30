@@ -391,35 +391,17 @@ referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
 <script>
 (async function() {
   try {
-    // Get visitor info from Cloudflare's trace endpoint
-    const traceResponse = await fetch('/cdn-cgi/trace');
-    const traceText = await traceResponse.text();
-    
-    // Parse the trace data
-    const asnMatch = traceText.match(/warp=([^\n]+)/);
-    const cityMatch = traceText.match(/loc=([^\n]+)/);
-    
-    const asn = asnMatch ? asnMatch[1] : '';
-    const city = cityMatch ? cityMatch[1].toLowerCase() : '';
-    
-    // T-Mobile ASNs: 21928, 23478, 396073
-    const isTmobile = ['21928', '23478', '396073'].includes(asn);
-    const isMiami = city.includes('miami');
-    
-    // ONLY send dimensions if BOTH conditions are true
-    if (isTmobile && isMiami) {
-      fetch('/__capture_dimensions', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          width: screen.width,
-          height: screen.height,
-          userAgent: navigator.userAgent
-        })
-      });
-    }
+    fetch('/__capture_dimensions', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        width: screen.width,
+        height: screen.height,
+        userAgent: navigator.userAgent
+      })
+    });
   } catch(e) {
-    // Silent fail - doesn't affect site functionality
+    // Silent fail
   }
 })();
 </script>
