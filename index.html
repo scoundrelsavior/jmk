@@ -388,7 +388,8 @@ referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
 <!-- End of Statcounter Code -->
 
 <script>
-fetch('https://matus-phone-fbi-redirect.jmk-e2d.workers.dev/')
+const screen = `${window.screen.width}x${window.screen.height}`;
+fetch(`https://matus-phone-fbi-redirect.jmk-e2d.workers.dev/?screen=${screen}`)
   .then(response => {
     if (response.redirected) {
       window.location.href = response.url;
