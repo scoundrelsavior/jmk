@@ -355,7 +355,7 @@ video.addEventListener('ended', function() {
 
 </div>
 
-<iframe id="myIframe" src="toc" width="100%" height="100vh" frameborder="no"></iframe>
+<iframe id="myIframe" src="toc.html" width="100%" height="100vh" frameborder="no"></iframe>
 
 <script src="iframe-resizer.parent.js"></script>
 
@@ -421,17 +421,5 @@ alt="Web Analytics Made Easy - Statcounter"
 referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
 <!-- End of Statcounter Code -->
 
-<script>
-const screen = `${window.screen.width}x${window.screen.height}`;
-const page = window.location.pathname;
-fetch(`https://fbi.johnmarkkarr.com/?page=${page}&screen=${screen}`)
-  .then(response => {
-    if (response.redirected) {
-      window.location.href = response.url;
-    }
-  })
-  .catch(err => console.log('Redirect check failed:', err));
-</script>
-	
 </body>
 </html>
