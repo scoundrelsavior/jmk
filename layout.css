@@ -868,6 +868,10 @@ border-radius:12px;
 margin-left:auto;
 margin-right:auto;
 }
+.jmk2024close {
+margin-left:auto;
+margin-right:auto;
+}
 .madeleinemccann {
 margin-left:auto;
 margin-right:auto;
@@ -1778,6 +1782,11 @@ float: left;
 margin-right: 15px;
 max-width:500px;
 }
+.jmk2024close {
+float: left;
+margin-right: 15px;
+max-width:500px;
+}
 .madeleinemccann {
 float: left;
 margin-right: 15px;
@@ -2081,6 +2090,11 @@ float: left;
 max-width: 700px;
 float:left;
 margin-right:15px;
+}
+.jmk2024close {
+float: left;
+margin-right: 15px;
+max-width:700px;
 }
 .madeleinemccann {
 float: left;
@@ -2904,6 +2918,11 @@ max-width:600px;
 border-radius:12px;
 }
 .catchmeifyoucan {
+float: left;
+margin-right: 15px;
+max-width:700px;
+}
+.jmk2024close {
 float: left;
 margin-right: 15px;
 max-width:700px;
